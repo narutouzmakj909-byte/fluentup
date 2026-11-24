@@ -1,0 +1,708 @@
+[
+{
+"id": "g-plurals",
+"title": "Regular and irregular plurals",
+"level": "A1",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Magacyada badankood waxay qaataan -s (cats). Qaar waa lawadaa: man→men, child→children.",
+"explanation": "Add -s to most nouns. Add -es after s, sh, ch, x (box → boxes). Some plurals are irregular: man → men, child → children, foot → feet.",
+"examples": [
+"Two cats are on the sofa.",
+"The children are happy.",
+"I have two boxes."
+],
+"mistakes": [
+"Say 'children', not 'childs'.",
+"Say 'men', not 'mans'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "One child, two ___.",
+"options": [
+"childs",
+"children",
+"childes"
+],
+"answer": 1,
+"explain": "Child has an irregular plural."
+},
+{
+"type": "fill",
+"prompt": "One box, two ___.",
+"answer": "boxes",
+"explain": "Add -es after x."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: I have three childs.",
+"answer": "I have three children.",
+"explain": "Child → children."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"two",
+"have",
+"I",
+"brothers"
+],
+"answer": [
+"I",
+"have",
+"two",
+"brothers"
+],
+"explain": "Subject, verb, object."
+}
+]
+},
+{
+"id": "g-past-simple",
+"title": "Past simple: regular and irregular verbs",
+"level": "A2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Waqtigii hore: erayada joogtada ah waxay qaataan -ed (worked). Qaar waa lawadaa: go→went.",
+"explanation": "Use the past simple for finished actions. Regular verbs add -ed (work → worked). Irregular verbs change: go → went, see → saw. Questions and negatives use did + base verb.",
+"examples": [
+"I worked yesterday.",
+"She went to school.",
+"Did you see him?"
+],
+"mistakes": [
+"Say 'I didn't go', not 'I didn't went'.",
+"Say 'went', not 'goed'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "Yesterday I ___ a film.",
+"options": [
+"see",
+"saw",
+"seen"
+],
+"answer": 1,
+"explain": "See → saw."
+},
+{
+"type": "fill",
+"prompt": "She ___ (go) home early.",
+"answer": "went",
+"explain": "Irregular: go → went."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: He didn't went to work.",
+"answer": "He didn't go to work.",
+"explain": "After didn't use the base verb.",
+"accept": [
+"He did not go to work."
+]
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"did",
+"you",
+"Where",
+"go"
+],
+"answer": [
+"Where",
+"did",
+"you",
+"go"
+],
+"explain": "Question word + did + subject + base verb."
+}
+]
+},
+{
+"id": "g-comparatives",
+"title": "Comparatives and superlatives",
+"level": "A2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Is barbar: taller than. Ugu sarreeya: the tallest.",
+"explanation": "Short adjectives add -er / -est (tall → taller → tallest). Long adjectives use more / most (expensive → more expensive → most expensive). Use 'than' after a comparative.",
+"examples": [
+"My brother is taller than me.",
+"This is the most interesting book.",
+"Today is hotter than yesterday."
+],
+"mistakes": [
+"Don't say 'more taller'.",
+"Use 'than', not 'then'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "This bag is ___ than that one.",
+"options": [
+"heavier",
+"more heavy",
+"heavyer"
+],
+"answer": 0,
+"explain": "Heavy → heavier."
+},
+{
+"type": "fill",
+"prompt": "She is the ___ (good) student in class.",
+"answer": "best",
+"explain": "Irregular: good → better → best."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: He is more taller than me.",
+"answer": "He is taller than me.",
+"explain": "Don't use more with -er."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"is",
+"than",
+"faster",
+"a car",
+"a bike"
+],
+"answer": [
+"a car",
+"is",
+"faster",
+"than",
+"a bike"
+],
+"explain": "A is faster than B."
+}
+]
+},
+{
+"id": "g-first-conditional",
+"title": "First conditional",
+"level": "B1",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Haddii (if) + hadda → mustaqbalka: If it rains, I will stay home.",
+"explanation": "Use if + present simple for a real possibility, and will + base verb for the result: If it rains, I will stay at home.",
+"examples": [
+"If you study, you will pass.",
+"If she calls, I will tell her.",
+"We will be late if we don't hurry."
+],
+"mistakes": [
+"Don't use 'will' after if: say 'If it rains', not 'If it will rain'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "If I ___ time, I will call you.",
+"options": [
+"will have",
+"have",
+"would have"
+],
+"answer": 1,
+"explain": "Present simple after if."
+},
+{
+"type": "fill",
+"prompt": "If it rains, we ___ (stay) inside.",
+"answer": "will stay",
+"explain": "will + base verb.",
+"accept": [
+"'ll stay"
+]
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: If you will come, I will help.",
+"answer": "If you come, I will help.",
+"explain": "No will after if."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"will",
+"If",
+"I",
+"tired",
+"I",
+"sleep",
+"am"
+],
+"answer": [
+"If",
+"I",
+"am",
+"tired",
+"I",
+"will",
+"sleep"
+],
+"explain": "If + present, will + base."
+}
+]
+},
+{
+"id": "g-passive-present",
+"title": "Present passive",
+"level": "B1",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Falka la sameeyo: English is spoken here. (is/are + past participle)",
+"explanation": "Form the passive with be + past participle. Use it when the action matters more than who does it: English is spoken here.",
+"examples": [
+"Rice is grown in many countries.",
+"The shop is closed on Sundays.",
+"These cars are made in Japan."
+],
+"mistakes": [
+"Use the past participle: 'is made', not 'is make'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "Coffee ___ in Ethiopia.",
+"options": [
+"grows",
+"is grown",
+"is grow"
+],
+"answer": 1,
+"explain": "be + past participle."
+},
+{
+"type": "fill",
+"prompt": "These books ___ (write) by a famous author.",
+"answer": "are written",
+"explain": "Plural subject: are + past participle."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: The letter is write every day.",
+"answer": "The letter is written every day.",
+"explain": "Use the past participle."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"is",
+"English",
+"here",
+"spoken"
+],
+"answer": [
+"English",
+"is",
+"spoken",
+"here"
+],
+"explain": "Subject + is + past participle."
+}
+]
+},
+{
+"id": "g-second-third-conditional",
+"title": "Second and third conditional",
+"level": "B2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Second: If I had money, I would travel (ma jirto). Third: If I had studied, I would have passed (waa dhacay).",
+"explanation": "Second conditional: if + past simple, would + base verb (unreal present or future). Third conditional: if + past perfect, would have + past participle (unreal past).",
+"examples": [
+"If I were rich, I would travel.",
+"If she had left earlier, she would have caught the train."
+],
+"mistakes": [
+"Don't use 'would' in the if-clause.",
+"Use 'were' for all persons in formal second conditionals."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "If I ___ you, I would apologise.",
+"options": [
+"am",
+"were",
+"will be"
+],
+"answer": 1,
+"explain": "Unreal present: if + were."
+},
+{
+"type": "fill",
+"prompt": "If he had studied, he ___ passed.",
+"answer": "would have",
+"explain": "Third conditional result."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: If I would have known, I would have helped.",
+"answer": "If I had known, I would have helped.",
+"explain": "Past perfect in the if-clause."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"would",
+"If",
+"I",
+"I",
+"had",
+"money",
+"travel"
+],
+"answer": [
+"If",
+"I",
+"had",
+"money",
+"I",
+"would",
+"travel"
+],
+"explain": "If + past simple, would + base."
+}
+]
+},
+{
+"id": "g-reported-speech",
+"title": "Reported speech",
+"level": "B2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Hadalka la soo guuriyo: 'I am tired' → She said she was tired (waqtiga dib baa loo celiyaa).",
+"explanation": "When reporting, verbs usually shift back one tense: am → was, will → would, present perfect → past perfect. Pronouns and time words change too.",
+"examples": [
+"'I am busy,' he said → He said he was busy.",
+"'I will call,' she said → She said she would call."
+],
+"mistakes": [
+"Don't keep the original tense: 'He said he was tired', not 'He said he is tired' (in most cases)."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "'I will help you,' she said. → She said she ___ help me.",
+"options": [
+"will",
+"would",
+"did"
+],
+"answer": 1,
+"explain": "will → would."
+},
+{
+"type": "fill",
+"prompt": "'I am tired,' he said. → He said he ___ tired.",
+"answer": "was",
+"explain": "am → was."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: She said she will come tomorrow.",
+"answer": "She said she would come the next day.",
+"explain": "Backshift the tense.",
+"accept": [
+"She said she would come tomorrow."
+]
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"said",
+"he",
+"was",
+"he",
+"busy"
+],
+"answer": [
+"he",
+"said",
+"he",
+"was",
+"busy"
+],
+"explain": "Reporting verb + clause."
+}
+]
+},
+{
+"id": "g-inversion",
+"title": "Inversion after negative adverbials",
+"level": "C1",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Marka xaaladaha diidmo hore loo dhigo, fal-gaarigu wuu horreeyaa: Never have I seen...",
+"explanation": "After negative or restrictive adverbials (never, rarely, not only, hardly) at the start of a sentence, use question word order: Never have I seen such a view.",
+"examples": [
+"Rarely do we eat out.",
+"Not only did she win, but she also broke the record.",
+"Hardly had he arrived when it began to rain."
+],
+"mistakes": [
+"Don't keep normal order: 'Never I have seen', say 'Never have I seen'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "Rarely ___ late.",
+"options": [
+"he is",
+"is he",
+"does he be"
+],
+"answer": 1,
+"explain": "Invert: is he."
+},
+{
+"type": "fill",
+"prompt": "Not only ___ she sing, but she also dances. (does/did)",
+"answer": "does",
+"explain": "Use do/does/did when there is no auxiliary."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: Never I have seen such a mess.",
+"answer": "Never have I seen such a mess.",
+"explain": "Auxiliary before subject."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"had",
+"Hardly",
+"he",
+"sat",
+"down",
+"when",
+"it",
+"rang"
+],
+"answer": [
+"Hardly",
+"had",
+"he",
+"sat",
+"down",
+"when",
+"it",
+"rang"
+],
+"explain": "Hardly + had + subject + past participle."
+}
+]
+},
+{
+"id": "g-wish-regret",
+"title": "Wish and if only",
+"level": "C1",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Wish waxaa loo isticmaalaa quusasho: I wish I had more time. I wish I had studied.",
+"explanation": "Use wish + past simple for present regrets (I wish I had a car). Use wish + past perfect for past regrets (I wish I had studied). Use wish + would for annoying habits.",
+"examples": [
+"I wish I knew the answer.",
+"She wishes she had called him.",
+"I wish you would stop talking."
+],
+"mistakes": [
+"Don't use present tense after wish: 'I wish I knew', not 'I wish I know'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "I wish I ___ more free time now.",
+"options": [
+"have",
+"had",
+"would have"
+],
+"answer": 1,
+"explain": "Present regret: past simple."
+},
+{
+"type": "fill",
+"prompt": "She wishes she ___ studied harder. (past perfect)",
+"answer": "had",
+"explain": "wish + past perfect for past regret."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: I wish I have a bigger house.",
+"answer": "I wish I had a bigger house.",
+"explain": "Past simple after wish."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"wish",
+"I",
+"knew",
+"I",
+"the",
+"answer"
+],
+"answer": [
+"I",
+"wish",
+"I",
+"knew",
+"the",
+"answer"
+],
+"explain": "I wish + past simple."
+}
+]
+},
+{
+"id": "g-subjunctive",
+"title": "The mandative subjunctive",
+"level": "C2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Ka dib falalka sida suggest/insist, isticmaal foomka aasaasiga ah: I suggest that he be early.",
+"explanation": "After verbs like suggest, insist, demand, recommend (and adjectives like essential), the clause may use the base form of the verb: It is essential that she be present.",
+"examples": [
+"I insist that he apologise.",
+"The board recommended that the policy be revised.",
+"It is vital that every student attend."
+],
+"mistakes": [
+"The base form has no -s: 'that he attend', not 'that he attends' (formal)."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "They demanded that he ___ immediately.",
+"options": [
+"leaves",
+"leave",
+"left"
+],
+"answer": 1,
+"explain": "Base form after demand."
+},
+{
+"type": "fill",
+"prompt": "It is essential that she ___ on time. (be)",
+"answer": "be",
+"explain": "Base form of be."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: I suggest that he goes now.",
+"answer": "I suggest that he go now.",
+"explain": "Formal base form.",
+"accept": [
+"I suggest he go now."
+]
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"that",
+"I",
+"insist",
+"he",
+"apologise"
+],
+"answer": [
+"I",
+"insist",
+"that",
+"he",
+"apologise"
+],
+"explain": "insist + that + base form."
+}
+]
+},
+{
+"id": "g-cleft",
+"title": "Cleft sentences for emphasis",
+"level": "C2",
+"track": "grammar",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"somali": "Weedh ku xooga leh: It was John who broke the window.",
+"explanation": "Cleft sentences put emphasis on one part. It-cleft: It was Maria who called. Wh-cleft: What I need is a rest.",
+"examples": [
+"It was the noise that woke me up.",
+"What annoys me is the delay.",
+"It is honesty that matters most."
+],
+"mistakes": [
+"Keep the relative word: 'It was John who...', not 'It was John he...'."
+],
+"exercises": [
+{
+"type": "mcq",
+"prompt": "It was Sara ___ won the prize.",
+"options": [
+"which",
+"who",
+"what"
+],
+"answer": 1,
+"explain": "Use who for people."
+},
+{
+"type": "fill",
+"prompt": "___ I need is a holiday.",
+"answer": "What",
+"explain": "Wh-cleft with what."
+},
+{
+"type": "correct",
+"prompt": "Correct the sentence: It was the delay what annoyed me.",
+"answer": "It was the delay that annoyed me.",
+"explain": "Use that for things."
+},
+{
+"type": "order",
+"prompt": "Order the words.",
+"words": [
+"was",
+"It",
+"who",
+"Ali",
+"called"
+],
+"answer": [
+"It",
+"was",
+"Ali",
+"who",
+"called"
+],
+"explain": "It was + focus + who/that."
+}
+]
+}
+]

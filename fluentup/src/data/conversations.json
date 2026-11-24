@@ -1,0 +1,23 @@
+[{"id":"c-cafe","title":"Ordering at a café","level":"A2","context":"You are at a café counter.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{
+"n1":{"speaker":"Barista","say":"Hi! What can I get you?","choices":[
+{"text":"I'd like a coffee, please.","score":2,"feedback":"Polite and natural.","next":"n2"},
+{"text":"Coffee.","score":1,"feedback":"Understandable, but adding 'please' sounds friendlier.","next":"n2"},
+{"text":"Give me coffee now.","score":0,"feedback":"This sounds rude. Use 'I'd like...' or 'Could I have...'.","next":"n2"}]},
+"n2":{"speaker":"Barista","say":"Sure. Would you like anything else?","choices":[
+{"text":"No, that's all, thank you.","score":2,"feedback":"Clear and polite.","next":"end"},
+{"text":"Yes, a muffin, please.","score":2,"feedback":"Good. You added a request politely.","next":"end"},
+{"text":"What?","score":0,"feedback":"Too abrupt. Try 'Sorry, could you repeat that?'","next":"end"}]},
+"end":{"end":true,"speaker":"Barista","say":"Great, I'll have that ready for you in a moment."}}},
+{"id":"c-interview","title":"Job interview basics","level":"B1","context":"You are at the start of a job interview for a customer service role.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{
+"n1":{"speaker":"Interviewer","say":"Tell me a little about yourself.","choices":[
+{"text":"I have three years of experience in customer service, and I enjoy helping people.","score":2,"feedback":"Short, relevant and positive.","next":"n2"},
+{"text":"I am a person who likes things.","score":0,"feedback":"Too vague. Mention your experience and strengths.","next":"n2"},
+{"text":"I don't know what to say.","score":0,"feedback":"Prepare a short answer about your work and skills in advance.","next":"n2"}]},
+"n2":{"speaker":"Interviewer","say":"Why do you want this job?","choices":[
+{"text":"I like the company's focus on training, and I want to grow my skills.","score":2,"feedback":"It links your goals to the employer.","next":"n3"},
+{"text":"Because my friend works here.","score":1,"feedback":"Honest, but add a reason related to the role.","next":"n3"},
+{"text":"I need money.","score":0,"feedback":"It may be true, but focus on what you can offer.","next":"n3"}]},
+"n3":{"speaker":"Interviewer","say":"Do you have any questions for us?","choices":[
+{"text":"Yes, what does a typical day look like in this role?","score":2,"feedback":"Asking a question shows interest.","next":"end"},
+{"text":"No.","score":1,"feedback":"Acceptable, but a question shows you are engaged.","next":"end"}]},
+"end":{"end":true,"speaker":"Interviewer","say":"Thank you. We'll be in touch soon."}}}]

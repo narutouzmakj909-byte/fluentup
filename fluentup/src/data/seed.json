@@ -1,0 +1,6 @@
+[{"id":"w1","type":"word","en":"resilient","def":"able to recover quickly from difficulties","ex":["She is resilient and bounced back after the setback."],"level":"B2","ipa":"/rɪˈzɪliənt/","somali":null,"status":"unverified"},
+{"id":"w2","type":"word","en":"reluctant","def":"unwilling and hesitant","ex":["He was reluctant to speak in public."],"level":"B2","ipa":"/rɪˈlʌktənt/","somali":null,"status":"unverified"},
+{"id":"p1","type":"phrasal_verb","en":"look forward to","def":"to feel excited about something in the future","ex":["I look forward to meeting you."],"level":"A2","ipa":null,"somali":null,"status":"unverified"},
+{"id":"p2","type":"phrasal_verb","en":"put off","def":"to postpone","ex":["Don't put off your homework."],"level":"B1","ipa":null,"somali":null,"status":"unverified"},
+{"id":"i1","type":"idiom","en":"break the ice","def":"to start a conversation in a social situation","ex":["He told a joke to break the ice."],"level":"B1","ipa":null,"somali":null,"status":"unverified"},
+{"id":"i2","type":"idiom","en":"under the weather","def":"slightly ill","ex":["I'm feeling under the weather today."],"level":"B1","ipa":null,"somali":null,"status":"unverified"}]

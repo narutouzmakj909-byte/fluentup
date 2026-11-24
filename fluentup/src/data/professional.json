@@ -1,0 +1,12 @@
+[{"id":"p-email","track":"professional","title":"Writing a polite email","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
+"explanation":"A formal email has a greeting, a clear purpose, and a polite closing. Start with 'Dear' and the person's title and name, say why you are writing, and end with a closing such as 'Kind regards'.",
+"examples":["Dear Mr Brown,","I am writing to ask about the vacancy.","I look forward to hearing from you.","Kind regards,"],
+"exercises":[{"type":"mcq","prompt":"Which opening suits a formal email?","options":["Hey!","Dear Mr Brown,","Yo Brown"],"answer":1,"explain":"'Dear' plus a title and name is the standard formal greeting."},
+{"type":"fill","prompt":"I am ___ to ask about the vacancy.","answer":"writing","explain":"'I am writing to...' states the purpose of the email."},
+{"type":"mcq","prompt":"Which closing is most suitable?","options":["See ya","Kind regards,","Bye bye"],"answer":1,"explain":"'Kind regards' is polite and neutral."}]},
+{"id":"p-meeting","track":"professional","title":"Taking part in meetings","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
+"explanation":"In meetings, use polite phrases to interrupt, agree, and move the discussion forward. Polite language helps colleagues listen to you.",
+"examples":["Sorry to interrupt, could I add something?","I agree with that point.","Let's move on to the next item."],
+"exercises":[{"type":"mcq","prompt":"How can you interrupt politely?","options":["Shut up","Sorry to interrupt, could I add something?","Wait!"],"answer":1,"explain":"It apologises and asks permission."},
+{"type":"mcq","prompt":"How can you change the topic politely?","options":["Let's move on to the next item.","Stop talking.","Nobody cares."],"answer":0,"explain":"It is neutral and helps the group continue."},
+{"type":"fill","prompt":"I ___ with that point.","answer":"agree","explain":"'I agree with that point' shows support."}]}]

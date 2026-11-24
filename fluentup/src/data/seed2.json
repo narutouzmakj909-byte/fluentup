@@ -1,0 +1,526 @@
+[
+{
+"id": "ph1",
+"type": "phrase",
+"en": "How's it going?",
+"def": "a casual greeting asking how someone is",
+"ex": [
+"Hi Sam, how's it going?"
+],
+"level": "A1",
+"ipa": null,
+"somali": "Sidee tahay? (hadal fudud)",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"context": "greeting friends",
+"category": "greetings"
+},
+{
+"id": "ph2",
+"type": "phrase",
+"en": "Could you repeat that, please?",
+"def": "a polite request to say something again",
+"ex": [
+"Sorry, could you repeat that, please?"
+],
+"level": "A1",
+"ipa": null,
+"somali": "Fadlan ma ku celin kartaa?",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"context": "conversation",
+"category": "communication"
+},
+{
+"id": "ph3",
+"type": "phrase",
+"en": "I'd like to book a table.",
+"def": "a polite way to reserve a table at a restaurant",
+"ex": [
+"Hello, I'd like to book a table for two."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Waxaan jeclaan lahaa inaan miis qabsado.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"context": "restaurant",
+"category": "restaurants"
+},
+{
+"id": "ph4",
+"type": "phrase",
+"en": "Excuse me, where is the nearest station?",
+"def": "asking for directions politely",
+"ex": [
+"Excuse me, where is the nearest station?"
+],
+"level": "A1",
+"ipa": null,
+"somali": "Raalli noqo, halkee ku taal saldhigga ugu dhow?",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"context": "travel",
+"category": "travel"
+},
+{
+"id": "ph5",
+"type": "phrase",
+"en": "I'm afraid I can't make it.",
+"def": "a polite way to say you cannot attend",
+"ex": [
+"I'm afraid I can't make it on Friday."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Waan ka xumahay, ma imaan karo.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral/formal",
+"context": "invitations",
+"category": "social"
+},
+{
+"id": "ph6",
+"type": "phrase",
+"en": "Thank you for your prompt reply.",
+"def": "a formal phrase used in emails",
+"ex": [
+"Thank you for your prompt reply."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Waad ku mahadsan tahay jawaabtaadii degdegga ahayd.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "formal",
+"context": "email",
+"category": "professional"
+},
+{
+"id": "ph7",
+"type": "phrase",
+"en": "Would you mind helping me?",
+"def": "a polite request for help",
+"ex": [
+"Would you mind helping me with this form?"
+],
+"level": "A2",
+"ipa": null,
+"somali": "Ma i caawin lahayd fadlan?",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "polite",
+"context": "requests",
+"category": "requests"
+},
+{
+"id": "ph8",
+"type": "phrase",
+"en": "No worries.",
+"def": "an informal reply meaning it is fine",
+"ex": [
+"Sorry I'm late. — No worries."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Waxba yaanan ka welwelin / waa fiicantahay.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"context": "replying to apologies",
+"category": "social"
+},
+{
+"id": "id2",
+"type": "idiom",
+"en": "a piece of cake",
+"def": "something very easy",
+"ex": [
+"The exam was a piece of cake."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Wax aad u fudud.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "difficulty"
+},
+{
+"id": "id4",
+"type": "idiom",
+"en": "once in a blue moon",
+"def": "very rarely",
+"ex": [
+"We go to the cinema once in a blue moon."
+],
+"level": "B2",
+"ipa": null,
+"somali": "Marar dhif ah.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "frequency"
+},
+{
+"id": "id5",
+"type": "idiom",
+"en": "hit the books",
+"def": "to study hard",
+"ex": [
+"I have to hit the books tonight."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Si adag wax u barasho.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "study"
+},
+{
+"id": "id6",
+"type": "idiom",
+"en": "the ball is in your court",
+"def": "it is your turn to decide or act",
+"ex": [
+"I've made my offer. The ball is in your court."
+],
+"level": "B2",
+"ipa": null,
+"somali": "Waa adiga markaa go'aanka.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"category": "decisions"
+},
+{
+"id": "id7",
+"type": "idiom",
+"en": "cost an arm and a leg",
+"def": "to be very expensive",
+"ex": [
+"That car cost an arm and a leg."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Aad u qaali ah.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "money"
+},
+{
+"id": "pv1",
+"type": "phrasal_verb",
+"en": "give up",
+"def": "to stop trying; to quit a habit",
+"ex": [
+"Don't give up!",
+"He gave up smoking."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Ka daa / ka tagid dadaalka.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": true,
+"register": "neutral",
+"category": "effort"
+},
+{
+"id": "pv2",
+"type": "phrasal_verb",
+"en": "turn down",
+"def": "to refuse an offer; to lower the volume",
+"ex": [
+"She turned down the job.",
+"Turn the music down, please."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Diidid (dalab); hoos u dhigid (cod).",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": true,
+"register": "neutral",
+"category": "decisions"
+},
+{
+"id": "pv3",
+"type": "phrasal_verb",
+"en": "get along with",
+"def": "to have a good relationship with someone",
+"ex": [
+"I get along with my colleagues."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Kala heshiin / is fahmid.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": false,
+"register": "neutral",
+"category": "relationships"
+},
+{
+"id": "pv4",
+"type": "phrasal_verb",
+"en": "run out of",
+"def": "to have no more of something",
+"ex": [
+"We ran out of milk."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Wax ku dhammaadaan.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": false,
+"register": "neutral",
+"category": "everyday"
+},
+{
+"id": "pv5",
+"type": "phrasal_verb",
+"en": "carry out",
+"def": "to do or complete a task or plan",
+"ex": [
+"The team carried out the experiment."
+],
+"level": "B2",
+"ipa": null,
+"somali": "Fulin / qabasho.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": true,
+"register": "formal",
+"category": "work"
+},
+{
+"id": "pv6",
+"type": "phrasal_verb",
+"en": "come up with",
+"def": "to think of an idea or plan",
+"ex": [
+"She came up with a great solution."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Fikrad soo bandhigid.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"separable": false,
+"register": "neutral",
+"category": "ideas"
+},
+{
+"id": "sl1",
+"type": "slang",
+"en": "chill out",
+"def": "to relax and stop worrying",
+"ex": [
+"Just chill out, everything is fine."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Ka degdeg / nasasho.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "widespread",
+"warning": "Casual. Avoid in formal or professional settings.",
+"category": "casual"
+},
+{
+"id": "sl2",
+"type": "slang",
+"en": "hang out",
+"def": "to spend time relaxing with friends",
+"ex": [
+"We hang out at the mall on weekends."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Saaxiibo la fadhiisasho.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "widespread",
+"warning": "Casual.",
+"category": "social"
+},
+{
+"id": "sl3",
+"type": "slang",
+"en": "bummer",
+"def": "something disappointing",
+"ex": [
+"The match was cancelled. What a bummer."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Wax ka niyadjab leh.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "mainly US",
+"warning": "Casual; mainly American usage.",
+"category": "casual"
+},
+{
+"id": "sl4",
+"type": "slang",
+"en": "lol",
+"def": "internet abbreviation for 'laughing out loud'",
+"ex": [
+"That meme is so funny, lol."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Ku qosol (gaabinta internetka).",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "online",
+"warning": "Texting and chat only; do not use in formal writing.",
+"category": "internet"
+},
+{
+"id": "sl5",
+"type": "slang",
+"en": "brb",
+"def": "internet abbreviation for 'be right back'",
+"ex": [
+"brb, I need to grab a drink."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Dhaqso ayaan imanayaa (gaabinta).",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "online",
+"warning": "Texting, chat and gaming only.",
+"category": "gaming"
+},
+{
+"id": "sl6",
+"type": "slang",
+"en": "gg",
+"def": "gaming abbreviation for 'good game', said at the end of a match",
+"ex": [
+"gg, that was a close one!"
+],
+"level": "A2",
+"ipa": null,
+"somali": "Ciyaar wanaagsan (ciyaaraha).",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"region": "online/gaming",
+"warning": "Gaming chat only.",
+"category": "gaming"
+},
+{
+"id": "pr1",
+"type": "professional",
+"en": "follow up",
+"def": "to contact someone again about a previous message or action",
+"ex": [
+"I'm writing to follow up on our meeting."
+],
+"level": "B1",
+"ipa": null,
+"somali": "Dib u xiriirid / la socod.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral/formal",
+"category": "email"
+},
+{
+"id": "pr2",
+"type": "professional",
+"en": "deadline",
+"def": "the time by which something must be finished",
+"ex": [
+"The deadline for the report is Friday."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Taariikhda uu dhammaanayo.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"category": "office"
+},
+{
+"id": "pr3",
+"type": "professional",
+"en": "résumé / CV",
+"def": "a document listing your education, skills and work experience",
+"ex": [
+"Please attach your CV to the application."
+],
+"level": "A2",
+"ipa": null,
+"somali": "Taariikh-nololeed shaqo.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"category": "job search"
+},
+{
+"id": "pr4",
+"type": "professional",
+"en": "reschedule",
+"def": "to change the time of a planned meeting",
+"ex": [
+"Can we reschedule the meeting to Monday?"
+],
+"level": "B1",
+"ipa": null,
+"somali": "Dib u dejin waqtiga kulanka.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "neutral",
+"category": "meetings"
+},
+{
+"id": "id8",
+"type": "idiom",
+"en": "in the same boat",
+"def": "in the same difficult situation as other people",
+"ex": [
+"We are all in the same boat, so let's help each other."
+],
+"level": "B2",
+"ipa": null,
+"somali": "Xaalad isku mid ah ku jira.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "situations"
+},
+{
+"id": "id9",
+"type": "idiom",
+"en": "get out of hand",
+"def": "to become difficult to control",
+"ex": [
+"The party got out of hand."
+],
+"level": "B2",
+"ipa": null,
+"somali": "Xakamayn ka baxa.",
+"status": "unverified",
+"source": "original, authored for FluentUp",
+"register": "informal",
+"category": "situations"
+}
+]
