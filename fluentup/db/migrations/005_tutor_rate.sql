@@ -2,6 +2,9 @@
 create table if not exists public.tutor_usage (user_id uuid not null default auth.uid() references auth.users(id) on delete cascade, at timestamptz not null default now());
 create index if not exists tutor_usage_user_at on public.tutor_usage (user_id, at desc);
 alter table public.tutor_usage enable row level security;
+drop policy if exists tutor_usage_own_insert on public.tutor_usage;
+drop policy if exists tutor_usage_own_read on public.tutor_usage;
+
 create policy tutor_usage_own_insert on public.tutor_usage for insert to authenticated with check (user_id = auth.uid());
 create policy tutor_usage_own_read on public.tutor_usage for select to authenticated using (user_id = auth.uid());
 create or replace function public.tutor_rate_check() returns boolean language plpgsql set search_path = public as $$
