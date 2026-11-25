@@ -1,23 +1,191 @@
-[{"id":"c-cafe","title":"Ordering at a café","level":"A2","context":"You are at a café counter.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{
-"n1":{"speaker":"Barista","say":"Hi! What can I get you?","choices":[
-{"text":"I'd like a coffee, please.","score":2,"feedback":"Polite and natural.","next":"n2"},
-{"text":"Coffee.","score":1,"feedback":"Understandable, but adding 'please' sounds friendlier.","next":"n2"},
-{"text":"Give me coffee now.","score":0,"feedback":"This sounds rude. Use 'I'd like...' or 'Could I have...'.","next":"n2"}]},
-"n2":{"speaker":"Barista","say":"Sure. Would you like anything else?","choices":[
-{"text":"No, that's all, thank you.","score":2,"feedback":"Clear and polite.","next":"end"},
-{"text":"Yes, a muffin, please.","score":2,"feedback":"Good. You added a request politely.","next":"end"},
-{"text":"What?","score":0,"feedback":"Too abrupt. Try 'Sorry, could you repeat that?'","next":"end"}]},
-"end":{"end":true,"speaker":"Barista","say":"Great, I'll have that ready for you in a moment."}}},
-{"id":"c-interview","title":"Job interview basics","level":"B1","context":"You are at the start of a job interview for a customer service role.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{
-"n1":{"speaker":"Interviewer","say":"Tell me a little about yourself.","choices":[
-{"text":"I have three years of experience in customer service, and I enjoy helping people.","score":2,"feedback":"Short, relevant and positive.","next":"n2"},
-{"text":"I am a person who likes things.","score":0,"feedback":"Too vague. Mention your experience and strengths.","next":"n2"},
-{"text":"I don't know what to say.","score":0,"feedback":"Prepare a short answer about your work and skills in advance.","next":"n2"}]},
-"n2":{"speaker":"Interviewer","say":"Why do you want this job?","choices":[
-{"text":"I like the company's focus on training, and I want to grow my skills.","score":2,"feedback":"It links your goals to the employer.","next":"n3"},
-{"text":"Because my friend works here.","score":1,"feedback":"Honest, but add a reason related to the role.","next":"n3"},
-{"text":"I need money.","score":0,"feedback":"It may be true, but focus on what you can offer.","next":"n3"}]},
-"n3":{"speaker":"Interviewer","say":"Do you have any questions for us?","choices":[
-{"text":"Yes, what does a typical day look like in this role?","score":2,"feedback":"Asking a question shows interest.","next":"end"},
-{"text":"No.","score":1,"feedback":"Acceptable, but a question shows you are engaged.","next":"end"}]},
-"end":{"end":true,"speaker":"Interviewer","say":"Thank you. We'll be in touch soon."}}}]
+[
+  {
+    "id": "c-cafe",
+    "title": "Ordering at a café",
+    "level": "A2",
+    "context": "You are at a café counter.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Barista",
+        "say": "Hi! What can I get you?",
+        "choices": [
+          {
+            "text": "I'd like a coffee, please.",
+            "score": 2,
+            "feedback": "Polite and natural.",
+            "next": "n2",
+            "textSo": "Waxaan jeclaan lahaa bun, fadlan.",
+            "feedbackSo": "Waa codsi edeb leh oo si dabiici ah loo yiri."
+          },
+          {
+            "text": "Coffee.",
+            "score": 1,
+            "feedback": "Understandable, but adding 'please' sounds friendlier.",
+            "next": "n2",
+            "textSo": "Bun.",
+            "feedbackSo": "Waa la fahmi karaa, laakiin ku darista “fadlan” waxay hadalka ka dhigaysaa mid saaxiibtinimo badan."
+          },
+          {
+            "text": "Give me coffee now.",
+            "score": 0,
+            "feedback": "This sounds rude. Use 'I'd like...' or 'Could I have...'.",
+            "next": "n2",
+            "textSo": "Hadda bun ii keen.",
+            "feedbackSo": "Hadalkaani wuxuu u muuqdaa amar qallafsan. Isticmaal “Waxaan jeclaan lahaa...” ama “Ma heli karaa...?”"
+          }
+        ],
+        "saySo": "Salaan! Maxaan kuu keenaa?"
+      },
+      "n2": {
+        "speaker": "Barista",
+        "say": "Sure. Would you like anything else?",
+        "choices": [
+          {
+            "text": "No, that's all, thank you.",
+            "score": 2,
+            "feedback": "Clear and polite.",
+            "next": "end",
+            "textSo": "Maya, intaas oo keliya, mahadsanid.",
+            "feedbackSo": "Jawaab cad oo edeb leh."
+          },
+          {
+            "text": "Yes, a muffin, please.",
+            "score": 2,
+            "feedback": "Good. You added a request politely.",
+            "next": "end",
+            "textSo": "Haa, keeg yar oo muffin ah, fadlan.",
+            "feedbackSo": "Waa hagaag. Codsi kale ayaad si edeb leh ugu dartay."
+          },
+          {
+            "text": "What?",
+            "score": 0,
+            "feedback": "Too abrupt. Try 'Sorry, could you repeat that?'",
+            "next": "end",
+            "textSo": "Maxaad tiri?",
+            "feedbackSo": "Jawaabtu aad bay u gaaban tahay. Isku day: “Raalli ahow, ma ku celin kartaa?”"
+          }
+        ],
+        "saySo": "Hagaag. Ma rabtaa wax kale?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Barista",
+        "say": "Great, I'll have that ready for you in a moment.",
+        "saySo": "Wanaagsan, wax yar kadib ayaan kuu diyaarinayaa."
+      }
+    },
+    "titleSo": "Dalbashada maqaayad yar",
+    "contextSo": "Waxaad joogtaa miiska dalabka ee maqaayad yar.",
+    "somaliStatus": "draft"
+  },
+  {
+    "id": "c-interview",
+    "title": "Job interview basics",
+    "level": "B1",
+    "context": "You are at the start of a job interview for a customer service role.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Interviewer",
+        "say": "Tell me a little about yourself.",
+        "choices": [
+          {
+            "text": "I have three years of experience in customer service, and I enjoy helping people.",
+            "score": 2,
+            "feedback": "Short, relevant and positive.",
+            "next": "n2",
+            "textSo": "Waxaan leeyahay saddex sano oo waayo-aragnimo ah oo ku saabsan adeegga macaamiisha, waxaana jeclahay inaan dadka caawiyo.",
+            "feedbackSo": "Jawaab kooban, shaqada khusaysa, oo wanaagsan."
+          },
+          {
+            "text": "I am a person who likes things.",
+            "score": 0,
+            "feedback": "Too vague. Mention your experience and strengths.",
+            "next": "n2",
+            "textSo": "Waxaan ahay qof waxyaabo jecel.",
+            "feedbackSo": "Jawaabtu ma cadda. Sheeg waayo-aragnimadaada iyo awoodahaaga."
+          },
+          {
+            "text": "I don't know what to say.",
+            "score": 0,
+            "feedback": "Prepare a short answer about your work and skills in advance.",
+            "next": "n2",
+            "textSo": "Ma garanayo waxaan iraahdo.",
+            "feedbackSo": "Hore u sii diyaari jawaab kooban oo ku saabsan shaqadaadii iyo xirfadahaaga."
+          }
+        ],
+        "saySo": "Wax yar nooga sheeg naftaada."
+      },
+      "n2": {
+        "speaker": "Interviewer",
+        "say": "Why do you want this job?",
+        "choices": [
+          {
+            "text": "I like the company's focus on training, and I want to grow my skills.",
+            "score": 2,
+            "feedback": "It links your goals to the employer.",
+            "next": "n3",
+            "textSo": "Waxaan jeclahay sida shirkaddu u dhiirrigeliso tababarka, waxaanan rabaa inaan xirfadahayga horumariyo.",
+            "feedbackSo": "Waxay isku xidhaysaa yoolalkaaga iyo waxa shaqo-bixiyuhu bixiyo."
+          },
+          {
+            "text": "Because my friend works here.",
+            "score": 1,
+            "feedback": "Honest, but add a reason related to the role.",
+            "next": "n3",
+            "textSo": "Sababtoo ah saaxiibkay ayaa halkan ka shaqeeya.",
+            "feedbackSo": "Waa run, laakiin ku dar sabab la xidhiidha shaqada lafteeda."
+          },
+          {
+            "text": "I need money.",
+            "score": 0,
+            "feedback": "It may be true, but focus on what you can offer.",
+            "next": "n3",
+            "textSo": "Waxaan u baahanahay lacag.",
+            "feedbackSo": "Taasi run bay noqon kartaa, laakiin xoogga saar waxa aad shaqada ku soo kordhin karto."
+          }
+        ],
+        "saySo": "Maxaad shaqadan u rabtaa?"
+      },
+      "n3": {
+        "speaker": "Interviewer",
+        "say": "Do you have any questions for us?",
+        "choices": [
+          {
+            "text": "Yes, what does a typical day look like in this role?",
+            "score": 2,
+            "feedback": "Asking a question shows interest.",
+            "next": "end",
+            "textSo": "Haa, maalinta shaqo ee caadiga ah sidee ayay u ekaataa booskan?",
+            "feedbackSo": "Su’aal weydiintu waxay muujinaysaa inaad shaqada danaynayso."
+          },
+          {
+            "text": "No.",
+            "score": 1,
+            "feedback": "Acceptable, but a question shows you are engaged.",
+            "next": "end",
+            "textSo": "Maya.",
+            "feedbackSo": "Waa la aqbali karaa, laakiin su’aal weydiintu waxay muujinaysaa inaad si dhab ah uga qayb qaadanayso wareysiga."
+          }
+        ],
+        "saySo": "Ma jiraan wax su’aalo ah oo aad doonayso inaad na weydiiso?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Interviewer",
+        "say": "Thank you. We'll be in touch soon.",
+        "saySo": "Mahadsanid. Dhawaan ayaan kula soo xidhiidhi doonnaa."
+      }
+    },
+    "titleSo": "Aasaaska wareysiga shaqada",
+    "contextSo": "Waxaad ku jirtaa bilowga wareysi shaqo oo loogu talagalay booska adeegga macaamiisha.",
+    "somaliStatus": "draft"
+  }
+]

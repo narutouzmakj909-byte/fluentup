@@ -1,701 +1,965 @@
 [
- {
-  "id": "g-present-simple",
-  "title": "Present simple: habits and facts",
-  "level": "A1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use the present simple for habits, routines and facts. Add -s or -es for he, she and it (she works, he watches). Use do/does for questions and negatives.",
-  "examples": [
-   "I walk to work every day.",
-   "She works in a bank.",
-   "Does he like tea?"
-  ],
-  "mistakes": [
-   "Say 'He works', not 'He work'.",
-   "Say 'She doesn't like', not 'She doesn't likes'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "She ___ English every day.",
-    "options": [
-     "study",
-     "studies",
-     "studys"
+  {
+    "id": "g-present-simple",
+    "title": "Present simple: habits and facts",
+    "level": "A1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Present simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. He, she iyo it, falka badanaa waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa loo adeegsadaa do/does.",
+    "explanation": "Use the present simple for habits, routines and facts. Add -s or -es for he, she and it (she works, he watches). Use do/does for questions and negatives.",
+    "examples": [
+      "I walk to work every day.",
+      "She works in a bank.",
+      "Does he like tea?"
     ],
-    "answer": 1,
-    "explain": "Consonant + y becomes -ies."
-   },
-   {
-    "type": "fill",
-    "prompt": "He ___ (watch) TV in the evening.",
-    "answer": "watches",
-    "explain": "Add -es after ch."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: He don't like coffee.",
-    "answer": "He doesn't like coffee.",
-    "explain": "Use does not with he/she/it."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "Do",
-     "football",
-     "play",
-     "you"
+    "mistakes": [
+      "Say 'He works', not 'He work'.",
+      "Say 'She doesn't like', not 'She doesn't likes'."
     ],
-    "answer": [
-     "Do",
-     "you",
-     "play",
-     "football"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ English every day.",
+        "options": [
+          "study",
+          "studies",
+          "studys"
+        ],
+        "answer": 1,
+        "explain": "Consonant + y becomes -ies.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. Marka subject-ku yahay he, she ama it, falka badanaa waxaa lagu daraa “-s” ama “-es”. Su’aalaha iyo diidmada waxaa la adeegsadaa “do” ama “does”.",
+        "optionsSo": [
+          "wax baro",
+          "wuu wax bartaa",
+          "higgaad khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "He ___ (watch) TV in the evening.",
+        "answer": "watches",
+        "explain": "Add -es after ch.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. Marka subject-ku yahay he, she ama it, falka badanaa waxaa lagu daraa “-s” ama “-es”. Su’aalaha iyo diidmada waxaa la adeegsadaa “do” ama “does”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He don't like coffee.",
+        "answer": "He doesn't like coffee.",
+        "explain": "Use does not with he/she/it.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: He don't like coffee.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. Marka subject-ku yahay he, she ama it, falka badanaa waxaa lagu daraa “-s” ama “-es”. Su’aalaha iyo diidmada waxaa la adeegsadaa “do” ama “does”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "Do",
+          "football",
+          "play",
+          "you"
+        ],
+        "answer": [
+          "Do",
+          "you",
+          "play",
+          "football"
+        ],
+        "explain": "Do + subject + verb.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. Marka subject-ku yahay he, she ama it, falka badanaa waxaa lagu daraa “-s” ama “-es”. Su’aalaha iyo diidmada waxaa la adeegsadaa “do” ama “does”."
+      }
     ],
-    "explain": "Do + subject + verb."
-   }
-  ]
- },
- {
-  "id": "g-prepositions-time",
-  "title": "Prepositions of time: at, on, in",
-  "level": "A1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use 'at' for clock times (at 5 o'clock), 'on' for days and dates (on Monday, on 3 May), and 'in' for months, years, seasons and parts of the day (in July, in 2020, in the morning).",
-  "examples": [
-   "The class starts at nine.",
-   "We meet on Friday.",
-   "I was born in March."
-  ],
-  "mistakes": [
-   "Say 'on Monday', not 'in Monday'.",
-   "Say 'at night', not 'in the night' for general time."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "My birthday is ___ June.",
-    "options": [
-     "on",
-     "at",
-     "in"
+    "examplesSo": [
+      "I walk to work every day. = Maalin kasta lug ayaan shaqada ku tagaa.",
+      "She works in a bank. = Waxay ka shaqaysaa bangi.",
+      "Does he like tea? = Shaah ma jecel yahay?"
     ],
-    "answer": 2,
-    "explain": "Months take in."
-   },
-   {
-    "type": "fill",
-    "prompt": "The film starts ___ 8 o'clock.",
-    "answer": "at",
-    "explain": "Clock times take at."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: I will see you in Saturday.",
-    "answer": "I will see you on Saturday.",
-    "explain": "Days take on."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "in",
-     "summer",
-     "travel",
-     "We"
+    "mistakesSo": [
+      "Marka subject-ku yahay he/she/it, Present Simple falka ku dar “-s”: “He works”.",
+      "Marka “doesn’t” la adeegsado, falka xiga ha qaadan “-s”: “She doesn’t like”."
     ],
-    "answer": [
-     "We",
-     "travel",
-     "in",
-     "summer"
+    "titleSo": "Present Simple: caadooyin iyo xaqiiqooyin",
+    "explanationSo": "Present Simple waxaa loo adeegsadaa caadooyinka, hawlaha joogtada ah iyo xaqiiqooyinka. Marka subject-ku yahay he, she ama it, falka badanaa waxaa lagu daraa “-s” ama “-es”. Su’aalaha iyo diidmada waxaa la adeegsadaa “do” ama “does”."
+  },
+  {
+    "id": "g-prepositions-time",
+    "title": "Prepositions of time: at, on, in",
+    "level": "A1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "At waxaa loo adeegsadaa saacadaha; on maalmaha iyo taariikhaha; in bilaha, sannadaha, xilliyada iyo qaybo maalinta ka mid ah.",
+    "explanation": "Use 'at' for clock times (at 5 o'clock), 'on' for days and dates (on Monday, on 3 May), and 'in' for months, years, seasons and parts of the day (in July, in 2020, in the morning).",
+    "examples": [
+      "The class starts at nine.",
+      "We meet on Friday.",
+      "I was born in March."
     ],
-    "explain": "Subject, verb, time phrase."
-   }
-  ]
- },
- {
-  "id": "g-present-continuous",
-  "title": "Present continuous vs present simple",
-  "level": "A2",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use the present continuous (am/is/are + -ing) for actions happening now or temporary situations. Use the present simple for habits. State verbs such as know, like and want are not normally used in the continuous.",
-  "examples": [
-   "I am cooking dinner now.",
-   "She usually walks, but today she is taking the bus.",
-   "I know the answer."
-  ],
-  "mistakes": [
-   "Say 'I know', not 'I am knowing'.",
-   "Say 'He is working', not 'He working'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "Please be quiet. The baby ___.",
-    "options": [
-     "sleeps",
-     "is sleeping",
-     "sleeping"
+    "mistakes": [
+      "Say 'on Monday', not 'in Monday'.",
+      "Say 'at night', not 'in the night' for general time."
     ],
-    "answer": 1,
-    "explain": "Action happening now."
-   },
-   {
-    "type": "fill",
-    "prompt": "Look! It ___ (rain).",
-    "answer": "is raining",
-    "explain": "Now = am/is/are + -ing."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: I am wanting a coffee.",
-    "answer": "I want a coffee.",
-    "explain": "Want is a state verb."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "are",
-     "outside",
-     "playing",
-     "They"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "My birthday is ___ June.",
+        "options": [
+          "on",
+          "at",
+          "in"
+        ],
+        "answer": 2,
+        "explain": "Months take in.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “At” waxaa loo adeegsadaa saacad cayiman (at 5 o’clock). “On” waxaa loo adeegsadaa maalmaha iyo taariikhaha (on Monday, on 3 May). “In” waxaa loo adeegsadaa bilaha, sannadaha, xilliyada iyo qaybo ka mid ah maalinta (in July, in 2020, in the morning).",
+        "optionsSo": [
+          "maalin ama taariikh",
+          "waqti saacad cayiman",
+          "bil, sannad ama xilli"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The film starts ___ 8 o'clock.",
+        "answer": "at",
+        "explain": "Clock times take at.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “At” waxaa loo adeegsadaa saacad cayiman (at 5 o’clock). “On” waxaa loo adeegsadaa maalmaha iyo taariikhaha (on Monday, on 3 May). “In” waxaa loo adeegsadaa bilaha, sannadaha, xilliyada iyo qaybo ka mid ah maalinta (in July, in 2020, in the morning)."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I will see you in Saturday.",
+        "answer": "I will see you on Saturday.",
+        "explain": "Days take on.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I will see you in Saturday.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “At” waxaa loo adeegsadaa saacad cayiman (at 5 o’clock). “On” waxaa loo adeegsadaa maalmaha iyo taariikhaha (on Monday, on 3 May). “In” waxaa loo adeegsadaa bilaha, sannadaha, xilliyada iyo qaybo ka mid ah maalinta (in July, in 2020, in the morning)."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "in",
+          "summer",
+          "travel",
+          "We"
+        ],
+        "answer": [
+          "We",
+          "travel",
+          "in",
+          "summer"
+        ],
+        "explain": "Subject, verb, time phrase.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “At” waxaa loo adeegsadaa saacad cayiman (at 5 o’clock). “On” waxaa loo adeegsadaa maalmaha iyo taariikhaha (on Monday, on 3 May). “In” waxaa loo adeegsadaa bilaha, sannadaha, xilliyada iyo qaybo ka mid ah maalinta (in July, in 2020, in the morning)."
+      }
     ],
-    "answer": [
-     "They",
-     "are",
-     "playing",
-     "outside"
+    "examplesSo": [
+      "The class starts at nine. = Fasalku wuxuu bilaabmaa sagaalka.",
+      "We meet on Friday. = Jimcaha ayaan kulmaynaa.",
+      "I was born in March. = Waxaan dhashay bisha Maarso."
     ],
-    "explain": "Subject + are + -ing."
-   }
-  ]
- },
- {
-  "id": "g-modals-obligation",
-  "title": "Modals of obligation: must, have to, should",
-  "level": "A2",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use 'must' and 'have to' for strong obligation, 'should' for advice, and 'mustn't' for prohibition. 'Don't have to' means it is not necessary.",
-  "examples": [
-   "You must wear a seatbelt.",
-   "I have to work tomorrow.",
-   "You should see a doctor."
-  ],
-  "mistakes": [
-   "'Mustn't' and 'don't have to' are different: one is forbidden, the other is optional.",
-   "Say 'must go', not 'must to go'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "You ___ park here. It is forbidden.",
-    "options": [
-     "don't have to",
-     "mustn't",
-     "should"
+    "mistakesSo": [
+      "Maalmaha toddobaadka waxaa la raaciyaa “on”: “on Monday”.",
+      "Marka si guud habeenka looga hadlayo, isticmaal “at night”."
     ],
-    "answer": 1,
-    "explain": "Forbidden = mustn't."
-   },
-   {
-    "type": "fill",
-    "prompt": "Tomorrow is a holiday, so you ___ (not / have to) work.",
-    "answer": "don't have to",
-    "explain": "Not necessary."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: You must to wear a helmet.",
-    "answer": "You must wear a helmet.",
-    "explain": "No to after a modal."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "drink",
-     "more",
-     "should",
-     "water",
-     "You"
+    "titleSo": "At, On iyo In: meeleeyeyaasha waqtiga",
+    "explanationSo": "“At” waxaa loo adeegsadaa saacad cayiman (at 5 o’clock). “On” waxaa loo adeegsadaa maalmaha iyo taariikhaha (on Monday, on 3 May). “In” waxaa loo adeegsadaa bilaha, sannadaha, xilliyada iyo qaybo ka mid ah maalinta (in July, in 2020, in the morning)."
+  },
+  {
+    "id": "g-present-continuous",
+    "title": "Present continuous vs present simple",
+    "level": "A2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Present continuous waxaa loo adeegsadaa wax hadda socda ama xaalad ku-meel-gaar ah. Present simple wuxuu tilmaamaa caado ama xaalad joogto ah.",
+    "explanation": "Use the present continuous (am/is/are + -ing) for actions happening now or temporary situations. Use the present simple for habits. State verbs such as know, like and want are not normally used in the continuous.",
+    "examples": [
+      "I am cooking dinner now.",
+      "She usually walks, but today she is taking the bus.",
+      "I know the answer."
     ],
-    "answer": [
-     "You",
-     "should",
-     "drink",
-     "more",
-     "water"
+    "mistakes": [
+      "Say 'I know', not 'I am knowing'.",
+      "Say 'He is working', not 'He working'."
     ],
-    "explain": "Subject + should + verb."
-   }
-  ]
- },
- {
-  "id": "g-relative-clauses",
-  "title": "Relative clauses: who, which, that, whose",
-  "level": "B1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use 'who' for people, 'which' for things, 'that' for either in defining clauses, and 'whose' for possession. Non-defining clauses add extra information, use commas, and cannot use 'that'.",
-  "examples": [
-   "The man who lives next door is a doctor.",
-   "This is the book that I told you about.",
-   "My sister, who lives in Leeds, is a nurse."
-  ],
-  "mistakes": [
-   "Do not repeat the subject: 'The man who he called' is wrong.",
-   "Say 'the woman whose car was stolen', not 'who her car'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "The woman ___ car was stolen called the police.",
-    "options": [
-     "who",
-     "whose",
-     "which"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Please be quiet. The baby ___.",
+        "options": [
+          "sleeps",
+          "is sleeping",
+          "sleeping"
+        ],
+        "answer": 1,
+        "explain": "Action happening now.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Continuous (am/is/are + verb-ing) waxaa loo adeegsadaa ficil hadda socda ama xaalad ku-meel-gaar ah. Present Simple waxaa loo adeegsadaa caadooyinka. Falal muujinaya xaalad maskaxeed ama dareen, sida know, like iyo want, caadi ahaan laguma isticmaalo qaabka continuous.",
+        "optionsSo": [
+          "wuu seexdaa",
+          "wuu hurdayaa",
+          "seexasho"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Look! It ___ (rain).",
+        "answer": "is raining",
+        "explain": "Now = am/is/are + -ing.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Continuous (am/is/are + verb-ing) waxaa loo adeegsadaa ficil hadda socda ama xaalad ku-meel-gaar ah. Present Simple waxaa loo adeegsadaa caadooyinka. Falal muujinaya xaalad maskaxeed ama dareen, sida know, like iyo want, caadi ahaan laguma isticmaalo qaabka continuous."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I am wanting a coffee.",
+        "answer": "I want a coffee.",
+        "explain": "Want is a state verb.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I am wanting a coffee.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Continuous (am/is/are + verb-ing) waxaa loo adeegsadaa ficil hadda socda ama xaalad ku-meel-gaar ah. Present Simple waxaa loo adeegsadaa caadooyinka. Falal muujinaya xaalad maskaxeed ama dareen, sida know, like iyo want, caadi ahaan laguma isticmaalo qaabka continuous."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "are",
+          "outside",
+          "playing",
+          "They"
+        ],
+        "answer": [
+          "They",
+          "are",
+          "playing",
+          "outside"
+        ],
+        "explain": "Subject + are + -ing.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Continuous (am/is/are + verb-ing) waxaa loo adeegsadaa ficil hadda socda ama xaalad ku-meel-gaar ah. Present Simple waxaa loo adeegsadaa caadooyinka. Falal muujinaya xaalad maskaxeed ama dareen, sida know, like iyo want, caadi ahaan laguma isticmaalo qaabka continuous."
+      }
     ],
-    "answer": 1,
-    "explain": "Possession = whose."
-   },
-   {
-    "type": "fill",
-    "prompt": "The phone ___ I bought is broken. (which/that)",
-    "answer": "that",
-    "explain": "which is also correct."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: The man who he called me is my uncle.",
-    "answer": "The man who called me is my uncle.",
-    "explain": "Remove the extra pronoun."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "book",
-     "I",
-     "long",
-     "read",
-     "that",
-     "The",
-     "was"
+    "examplesSo": [
+      "I am cooking dinner now. = Hadda waxaan karinayaa cashada.",
+      "She usually walks, but today she is taking the bus. = Caadi ahaan way lugaysaa, balse maanta baska ayay raacaysaa.",
+      "I know the answer. = Jawaabta waan garanayaa."
     ],
-    "answer": [
-     "The",
-     "book",
-     "that",
-     "I",
-     "read",
-     "was",
-     "long"
+    "mistakesSo": [
+      "Falalka xaaladda sida “know” badanaa Present Continuous laguma isticmaalo; dheh “I know”.",
+      "Present Continuous wuxuu u baahan yahay am/is/are ka hor falka -ing: “He is working”."
     ],
-    "explain": "Relative clause follows the noun."
-   }
-  ]
- },
- {
-  "id": "g-used-to",
-  "title": "Used to and would for past habits",
-  "level": "B1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use 'used to + verb' for past habits and states that are no longer true. 'Would' can describe repeated past actions but not states. 'Be used to + -ing' means being accustomed.",
-  "examples": [
-   "I used to smoke, but I stopped.",
-   "We would visit our grandparents every summer.",
-   "I am used to getting up early."
-  ],
-  "mistakes": [
-   "Say 'I didn't use to', not 'I didn't used to'.",
-   "Do not use 'would' for states: 'I used to have a dog'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "She ___ live in Paris, but now she lives in Rome.",
-    "options": [
-     "used to",
-     "is used to",
-     "would to"
+    "titleSo": "Present Continuous iyo Present Simple",
+    "explanationSo": "Present Continuous (am/is/are + verb-ing) waxaa loo adeegsadaa ficil hadda socda ama xaalad ku-meel-gaar ah. Present Simple waxaa loo adeegsadaa caadooyinka. Falal muujinaya xaalad maskaxeed ama dareen, sida know, like iyo want, caadi ahaan laguma isticmaalo qaabka continuous."
+  },
+  {
+    "id": "g-modals-obligation",
+    "title": "Modals of obligation: must, have to, should",
+    "level": "A2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Must, have to iyo should waxay muujiyaan waajib, qasab ama talo. Must/ have to waxay muujiyaan waajib; should badanaa waa talo.",
+    "explanation": "Use 'must' and 'have to' for strong obligation, 'should' for advice, and 'mustn't' for prohibition. 'Don't have to' means it is not necessary.",
+    "examples": [
+      "You must wear a seatbelt.",
+      "I have to work tomorrow.",
+      "You should see a doctor."
     ],
-    "answer": 0,
-    "explain": "Past state."
-   },
-   {
-    "type": "fill",
-    "prompt": "I didn't ___ to like fish.",
-    "answer": "use",
-    "explain": "Negative: did not use to."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: I am used to wake up early.",
-    "answer": "I am used to waking up early.",
-    "explain": "be used to + -ing."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "He",
-     "play",
-     "tennis",
-     "to",
-     "used"
+    "mistakes": [
+      "'Mustn't' and 'don't have to' are different: one is forbidden, the other is optional.",
+      "Say 'must go', not 'must to go'."
     ],
-    "answer": [
-     "He",
-     "used",
-     "to",
-     "play",
-     "tennis"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "You ___ park here. It is forbidden.",
+        "options": [
+          "don't have to",
+          "mustn't",
+          "should"
+        ],
+        "answer": 1,
+        "explain": "Forbidden = mustn't.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Must” iyo “have to” waxay muujiyaan waajib xooggan. “Should” wuxuu muujiyaa talo. “Mustn’t” wuxuu ka dhigan yahay in wax la mamnuucay, halka “don’t have to” uu ka dhigan yahay inaanay khasab ahayn. Labadan dambe isku macne ma aha.",
+        "optionsSo": [
+          "khasab ma aha",
+          "waa mamnuuc",
+          "waa habboon / waa in talo ahaan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Tomorrow is a holiday, so you ___ (not / have to) work.",
+        "answer": "don't have to",
+        "explain": "Not necessary.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Must” iyo “have to” waxay muujiyaan waajib xooggan. “Should” wuxuu muujiyaa talo. “Mustn’t” wuxuu ka dhigan yahay in wax la mamnuucay, halka “don’t have to” uu ka dhigan yahay inaanay khasab ahayn. Labadan dambe isku macne ma aha."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: You must to wear a helmet.",
+        "answer": "You must wear a helmet.",
+        "explain": "No to after a modal.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: You must to wear a helmet.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Must” iyo “have to” waxay muujiyaan waajib xooggan. “Should” wuxuu muujiyaa talo. “Mustn’t” wuxuu ka dhigan yahay in wax la mamnuucay, halka “don’t have to” uu ka dhigan yahay inaanay khasab ahayn. Labadan dambe isku macne ma aha."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "drink",
+          "more",
+          "should",
+          "water",
+          "You"
+        ],
+        "answer": [
+          "You",
+          "should",
+          "drink",
+          "more",
+          "water"
+        ],
+        "explain": "Subject + should + verb.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Must” iyo “have to” waxay muujiyaan waajib xooggan. “Should” wuxuu muujiyaa talo. “Mustn’t” wuxuu ka dhigan yahay in wax la mamnuucay, halka “don’t have to” uu ka dhigan yahay inaanay khasab ahayn. Labadan dambe isku macne ma aha."
+      }
     ],
-    "explain": "used to + base verb."
-   }
-  ]
- },
- {
-  "id": "g-future-forms",
-  "title": "Future forms: will, going to, present continuous",
-  "level": "B1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Use 'going to' for plans and predictions from evidence, 'will' for spontaneous decisions and promises, and the present continuous for fixed arrangements.",
-  "examples": [
-   "I'm going to study medicine.",
-   "It's cold; I'll close the window.",
-   "We're meeting Anna at six."
-  ],
-  "mistakes": [
-   "Do not use 'will' after 'if' for the condition: 'If it rains', not 'If it will rain'.",
-   "Say 'I'm meeting', not 'I meet' for arrangements."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "The phone is ringing. I ___ answer it.",
-    "options": [
-     "'m going to",
-     "'ll",
-     "am answering"
+    "examplesSo": [
+      "You must wear a seatbelt. = Waa inaad suunka badbaadada xidhataa.",
+      "I have to work tomorrow. = Waa inaan berri shaqeeyaa.",
+      "You should see a doctor. = Waxaa habboon inaad dhakhtar la kulanto."
     ],
-    "answer": 1,
-    "explain": "Spontaneous decision."
-   },
-   {
-    "type": "fill",
-    "prompt": "Look at those clouds! It ___ (rain).",
-    "answer": "is going to rain",
-    "explain": "Prediction from evidence."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: If it will rain, we will stay home.",
-    "answer": "If it rains, we will stay home.",
-    "explain": "Present simple after if."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "are",
-     "at",
-     "meeting",
-     "six",
-     "We"
+    "mistakesSo": [
+      "“Mustn’t” wuxuu ka dhigan yahay mamnuuc; “don’t have to” wuxuu ka dhigan yahay khasab ma aha. Macnahoodu isku mid ma aha.",
+      "Modal-ka “must” waxaa si toos ah u raaca falka asalka ah: “must go”, ee ma aha “must to go”."
     ],
-    "answer": [
-     "We",
-     "are",
-     "meeting",
-     "at",
-     "six"
+    "titleSo": "Must, Have to iyo Should: waajib iyo talo",
+    "explanationSo": "“Must” iyo “have to” waxay muujiyaan waajib xooggan. “Should” wuxuu muujiyaa talo. “Mustn’t” wuxuu ka dhigan yahay in wax la mamnuucay, halka “don’t have to” uu ka dhigan yahay inaanay khasab ahayn. Labadan dambe isku macne ma aha."
+  },
+  {
+    "id": "g-relative-clauses",
+    "title": "Relative clauses: who, which, that, whose",
+    "level": "B1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Relative clauses waxay faahfaahin dheeraad ah ka bixiyaan qof ama shay. Who waxaa loo adeegsadaa dadka; which waxyaabaha; that labadaba xaalado badan; whose lahaanshaha.",
+    "explanation": "Use 'who' for people, 'which' for things, 'that' for either in defining clauses, and 'whose' for possession. Non-defining clauses add extra information, use commas, and cannot use 'that'.",
+    "examples": [
+      "The man who lives next door is a doctor.",
+      "This is the book that I told you about.",
+      "My sister, who lives in Leeds, is a nurse."
     ],
-    "explain": "Arrangement: present continuous."
-   }
-  ]
- },
- {
-  "id": "g-gerund-infinitive",
-  "title": "Gerunds and infinitives",
-  "level": "B2",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Some verbs take -ing (enjoy, avoid, suggest), some take to + verb (want, decide, hope), and some change meaning (stop doing vs stop to do; remember doing vs remember to do).",
-  "examples": [
-   "I enjoy swimming.",
-   "She decided to leave.",
-   "He stopped smoking."
-  ],
-  "mistakes": [
-   "Say 'I suggest going', not 'I suggest to go'.",
-   "Say 'I want to go', not 'I want going'."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "She avoided ___ the question.",
-    "options": [
-     "to answer",
-     "answering",
-     "answer"
+    "mistakes": [
+      "Do not repeat the subject: 'The man who he called' is wrong.",
+      "Say 'the woman whose car was stolen', not 'who her car'."
     ],
-    "answer": 1,
-    "explain": "Avoid + -ing."
-   },
-   {
-    "type": "fill",
-    "prompt": "We decided ___ (move) to London.",
-    "answer": "to move",
-    "explain": "Decide + to-infinitive."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: He suggested to take a taxi.",
-    "answer": "He suggested taking a taxi.",
-    "explain": "Suggest + -ing."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "door",
-     "forgot",
-     "I",
-     "lock",
-     "the",
-     "to"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "The woman ___ car was stolen called the police.",
+        "options": [
+          "who",
+          "whose",
+          "which"
+        ],
+        "answer": 1,
+        "explain": "Possession = whose.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Who” waxaa loo adeegsadaa dadka; “which” waxyaabaha; “that” dadka ama waxyaabaha marka xogtu muhiim u tahay aqoonsiga; “whose” wuxuu muujiyaa lahaansho. Weedhaha xog dheeraad ah bixinaya waxaa lagu kala saaraa hakadyo, mana isticmaalaan “that”.",
+        "optionsSo": [
+          "qofka",
+          "kii/tii uu lahaa",
+          "shayga"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The phone ___ I bought is broken. (which/that)",
+        "answer": "that",
+        "explain": "which is also correct.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Who” waxaa loo adeegsadaa dadka; “which” waxyaabaha; “that” dadka ama waxyaabaha marka xogtu muhiim u tahay aqoonsiga; “whose” wuxuu muujiyaa lahaansho. Weedhaha xog dheeraad ah bixinaya waxaa lagu kala saaraa hakadyo, mana isticmaalaan “that”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: The man who he called me is my uncle.",
+        "answer": "The man who called me is my uncle.",
+        "explain": "Remove the extra pronoun.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: The man who he called me is my uncle.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Who” waxaa loo adeegsadaa dadka; “which” waxyaabaha; “that” dadka ama waxyaabaha marka xogtu muhiim u tahay aqoonsiga; “whose” wuxuu muujiyaa lahaansho. Weedhaha xog dheeraad ah bixinaya waxaa lagu kala saaraa hakadyo, mana isticmaalaan “that”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "book",
+          "I",
+          "long",
+          "read",
+          "that",
+          "The",
+          "was"
+        ],
+        "answer": [
+          "The",
+          "book",
+          "that",
+          "I",
+          "read",
+          "was",
+          "long"
+        ],
+        "explain": "Relative clause follows the noun.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Who” waxaa loo adeegsadaa dadka; “which” waxyaabaha; “that” dadka ama waxyaabaha marka xogtu muhiim u tahay aqoonsiga; “whose” wuxuu muujiyaa lahaansho. Weedhaha xog dheeraad ah bixinaya waxaa lagu kala saaraa hakadyo, mana isticmaalaan “that”."
+      }
     ],
-    "answer": [
-     "I",
-     "forgot",
-     "to",
-     "lock",
-     "the",
-     "door"
+    "examplesSo": [
+      "The man who lives next door is a doctor. = Ninka deriska nala ah waa dhakhtar.",
+      "This is the book that I told you about. = Kani waa buuggii aan kaaga warramay.",
+      "My sister, who lives in Leeds, is a nurse. = Walaashay, oo Leeds deggan, waa kalkaaliso."
     ],
-    "explain": "forgot + to-infinitive = did not do it."
-   }
-  ]
- },
- {
-  "id": "g-mixed-conditionals",
-  "title": "Mixed conditionals",
-  "level": "B2",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "A mixed conditional links a past condition to a present result (if + past perfect, would + base verb) or a present condition to a past result (if + past simple, would have + past participle).",
-  "examples": [
-   "If I had studied harder, I would be a doctor now.",
-   "If she were more careful, she would not have broken it.",
-   "If we had left earlier, we would be there already."
-  ],
-  "mistakes": [
-   "Do not use 'would' in the if-clause.",
-   "Keep the tense pattern: past perfect then would."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "If I ___ the job, I would be living in Dubai now.",
-    "options": [
-     "took",
-     "had taken",
-     "would take"
+    "mistakesSo": [
+      "Relative clause-ka ha ku celin subject-ka; “The man who he called” waa qaab khaldan.",
+      "Lahaanshaha ku muuji “whose”: “the woman whose car…”, ee ha odhan “who her car”."
     ],
-    "answer": 1,
-    "explain": "Past condition: past perfect."
-   },
-   {
-    "type": "fill",
-    "prompt": "If he had listened, he ___ (not / be) in trouble now.",
-    "answer": "would not be",
-    "explain": "Present result."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: If I would have money, I would buy it.",
-    "answer": "If I had money, I would buy it.",
-    "explain": "No would in the if-clause."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "had",
-     "help",
-     "I",
-     "I",
-     "If",
-     "known",
-     "would"
+    "titleSo": "Relative Clauses: who, which, that iyo whose",
+    "explanationSo": "“Who” waxaa loo adeegsadaa dadka; “which” waxyaabaha; “that” dadka ama waxyaabaha marka xogtu muhiim u tahay aqoonsiga; “whose” wuxuu muujiyaa lahaansho. Weedhaha xog dheeraad ah bixinaya waxaa lagu kala saaraa hakadyo, mana isticmaalaan “that”."
+  },
+  {
+    "id": "g-used-to",
+    "title": "Used to and would for past habits",
+    "level": "B1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Used to waxay sheegtaa caado ama xaalad hore oo hadda aan jirin. Would sidoo kale wuxuu ka sheekayn karaa ficillo soo noqnoqday waagii hore, laakiin xaaladaha ma isticmaalo sida used to.",
+    "explanation": "Use 'used to + verb' for past habits and states that are no longer true. 'Would' can describe repeated past actions but not states. 'Be used to + -ing' means being accustomed.",
+    "examples": [
+      "I used to smoke, but I stopped.",
+      "We would visit our grandparents every summer.",
+      "I am used to getting up early."
     ],
-    "answer": [
-     "If",
-     "I",
-     "had",
-     "known",
-     "I",
-     "would",
-     "help"
+    "mistakes": [
+      "Say 'I didn't use to', not 'I didn't used to'.",
+      "Do not use 'would' for states: 'I used to have a dog'."
     ],
-    "explain": "if + past perfect, would + verb."
-   }
-  ]
- },
- {
-  "id": "g-participle-clauses",
-  "title": "Participle clauses",
-  "level": "C1",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Participle clauses shorten sentences with the same subject: present participle for simultaneous or causal actions (Walking home, I met Tom), past participle for passive meaning (Seen from above, the city looks small), perfect participle for an earlier action (Having finished, she left).",
-  "examples": [
-   "Walking down the street, I saw an old friend.",
-   "Having finished the report, she went home.",
-   "Built in 1900, the bridge is still used."
-  ],
-  "mistakes": [
-   "The subject of the participle must be the subject of the main clause.",
-   "Avoid dangling participles: 'Walking home, the rain started' is wrong."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "___ the email, he closed his laptop.",
-    "options": [
-     "Sent",
-     "Having sent",
-     "To sending"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ live in Paris, but now she lives in Rome.",
+        "options": [
+          "used to",
+          "is used to",
+          "would to"
+        ],
+        "answer": 0,
+        "explain": "Past state.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Used to + verb” waxaa lagu sheegaa caado ama xaalad hore u jiri jirtay balse hadda aan jirin. “Would” wuxuu tilmaami karaa ficillo hore oo soo noqnoqon jiray, balse caadi ahaan looma adeegsado xaalado joogto ah. “Be used to + -ing” wuxuu ka dhigan yahay wax la qabsaday.",
+        "optionsSo": [
+          "hore ayuu u samayn jiray",
+          "wuu la qabsaday",
+          "qaab khaldan; “would” waxaa raaca falka asalka ah"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I didn't ___ to like fish.",
+        "answer": "use",
+        "explain": "Negative: did not use to.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Used to + verb” waxaa lagu sheegaa caado ama xaalad hore u jiri jirtay balse hadda aan jirin. “Would” wuxuu tilmaami karaa ficillo hore oo soo noqnoqon jiray, balse caadi ahaan looma adeegsado xaalado joogto ah. “Be used to + -ing” wuxuu ka dhigan yahay wax la qabsaday."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I am used to wake up early.",
+        "answer": "I am used to waking up early.",
+        "explain": "be used to + -ing.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I am used to wake up early.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Used to + verb” waxaa lagu sheegaa caado ama xaalad hore u jiri jirtay balse hadda aan jirin. “Would” wuxuu tilmaami karaa ficillo hore oo soo noqnoqon jiray, balse caadi ahaan looma adeegsado xaalado joogto ah. “Be used to + -ing” wuxuu ka dhigan yahay wax la qabsaday."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "He",
+          "play",
+          "tennis",
+          "to",
+          "used"
+        ],
+        "answer": [
+          "He",
+          "used",
+          "to",
+          "play",
+          "tennis"
+        ],
+        "explain": "used to + base verb.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Used to + verb” waxaa lagu sheegaa caado ama xaalad hore u jiri jirtay balse hadda aan jirin. “Would” wuxuu tilmaami karaa ficillo hore oo soo noqnoqon jiray, balse caadi ahaan looma adeegsado xaalado joogto ah. “Be used to + -ing” wuxuu ka dhigan yahay wax la qabsaday."
+      }
     ],
-    "answer": 1,
-    "explain": "Earlier action: perfect participle."
-   },
-   {
-    "type": "fill",
-    "prompt": "___ (live) abroad for years, she speaks three languages.",
-    "answer": "Having lived",
-    "explain": "Perfect participle."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: Walking home, the rain started.",
-    "answer": "Walking home, I got caught in the rain.",
-    "explain": "Participle subject must match."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "eaten",
-     "Having",
-     "out",
-     "she",
-     "went"
+    "examplesSo": [
+      "I used to smoke, but I stopped. = Hore ayaan u cabbi jiray sigaarka, balse waan joojiyey.",
+      "We would visit our grandparents every summer. = Xagaa kasta waxaan booqan jirnay awoowayaasheen.",
+      "I am used to getting up early. = Waxaan la qabsaday inaan aroor hore kaco."
     ],
-    "answer": [
-     "Having",
-     "eaten",
-     "she",
-     "went",
-     "out"
+    "mistakesSo": [
+      "Marka “didn’t” la adeegsado, isticmaal “use to” oo aan lahayn -d: “I didn’t use to”.",
+      "“Would” ha u adeegsan xaalado joogto ah; xaalad hore ku sheeg “used to”, sida “I used to have a dog”."
     ],
-    "explain": "Having + past participle, main clause."
-   }
-  ]
- },
- {
-  "id": "g-nominalisation",
-  "title": "Nominalisation in formal writing",
-  "level": "C2",
-  "track": "grammar",
-  "status": "unverified",
-  "source": "original, authored for FluentUp",
-  "somali": null,
-  "explanation": "Nominalisation turns verbs and adjectives into nouns to make writing more formal and dense: 'They decided' becomes 'Their decision', 'It increased quickly' becomes 'a rapid increase'. Use it carefully: too much makes writing heavy.",
-  "examples": [
-   "The rapid growth of cities has created pressure on housing.",
-   "Their failure to respond caused delay.",
-   "The introduction of the law led to a reduction in crime."
-  ],
-  "mistakes": [
-   "Overuse makes sentences abstract and hard to read.",
-   "Check that the noun keeps the original meaning."
-  ],
-  "exercises": [
-   {
-    "type": "mcq",
-    "prompt": "Formal version of \"Prices rose sharply\":",
-    "options": [
-     "A sharp rise in prices",
-     "Prices sharply rose up",
-     "The rising sharp price"
+    "titleSo": "Used to iyo Would: caadooyinkii hore",
+    "explanationSo": "“Used to + verb” waxaa lagu sheegaa caado ama xaalad hore u jiri jirtay balse hadda aan jirin. “Would” wuxuu tilmaami karaa ficillo hore oo soo noqnoqon jiray, balse caadi ahaan looma adeegsado xaalado joogto ah. “Be used to + -ing” wuxuu ka dhigan yahay wax la qabsaday."
+  },
+  {
+    "id": "g-future-forms",
+    "title": "Future forms: will, going to, present continuous",
+    "level": "B1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Will waxaa loo adeegsadaa go’aan degdeg ah, saadaal ama ballan. Going to waxaa loo adeegsadaa qorshe hore ama saadaal cad. Present continuous wuxuu tilmaami karaa qorshe la qabanayo oo la diyaariyey.",
+    "explanation": "Use 'going to' for plans and predictions from evidence, 'will' for spontaneous decisions and promises, and the present continuous for fixed arrangements.",
+    "examples": [
+      "I'm going to study medicine.",
+      "It's cold; I'll close the window.",
+      "We're meeting Anna at six."
     ],
-    "answer": 0,
-    "explain": "Adjective + noun + of."
-   },
-   {
-    "type": "fill",
-    "prompt": "Complete: They decided quickly → Their quick ___ surprised us.",
-    "answer": "decision",
-    "explain": "Noun form of decide."
-   },
-   {
-    "type": "correct",
-    "prompt": "Correct the sentence: The country developed fast, which caused many problems.",
-    "answer": "The rapid development of the country caused many problems.",
-    "explain": "Verb → noun."
-   },
-   {
-    "type": "order",
-    "prompt": "Order the words.",
-    "words": [
-     "created",
-     "growth",
-     "jobs",
-     "of",
-     "The",
-     "trade"
+    "mistakes": [
+      "Do not use 'will' after 'if' for the condition: 'If it rains', not 'If it will rain'.",
+      "Say 'I'm meeting', not 'I meet' for arrangements."
     ],
-    "answer": [
-     "The",
-     "growth",
-     "of",
-     "trade",
-     "created",
-     "jobs"
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "The phone is ringing. I ___ answer it.",
+        "options": [
+          "'m going to",
+          "'ll",
+          "am answering"
+        ],
+        "answer": 1,
+        "explain": "Spontaneous decision.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Going to” waxaa loo adeegsadaa qorshe hore loo dejiyey ama saadaal caddayn muuqata leh. “Will” waxaa loo adeegsadaa go’aan degdeg ah, ballan ama saadaal. Present Continuous waxaa loo adeegsadaa ballan ama qorshe mustaqbal oo la sii qorsheeyey.",
+        "optionsSo": [
+          "waxaan qorshaynayaa inaan",
+          "soo gaabinta “will”; go’aan degdeg ah",
+          "hadda ayaan ka jawaabayaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Look at those clouds! It ___ (rain).",
+        "answer": "is going to rain",
+        "explain": "Prediction from evidence.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Going to” waxaa loo adeegsadaa qorshe hore loo dejiyey ama saadaal caddayn muuqata leh. “Will” waxaa loo adeegsadaa go’aan degdeg ah, ballan ama saadaal. Present Continuous waxaa loo adeegsadaa ballan ama qorshe mustaqbal oo la sii qorsheeyey."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: If it will rain, we will stay home.",
+        "answer": "If it rains, we will stay home.",
+        "explain": "Present simple after if.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: If it will rain, we will stay home.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Going to” waxaa loo adeegsadaa qorshe hore loo dejiyey ama saadaal caddayn muuqata leh. “Will” waxaa loo adeegsadaa go’aan degdeg ah, ballan ama saadaal. Present Continuous waxaa loo adeegsadaa ballan ama qorshe mustaqbal oo la sii qorsheeyey."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "are",
+          "at",
+          "meeting",
+          "six",
+          "We"
+        ],
+        "answer": [
+          "We",
+          "are",
+          "meeting",
+          "at",
+          "six"
+        ],
+        "explain": "Arrangement: present continuous.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Going to” waxaa loo adeegsadaa qorshe hore loo dejiyey ama saadaal caddayn muuqata leh. “Will” waxaa loo adeegsadaa go’aan degdeg ah, ballan ama saadaal. Present Continuous waxaa loo adeegsadaa ballan ama qorshe mustaqbal oo la sii qorsheeyey."
+      }
     ],
-    "explain": "Noun phrase as subject."
-   }
-  ]
- }
+    "examplesSo": [
+      "I am going to study medicine. = Waxaan qorshaynayaa inaan barto caafimaadka.",
+      "It is cold; I will close the window. = Waa qabow; daaqadda ayaan xidhi doonaa.",
+      "We are meeting Anna at six. = Lixda ayaan Anna la kulmaynaa."
+    ],
+    "mistakesSo": [
+      "Qaybta shuruudda ee “if” ha raacin “will”; dheh “If it rains”.",
+      "Ballan mustaqbal oo hore loo sii qorsheeyey ku muuji Present Continuous: “I’m meeting”."
+    ],
+    "titleSo": "Qaababka mustaqbalka: will, going to iyo Present Continuous",
+    "explanationSo": "“Going to” waxaa loo adeegsadaa qorshe hore loo dejiyey ama saadaal caddayn muuqata leh. “Will” waxaa loo adeegsadaa go’aan degdeg ah, ballan ama saadaal. Present Continuous waxaa loo adeegsadaa ballan ama qorshe mustaqbal oo la sii qorsheeyey."
+  },
+  {
+    "id": "g-gerund-infinitive",
+    "title": "Gerunds and infinitives",
+    "level": "B2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Gerund waa fal ku dhammaada -ing oo loo adeegsan karo magac ahaan. Infinitive waa to + fal. Falal qaar gerund ayay raacaan, qaar infinitive, qaarna labadaba iyadoo macnuhu is beddeli karo.",
+    "explanation": "Some verbs take -ing (enjoy, avoid, suggest), some take to + verb (want, decide, hope), and some change meaning (stop doing vs stop to do; remember doing vs remember to do).",
+    "examples": [
+      "I enjoy swimming.",
+      "She decided to leave.",
+      "He stopped smoking."
+    ],
+    "mistakes": [
+      "Say 'I suggest going', not 'I suggest to go'.",
+      "Say 'I want to go', not 'I want going'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She avoided ___ the question.",
+        "options": [
+          "to answer",
+          "answering",
+          "answer"
+        ],
+        "answer": 1,
+        "explain": "Avoid + -ing.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falalka qaarkood waxaa ka dambeeya fal “-ing” ku dhammaada (enjoy, avoid, suggest); qaarna waxaa ka dambeeya “to + falka asalka ah” (want, decide, hope). Falal qaarkood macnahoodu wuu is beddelaa iyadoo ku xidhan qaabka ka dambeeya, sida “stop doing” iyo “stop to do”.",
+        "optionsSo": [
+          "in laga jawaabo",
+          "ka jawaabid",
+          "jawaab"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "We decided ___ (move) to London.",
+        "answer": "to move",
+        "explain": "Decide + to-infinitive.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falalka qaarkood waxaa ka dambeeya fal “-ing” ku dhammaada (enjoy, avoid, suggest); qaarna waxaa ka dambeeya “to + falka asalka ah” (want, decide, hope). Falal qaarkood macnahoodu wuu is beddelaa iyadoo ku xidhan qaabka ka dambeeya, sida “stop doing” iyo “stop to do”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He suggested to take a taxi.",
+        "answer": "He suggested taking a taxi.",
+        "explain": "Suggest + -ing.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: He suggested to take a taxi.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falalka qaarkood waxaa ka dambeeya fal “-ing” ku dhammaada (enjoy, avoid, suggest); qaarna waxaa ka dambeeya “to + falka asalka ah” (want, decide, hope). Falal qaarkood macnahoodu wuu is beddelaa iyadoo ku xidhan qaabka ka dambeeya, sida “stop doing” iyo “stop to do”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "door",
+          "forgot",
+          "I",
+          "lock",
+          "the",
+          "to"
+        ],
+        "answer": [
+          "I",
+          "forgot",
+          "to",
+          "lock",
+          "the",
+          "door"
+        ],
+        "explain": "forgot + to-infinitive = did not do it.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falalka qaarkood waxaa ka dambeeya fal “-ing” ku dhammaada (enjoy, avoid, suggest); qaarna waxaa ka dambeeya “to + falka asalka ah” (want, decide, hope). Falal qaarkood macnahoodu wuu is beddelaa iyadoo ku xidhan qaabka ka dambeeya, sida “stop doing” iyo “stop to do”."
+      }
+    ],
+    "examplesSo": [
+      "I enjoy swimming. = Waxaan ku raaxaystaa dabaasha.",
+      "She decided to leave. = Waxay go’aansatay inay baxdo.",
+      "He stopped smoking. = Wuxuu joojiyey sigaarka."
+    ],
+    "mistakesSo": [
+      "“Suggest” waxaa badanaa raaca fal -ing ah: “I suggest going”.",
+      "“Want” waxaa raaca “to + falka asalka ah”: “I want to go”."
+    ],
+    "titleSo": "Gerund iyo Infinitive",
+    "explanationSo": "Falalka qaarkood waxaa ka dambeeya fal “-ing” ku dhammaada (enjoy, avoid, suggest); qaarna waxaa ka dambeeya “to + falka asalka ah” (want, decide, hope). Falal qaarkood macnahoodu wuu is beddelaa iyadoo ku xidhan qaabka ka dambeeya, sida “stop doing” iyo “stop to do”."
+  },
+  {
+    "id": "g-mixed-conditionals",
+    "title": "Mixed conditionals",
+    "level": "B2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Mixed conditionals waxay isku daraan waqtiyo kala duwan oo shuruud iyo natiijo ah. Badanaa xaalad hore ayaa keenta natiijo hadda jirta, ama xaalad hadda jirta ayaa saamayn ku yeelata waqti hore.",
+    "explanation": "A mixed conditional links a past condition to a present result (if + past perfect, would + base verb) or a present condition to a past result (if + past simple, would have + past participle).",
+    "examples": [
+      "If I had studied harder, I would be a doctor now.",
+      "If she were more careful, she would not have broken it.",
+      "If we had left earlier, we would be there already."
+    ],
+    "mistakes": [
+      "Do not use 'would' in the if-clause.",
+      "Keep the tense pattern: past perfect then would."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "If I ___ the job, I would be living in Dubai now.",
+        "options": [
+          "took",
+          "had taken",
+          "would take"
+        ],
+        "answer": 1,
+        "explain": "Past condition: past perfect.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Mixed Conditional wuxuu isku xidhaa waqtiyo kala duwan. Qaab ayaa ka hadla xaalad hore oo saamayn ku leh natiijo hadda jirta: if + Past Perfect, would + falka asalka ah. Qaab kale wuxuu ka hadlaa xaalad hadda jirta oo saamayn ku yeelan lahayd natiijo hore: if + Past Simple, would have + past participle.",
+        "optionsSo": [
+          "qaatay (Past Simple)",
+          "hore ayuu u qaatay (Past Perfect)",
+          "wuu qaadan lahaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "If he had listened, he ___ (not / be) in trouble now.",
+        "answer": "would not be",
+        "explain": "Present result.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Mixed Conditional wuxuu isku xidhaa waqtiyo kala duwan. Qaab ayaa ka hadla xaalad hore oo saamayn ku leh natiijo hadda jirta: if + Past Perfect, would + falka asalka ah. Qaab kale wuxuu ka hadlaa xaalad hadda jirta oo saamayn ku yeelan lahayd natiijo hore: if + Past Simple, would have + past participle."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: If I would have money, I would buy it.",
+        "answer": "If I had money, I would buy it.",
+        "explain": "No would in the if-clause.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: If I would have money, I would buy it.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Mixed Conditional wuxuu isku xidhaa waqtiyo kala duwan. Qaab ayaa ka hadla xaalad hore oo saamayn ku leh natiijo hadda jirta: if + Past Perfect, would + falka asalka ah. Qaab kale wuxuu ka hadlaa xaalad hadda jirta oo saamayn ku yeelan lahayd natiijo hore: if + Past Simple, would have + past participle."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "had",
+          "help",
+          "I",
+          "I",
+          "If",
+          "known",
+          "would"
+        ],
+        "answer": [
+          "If",
+          "I",
+          "had",
+          "known",
+          "I",
+          "would",
+          "help"
+        ],
+        "explain": "if + past perfect, would + verb.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Mixed Conditional wuxuu isku xidhaa waqtiyo kala duwan. Qaab ayaa ka hadla xaalad hore oo saamayn ku leh natiijo hadda jirta: if + Past Perfect, would + falka asalka ah. Qaab kale wuxuu ka hadlaa xaalad hadda jirta oo saamayn ku yeelan lahayd natiijo hore: if + Past Simple, would have + past participle."
+      }
+    ],
+    "examplesSo": [
+      "If I had studied harder, I would be a doctor now. = Haddii aan si ka adag wax u baran lahaa, hadda dhakhtar ayaan ahaan lahaa.",
+      "If she were more careful, she would not have broken it. = Haddii ay ka taxaddar badnaan lahayd, ma ay jebin lahayn.",
+      "If we had left earlier, we would be there already. = Haddii aan hore u bixi lahayn, hadda halkaas ayaan joogi lahayn."
+    ],
+    "mistakesSo": [
+      "Mixed Conditional-ka, “would” ha gelin qaybta shuruudda ee “if”.",
+      "Ilaali qaabka waqtiga: qaybta shuruudda Past Perfect, qaybta natiijadana “would” + falka asalka ah."
+    ],
+    "titleSo": "Mixed Conditionals: shuruudo isku-dhafan",
+    "explanationSo": "Mixed Conditional wuxuu isku xidhaa waqtiyo kala duwan. Qaab ayaa ka hadla xaalad hore oo saamayn ku leh natiijo hadda jirta: if + Past Perfect, would + falka asalka ah. Qaab kale wuxuu ka hadlaa xaalad hadda jirta oo saamayn ku yeelan lahayd natiijo hore: if + Past Simple, would have + past participle."
+  },
+  {
+    "id": "g-participle-clauses",
+    "title": "Participle clauses",
+    "level": "C1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Participle clauses waxay jumlada ka dhigaan mid kooban, iyagoo adeegsanaya -ing ama past participle. Waa muhiim in qofka/falka clause-ka kooban uu la jaanqaado jumlada weyn.",
+    "explanation": "Participle clauses shorten sentences with the same subject: present participle for simultaneous or causal actions (Walking home, I met Tom), past participle for passive meaning (Seen from above, the city looks small), perfect participle for an earlier action (Having finished, she left).",
+    "examples": [
+      "Walking down the street, I saw an old friend.",
+      "Having finished the report, she went home.",
+      "Built in 1900, the bridge is still used."
+    ],
+    "mistakes": [
+      "The subject of the participle must be the subject of the main clause.",
+      "Avoid dangling participles: 'Walking home, the rain started' is wrong."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ the email, he closed his laptop.",
+        "options": [
+          "Sent",
+          "Having sent",
+          "To sending"
+        ],
+        "answer": 1,
+        "explain": "Earlier action: perfect participle.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Participle clause wuxuu soo gaabiyaa weedho leh isla qofka ama shayga falka samaynaya. “-ing” waxaa loo adeegsadaa ficil isla waqtigaas socda ama sabab muujinaya; past participle wuxuu muujin karaa macne passive ah; “having + past participle” wuxuu muujinayaa ficil hore u dhammaaday ka hor ficilka kale.",
+        "optionsSo": [
+          "diray / la diray",
+          "markuu diray ka dib",
+          "qaab khaldan; to waxaa raaca falka asalka ah"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "___ (live) abroad for years, she speaks three languages.",
+        "answer": "Having lived",
+        "explain": "Perfect participle.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Participle clause wuxuu soo gaabiyaa weedho leh isla qofka ama shayga falka samaynaya. “-ing” waxaa loo adeegsadaa ficil isla waqtigaas socda ama sabab muujinaya; past participle wuxuu muujin karaa macne passive ah; “having + past participle” wuxuu muujinayaa ficil hore u dhammaaday ka hor ficilka kale."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: Walking home, the rain started.",
+        "answer": "Walking home, I got caught in the rain.",
+        "explain": "Participle subject must match.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: Walking home, the rain started.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Participle clause wuxuu soo gaabiyaa weedho leh isla qofka ama shayga falka samaynaya. “-ing” waxaa loo adeegsadaa ficil isla waqtigaas socda ama sabab muujinaya; past participle wuxuu muujin karaa macne passive ah; “having + past participle” wuxuu muujinayaa ficil hore u dhammaaday ka hor ficilka kale."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "eaten",
+          "Having",
+          "out",
+          "she",
+          "went"
+        ],
+        "answer": [
+          "Having",
+          "eaten",
+          "she",
+          "went",
+          "out"
+        ],
+        "explain": "Having + past participle, main clause.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Participle clause wuxuu soo gaabiyaa weedho leh isla qofka ama shayga falka samaynaya. “-ing” waxaa loo adeegsadaa ficil isla waqtigaas socda ama sabab muujinaya; past participle wuxuu muujin karaa macne passive ah; “having + past participle” wuxuu muujinayaa ficil hore u dhammaaday ka hor ficilka kale."
+      }
+    ],
+    "examplesSo": [
+      "Walking down the street, I saw an old friend. = Anigoo waddada maraya ayaan arkay saaxiib hore.",
+      "Having finished the report, she went home. = Markay warbixinta dhammaysay ayay guriga tagtay.",
+      "Built in 1900, the bridge is still used. = Buundada oo la dhisay 1900 weli waa la isticmaalaa."
+    ],
+    "mistakesSo": [
+      "Qofka ama shayga participle clause-ka ku jira waa inuu la mid noqdaa subject-ka weedha weyn.",
+      "Ka fogow participle aan lahayn subject sax ah; “Walking home, the rain started” waa khalad, sababtoo ah roobku ma soconayo."
+    ],
+    "titleSo": "Participle Clauses: weedho la soo gaabiyey",
+    "explanationSo": "Participle clause wuxuu soo gaabiyaa weedho leh isla qofka ama shayga falka samaynaya. “-ing” waxaa loo adeegsadaa ficil isla waqtigaas socda ama sabab muujinaya; past participle wuxuu muujin karaa macne passive ah; “having + past participle” wuxuu muujinayaa ficil hore u dhammaaday ka hor ficilka kale."
+  },
+  {
+    "id": "g-nominalisation",
+    "title": "Nominalisation in formal writing",
+    "level": "C2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Nominalisation waa fal ama sifo loo beddelo magac, si qoraalka rasmiga ahi u noqdo mid kooban ama habaysan. Tusaale: decide → decision; improve → improvement.",
+    "explanation": "Nominalisation turns verbs and adjectives into nouns to make writing more formal and dense: 'They decided' becomes 'Their decision', 'It increased quickly' becomes 'a rapid increase'. Use it carefully: too much makes writing heavy.",
+    "examples": [
+      "The rapid growth of cities has created pressure on housing.",
+      "Their failure to respond caused delay.",
+      "The introduction of the law led to a reduction in crime."
+    ],
+    "mistakes": [
+      "Overuse makes sentences abstract and hard to read.",
+      "Check that the noun keeps the original meaning."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Formal version of \"Prices rose sharply\":",
+        "options": [
+          "A sharp rise in prices",
+          "Prices sharply rose up",
+          "The rising sharp price"
+        ],
+        "answer": 0,
+        "explain": "Adjective + noun + of.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Nominalisation waa in fal ama sifo magac loo beddelo si qoraalku u noqdo mid rasmi ah oo xog badan isku ururiya. Tusaale ahaan “They decided” waxaa loo beddeli karaa “Their decision”. Si kastaba, haddii si xad-dhaaf ah loo adeegsado, qoraalku wuu cuslaan karaa oo adkaan karaa in la fahmo.",
+        "optionsSo": [
+          "korodh xooggan oo qiimaha ah",
+          "qiimayaashu si weyn ayay u kaceen (weedh aan dabiici ahayn)",
+          "qaab aan dabiici ahayn"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Complete: They decided quickly → Their quick ___ surprised us.",
+        "answer": "decision",
+        "explain": "Noun form of decide.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Nominalisation waa in fal ama sifo magac loo beddelo si qoraalku u noqdo mid rasmi ah oo xog badan isku ururiya. Tusaale ahaan “They decided” waxaa loo beddeli karaa “Their decision”. Si kastaba, haddii si xad-dhaaf ah loo adeegsado, qoraalku wuu cuslaan karaa oo adkaan karaa in la fahmo."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: The country developed fast, which caused many problems.",
+        "answer": "The rapid development of the country caused many problems.",
+        "explain": "Verb → noun.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: The country developed fast, which caused many problems.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Nominalisation waa in fal ama sifo magac loo beddelo si qoraalku u noqdo mid rasmi ah oo xog badan isku ururiya. Tusaale ahaan “They decided” waxaa loo beddeli karaa “Their decision”. Si kastaba, haddii si xad-dhaaf ah loo adeegsado, qoraalku wuu cuslaan karaa oo adkaan karaa in la fahmo."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "created",
+          "growth",
+          "jobs",
+          "of",
+          "The",
+          "trade"
+        ],
+        "answer": [
+          "The",
+          "growth",
+          "of",
+          "trade",
+          "created",
+          "jobs"
+        ],
+        "explain": "Noun phrase as subject.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Nominalisation waa in fal ama sifo magac loo beddelo si qoraalku u noqdo mid rasmi ah oo xog badan isku ururiya. Tusaale ahaan “They decided” waxaa loo beddeli karaa “Their decision”. Si kastaba, haddii si xad-dhaaf ah loo adeegsado, qoraalku wuu cuslaan karaa oo adkaan karaa in la fahmo."
+      }
+    ],
+    "examplesSo": [
+      "The rapid growth of cities has created pressure on housing. = Koboca degdegga ah ee magaalooyinku wuxuu cadaadis saaray guryeynta.",
+      "Their failure to respond caused delay. = Jawaab-celintoodii la’aanteed ayaa dib-u-dhac sababtay.",
+      "The introduction of the law led to a reduction in crime. = Hirgelinta sharcigu waxay keentay hoos u dhac dembiyada ah."
+    ],
+    "mistakesSo": [
+      "Nominalisation-ka oo xad-dhaaf loo adeegsado wuxuu weedhaha ka dhigi karaa kuwo aan la taaban karin oo adag in la akhriyo.",
+      "Hubi in magaca laga sameeyey falka ama sifadu ilaaliyo macnihii asalka ahaa."
+    ],
+    "titleSo": "Nominalisation: fal ama sifo oo magac loo beddelo",
+    "explanationSo": "Nominalisation waa in fal ama sifo magac loo beddelo si qoraalku u noqdo mid rasmi ah oo xog badan isku ururiya. Tusaale ahaan “They decided” waxaa loo beddeli karaa “Their decision”. Si kastaba, haddii si xad-dhaaf ah loo adeegsado, qoraalku wuu cuslaan karaa oo adkaan karaa in la fahmo."
+  }
 ]

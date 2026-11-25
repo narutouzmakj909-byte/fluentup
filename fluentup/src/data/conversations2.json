@@ -1,1 +1,1590 @@
-[{"id":"c-shop","title":"Buying clothes","level":"A2","context":"You are in a clothes shop.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Shop assistant","say":"Hello! Can I help you?","choices":[{"text":"Yes, I'm looking for a blue shirt.","score":2,"feedback":"Clear and specific.","next":"n2"},{"text":"Shirt.","score":0,"feedback":"Too short. Use a full sentence.","next":"n2"},{"text":"Just looking, thanks.","score":1,"feedback":"Polite, but you asked for help later, so be clear.","next":"n2"}]},"n2":{"speaker":"Shop assistant","say":"What size do you need?","choices":[{"text":"Medium, please.","score":2,"feedback":"Short and polite.","next":"n3"},{"text":"I don't know.","score":0,"feedback":"Try: \"I think I am a medium.\"","next":"n3"},{"text":"Maybe medium?","score":1,"feedback":"Understandable; sound more certain.","next":"n3"}]},"n3":{"speaker":"Shop assistant","say":"It is twenty-five dollars.","choices":[{"text":"Can I try it on, please?","score":2,"feedback":"Natural request in a shop.","next":"end"},{"text":"Too expensive!","score":0,"feedback":"Blunt. Ask about price politely instead.","next":"end"},{"text":"OK, I'll take it.","score":2,"feedback":"Clear decision.","next":"end"}]},"end":{"end":true,"speaker":"Shop assistant","say":"Thanks for shopping with us!"}}},{"id":"c-restaurant","title":"At a restaurant","level":"A2","context":"You arrive at a restaurant with a friend.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Waiter","say":"Good evening. Do you have a reservation?","choices":[{"text":"No, but a table for two, please.","score":2,"feedback":"Clear and polite.","next":"n2"},{"text":"No.","score":1,"feedback":"Add what you need.","next":"n2"},{"text":"Give us a table.","score":0,"feedback":"Sounds rude. Use \"Could we have...\".","next":"n2"}]},"n2":{"speaker":"Waiter","say":"Here is the menu. Are you ready to order?","choices":[{"text":"Yes, I'd like the chicken soup, please.","score":2,"feedback":"\"I'd like\" is polite.","next":"n3"},{"text":"Not yet, could we have a few more minutes?","score":2,"feedback":"Good way to ask for time.","next":"n3"},{"text":"Chicken.","score":0,"feedback":"Use a full sentence.","next":"n3"}]},"n3":{"speaker":"Waiter","say":"Would you like anything to drink?","choices":[{"text":"Just water, please.","score":2,"feedback":"Short and polite.","next":"end"},{"text":"Water.","score":1,"feedback":"Add \"please\".","next":"end"},{"text":"What drinks?","score":0,"feedback":"Ask: \"What drinks do you have?\"","next":"end"}]},"end":{"end":true,"speaker":"Waiter","say":"Perfect. I will bring it soon."}}},{"id":"c-airport","title":"Airport check-in","level":"B1","context":"You are at the airline check-in desk.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Agent","say":"Good morning. May I see your passport and ticket?","choices":[{"text":"Of course, here you are.","score":2,"feedback":"Natural and polite.","next":"n2"},{"text":"Take it.","score":0,"feedback":"Rude. Say \"Here you are.\"","next":"n2"},{"text":"Yes.","score":1,"feedback":"Hand the documents over and say \"Here you are.\"","next":"n2"}]},"n2":{"speaker":"Agent","say":"Would you like a window or an aisle seat?","choices":[{"text":"A window seat, please, if possible.","score":2,"feedback":"Polite with \"if possible\".","next":"n3"},{"text":"I don't care.","score":0,"feedback":"Sounds dismissive. Try \"Either is fine.\"","next":"n3"},{"text":"Either is fine, thank you.","score":2,"feedback":"Flexible and polite.","next":"n3"}]},"n3":{"speaker":"Agent","say":"Do you have any bags to check in?","choices":[{"text":"Yes, one suitcase.","score":2,"feedback":"Direct and clear.","next":"end"},{"text":"No, only hand luggage.","score":2,"feedback":"Clear answer.","next":"end"},{"text":"What?","score":0,"feedback":"Say \"Sorry, could you repeat that?\"","next":"end"}]},"end":{"end":true,"speaker":"Agent","say":"Here is your boarding pass. Gate 12, boarding at ten."}}},{"id":"c-hotel","title":"Hotel check-in","level":"B1","context":"You arrive at a hotel late in the evening.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Receptionist","say":"Welcome. Do you have a booking with us?","choices":[{"text":"Yes, under the name Hassan.","score":2,"feedback":"Gives the key information.","next":"n2"},{"text":"I booked online.","score":1,"feedback":"Also give your name.","next":"n2"},{"text":"Yes, room.","score":0,"feedback":"Incomplete. Give your name.","next":"n2"}]},"n2":{"speaker":"Receptionist","say":"How many nights are you staying?","choices":[{"text":"Three nights, until Friday.","score":2,"feedback":"Precise.","next":"n3"},{"text":"Some nights.","score":0,"feedback":"Too vague.","next":"n3"},{"text":"Three, I think.","score":1,"feedback":"Check your booking first.","next":"n3"}]},"n3":{"speaker":"Receptionist","say":"Breakfast is from seven to ten. Anything else?","choices":[{"text":"Could you tell me the Wi-Fi password, please?","score":2,"feedback":"Polite and useful.","next":"end"},{"text":"Wi-Fi?","score":1,"feedback":"Understandable; use a full question.","next":"end"},{"text":"No, thank you. That's everything.","score":2,"feedback":"Clear closing.","next":"end"}]},"end":{"end":true,"speaker":"Receptionist","say":"Enjoy your stay."}}},{"id":"c-directions","title":"Asking for directions","level":"A2","context":"You are lost in a city centre.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Passer-by","say":"Hi, you look lost. Can I help?","choices":[{"text":"Excuse me, how do I get to the station?","score":2,"feedback":"Polite and clear.","next":"n2"},{"text":"Where station?","score":0,"feedback":"Grammar is incomplete.","next":"n2"},{"text":"Yes, please. Where is the station?","score":2,"feedback":"Good.","next":"n2"}]},"n2":{"speaker":"Passer-by","say":"Go straight, then turn left at the bank.","choices":[{"text":"Sorry, could you say that again, please?","score":2,"feedback":"Great way to ask for repetition.","next":"n3"},{"text":"Straight, then left. Got it.","score":2,"feedback":"Repeating confirms understanding.","next":"n3"},{"text":"I don't understand you.","score":0,"feedback":"Blunt. Ask for repetition politely.","next":"n3"}]},"n3":{"speaker":"Passer-by","say":"It is about ten minutes on foot.","choices":[{"text":"Thank you so much for your help!","score":2,"feedback":"Warm and polite.","next":"end"},{"text":"OK.","score":1,"feedback":"Add thanks.","next":"end"},{"text":"Okay, bye.","score":1,"feedback":"Thank them first.","next":"end"}]},"end":{"end":true,"speaker":"Passer-by","say":"You are welcome. Have a good day!"}}},{"id":"c-phone","title":"A phone call to book an appointment","level":"B1","context":"You call a clinic to make an appointment.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Receptionist","say":"Good morning, City Clinic. How can I help you?","choices":[{"text":"Hello, I'd like to make an appointment, please.","score":2,"feedback":"Clear purpose.","next":"n2"},{"text":"I want doctor.","score":0,"feedback":"Use a full sentence.","next":"n2"},{"text":"Hi, can I book an appointment?","score":1,"feedback":"Fine, slightly informal.","next":"n2"}]},"n2":{"speaker":"Receptionist","say":"Is Tuesday at ten o'clock OK for you?","choices":[{"text":"Tuesday at ten is fine, thank you.","score":2,"feedback":"Confirms politely.","next":"n3"},{"text":"Do you have anything later in the day?","score":2,"feedback":"Polite alternative.","next":"n3"},{"text":"No.","score":0,"feedback":"Offer a reason or alternative.","next":"n3"}]},"n3":{"speaker":"Receptionist","say":"Could I have your name and phone number?","choices":[{"text":"Yes, it's Amina Ali, and my number is 555-0142.","score":2,"feedback":"Clear details.","next":"end"},{"text":"Amina.","score":1,"feedback":"Give your full name and number.","next":"end"},{"text":"Why?","score":0,"feedback":"Impolite. Just give the information.","next":"end"}]},"end":{"end":true,"speaker":"Receptionist","say":"Thank you. You are booked in."}}},{"id":"c-meeting","title":"Joining a team meeting","level":"B2","context":"You join a weekly project meeting.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Manager","say":"Let's start. Can you give us a quick update on your tasks?","choices":[{"text":"Sure. I finished the report and I'm now working on the slides.","score":2,"feedback":"Concise and structured.","next":"n2"},{"text":"Everything is fine.","score":1,"feedback":"Give specific details.","next":"n2"},{"text":"I did some things.","score":0,"feedback":"Too vague for a meeting.","next":"n2"}]},"n2":{"speaker":"Manager","say":"Is there anything blocking your progress?","choices":[{"text":"I need access to the sales data. Could you help with that?","score":2,"feedback":"Names the problem and asks for help.","next":"n3"},{"text":"No problems.","score":1,"feedback":"Fine if true.","next":"n3"},{"text":"Yes, but it is your fault.","score":0,"feedback":"Blaming is unprofessional.","next":"n3"}]},"n3":{"speaker":"Manager","say":"The deadline moved to Friday. Is that realistic?","choices":[{"text":"I think so, but I'll confirm by tomorrow.","score":2,"feedback":"Honest and committed.","next":"end"},{"text":"Impossible!","score":0,"feedback":"Explain why and suggest options.","next":"end"},{"text":"Yes, no problem.","score":1,"feedback":"Good, but only if you are sure.","next":"end"}]},"end":{"end":true,"speaker":"Manager","say":"Great. Thanks, everyone. Let's finish here."}}},{"id":"c-service","title":"Handling a customer complaint","level":"B2","context":"A customer is unhappy with a late delivery. You work in customer service.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Customer","say":"My order is two weeks late. This is unacceptable!","choices":[{"text":"I'm very sorry about the delay. Let me check your order right away.","score":2,"feedback":"Apology plus action.","next":"n2"},{"text":"It's not my problem.","score":0,"feedback":"Never dismiss a customer.","next":"n2"},{"text":"Please calm down.","score":0,"feedback":"Can make people angrier.","next":"n2"}]},"n2":{"speaker":"Customer","say":"I want a refund.","choices":[{"text":"Of course. I can refund you, or send a replacement. Which would you prefer?","score":2,"feedback":"Offers choices.","next":"n3"},{"text":"We don't do refunds.","score":0,"feedback":"Unhelpful without explanation.","next":"n3"},{"text":"I'll ask my manager and call you back today.","score":1,"feedback":"Acceptable, but offer what you can do now.","next":"n3"}]},"n3":{"speaker":"Customer","say":"How long will the refund take?","choices":[{"text":"It usually takes three to five working days.","score":2,"feedback":"Clear timeline.","next":"end"},{"text":"I don't know.","score":0,"feedback":"Find out or say you will.","next":"end"},{"text":"Soon.","score":1,"feedback":"Be specific.","next":"end"}]},"end":{"end":true,"speaker":"Customer","say":"Thank you for sorting this out."}}},{"id":"c-university","title":"Talking to a professor","level":"B2","context":"You visit your professor during office hours about your essay.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Professor","say":"Come in. What can I do for you?","choices":[{"text":"Thank you for seeing me. I'd like some feedback on my essay outline.","score":2,"feedback":"Formal and purposeful.","next":"n2"},{"text":"Hey, check my essay.","score":0,"feedback":"Too casual for a professor.","next":"n2"},{"text":"I have a question about the essay.","score":1,"feedback":"Fine; say what question.","next":"n2"}]},"n2":{"speaker":"Professor","say":"Your argument is clear, but you need stronger evidence.","choices":[{"text":"That's helpful. Could you suggest where I might find better sources?","score":2,"feedback":"Shows you can act on feedback.","next":"n3"},{"text":"I disagree. My evidence is fine.","score":0,"feedback":"Be more open to feedback.","next":"n3"},{"text":"Okay.","score":1,"feedback":"Ask a follow-up question.","next":"n3"}]},"n3":{"speaker":"Professor","say":"Please send me a revised version by next week.","choices":[{"text":"Certainly. I'll email it to you by Monday.","score":2,"feedback":"Specific commitment.","next":"end"},{"text":"Maybe.","score":0,"feedback":"Commit or explain a problem.","next":"end"},{"text":"I will try.","score":1,"feedback":"Weak; give a date.","next":"end"}]},"end":{"end":true,"speaker":"Professor","say":"Good. I look forward to reading it."}}},{"id":"c-interview2","title":"Interview: strengths and weaknesses","level":"C1","context":"You are in the second stage of a management job interview.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Interviewer","say":"What would you say is your greatest strength?","choices":[{"text":"I'm good at turning complex problems into clear plans that teams can follow.","score":2,"feedback":"Specific and relevant.","next":"n2"},{"text":"I'm perfect at everything.","score":0,"feedback":"Unconvincing.","next":"n2"},{"text":"I work hard.","score":1,"feedback":"Too generic; give an example.","next":"n2"}]},"n2":{"speaker":"Interviewer","say":"And a weakness?","choices":[{"text":"I used to take on too much myself, so I've learnt to delegate and set priorities.","score":2,"feedback":"Honest, with improvement.","next":"n3"},{"text":"I have no weaknesses.","score":0,"feedback":"Not credible.","next":"n3"},{"text":"I'm a perfectionist.","score":1,"feedback":"A common cliché; be more original.","next":"n3"}]},"n3":{"speaker":"Interviewer","say":"Where do you see yourself in five years?","choices":[{"text":"I'd like to lead a larger team and keep developing strategically.","score":2,"feedback":"Ambitious and relevant.","next":"end"},{"text":"I don't plan that far.","score":1,"feedback":"Show some direction.","next":"end"},{"text":"In your job.","score":0,"feedback":"Inappropriate.","next":"end"}]},"end":{"end":true,"speaker":"Interviewer","say":"Thank you. It was a pleasure to meet you."}}},{"id":"c-social","title":"Meeting someone new at a party","level":"A2","context":"You meet a new person at a friend's party.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"New friend","say":"Hi, I'm Sara. I don't think we've met.","choices":[{"text":"Hi Sara, I'm Omar. Nice to meet you.","score":2,"feedback":"Friendly and complete.","next":"n2"},{"text":"Hello.","score":1,"feedback":"Add your name.","next":"n2"},{"text":"Who are you?","score":0,"feedback":"Rude in this context.","next":"n2"}]},"n2":{"speaker":"New friend","say":"How do you know the host?","choices":[{"text":"We work together. How about you?","score":2,"feedback":"Answers and asks back.","next":"n3"},{"text":"Work.","score":0,"feedback":"Use a full sentence.","next":"n3"},{"text":"I don't know him well.","score":1,"feedback":"Fine; continue the conversation.","next":"n3"}]},"n3":{"speaker":"New friend","say":"What do you do in your free time?","choices":[{"text":"I enjoy football and cooking. What about you?","score":2,"feedback":"Shares and asks back.","next":"end"},{"text":"Nothing.","score":0,"feedback":"Conversation stopper.","next":"end"},{"text":"Football.","score":1,"feedback":"Add more detail.","next":"end"}]},"end":{"end":true,"speaker":"New friend","say":"It was great talking to you."}}},{"id":"c-bank","title":"Opening a bank account","level":"B1","context":"You visit a bank to open an account.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Bank clerk","say":"Welcome. How can I help you today?","choices":[{"text":"I'd like to open a current account, please.","score":2,"feedback":"Clear and polite.","next":"n2"},{"text":"I want account.","score":0,"feedback":"Incomplete.","next":"n2"},{"text":"Can you tell me about your accounts?","score":2,"feedback":"Good way to start.","next":"n2"}]},"n2":{"speaker":"Bank clerk","say":"Do you have a form of identification?","choices":[{"text":"Yes, I have my passport and a proof of address.","score":2,"feedback":"Provides what is needed.","next":"n3"},{"text":"Maybe.","score":0,"feedback":"Be clear.","next":"n3"},{"text":"Only my passport.","score":1,"feedback":"Honest; ask what else is needed.","next":"n3"}]},"n3":{"speaker":"Bank clerk","say":"Would you like online banking as well?","choices":[{"text":"Yes, please. How do I set it up?","score":2,"feedback":"Positive with a follow-up.","next":"end"},{"text":"No.","score":1,"feedback":"Fine; add \"thank you\".","next":"end"},{"text":"What is that?","score":1,"feedback":"Ask more politely.","next":"end"}]},"end":{"end":true,"speaker":"Bank clerk","say":"Your account will be ready in a few minutes."}}},{"id":"c-presentation","title":"Questions after a presentation","level":"C1","context":"You have just finished a business presentation and the audience asks questions.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Audience member","say":"Thank you. Could you explain how you calculated those figures?","choices":[{"text":"Certainly. We based them on last year's sales, adjusted for expected growth.","score":2,"feedback":"Clear and professional.","next":"n2"},{"text":"It's in the slides.","score":0,"feedback":"Dismissive.","next":"n2"},{"text":"Good question. I can walk you through the method.","score":2,"feedback":"Welcoming.","next":"n2"}]},"n2":{"speaker":"Audience member","say":"What if the market declines?","choices":[{"text":"That's a fair concern. We've prepared a conservative scenario as well.","score":2,"feedback":"Acknowledges and answers.","next":"n3"},{"text":"It won't.","score":0,"feedback":"Overconfident.","next":"n3"},{"text":"I'm not sure, I'll check and follow up.","score":1,"feedback":"Honest; offer a time frame.","next":"n3"}]},"n3":{"speaker":"Audience member","say":"Thank you. That was very helpful.","choices":[{"text":"Thank you for your questions. Please feel free to email me.","score":2,"feedback":"Professional close.","next":"end"},{"text":"OK.","score":0,"feedback":"Too abrupt.","next":"end"},{"text":"Thanks, goodbye.","score":1,"feedback":"Add an invitation to follow up.","next":"end"}]},"end":{"end":true,"speaker":"Audience member","say":"We will be in touch."}}},{"id":"c-doctor","title":"At the doctor's","level":"A2","context":"You are visiting a doctor because you feel unwell.","status":"unverified","source":"original, authored for FluentUp","somali":null,"start":"n1","nodes":{"n1":{"speaker":"Doctor","say":"Hello. What seems to be the problem?","choices":[{"text":"I've had a sore throat and a headache since Monday.","score":2,"feedback":"Describes symptoms and time.","next":"n2"},{"text":"I am bad.","score":0,"feedback":"Too vague.","next":"n2"},{"text":"I don't feel well.","score":1,"feedback":"Add symptoms.","next":"n2"}]},"n2":{"speaker":"Doctor","say":"Do you have a temperature?","choices":[{"text":"Yes, it was thirty-eight degrees this morning.","score":2,"feedback":"Specific.","next":"n3"},{"text":"Don't know.","score":0,"feedback":"Say \"I am not sure; I did not check.\"","next":"n3"},{"text":"I think so.","score":1,"feedback":"Give details if you can.","next":"n3"}]},"n3":{"speaker":"Doctor","say":"I will give you a prescription. Take one tablet twice a day.","choices":[{"text":"Thank you. Should I take it with food?","score":2,"feedback":"Good follow-up.","next":"end"},{"text":"Okay.","score":1,"feedback":"Ask if unsure.","next":"end"},{"text":"What?","score":0,"feedback":"Say \"Sorry, could you repeat that?\"","next":"end"}]},"end":{"end":true,"speaker":"Doctor","say":"Rest well and drink plenty of water."}}}]
+[
+  {
+    "id": "c-shop",
+    "title": "Buying clothes",
+    "level": "A2",
+    "context": "You are in a clothes shop.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Shop assistant",
+        "say": "Hello! Can I help you?",
+        "choices": [
+          {
+            "text": "Yes, I'm looking for a blue shirt.",
+            "score": 2,
+            "feedback": "Clear and specific.",
+            "next": "n2",
+            "textSo": "Haa, waxaan raadinayaa shaati buluug ah.",
+            "feedbackSo": "Codsi cad oo faahfaahsan."
+          },
+          {
+            "text": "Shirt.",
+            "score": 0,
+            "feedback": "Too short. Use a full sentence.",
+            "next": "n2",
+            "textSo": "Shaati.",
+            "feedbackSo": "Aad bay u gaaban tahay. Isticmaal weedh dhammaystiran."
+          },
+          {
+            "text": "Just looking, thanks.",
+            "score": 1,
+            "feedback": "Polite, but you asked for help later, so be clear.",
+            "next": "n2",
+            "textSo": "Kaliya waan eegayaa, mahadsanid.",
+            "feedbackSo": "Waa edeb, laakiin haddii aad caawimo u baahan tahay dabadeed si cad u sheeg."
+          }
+        ],
+        "saySo": "Salaan! Ma ku caawin karaa?"
+      },
+      "n2": {
+        "speaker": "Shop assistant",
+        "say": "What size do you need?",
+        "choices": [
+          {
+            "text": "Medium, please.",
+            "score": 2,
+            "feedback": "Short and polite.",
+            "next": "n3",
+            "textSo": "Cabbirka dhexe, fadlan.",
+            "feedbackSo": "Jawaab kooban oo edeb leh."
+          },
+          {
+            "text": "I don't know.",
+            "score": 0,
+            "feedback": "Try: \"I think I am a medium.\"",
+            "next": "n3",
+            "textSo": "Ma garanayo.",
+            "feedbackSo": "Isku day: “Waxaan filayaa in cabbirka dhexe uu igu habboon yahay.”"
+          },
+          {
+            "text": "Maybe medium?",
+            "score": 1,
+            "feedback": "Understandable; sound more certain.",
+            "next": "n3",
+            "textSo": "Malaha cabbirka dhexe?",
+            "feedbackSo": "Waa la fahmi karaa, laakiin si kalsooni leh u sheeg."
+          }
+        ],
+        "saySo": "Cabbirkee ayaad u baahan tahay?"
+      },
+      "n3": {
+        "speaker": "Shop assistant",
+        "say": "It is twenty-five dollars.",
+        "choices": [
+          {
+            "text": "Can I try it on, please?",
+            "score": 2,
+            "feedback": "Natural request in a shop.",
+            "next": "end",
+            "textSo": "Ma tijaabin karaa, fadlan?",
+            "feedbackSo": "Waa codsi dabiici ah oo dukaanka ku habboon."
+          },
+          {
+            "text": "Too expensive!",
+            "score": 0,
+            "feedback": "Blunt. Ask about price politely instead.",
+            "next": "end",
+            "textSo": "Aad buu qaali u yahay!",
+            "feedbackSo": "Hadal toos ah oo qallafsan. Si edeb leh u weydii qiimaha ama qiimo-dhimis."
+          },
+          {
+            "text": "OK, I'll take it.",
+            "score": 2,
+            "feedback": "Clear decision.",
+            "next": "end",
+            "textSo": "Hagaag, waan iibsanayaa.",
+            "feedbackSo": "Go’aan cad ayaad muujisay."
+          }
+        ],
+        "saySo": "Qiimuhu waa shan iyo labaatan doollar."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Shop assistant",
+        "say": "Thanks for shopping with us!",
+        "saySo": "Waad ku mahadsan tahay inaad wax naga iibsatay!"
+      }
+    },
+    "titleSo": "Iibsashada dharka",
+    "contextSo": "Waxaad joogtaa dukaan dhar lagu iibiyo.",
+    "somaliStatus": "draft"
+  },
+  {
+    "id": "c-restaurant",
+    "title": "At a restaurant",
+    "level": "A2",
+    "context": "You arrive at a restaurant with a friend.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Waiter",
+        "say": "Good evening. Do you have a reservation?",
+        "choices": [
+          {
+            "text": "No, but a table for two, please.",
+            "score": 2,
+            "feedback": "Clear and polite.",
+            "next": "n2",
+            "textSo": "Maya, laakiin waxaan rabnaa miis laba qof ah, fadlan.",
+            "feedbackSo": "Codsi cad oo edeb leh."
+          },
+          {
+            "text": "No.",
+            "score": 1,
+            "feedback": "Add what you need.",
+            "next": "n2",
+            "textSo": "Maya.",
+            "feedbackSo": "Sheeg waxa aad u baahan tihiin."
+          },
+          {
+            "text": "Give us a table.",
+            "score": 0,
+            "feedback": "Sounds rude. Use \"Could we have...\".",
+            "next": "n2",
+            "textSo": "Miis noo keena.",
+            "feedbackSo": "Waxay u muuqataa amar qallafsan. Isticmaal: “Ma heli karnaa...?”"
+          }
+        ],
+        "saySo": "Fiid wanaagsan. Miis ma sii qabsateen?"
+      },
+      "n2": {
+        "speaker": "Waiter",
+        "say": "Here is the menu. Are you ready to order?",
+        "choices": [
+          {
+            "text": "Yes, I'd like the chicken soup, please.",
+            "score": 2,
+            "feedback": "\"I'd like\" is polite.",
+            "next": "n3",
+            "textSo": "Haa, waxaan jeclaan lahaa maraq digaag, fadlan.",
+            "feedbackSo": "Weedha “waxaan jeclaan lahaa” waa hab edeb leh oo wax lagu dalbado."
+          },
+          {
+            "text": "Not yet, could we have a few more minutes?",
+            "score": 2,
+            "feedback": "Good way to ask for time.",
+            "next": "n3",
+            "textSo": "Weli diyaar ma nihin. Ma na siin kartaan dhowr daqiiqo oo kale?",
+            "feedbackSo": "Waa hab wanaagsan oo waqti lagu codsado."
+          },
+          {
+            "text": "Chicken.",
+            "score": 0,
+            "feedback": "Use a full sentence.",
+            "next": "n3",
+            "textSo": "Digaag.",
+            "feedbackSo": "Isticmaal weedh dhammaystiran."
+          }
+        ],
+        "saySo": "Waa kan liiska cuntada. Diyaar ma u tihiin inaad dalbataan?"
+      },
+      "n3": {
+        "speaker": "Waiter",
+        "say": "Would you like anything to drink?",
+        "choices": [
+          {
+            "text": "Just water, please.",
+            "score": 2,
+            "feedback": "Short and polite.",
+            "next": "end",
+            "textSo": "Biyo keliya, fadlan.",
+            "feedbackSo": "Jawaab gaaban oo edeb leh."
+          },
+          {
+            "text": "Water.",
+            "score": 1,
+            "feedback": "Add \"please\".",
+            "next": "end",
+            "textSo": "Biyo.",
+            "feedbackSo": "Ku dar “fadlan”."
+          },
+          {
+            "text": "What drinks?",
+            "score": 0,
+            "feedback": "Ask: \"What drinks do you have?\"",
+            "next": "end",
+            "textSo": "Cabitaanno noocee ah?",
+            "feedbackSo": "Weydii: “Cabitaanno noocee ah ayaad haysaan?”"
+          }
+        ],
+        "saySo": "Ma jeclaan lahaydeen wax aad cabtaan?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Waiter",
+        "say": "Perfect. I will bring it soon.",
+        "saySo": "Waa hagaag. Dhawaan ayaan idiin keenayaa."
+      }
+    },
+    "titleSo": "Maqaayad wax ka cunid",
+    "contextSo": "Waxaad saaxiib kula timid maqaayad.",
+    "somaliStatus": "draft"
+  },
+  {
+    "id": "c-airport",
+    "title": "Airport check-in",
+    "level": "B1",
+    "context": "You are at the airline check-in desk.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Agent",
+        "say": "Good morning. May I see your passport and ticket?",
+        "choices": [
+          {
+            "text": "Of course, here you are.",
+            "score": 2,
+            "feedback": "Natural and polite.",
+            "next": "n2",
+            "textSo": "Dabcan, waa kuwan.",
+            "feedbackSo": "Jawaab dabiici ah oo edeb leh."
+          },
+          {
+            "text": "Take it.",
+            "score": 0,
+            "feedback": "Rude. Say \"Here you are.\"",
+            "next": "n2",
+            "textSo": "Qaado.",
+            "feedbackSo": "Waa hadal qallafsan. Dheh: “Waa kuwan.”"
+          },
+          {
+            "text": "Yes.",
+            "score": 1,
+            "feedback": "Hand the documents over and say \"Here you are.\"",
+            "next": "n2",
+            "textSo": "Haa.",
+            "feedbackSo": "Dukumentiyada u dhiib, adigoo leh: “Waa kuwan.”"
+          }
+        ],
+        "saySo": "Subax wanaagsan. Ma arki karaa baasaboorkaaga iyo tigidhkaaga?"
+      },
+      "n2": {
+        "speaker": "Agent",
+        "say": "Would you like a window or an aisle seat?",
+        "choices": [
+          {
+            "text": "A window seat, please, if possible.",
+            "score": 2,
+            "feedback": "Polite with \"if possible\".",
+            "next": "n3",
+            "textSo": "Kursi daaqadda agteeda ah, fadlan, haddii ay suurtagal tahay.",
+            "feedbackSo": "“Haddii ay suurtagal tahay” waxay codsiga ka dhigaysaa mid edeb leh."
+          },
+          {
+            "text": "I don't care.",
+            "score": 0,
+            "feedback": "Sounds dismissive. Try \"Either is fine.\"",
+            "next": "n3",
+            "textSo": "Waxba igama gelin.",
+            "feedbackSo": "Waxay u muuqan kartaa jawaab aan danaynayn. Isku day: “Mid kasta waa ii hagaag.”"
+          },
+          {
+            "text": "Either is fine, thank you.",
+            "score": 2,
+            "feedback": "Flexible and polite.",
+            "next": "n3",
+            "textSo": "Mid kasta waa ii hagaag, mahadsanid.",
+            "feedbackSo": "Waa jawaab dabacsan oo edeb leh."
+          }
+        ],
+        "saySo": "Ma jeclaan lahayd kursi daaqadda agteeda ah mise kursi marinka agtiisa ah?"
+      },
+      "n3": {
+        "speaker": "Agent",
+        "say": "Do you have any bags to check in?",
+        "choices": [
+          {
+            "text": "Yes, one suitcase.",
+            "score": 2,
+            "feedback": "Direct and clear.",
+            "next": "end",
+            "textSo": "Haa, hal shandad.",
+            "feedbackSo": "Jawaab toos ah oo cad."
+          },
+          {
+            "text": "No, only hand luggage.",
+            "score": 2,
+            "feedback": "Clear answer.",
+            "next": "end",
+            "textSo": "Maya, waxaan wataa oo keliya boorsooyinka aan diyaaradda la gelinayo.",
+            "feedbackSo": "Jawaab cad."
+          },
+          {
+            "text": "What?",
+            "score": 0,
+            "feedback": "Say \"Sorry, could you repeat that?\"",
+            "next": "end",
+            "textSo": "Maxaad tiri?",
+            "feedbackSo": "Dheh: “Raalli ahow, ma ku celin kartaa?”"
+          }
+        ],
+        "saySo": "Ma haysataa boorsooyin aad rabto in la diiwaangeliyo?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Agent",
+        "say": "Here is your boarding pass. Gate 12, boarding at ten.",
+        "saySo": "Waa kan kaarkaaga fuulista diyaaradda. Albaabka 12; fuulistu waxay bilaabmaysaa tobanka."
+      }
+    },
+    "titleSo": "Diiwaangelinta garoonka diyaaradaha",
+    "contextSo": "Waxaad joogtaa miiska ay shirkadda diyaaradaha rakaabka kaga diiwaangeliso safarka.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-hotel",
+    "title": "Hotel check-in",
+    "level": "B1",
+    "context": "You arrive at a hotel late in the evening.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Receptionist",
+        "say": "Welcome. Do you have a booking with us?",
+        "choices": [
+          {
+            "text": "Yes, under the name Hassan.",
+            "score": 2,
+            "feedback": "Gives the key information.",
+            "next": "n2",
+            "textSo": "Haa, magaca Xasan ayaa lagu qabsaday.",
+            "feedbackSo": "Waxaad bixisay xogta muhiimka ah."
+          },
+          {
+            "text": "I booked online.",
+            "score": 1,
+            "feedback": "Also give your name.",
+            "next": "n2",
+            "textSo": "Internetka ayaan ka qabsaday.",
+            "feedbackSo": "Sidoo kale sheeg magacaaga."
+          },
+          {
+            "text": "Yes, room.",
+            "score": 0,
+            "feedback": "Incomplete. Give your name.",
+            "next": "n2",
+            "textSo": "Haa, qol.",
+            "feedbackSo": "Jawaabtu ma dhammaystirna. Sheeg magacaaga."
+          }
+        ],
+        "saySo": "Soo dhowow. Ma nala leedahay boos hore loo sii qabsaday?"
+      },
+      "n2": {
+        "speaker": "Receptionist",
+        "say": "How many nights are you staying?",
+        "choices": [
+          {
+            "text": "Three nights, until Friday.",
+            "score": 2,
+            "feedback": "Precise.",
+            "next": "n3",
+            "textSo": "Saddex habeen, ilaa Jimcaha.",
+            "feedbackSo": "Jawaab sax ah oo faahfaahsan."
+          },
+          {
+            "text": "Some nights.",
+            "score": 0,
+            "feedback": "Too vague.",
+            "next": "n3",
+            "textSo": "Habeenno qaar.",
+            "feedbackSo": "Jawaabtu aad bay u guud tahay."
+          },
+          {
+            "text": "Three, I think.",
+            "score": 1,
+            "feedback": "Check your booking first.",
+            "next": "n3",
+            "textSo": "Saddex, sida aan filayo.",
+            "feedbackSo": "Marka hore hubi faahfaahinta boos-qabsigaaga."
+          }
+        ],
+        "saySo": "Imisa habeen ayaad nala joogaysaa?"
+      },
+      "n3": {
+        "speaker": "Receptionist",
+        "say": "Breakfast is from seven to ten. Anything else?",
+        "choices": [
+          {
+            "text": "Could you tell me the Wi-Fi password, please?",
+            "score": 2,
+            "feedback": "Polite and useful.",
+            "next": "end",
+            "textSo": "Fadlan ma ii sheegi kartaa erayga sirta ah ee Wi-Fi-ga?",
+            "feedbackSo": "Waa codsi edeb leh oo faa’iido leh."
+          },
+          {
+            "text": "Wi-Fi?",
+            "score": 1,
+            "feedback": "Understandable; use a full question.",
+            "next": "end",
+            "textSo": "Wi-Fi?",
+            "feedbackSo": "Waa la fahmi karaa; isticmaal su’aal dhammaystiran."
+          },
+          {
+            "text": "No, thank you. That's everything.",
+            "score": 2,
+            "feedback": "Clear closing.",
+            "next": "end",
+            "textSo": "Maya, mahadsanid. Intaas oo dhan ayay ahayd.",
+            "feedbackSo": "Waa hab cad oo wada sheekaysiga lagu soo afjaro."
+          }
+        ],
+        "saySo": "Quraacdu waxay bilaabataa toddobada waxayna dhammaataa tobanka. Wax kale ma u baahan tahay?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Receptionist",
+        "say": "Enjoy your stay.",
+        "saySo": "Joogitaankaaga ku raaxayso."
+      }
+    },
+    "titleSo": "Diiwaangelinta hoteelka",
+    "contextSo": "Waxaad hoteel timid goor dambe oo fiidkii ah.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-directions",
+    "title": "Asking for directions",
+    "level": "A2",
+    "context": "You are lost in a city centre.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Passer-by",
+        "say": "Hi, you look lost. Can I help?",
+        "choices": [
+          {
+            "text": "Excuse me, how do I get to the station?",
+            "score": 2,
+            "feedback": "Polite and clear.",
+            "next": "n2",
+            "textSo": "Iga raalli ahow, sideen ku tagaa saldhigga?",
+            "feedbackSo": "Waa su’aal edeb leh oo cad."
+          },
+          {
+            "text": "Where station?",
+            "score": 0,
+            "feedback": "Grammar is incomplete.",
+            "next": "n2",
+            "textSo": "Xaggee saldhig?",
+            "feedbackSo": "Naxwaha weedhu ma dhammaystirna."
+          },
+          {
+            "text": "Yes, please. Where is the station?",
+            "score": 2,
+            "feedback": "Good.",
+            "next": "n2",
+            "textSo": "Haa, fadlan. Saldhiggu xaggee ku yaal?",
+            "feedbackSo": "Waa jawaab wanaagsan."
+          }
+        ],
+        "saySo": "Salaan. Waxaad u muuqataa qof jidka ka lumay. Ma ku caawin karaa?"
+      },
+      "n2": {
+        "speaker": "Passer-by",
+        "say": "Go straight, then turn left at the bank.",
+        "choices": [
+          {
+            "text": "Sorry, could you say that again, please?",
+            "score": 2,
+            "feedback": "Great way to ask for repetition.",
+            "next": "n3",
+            "textSo": "Raalli ahow, fadlan ma ku celin kartaa?",
+            "feedbackSo": "Waa hab wanaagsan oo edeb leh oo wax lagu celisiyo."
+          },
+          {
+            "text": "Straight, then left. Got it.",
+            "score": 2,
+            "feedback": "Repeating confirms understanding.",
+            "next": "n3",
+            "textSo": "Toos, dabadeed bidix. Waan fahmay.",
+            "feedbackSo": "Ku celcelintu waxay xaqiijinaysaa inaad fahantay."
+          },
+          {
+            "text": "I don't understand you.",
+            "score": 0,
+            "feedback": "Blunt. Ask for repetition politely.",
+            "next": "n3",
+            "textSo": "Kuma fahmayo.",
+            "feedbackSo": "Hadalkaasi waa qallafsan yahay. Si edeb leh u codso in lagu celiyo."
+          }
+        ],
+        "saySo": "Toos u soco, dabadeed bidix uga leexo bangiga agtiisa."
+      },
+      "n3": {
+        "speaker": "Passer-by",
+        "say": "It is about ten minutes on foot.",
+        "choices": [
+          {
+            "text": "Thank you so much for your help!",
+            "score": 2,
+            "feedback": "Warm and polite.",
+            "next": "end",
+            "textSo": "Aad baad ugu mahadsan tahay caawimadaada!",
+            "feedbackSo": "Waa hadal diirran oo edeb leh."
+          },
+          {
+            "text": "OK.",
+            "score": 1,
+            "feedback": "Add thanks.",
+            "next": "end",
+            "textSo": "Hagaag.",
+            "feedbackSo": "Mahadnaq ku dar."
+          },
+          {
+            "text": "Okay, bye.",
+            "score": 1,
+            "feedback": "Thank them first.",
+            "next": "end",
+            "textSo": "Hagaag, nabadgelyo.",
+            "feedbackSo": "Marka hore u mahadnaq."
+          }
+        ],
+        "saySo": "Qiyaastii toban daqiiqo ayay lug ku qaadanaysaa."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Passer-by",
+        "say": "You are welcome. Have a good day!",
+        "saySo": "Adigaa mudan. Maalin wanaagsan!"
+      }
+    },
+    "titleSo": "Weydiisashada tilmaamaha jidka",
+    "contextSo": "Waxaad ku dhex luntay bartamaha magaalada.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-phone",
+    "title": "A phone call to book an appointment",
+    "level": "B1",
+    "context": "You call a clinic to make an appointment.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Receptionist",
+        "say": "Good morning, City Clinic. How can I help you?",
+        "choices": [
+          {
+            "text": "Hello, I'd like to make an appointment, please.",
+            "score": 2,
+            "feedback": "Clear purpose.",
+            "next": "n2",
+            "textSo": "Salaan, waxaan jeclaan lahaa inaan ballan qabsado, fadlan.",
+            "feedbackSo": "Ujeeddadaadu si cad ayay u muuqataa."
+          },
+          {
+            "text": "I want doctor.",
+            "score": 0,
+            "feedback": "Use a full sentence.",
+            "next": "n2",
+            "textSo": "Waxaan rabaa dhakhtar.",
+            "feedbackSo": "Isticmaal weedh dhammaystiran."
+          },
+          {
+            "text": "Hi, can I book an appointment?",
+            "score": 1,
+            "feedback": "Fine, slightly informal.",
+            "next": "n2",
+            "textSo": "Salaan, ma qabsan karaa ballan?",
+            "feedbackSo": "Waa hagaag, inkastoo ay yara caadi tahay."
+          }
+        ],
+        "saySo": "Subax wanaagsan, waa Xarunta Caafimaadka City. Sideen kuu caawin karaa?"
+      },
+      "n2": {
+        "speaker": "Receptionist",
+        "say": "Is Tuesday at ten o'clock OK for you?",
+        "choices": [
+          {
+            "text": "Tuesday at ten is fine, thank you.",
+            "score": 2,
+            "feedback": "Confirms politely.",
+            "next": "n3",
+            "textSo": "Talaadada tobanka waa ii hagaag, mahadsanid.",
+            "feedbackSo": "Si edeb leh ayaad u xaqiijisay waqtiga."
+          },
+          {
+            "text": "Do you have anything later in the day?",
+            "score": 2,
+            "feedback": "Polite alternative.",
+            "next": "n3",
+            "textSo": "Ma haysaan waqti kale oo maalinta ka dambeeya ah?",
+            "feedbackSo": "Waa beddel edeb leh."
+          },
+          {
+            "text": "No.",
+            "score": 0,
+            "feedback": "Offer a reason or alternative.",
+            "next": "n3",
+            "textSo": "Maya.",
+            "feedbackSo": "Sabab ama waqti kale soo jeedi."
+          }
+        ],
+        "saySo": "Talaadada saacadda tobanka ma kugu habboon tahay?"
+      },
+      "n3": {
+        "speaker": "Receptionist",
+        "say": "Could I have your name and phone number?",
+        "choices": [
+          {
+            "text": "Yes, it's Amina Ali, and my number is 555-0142.",
+            "score": 2,
+            "feedback": "Clear details.",
+            "next": "end",
+            "textSo": "Haa, magacaygu waa Aamina Cali, lambarkayguna waa 555-0142.",
+            "feedbackSo": "Waxaad bixisay xog cad oo dhammaystiran."
+          },
+          {
+            "text": "Amina.",
+            "score": 1,
+            "feedback": "Give your full name and number.",
+            "next": "end",
+            "textSo": "Aamina.",
+            "feedbackSo": "Sheeg magacaaga oo buuxa iyo lambarkaaga."
+          },
+          {
+            "text": "Why?",
+            "score": 0,
+            "feedback": "Impolite. Just give the information.",
+            "next": "end",
+            "textSo": "Sabab?",
+            "feedbackSo": "Waa hadal aan edeb lahayn. Kaliya bixi xogta lagaa codsaday."
+          }
+        ],
+        "saySo": "Ma heli karaa magacaaga iyo lambarka telefoonkaaga?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Receptionist",
+        "say": "Thank you. You are booked in.",
+        "saySo": "Mahadsanid. Ballantaadii waa la diiwaangeliyey."
+      }
+    },
+    "titleSo": "Wicitaan telefoon oo ballan lagu qabsanayo",
+    "contextSo": "Waxaad wacaysaa xarun caafimaad si aad ballan u qabsato.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-meeting",
+    "title": "Joining a team meeting",
+    "level": "B2",
+    "context": "You join a weekly project meeting.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Manager",
+        "say": "Let's start. Can you give us a quick update on your tasks?",
+        "choices": [
+          {
+            "text": "Sure. I finished the report and I'm now working on the slides.",
+            "score": 2,
+            "feedback": "Concise and structured.",
+            "next": "n2",
+            "textSo": "Hubaal. Warbixinta waan dhammaystiray, haddana waxaan ka shaqaynayaa bogagga bandhigga.",
+            "feedbackSo": "Jawaab kooban oo si habaysan loo sheegay."
+          },
+          {
+            "text": "Everything is fine.",
+            "score": 1,
+            "feedback": "Give specific details.",
+            "next": "n2",
+            "textSo": "Wax walba waa hagaagsan yihiin.",
+            "feedbackSo": "Faahfaahin gaar ah bixi."
+          },
+          {
+            "text": "I did some things.",
+            "score": 0,
+            "feedback": "Too vague for a meeting.",
+            "next": "n2",
+            "textSo": "Waxyaabo ayaan qabtay.",
+            "feedbackSo": "Kulanka dhexdiisa hadalkani aad buu u guud yahay."
+          }
+        ],
+        "saySo": "Aan bilowno. Ma na siin kartaa warbixin kooban oo ku saabsan hawlahaaga?"
+      },
+      "n2": {
+        "speaker": "Manager",
+        "say": "Is there anything blocking your progress?",
+        "choices": [
+          {
+            "text": "I need access to the sales data. Could you help with that?",
+            "score": 2,
+            "feedback": "Names the problem and asks for help.",
+            "next": "n3",
+            "textSo": "Waxaan u baahanahay helitaanka xogta iibka. Ma iga caawin kartaa arrintaas?",
+            "feedbackSo": "Dhibaatada si cad ayuu u magacaabay, caawimana wuu codsaday."
+          },
+          {
+            "text": "No problems.",
+            "score": 1,
+            "feedback": "Fine if true.",
+            "next": "n3",
+            "textSo": "Dhibaato ma jirto.",
+            "feedbackSo": "Waa jawaab fiican haddii ay run tahay."
+          },
+          {
+            "text": "Yes, but it is your fault.",
+            "score": 0,
+            "feedback": "Blaming is unprofessional.",
+            "next": "n3",
+            "textSo": "Haa, adiga ayaana sabab u ah.",
+            "feedbackSo": "Eedayndu ma aha hab xirfadeed."
+          }
+        ],
+        "saySo": "Ma jiraan wax hor istaagaya horumarkaaga?"
+      },
+      "n3": {
+        "speaker": "Manager",
+        "say": "The deadline moved to Friday. Is that realistic?",
+        "choices": [
+          {
+            "text": "I think so, but I'll confirm by tomorrow.",
+            "score": 2,
+            "feedback": "Honest and committed.",
+            "next": "end",
+            "textSo": "Waxaan filayaa inay suuragal tahay, balse berri ayaan xaqiijin doonaa.",
+            "feedbackSo": "Daacadnimo iyo ballanqaad cad."
+          },
+          {
+            "text": "Impossible!",
+            "score": 0,
+            "feedback": "Explain why and suggest options.",
+            "next": "end",
+            "textSo": "Suuragal ma aha!",
+            "feedbackSo": "Sharax sababta, dabadeedna soo jeedi xalal kale."
+          },
+          {
+            "text": "Yes, no problem.",
+            "score": 1,
+            "feedback": "Good, but only if you are sure.",
+            "next": "end",
+            "textSo": "Haa, dhib ma leh.",
+            "feedbackSo": "Waa jawaab wanaagsan oo keliya haddii aad hubto."
+          }
+        ],
+        "saySo": "Wakhtigii kama dambaysta ahaa waxaa loo raray Jimcaha. Ma suuragal baa?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Manager",
+        "say": "Great. Thanks, everyone. Let's finish here.",
+        "saySo": "Waa hagaag. Mahadsanidiin dhammaantiin. Halkan aynu ku soo afjarno."
+      }
+    },
+    "titleSo": "Ku biirista kulan kooxeed",
+    "contextSo": "Waxaad ka qaybgelaysaa kulan toddobaadle ah oo mashruuca ku saabsan."
+  },
+  {
+    "id": "c-service",
+    "title": "Handling a customer complaint",
+    "level": "B2",
+    "context": "A customer is unhappy with a late delivery. You work in customer service.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Customer",
+        "say": "My order is two weeks late. This is unacceptable!",
+        "choices": [
+          {
+            "text": "I'm very sorry about the delay. Let me check your order right away.",
+            "score": 2,
+            "feedback": "Apology plus action.",
+            "next": "n2",
+            "textSo": "Aad baan uga xumahay dib-u-dhaca. Aan hadda isla markiiba hubiyo dalabkaaga.",
+            "feedbackSo": "Raalli-gelin iyo tallaabo wax ku ool ah."
+          },
+          {
+            "text": "It's not my problem.",
+            "score": 0,
+            "feedback": "Never dismiss a customer.",
+            "next": "n2",
+            "textSo": "Dhibkayga ma aha.",
+            "feedbackSo": "Macaamilka marnaba ha iska indho tirin."
+          },
+          {
+            "text": "Please calm down.",
+            "score": 0,
+            "feedback": "Can make people angrier.",
+            "next": "n2",
+            "textSo": "Fadlan is deji.",
+            "feedbackSo": "Hadalkaasi qofka wuu sii xanaajin karaa."
+          }
+        ],
+        "saySo": "Dalabkaygu laba toddobaad ayuu soo daahay. Taasi lama aqbali karo!"
+      },
+      "n2": {
+        "speaker": "Customer",
+        "say": "I want a refund.",
+        "choices": [
+          {
+            "text": "Of course. I can refund you, or send a replacement. Which would you prefer?",
+            "score": 2,
+            "feedback": "Offers choices.",
+            "next": "n3",
+            "textSo": "Dabcan. Lacagta waan kuu celin karaa ama alaab kale ayaan kuu soo diri karaa. Kee baad doorbidaysaa?",
+            "feedbackSo": "Doorashooyin ayuu macaamilka siinayaa."
+          },
+          {
+            "text": "We don't do refunds.",
+            "score": 0,
+            "feedback": "Unhelpful without explanation.",
+            "next": "n3",
+            "textSo": "Lacag ma celinno.",
+            "feedbackSo": "Jawaab aan waxtar lahayn haddii aan sharaxaad lagu darin."
+          },
+          {
+            "text": "I'll ask my manager and call you back today.",
+            "score": 1,
+            "feedback": "Acceptable, but offer what you can do now.",
+            "next": "n3",
+            "textSo": "Maamulahayga ayaan weydiinayaa, maanta ayaana dib kuu soo wacayaa.",
+            "feedbackSo": "Waa la aqbali karaa, balse sheeg waxa aad hadda qaban karto."
+          }
+        ],
+        "saySo": "Waxaan rabaa in lacagta la ii celiyo."
+      },
+      "n3": {
+        "speaker": "Customer",
+        "say": "How long will the refund take?",
+        "choices": [
+          {
+            "text": "It usually takes three to five working days.",
+            "score": 2,
+            "feedback": "Clear timeline.",
+            "next": "end",
+            "textSo": "Badanaa waxay qaadataa saddex ilaa shan maalmood oo shaqo.",
+            "feedbackSo": "Waqti cad ayuu sheegay."
+          },
+          {
+            "text": "I don't know.",
+            "score": 0,
+            "feedback": "Find out or say you will.",
+            "next": "end",
+            "textSo": "Ma garanayo.",
+            "feedbackSo": "Ogow jawaabta ama sheeg inaad soo ogaan doonto."
+          },
+          {
+            "text": "Soon.",
+            "score": 1,
+            "feedback": "Be specific.",
+            "next": "end",
+            "textSo": "Dhawaan.",
+            "feedbackSo": "Waqti cayiman sheeg."
+          }
+        ],
+        "saySo": "Intee ayay qaadanaysaa soo celinta lacagtu?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Customer",
+        "say": "Thank you for sorting this out.",
+        "saySo": "Waad ku mahadsan tahay inaad arrintan xallisay."
+      }
+    },
+    "titleSo": "Wax ka qabashada cabashada macaamilka",
+    "contextSo": "Macaamil ayaa ka cabanaya in dalabkiisu soo daahay. Waxaad ka shaqaysaa adeegga macaamiisha."
+  },
+  {
+    "id": "c-university",
+    "title": "Talking to a professor",
+    "level": "B2",
+    "context": "You visit your professor during office hours about your essay.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Professor",
+        "say": "Come in. What can I do for you?",
+        "choices": [
+          {
+            "text": "Thank you for seeing me. I'd like some feedback on my essay outline.",
+            "score": 2,
+            "feedback": "Formal and purposeful.",
+            "next": "n2",
+            "textSo": "Waad ku mahadsan tahay inaad waqti ii heshay. Waxaan jeclaan lahaa talo-celin ku saabsan qorshaha qoraalkayga.",
+            "feedbackSo": "Waa hadal rasmi ah oo ujeeddadiisu caddahay."
+          },
+          {
+            "text": "Hey, check my essay.",
+            "score": 0,
+            "feedback": "Too casual for a professor.",
+            "next": "n2",
+            "textSo": "Haye, qoraalkayga eeg.",
+            "feedbackSo": "Bare jaamacadeed hortiisa aad buu u caadi yahay."
+          },
+          {
+            "text": "I have a question about the essay.",
+            "score": 1,
+            "feedback": "Fine; say what question.",
+            "next": "n2",
+            "textSo": "Su’aal ayaan ka qabaa qoraalka.",
+            "feedbackSo": "Waa hagaag; sheeg su’aasha."
+          }
+        ],
+        "saySo": "Soo gal. Maxaan kuu qaban karaa?"
+      },
+      "n2": {
+        "speaker": "Professor",
+        "say": "Your argument is clear, but you need stronger evidence.",
+        "choices": [
+          {
+            "text": "That's helpful. Could you suggest where I might find better sources?",
+            "score": 2,
+            "feedback": "Shows you can act on feedback.",
+            "next": "n3",
+            "textSo": "Taasi way i caawinaysaa. Ma ii soo jeedin kartaa meel aan ilo ka wanaagsan ka heli karo?",
+            "feedbackSo": "Waxay muujinaysaa inaad diyaar u tahay inaad talada ka faa’iidaysato."
+          },
+          {
+            "text": "I disagree. My evidence is fine.",
+            "score": 0,
+            "feedback": "Be more open to feedback.",
+            "next": "n3",
+            "textSo": "Waan diiddanahay. Caddayntaydu way fiican tahay.",
+            "feedbackSo": "U furnow talo-celinta."
+          },
+          {
+            "text": "Okay.",
+            "score": 1,
+            "feedback": "Ask a follow-up question.",
+            "next": "n3",
+            "textSo": "Hagaag.",
+            "feedbackSo": "Weydii su’aal daba socota."
+          }
+        ],
+        "saySo": "Dooddaadu way caddahay, balse waxaad u baahan tahay caddayn ka xoog badan."
+      },
+      "n3": {
+        "speaker": "Professor",
+        "say": "Please send me a revised version by next week.",
+        "choices": [
+          {
+            "text": "Certainly. I'll email it to you by Monday.",
+            "score": 2,
+            "feedback": "Specific commitment.",
+            "next": "end",
+            "textSo": "Dabcan. Isniinta ayaan iimayl kuugu soo diri doonaa.",
+            "feedbackSo": "Ballanqaad waqti cayiman leh."
+          },
+          {
+            "text": "Maybe.",
+            "score": 0,
+            "feedback": "Commit or explain a problem.",
+            "next": "end",
+            "textSo": "Malaha.",
+            "feedbackSo": "Ballan qaad ama sharax caqabadda."
+          },
+          {
+            "text": "I will try.",
+            "score": 1,
+            "feedback": "Weak; give a date.",
+            "next": "end",
+            "textSo": "Waan isku dayi doonaa.",
+            "feedbackSo": "Jawaab daciif ah; taariikh cayiman sheeg."
+          }
+        ],
+        "saySo": "Fadlan nuqul dib loo habeeyey ii soo dir toddobaadka dambe."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Professor",
+        "say": "Good. I look forward to reading it.",
+        "saySo": "Waa hagaag. Waxaan sugayaa inaan akhriyo."
+      }
+    },
+    "titleSo": "La hadalka bare jaamacadeed",
+    "contextSo": "Waxaad xilliga qaabilaadda booqanaysaa barehaaga si aad ugala hadasho qoraalkaaga."
+  },
+  {
+    "id": "c-interview2",
+    "title": "Interview: strengths and weaknesses",
+    "level": "C1",
+    "context": "You are in the second stage of a management job interview.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Interviewer",
+        "say": "What would you say is your greatest strength?",
+        "choices": [
+          {
+            "text": "I'm good at turning complex problems into clear plans that teams can follow.",
+            "score": 2,
+            "feedback": "Specific and relevant.",
+            "next": "n2",
+            "textSo": "Waxaan ku fiicanahay inaan dhibaatooyinka adag u beddelo qorshayaal cad oo kooxuhu raaci karaan.",
+            "feedbackSo": "Waa jawaab gaar ah oo shaqada khusaysa."
+          },
+          {
+            "text": "I'm perfect at everything.",
+            "score": 0,
+            "feedback": "Unconvincing.",
+            "next": "n2",
+            "textSo": "Wax walba si qumman ayaan u sameeyaa.",
+            "feedbackSo": "Jawaab aan lagu qanci karin."
+          },
+          {
+            "text": "I work hard.",
+            "score": 1,
+            "feedback": "Too generic; give an example.",
+            "next": "n2",
+            "textSo": "Si adag ayaan u shaqeeyaa.",
+            "feedbackSo": "Aad bay u guud tahay; tusaale keen."
+          }
+        ],
+        "saySo": "Maxaad odhan lahayd waa awooddaada ugu weyn?"
+      },
+      "n2": {
+        "speaker": "Interviewer",
+        "say": "And a weakness?",
+        "choices": [
+          {
+            "text": "I used to take on too much myself, so I've learnt to delegate and set priorities.",
+            "score": 2,
+            "feedback": "Honest, with improvement.",
+            "next": "n3",
+            "textSo": "Hore waxaan isku dayi jiray inaan wax badan keliday qabto, balse waxaan bartay inaan hawlaha qaybiyo oo mudnaanta kala saaro.",
+            "feedbackSo": "Daacadnimo ayay muujinaysaa, sidoo kalena horumar."
+          },
+          {
+            "text": "I have no weaknesses.",
+            "score": 0,
+            "feedback": "Not credible.",
+            "next": "n3",
+            "textSo": "Wax daciifnimo ah ma lihi.",
+            "feedbackSo": "Lama rumaysan karo."
+          },
+          {
+            "text": "I'm a perfectionist.",
+            "score": 1,
+            "feedback": "A common cliché; be more original.",
+            "next": "n3",
+            "textSo": "Wax walba si qumman ayaan u rabaa.",
+            "feedbackSo": "Waa hadal caadi noqday; tusaale ka gaar ah keen."
+          }
+        ],
+        "saySo": "Ka warran meelaha aad ku liidato?"
+      },
+      "n3": {
+        "speaker": "Interviewer",
+        "say": "Where do you see yourself in five years?",
+        "choices": [
+          {
+            "text": "I'd like to lead a larger team and keep developing strategically.",
+            "score": 2,
+            "feedback": "Ambitious and relevant.",
+            "next": "end",
+            "textSo": "Waxaan jeclaan lahaa inaan hoggaamiyo koox ka weyn oo aan sii horumariyo xirfaddayda qorshaynta.",
+            "feedbackSo": "Hammi iyo shaqada oo xidhiidh la leh."
+          },
+          {
+            "text": "I don't plan that far.",
+            "score": 1,
+            "feedback": "Show some direction.",
+            "next": "end",
+            "textSo": "Intaas fog ma qorsheeyo.",
+            "feedbackSo": "Muuji jihada aad hiigsanayso."
+          },
+          {
+            "text": "In your job.",
+            "score": 0,
+            "feedback": "Inappropriate.",
+            "next": "end",
+            "textSo": "Jagadaada.",
+            "feedbackSo": "Jawaab aan ku habboonayn."
+          }
+        ],
+        "saySo": "Shan sano ka dib xaggee ayaad isku aragtaa?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Interviewer",
+        "say": "Thank you. It was a pleasure to meet you.",
+        "saySo": "Mahadsanid. Farxad bay ii ahayd inaan kula kulmo."
+      }
+    },
+    "titleSo": "Wareysi shaqo: awoodaha iyo meelaha la horumarinayo",
+    "contextSo": "Waxaad maraysaa wareegga labaad ee wareysi shaqo oo jago maamul ah."
+  },
+  {
+    "id": "c-social",
+    "title": "Meeting someone new at a party",
+    "level": "A2",
+    "context": "You meet a new person at a friend's party.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "New friend",
+        "say": "Hi, I'm Sara. I don't think we've met.",
+        "choices": [
+          {
+            "text": "Hi Sara, I'm Omar. Nice to meet you.",
+            "score": 2,
+            "feedback": "Friendly and complete.",
+            "next": "n2",
+            "textSo": "Salaan Saara, waxaan ahay Cumar. Waan ku faraxsanahay inaan kula kulmo.",
+            "feedbackSo": "Waa saaxiibtinimo, xog dhammaystiranna way siddaa."
+          },
+          {
+            "text": "Hello.",
+            "score": 1,
+            "feedback": "Add your name.",
+            "next": "n2",
+            "textSo": "Salaan.",
+            "feedbackSo": "Magacaaga ku dar."
+          },
+          {
+            "text": "Who are you?",
+            "score": 0,
+            "feedback": "Rude in this context.",
+            "next": "n2",
+            "textSo": "Kuma tahay?",
+            "feedbackSo": "Xaaladdan waa edeb-darro."
+          }
+        ],
+        "saySo": "Salaan, waxaan ahay Saara. Uma malaynayo inaan hore isu barannay."
+      },
+      "n2": {
+        "speaker": "New friend",
+        "say": "How do you know the host?",
+        "choices": [
+          {
+            "text": "We work together. How about you?",
+            "score": 2,
+            "feedback": "Answers and asks back.",
+            "next": "n3",
+            "textSo": "Waan wada shaqaynaa. Adiguna?",
+            "feedbackSo": "Wuu ka jawaabay su’aasha, dabadeedna dib ayuu u weydiiyey."
+          },
+          {
+            "text": "Work.",
+            "score": 0,
+            "feedback": "Use a full sentence.",
+            "next": "n3",
+            "textSo": "Shaqo.",
+            "feedbackSo": "Adeegso jumlad dhammaystiran."
+          },
+          {
+            "text": "I don't know him well.",
+            "score": 1,
+            "feedback": "Fine; continue the conversation.",
+            "next": "n3",
+            "textSo": "Si fiican uma aqaan.",
+            "feedbackSo": "Waa hagaag; sheekada sii wad."
+          }
+        ],
+        "saySo": "Martigeliyaha sidee ku taqaannaa?"
+      },
+      "n3": {
+        "speaker": "New friend",
+        "say": "What do you do in your free time?",
+        "choices": [
+          {
+            "text": "I enjoy football and cooking. What about you?",
+            "score": 2,
+            "feedback": "Shares and asks back.",
+            "next": "end",
+            "textSo": "Waxaan jeclahay kubbadda cagta iyo cunto-karinta. Adiguna?",
+            "feedbackSo": "Wuxuu wadaagay xiisihiisa, dabadeedna dib ayuu u weydiiyey."
+          },
+          {
+            "text": "Nothing.",
+            "score": 0,
+            "feedback": "Conversation stopper.",
+            "next": "end",
+            "textSo": "Waxba.",
+            "feedbackSo": "Waxay joojin kartaa sheekada."
+          },
+          {
+            "text": "Football.",
+            "score": 1,
+            "feedback": "Add more detail.",
+            "next": "end",
+            "textSo": "Kubbadda cagta.",
+            "feedbackSo": "Faahfaahin dheeraad ah ku dar."
+          }
+        ],
+        "saySo": "Waqtigaaga firaaqada ah maxaad qabataa?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "New friend",
+        "say": "It was great talking to you.",
+        "saySo": "Waan ku farxay inaan kula sheekaysto."
+      }
+    },
+    "titleSo": "La kulanka qof cusub xaflad",
+    "contextSo": "Waxaad xaflad saaxiibkaa leeyahay kula kulmaysaa qof aanad hore u aqoon."
+  },
+  {
+    "id": "c-bank",
+    "title": "Opening a bank account",
+    "level": "B1",
+    "context": "You visit a bank to open an account.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Bank clerk",
+        "say": "Welcome. How can I help you today?",
+        "choices": [
+          {
+            "text": "I'd like to open a current account, please.",
+            "score": 2,
+            "feedback": "Clear and polite.",
+            "next": "n2",
+            "textSo": "Waxaan jeclaan lahaa inaan furo akoon hadda la isticmaali karo, fadlan.",
+            "feedbackSo": "Waa codsi cad oo edeb leh."
+          },
+          {
+            "text": "I want account.",
+            "score": 0,
+            "feedback": "Incomplete.",
+            "next": "n2",
+            "textSo": "Waxaan rabaa akoon.",
+            "feedbackSo": "Jumladdu ma dhammaystirna."
+          },
+          {
+            "text": "Can you tell me about your accounts?",
+            "score": 2,
+            "feedback": "Good way to start.",
+            "next": "n2",
+            "textSo": "Ma iiga warrami kartaa akoonnada aad bixisaan?",
+            "feedbackSo": "Waa hab wanaagsan oo sheekada lagu bilaabo."
+          }
+        ],
+        "saySo": "Soo dhowow. Sideen maanta kuu caawin karaa?"
+      },
+      "n2": {
+        "speaker": "Bank clerk",
+        "say": "Do you have a form of identification?",
+        "choices": [
+          {
+            "text": "Yes, I have my passport and a proof of address.",
+            "score": 2,
+            "feedback": "Provides what is needed.",
+            "next": "n3",
+            "textSo": "Haa, waxaan haystaa baasaboorkayga iyo caddaynta cinwaanka.",
+            "feedbackSo": "Wuxuu bixinayaa dukumentiyada loo baahan yahay."
+          },
+          {
+            "text": "Maybe.",
+            "score": 0,
+            "feedback": "Be clear.",
+            "next": "n3",
+            "textSo": "Malaha.",
+            "feedbackSo": "Si cad u hadal."
+          },
+          {
+            "text": "Only my passport.",
+            "score": 1,
+            "feedback": "Honest; ask what else is needed.",
+            "next": "n3",
+            "textSo": "Baasaboor keliya ayaan haystaa.",
+            "feedbackSo": "Daacad noqo, dabadeed weydii waxa kale ee loo baahan yahay."
+          }
+        ],
+        "saySo": "Ma haysataa dukumenti aqoonsi?"
+      },
+      "n3": {
+        "speaker": "Bank clerk",
+        "say": "Would you like online banking as well?",
+        "choices": [
+          {
+            "text": "Yes, please. How do I set it up?",
+            "score": 2,
+            "feedback": "Positive with a follow-up.",
+            "next": "end",
+            "textSo": "Haa, fadlan. Sideen u hawlgeliyaa?",
+            "feedbackSo": "Waa jawaab wanaagsan oo su’aal daba socota leh."
+          },
+          {
+            "text": "No.",
+            "score": 1,
+            "feedback": "Fine; add \"thank you\".",
+            "next": "end",
+            "textSo": "Maya.",
+            "feedbackSo": "Waa hagaag; “mahadsanid” ku dar."
+          },
+          {
+            "text": "What is that?",
+            "score": 1,
+            "feedback": "Ask more politely.",
+            "next": "end",
+            "textSo": "Waa maxay adeeggaasi?",
+            "feedbackSo": "Si edeb badan u weydii."
+          }
+        ],
+        "saySo": "Ma jeclaan lahayd sidoo kale adeegga bangiga internetka?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Bank clerk",
+        "say": "Your account will be ready in a few minutes.",
+        "saySo": "Akoonkaagu wuxuu diyaar noqon doonaa dhowr daqiiqo gudahood."
+      }
+    },
+    "titleSo": "Furashada akoon bangi",
+    "contextSo": "Waxaad booqatay bangi si aad akoon uga furato."
+  },
+  {
+    "id": "c-presentation",
+    "title": "Questions after a presentation",
+    "level": "C1",
+    "context": "You have just finished a business presentation and the audience asks questions.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Audience member",
+        "say": "Thank you. Could you explain how you calculated those figures?",
+        "choices": [
+          {
+            "text": "Certainly. We based them on last year's sales, adjusted for expected growth.",
+            "score": 2,
+            "feedback": "Clear and professional.",
+            "next": "n2",
+            "textSo": "Dabcan. Waxaan ku salaynay iibkii sannadkii hore, annagoo ku hagaajinay koboca la filayo.",
+            "feedbackSo": "Waa jawaab cad oo xirfad leh."
+          },
+          {
+            "text": "It's in the slides.",
+            "score": 0,
+            "feedback": "Dismissive.",
+            "next": "n2",
+            "textSo": "Bogagga bandhigga ayay ku qoran tahay.",
+            "feedbackSo": "Waa jawaab iska fogayn ah."
+          },
+          {
+            "text": "Good question. I can walk you through the method.",
+            "score": 2,
+            "feedback": "Welcoming.",
+            "next": "n2",
+            "textSo": "Su’aal fiican. Habka aan u xisaabinnay ayaan kuu sharxi karaa.",
+            "feedbackSo": "Waa jawaab soo dhowayn leh."
+          }
+        ],
+        "saySo": "Mahadsanid. Ma sharxi kartaa sida aad tirooyinkaas u xisaabisay?"
+      },
+      "n2": {
+        "speaker": "Audience member",
+        "say": "What if the market declines?",
+        "choices": [
+          {
+            "text": "That's a fair concern. We've prepared a conservative scenario as well.",
+            "score": 2,
+            "feedback": "Acknowledges and answers.",
+            "next": "n3",
+            "textSo": "Waa walaac macquul ah. Waxaan sidoo kale diyaarinay saadaal taxaddar leh.",
+            "feedbackSo": "Wuxuu aqoonsaday walaaca, dabadeedna wuu ka jawaabay."
+          },
+          {
+            "text": "It won't.",
+            "score": 0,
+            "feedback": "Overconfident.",
+            "next": "n3",
+            "textSo": "Ma dhici doonto.",
+            "feedbackSo": "Kalsooni xad-dhaaf ah ayay muujinaysaa."
+          },
+          {
+            "text": "I'm not sure, I'll check and follow up.",
+            "score": 1,
+            "feedback": "Honest; offer a time frame.",
+            "next": "n3",
+            "textSo": "Ma hubo; waan hubin doonaa oo dib ayaan kuugu soo noqon doonaa.",
+            "feedbackSo": "Daacadnimo; waqti cayiman ku dar."
+          }
+        ],
+        "saySo": "Ka warran haddii suuqu hoos u dhaco?"
+      },
+      "n3": {
+        "speaker": "Audience member",
+        "say": "Thank you. That was very helpful.",
+        "choices": [
+          {
+            "text": "Thank you for your questions. Please feel free to email me.",
+            "score": 2,
+            "feedback": "Professional close.",
+            "next": "end",
+            "textSo": "Waad ku mahadsan tihiin su’aalihiinna. Haddii aad wax kale qabtaan, iimayl iigu soo diri kartaan.",
+            "feedbackSo": "Waa gunaanad xirfad leh."
+          },
+          {
+            "text": "OK.",
+            "score": 0,
+            "feedback": "Too abrupt.",
+            "next": "end",
+            "textSo": "Hagaag.",
+            "feedbackSo": "Aad bay u gaaban tahay oo qallafsan."
+          },
+          {
+            "text": "Thanks, goodbye.",
+            "score": 1,
+            "feedback": "Add an invitation to follow up.",
+            "next": "end",
+            "textSo": "Mahadsanid, nabadgelyo.",
+            "feedbackSo": "Ku dar martiqaad ay kula soo xidhiidhi karaan."
+          }
+        ],
+        "saySo": "Mahadsanid. Taasi aad bay waxtar u lahayd."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Audience member",
+        "say": "We will be in touch.",
+        "saySo": "Waan kula soo xidhiidhi doonnaa."
+      }
+    },
+    "titleSo": "Su’aalaha ka dambeeya bandhig",
+    "contextSo": "Waxaad dhamaysay bandhig ganacsi, dhagaystayaashuna su’aalo ayay ku weydiinayaan."
+  },
+  {
+    "id": "c-doctor",
+    "title": "At the doctor's",
+    "level": "A2",
+    "context": "You are visiting a doctor because you feel unwell.",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "start": "n1",
+    "nodes": {
+      "n1": {
+        "speaker": "Doctor",
+        "say": "Hello. What seems to be the problem?",
+        "choices": [
+          {
+            "text": "I've had a sore throat and a headache since Monday.",
+            "score": 2,
+            "feedback": "Describes symptoms and time.",
+            "next": "n2",
+            "textSo": "Isniintii ilaa hadda cunaha ayaa i xanuunaya, madaxana wuu i xanuunayaa.",
+            "feedbackSo": "Wuxuu sharxayaa calaamadaha iyo muddada."
+          },
+          {
+            "text": "I am bad.",
+            "score": 0,
+            "feedback": "Too vague.",
+            "next": "n2",
+            "textSo": "Waan xunahay.",
+            "feedbackSo": "Macne cad ma laha."
+          },
+          {
+            "text": "I don't feel well.",
+            "score": 1,
+            "feedback": "Add symptoms.",
+            "next": "n2",
+            "textSo": "Caafimaad ma qabo.",
+            "feedbackSo": "Calaamadaha ku dar."
+          }
+        ],
+        "saySo": "Salaan. Dhibaatadu maxay tahay?"
+      },
+      "n2": {
+        "speaker": "Doctor",
+        "say": "Do you have a temperature?",
+        "choices": [
+          {
+            "text": "Yes, it was thirty-eight degrees this morning.",
+            "score": 2,
+            "feedback": "Specific.",
+            "next": "n3",
+            "textSo": "Haa, saaka heerkulkaygu wuxuu ahaa siddeed iyo soddon darajo.",
+            "feedbackSo": "Waa jawaab faahfaahsan."
+          },
+          {
+            "text": "Don't know.",
+            "score": 0,
+            "feedback": "Say \"I am not sure; I did not check.\"",
+            "next": "n3",
+            "textSo": "Ma garanayo.",
+            "feedbackSo": "Dheh: “Ma hubo; ma aanan cabbirin.”"
+          },
+          {
+            "text": "I think so.",
+            "score": 1,
+            "feedback": "Give details if you can.",
+            "next": "n3",
+            "textSo": "Waxaan filayaa.",
+            "feedbackSo": "Haddii aad karto, faahfaahin bixi."
+          }
+        ],
+        "saySo": "Qandho ma leedahay?"
+      },
+      "n3": {
+        "speaker": "Doctor",
+        "say": "I will give you a prescription. Take one tablet twice a day.",
+        "choices": [
+          {
+            "text": "Thank you. Should I take it with food?",
+            "score": 2,
+            "feedback": "Good follow-up.",
+            "next": "end",
+            "textSo": "Mahadsanid. Cuntada ma la qaataa?",
+            "feedbackSo": "Waa su’aal daba socota oo wanaagsan."
+          },
+          {
+            "text": "Okay.",
+            "score": 1,
+            "feedback": "Ask if unsure.",
+            "next": "end",
+            "textSo": "Hagaag.",
+            "feedbackSo": "Haddii aanad hubin, weydii."
+          },
+          {
+            "text": "What?",
+            "score": 0,
+            "feedback": "Say \"Sorry, could you repeat that?\"",
+            "next": "end",
+            "textSo": "Waa maxay?",
+            "feedbackSo": "Dheh: “Waan ka xumahay, ma ku celin kartaa?”"
+          }
+        ],
+        "saySo": "Waxaan kuu qorayaa warqad daawo. Qaado hal kiniin laba jeer maalintii."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Doctor",
+        "say": "Rest well and drink plenty of water.",
+        "saySo": "Si fiican u naso, biyo badanna cab."
+      }
+    },
+    "titleSo": "Booqashada dhakhtarka",
+    "contextSo": "Waxaad booqanaysaa dhakhtar sababtoo ah caafimaad ma dareemaysid."
+  }
+]

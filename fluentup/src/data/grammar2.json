@@ -1,708 +1,963 @@
 [
-{
-"id": "g-plurals",
-"title": "Regular and irregular plurals",
-"level": "A1",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Magacyada badankood waxay qaataan -s (cats). Qaar waa lawadaa: man→men, child→children.",
-"explanation": "Add -s to most nouns. Add -es after s, sh, ch, x (box → boxes). Some plurals are irregular: man → men, child → children, foot → feet.",
-"examples": [
-"Two cats are on the sofa.",
-"The children are happy.",
-"I have two boxes."
-],
-"mistakes": [
-"Say 'children', not 'childs'.",
-"Say 'men', not 'mans'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "One child, two ___.",
-"options": [
-"childs",
-"children",
-"childes"
-],
-"answer": 1,
-"explain": "Child has an irregular plural."
-},
-{
-"type": "fill",
-"prompt": "One box, two ___.",
-"answer": "boxes",
-"explain": "Add -es after x."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: I have three childs.",
-"answer": "I have three children.",
-"explain": "Child → children."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"two",
-"have",
-"I",
-"brothers"
-],
-"answer": [
-"I",
-"have",
-"two",
-"brothers"
-],
-"explain": "Subject, verb, object."
-}
-]
-},
-{
-"id": "g-past-simple",
-"title": "Past simple: regular and irregular verbs",
-"level": "A2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Waqtigii hore: erayada joogtada ah waxay qaataan -ed (worked). Qaar waa lawadaa: go→went.",
-"explanation": "Use the past simple for finished actions. Regular verbs add -ed (work → worked). Irregular verbs change: go → went, see → saw. Questions and negatives use did + base verb.",
-"examples": [
-"I worked yesterday.",
-"She went to school.",
-"Did you see him?"
-],
-"mistakes": [
-"Say 'I didn't go', not 'I didn't went'.",
-"Say 'went', not 'goed'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "Yesterday I ___ a film.",
-"options": [
-"see",
-"saw",
-"seen"
-],
-"answer": 1,
-"explain": "See → saw."
-},
-{
-"type": "fill",
-"prompt": "She ___ (go) home early.",
-"answer": "went",
-"explain": "Irregular: go → went."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: He didn't went to work.",
-"answer": "He didn't go to work.",
-"explain": "After didn't use the base verb.",
-"accept": [
-"He did not go to work."
-]
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"did",
-"you",
-"Where",
-"go"
-],
-"answer": [
-"Where",
-"did",
-"you",
-"go"
-],
-"explain": "Question word + did + subject + base verb."
-}
-]
-},
-{
-"id": "g-comparatives",
-"title": "Comparatives and superlatives",
-"level": "A2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Is barbar: taller than. Ugu sarreeya: the tallest.",
-"explanation": "Short adjectives add -er / -est (tall → taller → tallest). Long adjectives use more / most (expensive → more expensive → most expensive). Use 'than' after a comparative.",
-"examples": [
-"My brother is taller than me.",
-"This is the most interesting book.",
-"Today is hotter than yesterday."
-],
-"mistakes": [
-"Don't say 'more taller'.",
-"Use 'than', not 'then'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "This bag is ___ than that one.",
-"options": [
-"heavier",
-"more heavy",
-"heavyer"
-],
-"answer": 0,
-"explain": "Heavy → heavier."
-},
-{
-"type": "fill",
-"prompt": "She is the ___ (good) student in class.",
-"answer": "best",
-"explain": "Irregular: good → better → best."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: He is more taller than me.",
-"answer": "He is taller than me.",
-"explain": "Don't use more with -er."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"is",
-"than",
-"faster",
-"a car",
-"a bike"
-],
-"answer": [
-"a car",
-"is",
-"faster",
-"than",
-"a bike"
-],
-"explain": "A is faster than B."
-}
-]
-},
-{
-"id": "g-first-conditional",
-"title": "First conditional",
-"level": "B1",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Haddii (if) + hadda → mustaqbalka: If it rains, I will stay home.",
-"explanation": "Use if + present simple for a real possibility, and will + base verb for the result: If it rains, I will stay at home.",
-"examples": [
-"If you study, you will pass.",
-"If she calls, I will tell her.",
-"We will be late if we don't hurry."
-],
-"mistakes": [
-"Don't use 'will' after if: say 'If it rains', not 'If it will rain'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "If I ___ time, I will call you.",
-"options": [
-"will have",
-"have",
-"would have"
-],
-"answer": 1,
-"explain": "Present simple after if."
-},
-{
-"type": "fill",
-"prompt": "If it rains, we ___ (stay) inside.",
-"answer": "will stay",
-"explain": "will + base verb.",
-"accept": [
-"'ll stay"
-]
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: If you will come, I will help.",
-"answer": "If you come, I will help.",
-"explain": "No will after if."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"will",
-"If",
-"I",
-"tired",
-"I",
-"sleep",
-"am"
-],
-"answer": [
-"If",
-"I",
-"am",
-"tired",
-"I",
-"will",
-"sleep"
-],
-"explain": "If + present, will + base."
-}
-]
-},
-{
-"id": "g-passive-present",
-"title": "Present passive",
-"level": "B1",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Falka la sameeyo: English is spoken here. (is/are + past participle)",
-"explanation": "Form the passive with be + past participle. Use it when the action matters more than who does it: English is spoken here.",
-"examples": [
-"Rice is grown in many countries.",
-"The shop is closed on Sundays.",
-"These cars are made in Japan."
-],
-"mistakes": [
-"Use the past participle: 'is made', not 'is make'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "Coffee ___ in Ethiopia.",
-"options": [
-"grows",
-"is grown",
-"is grow"
-],
-"answer": 1,
-"explain": "be + past participle."
-},
-{
-"type": "fill",
-"prompt": "These books ___ (write) by a famous author.",
-"answer": "are written",
-"explain": "Plural subject: are + past participle."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: The letter is write every day.",
-"answer": "The letter is written every day.",
-"explain": "Use the past participle."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"is",
-"English",
-"here",
-"spoken"
-],
-"answer": [
-"English",
-"is",
-"spoken",
-"here"
-],
-"explain": "Subject + is + past participle."
-}
-]
-},
-{
-"id": "g-second-third-conditional",
-"title": "Second and third conditional",
-"level": "B2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Second: If I had money, I would travel (ma jirto). Third: If I had studied, I would have passed (waa dhacay).",
-"explanation": "Second conditional: if + past simple, would + base verb (unreal present or future). Third conditional: if + past perfect, would have + past participle (unreal past).",
-"examples": [
-"If I were rich, I would travel.",
-"If she had left earlier, she would have caught the train."
-],
-"mistakes": [
-"Don't use 'would' in the if-clause.",
-"Use 'were' for all persons in formal second conditionals."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "If I ___ you, I would apologise.",
-"options": [
-"am",
-"were",
-"will be"
-],
-"answer": 1,
-"explain": "Unreal present: if + were."
-},
-{
-"type": "fill",
-"prompt": "If he had studied, he ___ passed.",
-"answer": "would have",
-"explain": "Third conditional result."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: If I would have known, I would have helped.",
-"answer": "If I had known, I would have helped.",
-"explain": "Past perfect in the if-clause."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"would",
-"If",
-"I",
-"I",
-"had",
-"money",
-"travel"
-],
-"answer": [
-"If",
-"I",
-"had",
-"money",
-"I",
-"would",
-"travel"
-],
-"explain": "If + past simple, would + base."
-}
-]
-},
-{
-"id": "g-reported-speech",
-"title": "Reported speech",
-"level": "B2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Hadalka la soo guuriyo: 'I am tired' → She said she was tired (waqtiga dib baa loo celiyaa).",
-"explanation": "When reporting, verbs usually shift back one tense: am → was, will → would, present perfect → past perfect. Pronouns and time words change too.",
-"examples": [
-"'I am busy,' he said → He said he was busy.",
-"'I will call,' she said → She said she would call."
-],
-"mistakes": [
-"Don't keep the original tense: 'He said he was tired', not 'He said he is tired' (in most cases)."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "'I will help you,' she said. → She said she ___ help me.",
-"options": [
-"will",
-"would",
-"did"
-],
-"answer": 1,
-"explain": "will → would."
-},
-{
-"type": "fill",
-"prompt": "'I am tired,' he said. → He said he ___ tired.",
-"answer": "was",
-"explain": "am → was."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: She said she will come tomorrow.",
-"answer": "She said she would come the next day.",
-"explain": "Backshift the tense.",
-"accept": [
-"She said she would come tomorrow."
-]
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"said",
-"he",
-"was",
-"he",
-"busy"
-],
-"answer": [
-"he",
-"said",
-"he",
-"was",
-"busy"
-],
-"explain": "Reporting verb + clause."
-}
-]
-},
-{
-"id": "g-inversion",
-"title": "Inversion after negative adverbials",
-"level": "C1",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Marka xaaladaha diidmo hore loo dhigo, fal-gaarigu wuu horreeyaa: Never have I seen...",
-"explanation": "After negative or restrictive adverbials (never, rarely, not only, hardly) at the start of a sentence, use question word order: Never have I seen such a view.",
-"examples": [
-"Rarely do we eat out.",
-"Not only did she win, but she also broke the record.",
-"Hardly had he arrived when it began to rain."
-],
-"mistakes": [
-"Don't keep normal order: 'Never I have seen', say 'Never have I seen'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "Rarely ___ late.",
-"options": [
-"he is",
-"is he",
-"does he be"
-],
-"answer": 1,
-"explain": "Invert: is he."
-},
-{
-"type": "fill",
-"prompt": "Not only ___ she sing, but she also dances. (does/did)",
-"answer": "does",
-"explain": "Use do/does/did when there is no auxiliary."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: Never I have seen such a mess.",
-"answer": "Never have I seen such a mess.",
-"explain": "Auxiliary before subject."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"had",
-"Hardly",
-"he",
-"sat",
-"down",
-"when",
-"it",
-"rang"
-],
-"answer": [
-"Hardly",
-"had",
-"he",
-"sat",
-"down",
-"when",
-"it",
-"rang"
-],
-"explain": "Hardly + had + subject + past participle."
-}
-]
-},
-{
-"id": "g-wish-regret",
-"title": "Wish and if only",
-"level": "C1",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Wish waxaa loo isticmaalaa quusasho: I wish I had more time. I wish I had studied.",
-"explanation": "Use wish + past simple for present regrets (I wish I had a car). Use wish + past perfect for past regrets (I wish I had studied). Use wish + would for annoying habits.",
-"examples": [
-"I wish I knew the answer.",
-"She wishes she had called him.",
-"I wish you would stop talking."
-],
-"mistakes": [
-"Don't use present tense after wish: 'I wish I knew', not 'I wish I know'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "I wish I ___ more free time now.",
-"options": [
-"have",
-"had",
-"would have"
-],
-"answer": 1,
-"explain": "Present regret: past simple."
-},
-{
-"type": "fill",
-"prompt": "She wishes she ___ studied harder. (past perfect)",
-"answer": "had",
-"explain": "wish + past perfect for past regret."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: I wish I have a bigger house.",
-"answer": "I wish I had a bigger house.",
-"explain": "Past simple after wish."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"wish",
-"I",
-"knew",
-"I",
-"the",
-"answer"
-],
-"answer": [
-"I",
-"wish",
-"I",
-"knew",
-"the",
-"answer"
-],
-"explain": "I wish + past simple."
-}
-]
-},
-{
-"id": "g-subjunctive",
-"title": "The mandative subjunctive",
-"level": "C2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Ka dib falalka sida suggest/insist, isticmaal foomka aasaasiga ah: I suggest that he be early.",
-"explanation": "After verbs like suggest, insist, demand, recommend (and adjectives like essential), the clause may use the base form of the verb: It is essential that she be present.",
-"examples": [
-"I insist that he apologise.",
-"The board recommended that the policy be revised.",
-"It is vital that every student attend."
-],
-"mistakes": [
-"The base form has no -s: 'that he attend', not 'that he attends' (formal)."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "They demanded that he ___ immediately.",
-"options": [
-"leaves",
-"leave",
-"left"
-],
-"answer": 1,
-"explain": "Base form after demand."
-},
-{
-"type": "fill",
-"prompt": "It is essential that she ___ on time. (be)",
-"answer": "be",
-"explain": "Base form of be."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: I suggest that he goes now.",
-"answer": "I suggest that he go now.",
-"explain": "Formal base form.",
-"accept": [
-"I suggest he go now."
-]
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"that",
-"I",
-"insist",
-"he",
-"apologise"
-],
-"answer": [
-"I",
-"insist",
-"that",
-"he",
-"apologise"
-],
-"explain": "insist + that + base form."
-}
-]
-},
-{
-"id": "g-cleft",
-"title": "Cleft sentences for emphasis",
-"level": "C2",
-"track": "grammar",
-"status": "unverified",
-"source": "original, authored for FluentUp",
-"somali": "Weedh ku xooga leh: It was John who broke the window.",
-"explanation": "Cleft sentences put emphasis on one part. It-cleft: It was Maria who called. Wh-cleft: What I need is a rest.",
-"examples": [
-"It was the noise that woke me up.",
-"What annoys me is the delay.",
-"It is honesty that matters most."
-],
-"mistakes": [
-"Keep the relative word: 'It was John who...', not 'It was John he...'."
-],
-"exercises": [
-{
-"type": "mcq",
-"prompt": "It was Sara ___ won the prize.",
-"options": [
-"which",
-"who",
-"what"
-],
-"answer": 1,
-"explain": "Use who for people."
-},
-{
-"type": "fill",
-"prompt": "___ I need is a holiday.",
-"answer": "What",
-"explain": "Wh-cleft with what."
-},
-{
-"type": "correct",
-"prompt": "Correct the sentence: It was the delay what annoyed me.",
-"answer": "It was the delay that annoyed me.",
-"explain": "Use that for things."
-},
-{
-"type": "order",
-"prompt": "Order the words.",
-"words": [
-"was",
-"It",
-"who",
-"Ali",
-"called"
-],
-"answer": [
-"It",
-"was",
-"Ali",
-"who",
-"called"
-],
-"explain": "It was + focus + who/that."
-}
-]
-}
+  {
+    "id": "g-plurals",
+    "title": "Regular and irregular plurals",
+    "level": "A1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Magacyada badankood waxay qaataan -s (cats). Qaar waa lawadaa: man→men, child→children.",
+    "explanation": "Add -s to most nouns. Add -es after s, sh, ch, x (box → boxes). Some plurals are irregular: man → men, child → children, foot → feet.",
+    "examples": [
+      "Two cats are on the sofa.",
+      "The children are happy.",
+      "I have two boxes."
+    ],
+    "mistakes": [
+      "Say 'children', not 'childs'.",
+      "Say 'men', not 'mans'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "One child, two ___.",
+        "options": [
+          "childs",
+          "children",
+          "childes"
+        ],
+        "answer": 1,
+        "explain": "Child has an irregular plural.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Magacyada Ingiriisiga badankood jamacooda waxaa lagu sameeyaa in “-s” lagu daro. Haddii magacu ku dhammaado s, sh, ch ama x, badanaa “-es” ayaa lagu daraa. Magacyo qaarkood qaabkoodu si gaar ah ayuu isu beddelaa: man → men, child → children, foot → feet.",
+        "optionsSo": [
+          "qaab jamac oo khaldan",
+          "carruur (jamaca child)",
+          "qaab jamac oo khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "One box, two ___.",
+        "answer": "boxes",
+        "explain": "Add -es after x.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Magacyada Ingiriisiga badankood jamacooda waxaa lagu sameeyaa in “-s” lagu daro. Haddii magacu ku dhammaado s, sh, ch ama x, badanaa “-es” ayaa lagu daraa. Magacyo qaarkood qaabkoodu si gaar ah ayuu isu beddelaa: man → men, child → children, foot → feet."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I have three childs.",
+        "answer": "I have three children.",
+        "explain": "Child → children.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I have three childs.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Magacyada Ingiriisiga badankood jamacooda waxaa lagu sameeyaa in “-s” lagu daro. Haddii magacu ku dhammaado s, sh, ch ama x, badanaa “-es” ayaa lagu daraa. Magacyo qaarkood qaabkoodu si gaar ah ayuu isu beddelaa: man → men, child → children, foot → feet."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "two",
+          "have",
+          "I",
+          "brothers"
+        ],
+        "answer": [
+          "I",
+          "have",
+          "two",
+          "brothers"
+        ],
+        "explain": "Subject, verb, object.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Magacyada Ingiriisiga badankood jamacooda waxaa lagu sameeyaa in “-s” lagu daro. Haddii magacu ku dhammaado s, sh, ch ama x, badanaa “-es” ayaa lagu daraa. Magacyo qaarkood qaabkoodu si gaar ah ayuu isu beddelaa: man → men, child → children, foot → feet."
+      }
+    ],
+    "titleSo": "Magacyada jamaca: kuwa caadiga ah iyo kuwa aan caadiga ahayn",
+    "explanationSo": "Magacyada Ingiriisiga badankood jamacooda waxaa lagu sameeyaa in “-s” lagu daro. Haddii magacu ku dhammaado s, sh, ch ama x, badanaa “-es” ayaa lagu daraa. Magacyo qaarkood qaabkoodu si gaar ah ayuu isu beddelaa: man → men, child → children, foot → feet.",
+    "examplesSo": [
+      "Two cats are on the sofa. = Laba bisadood ayaa fadhiga saaran.",
+      "The children are happy. = Carruurtu way faraxsan yihiin.",
+      "I have two boxes. = Waxaan haystaa laba sanduuq."
+    ],
+    "mistakesSo": [
+      "Isticmaal “children” marka aad ka hadlayso carruur badan; “childs” ma aha jamaca saxda ah.",
+      "Jamaca “man” waa “men”, mana aha “mans”."
+    ]
+  },
+  {
+    "id": "g-past-simple",
+    "title": "Past simple: regular and irregular verbs",
+    "level": "A2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Waqtigii hore: erayada joogtada ah waxay qaataan -ed (worked). Qaar waa lawadaa: go→went.",
+    "explanation": "Use the past simple for finished actions. Regular verbs add -ed (work → worked). Irregular verbs change: go → went, see → saw. Questions and negatives use did + base verb.",
+    "examples": [
+      "I worked yesterday.",
+      "She went to school.",
+      "Did you see him?"
+    ],
+    "mistakes": [
+      "Say 'I didn't go', not 'I didn't went'.",
+      "Say 'went', not 'goed'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Yesterday I ___ a film.",
+        "options": [
+          "see",
+          "saw",
+          "seen"
+        ],
+        "answer": 1,
+        "explain": "See → saw.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Past Simple waxaa lagu sheegaa ficil dhacay oo dhammaaday waqti hore. Falalka caadiga ah waxaa badanaa lagu daraa “-ed” (work → worked). Falalka aan caadiga ahayn qaabkoodu wuu is beddelaa (go → went, see → saw). Su’aalaha iyo diidmada waxaa la adeegsadaa “did” oo uu raaco falka asalka ahi.",
+        "optionsSo": [
+          "arag",
+          "wuu arkay",
+          "la arkay / arkay (past participle)"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (go) home early.",
+        "answer": "went",
+        "explain": "Irregular: go → went.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Past Simple waxaa lagu sheegaa ficil dhacay oo dhammaaday waqti hore. Falalka caadiga ah waxaa badanaa lagu daraa “-ed” (work → worked). Falalka aan caadiga ahayn qaabkoodu wuu is beddelaa (go → went, see → saw). Su’aalaha iyo diidmada waxaa la adeegsadaa “did” oo uu raaco falka asalka ahi."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He didn't went to work.",
+        "answer": "He didn't go to work.",
+        "explain": "After didn't use the base verb.",
+        "accept": [
+          "He did not go to work."
+        ],
+        "promptSo": "Sax jumladdan Ingiriisiga ah: He didn't went to work.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Past Simple waxaa lagu sheegaa ficil dhacay oo dhammaaday waqti hore. Falalka caadiga ah waxaa badanaa lagu daraa “-ed” (work → worked). Falalka aan caadiga ahayn qaabkoodu wuu is beddelaa (go → went, see → saw). Su’aalaha iyo diidmada waxaa la adeegsadaa “did” oo uu raaco falka asalka ahi."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "did",
+          "you",
+          "Where",
+          "go"
+        ],
+        "answer": [
+          "Where",
+          "did",
+          "you",
+          "go"
+        ],
+        "explain": "Question word + did + subject + base verb.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Past Simple waxaa lagu sheegaa ficil dhacay oo dhammaaday waqti hore. Falalka caadiga ah waxaa badanaa lagu daraa “-ed” (work → worked). Falalka aan caadiga ahayn qaabkoodu wuu is beddelaa (go → went, see → saw). Su’aalaha iyo diidmada waxaa la adeegsadaa “did” oo uu raaco falka asalka ahi."
+      }
+    ],
+    "titleSo": "Past Simple: falal caadi ah iyo kuwo aan caadi ahayn",
+    "explanationSo": "Past Simple waxaa lagu sheegaa ficil dhacay oo dhammaaday waqti hore. Falalka caadiga ah waxaa badanaa lagu daraa “-ed” (work → worked). Falalka aan caadiga ahayn qaabkoodu wuu is beddelaa (go → went, see → saw). Su’aalaha iyo diidmada waxaa la adeegsadaa “did” oo uu raaco falka asalka ahi.",
+    "examplesSo": [
+      "I worked yesterday. = Shalay ayaan shaqeeyey.",
+      "She went to school. = Waxay aaday dugsiga.",
+      "Did you see him? = Ma aragtay isaga?"
+    ],
+    "mistakesSo": [
+      "Marka “didn’t” la adeegsado, falka xiga wuxuu ku noqdaa qaabkiisa asalka ah: “I didn’t go”.",
+      "“Go” waa fal aan caadi ahayn; qaabkiisa hore waa “went”, mana aha “goed”."
+    ]
+  },
+  {
+    "id": "g-comparatives",
+    "title": "Comparatives and superlatives",
+    "level": "A2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Is barbar: taller than. Ugu sarreeya: the tallest.",
+    "explanation": "Short adjectives add -er / -est (tall → taller → tallest). Long adjectives use more / most (expensive → more expensive → most expensive). Use 'than' after a comparative.",
+    "examples": [
+      "My brother is taller than me.",
+      "This is the most interesting book.",
+      "Today is hotter than yesterday."
+    ],
+    "mistakes": [
+      "Don't say 'more taller'.",
+      "Use 'than', not 'then'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "This bag is ___ than that one.",
+        "options": [
+          "heavier",
+          "more heavy",
+          "heavyer"
+        ],
+        "answer": 0,
+        "explain": "Heavy → heavier.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Sifooyinka gaagaaban badanaa waxay qaataan “-er” marka laba shay la isbarbardhigayo iyo “-est” marka heerka ugu sarreeya la sheegayo (tall → taller → tallest). Sifooyinka dhaadheer waxaa la hor dhigaa “more” iyo “most”. Isbarbardhigga waxaa badanaa raaca “than” oo macnihiisu yahay “ka”.",
+        "optionsSo": [
+          "ka culus",
+          "qaab aan caadi ahayn; “heavier” ayaa sax ah",
+          "qaab higgaad khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She is the ___ (good) student in class.",
+        "answer": "best",
+        "explain": "Irregular: good → better → best.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Sifooyinka gaagaaban badanaa waxay qaataan “-er” marka laba shay la isbarbardhigayo iyo “-est” marka heerka ugu sarreeya la sheegayo (tall → taller → tallest). Sifooyinka dhaadheer waxaa la hor dhigaa “more” iyo “most”. Isbarbardhigga waxaa badanaa raaca “than” oo macnihiisu yahay “ka”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He is more taller than me.",
+        "answer": "He is taller than me.",
+        "explain": "Don't use more with -er.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: He is more taller than me.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Sifooyinka gaagaaban badanaa waxay qaataan “-er” marka laba shay la isbarbardhigayo iyo “-est” marka heerka ugu sarreeya la sheegayo (tall → taller → tallest). Sifooyinka dhaadheer waxaa la hor dhigaa “more” iyo “most”. Isbarbardhigga waxaa badanaa raaca “than” oo macnihiisu yahay “ka”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "is",
+          "than",
+          "faster",
+          "a car",
+          "a bike"
+        ],
+        "answer": [
+          "a car",
+          "is",
+          "faster",
+          "than",
+          "a bike"
+        ],
+        "explain": "A is faster than B.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Sifooyinka gaagaaban badanaa waxay qaataan “-er” marka laba shay la isbarbardhigayo iyo “-est” marka heerka ugu sarreeya la sheegayo (tall → taller → tallest). Sifooyinka dhaadheer waxaa la hor dhigaa “more” iyo “most”. Isbarbardhigga waxaa badanaa raaca “than” oo macnihiisu yahay “ka”."
+      }
+    ],
+    "titleSo": "Isbarbardhigga iyo heerka ugu sarreeya",
+    "explanationSo": "Sifooyinka gaagaaban badanaa waxay qaataan “-er” marka laba shay la isbarbardhigayo iyo “-est” marka heerka ugu sarreeya la sheegayo (tall → taller → tallest). Sifooyinka dhaadheer waxaa la hor dhigaa “more” iyo “most”. Isbarbardhigga waxaa badanaa raaca “than” oo macnihiisu yahay “ka”.",
+    "examplesSo": [
+      "My brother is taller than me. = Walaalkay wuu iga dheer yahay.",
+      "This is the most interesting book. = Kani waa buugga ugu xiisaha badan.",
+      "Today is hotter than yesterday. = Maanta way ka kulul tahay shalay."
+    ],
+    "mistakesSo": [
+      "Ha isku darin “more” iyo dhammaadka “-er”; dheh “taller”.",
+      "Isbarbardhigga ku isticmaal “than” (ka), hana ku khaldin “then” (markaas)."
+    ]
+  },
+  {
+    "id": "g-first-conditional",
+    "title": "First conditional",
+    "level": "B1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Haddii (if) + hadda → mustaqbalka: If it rains, I will stay home.",
+    "explanation": "Use if + present simple for a real possibility, and will + base verb for the result: If it rains, I will stay at home.",
+    "examples": [
+      "If you study, you will pass.",
+      "If she calls, I will tell her.",
+      "We will be late if we don't hurry."
+    ],
+    "mistakes": [
+      "Don't use 'will' after if: say 'If it rains', not 'If it will rain'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "If I ___ time, I will call you.",
+        "options": [
+          "will have",
+          "have",
+          "would have"
+        ],
+        "answer": 1,
+        "explain": "Present simple after if.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Qaabkan waxaa loo adeegsadaa xaalad mustaqbalka dhici karta. Qaybta shuruudda waxaa la adeegsadaa “if + Present Simple”, qaybta natiijadana “will + falka asalka ah”.",
+        "optionsSo": [
+          "wuu yeelan doonaa / kaaliye Perfect",
+          "kaaliye Present Perfect oo I/you/we/they raaca",
+          "wuu samayn lahaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "If it rains, we ___ (stay) inside.",
+        "answer": "will stay",
+        "explain": "will + base verb.",
+        "accept": [
+          "'ll stay"
+        ],
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Qaabkan waxaa loo adeegsadaa xaalad mustaqbalka dhici karta. Qaybta shuruudda waxaa la adeegsadaa “if + Present Simple”, qaybta natiijadana “will + falka asalka ah”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: If you will come, I will help.",
+        "answer": "If you come, I will help.",
+        "explain": "No will after if.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: If you will come, I will help.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Qaabkan waxaa loo adeegsadaa xaalad mustaqbalka dhici karta. Qaybta shuruudda waxaa la adeegsadaa “if + Present Simple”, qaybta natiijadana “will + falka asalka ah”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "will",
+          "If",
+          "I",
+          "tired",
+          "I",
+          "sleep",
+          "am"
+        ],
+        "answer": [
+          "If",
+          "I",
+          "am",
+          "tired",
+          "I",
+          "will",
+          "sleep"
+        ],
+        "explain": "If + present, will + base.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Qaabkan waxaa loo adeegsadaa xaalad mustaqbalka dhici karta. Qaybta shuruudda waxaa la adeegsadaa “if + Present Simple”, qaybta natiijadana “will + falka asalka ah”."
+      }
+    ],
+    "titleSo": "First Conditional: shardi suurtagal ah",
+    "explanationSo": "Qaabkan waxaa loo adeegsadaa xaalad mustaqbalka dhici karta. Qaybta shuruudda waxaa la adeegsadaa “if + Present Simple”, qaybta natiijadana “will + falka asalka ah”.",
+    "examplesSo": [
+      "If you study, you will pass. = Haddii aad wax barato, waad gudbi doontaa.",
+      "If she calls, I will tell her. = Haddii ay soo wacdo, waan u sheegi doonaa.",
+      "We will be late if we do not hurry. = Waan daahi doonnaa haddii aynaan degdegin."
+    ],
+    "mistakesSo": [
+      "Qaybta ka dambaysa “if” ha gelin “will” markaad samaynayso First Conditional; dheh “If it rains”."
+    ]
+  },
+  {
+    "id": "g-passive-present",
+    "title": "Present passive",
+    "level": "B1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Falka la sameeyo: English is spoken here. (is/are + past participle)",
+    "explanation": "Form the passive with be + past participle. Use it when the action matters more than who does it: English is spoken here.",
+    "examples": [
+      "Rice is grown in many countries.",
+      "The shop is closed on Sundays.",
+      "These cars are made in Japan."
+    ],
+    "mistakes": [
+      "Use the past participle: 'is made', not 'is make'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Coffee ___ in Ethiopia.",
+        "options": [
+          "grows",
+          "is grown",
+          "is grow"
+        ],
+        "answer": 1,
+        "explain": "be + past participle.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Passive waxaa lagu dhisaa “be + past participle”. Waxaa la adeegsadaa marka ficilka ama waxa ficilku ku dhacay uu ka muhiimsan yahay qofka sameeyey. Tusaale ahaan, “English is spoken here” waxay xoogga saaraysaa luuqadda lagu hadlo, ee ma aha qofka ku hadlaya.",
+        "optionsSo": [
+          "wuu koraa",
+          "waa la beeraa",
+          "qaab khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "These books ___ (write) by a famous author.",
+        "answer": "are written",
+        "explain": "Plural subject: are + past participle.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Passive waxaa lagu dhisaa “be + past participle”. Waxaa la adeegsadaa marka ficilka ama waxa ficilku ku dhacay uu ka muhiimsan yahay qofka sameeyey. Tusaale ahaan, “English is spoken here” waxay xoogga saaraysaa luuqadda lagu hadlo, ee ma aha qofka ku hadlaya."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: The letter is write every day.",
+        "answer": "The letter is written every day.",
+        "explain": "Use the past participle.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: The letter is write every day.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Passive waxaa lagu dhisaa “be + past participle”. Waxaa la adeegsadaa marka ficilka ama waxa ficilku ku dhacay uu ka muhiimsan yahay qofka sameeyey. Tusaale ahaan, “English is spoken here” waxay xoogga saaraysaa luuqadda lagu hadlo, ee ma aha qofka ku hadlaya."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "is",
+          "English",
+          "here",
+          "spoken"
+        ],
+        "answer": [
+          "English",
+          "is",
+          "spoken",
+          "here"
+        ],
+        "explain": "Subject + is + past participle.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Passive waxaa lagu dhisaa “be + past participle”. Waxaa la adeegsadaa marka ficilka ama waxa ficilku ku dhacay uu ka muhiimsan yahay qofka sameeyey. Tusaale ahaan, “English is spoken here” waxay xoogga saaraysaa luuqadda lagu hadlo, ee ma aha qofka ku hadlaya."
+      }
+    ],
+    "titleSo": "Passive Voice-ka waqtiga hadda",
+    "explanationSo": "Passive waxaa lagu dhisaa “be + past participle”. Waxaa la adeegsadaa marka ficilka ama waxa ficilku ku dhacay uu ka muhiimsan yahay qofka sameeyey. Tusaale ahaan, “English is spoken here” waxay xoogga saaraysaa luuqadda lagu hadlo, ee ma aha qofka ku hadlaya.",
+    "examplesSo": [
+      "Rice is grown in many countries. = Bariis ayaa dalal badan laga beeraa.",
+      "The shop is closed on Sundays. = Dukaanku Axadaha wuu xidhan yahay.",
+      "These cars are made in Japan. = Baabuurtan waxaa lagu sameeyaa Jabaan."
+    ],
+    "mistakesSo": [
+      "Passive Voice wuxuu u baahan yahay past participle: “is made”, ee ma aha “is make”."
+    ]
+  },
+  {
+    "id": "g-second-third-conditional",
+    "title": "Second and third conditional",
+    "level": "B2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Second: If I had money, I would travel (ma jirto). Third: If I had studied, I would have passed (waa dhacay).",
+    "explanation": "Second conditional: if + past simple, would + base verb (unreal present or future). Third conditional: if + past perfect, would have + past participle (unreal past).",
+    "examples": [
+      "If I were rich, I would travel.",
+      "If she had left earlier, she would have caught the train."
+    ],
+    "mistakes": [
+      "Don't use 'would' in the if-clause.",
+      "Use 'were' for all persons in formal second conditionals."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "If I ___ you, I would apologise.",
+        "options": [
+          "am",
+          "were",
+          "will be"
+        ],
+        "answer": 1,
+        "explain": "Unreal present: if + were.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Second Conditional waxaa loo adeegsadaa xaalad mala-awaal ah oo hadda ama mustaqbalka ah: “if + Past Simple, would + falka asalka ah”. Third Conditional wuxuu ka hadlayaa wax aan hore u dhicin iyo natiijadii ka dhalan lahayd: “if + Past Perfect, would have + past participle”.",
+        "optionsSo": [
+          "waxaa la raaciyaa I",
+          "qaabka Past Simple ee to be; waxaa loo adeegsadaa shuruud mala-awaal ah",
+          "wuu ahaan doonaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "If he had studied, he ___ passed.",
+        "answer": "would have",
+        "explain": "Third conditional result.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Second Conditional waxaa loo adeegsadaa xaalad mala-awaal ah oo hadda ama mustaqbalka ah: “if + Past Simple, would + falka asalka ah”. Third Conditional wuxuu ka hadlayaa wax aan hore u dhicin iyo natiijadii ka dhalan lahayd: “if + Past Perfect, would have + past participle”."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: If I would have known, I would have helped.",
+        "answer": "If I had known, I would have helped.",
+        "explain": "Past perfect in the if-clause.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: If I would have known, I would have helped.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Second Conditional waxaa loo adeegsadaa xaalad mala-awaal ah oo hadda ama mustaqbalka ah: “if + Past Simple, would + falka asalka ah”. Third Conditional wuxuu ka hadlayaa wax aan hore u dhicin iyo natiijadii ka dhalan lahayd: “if + Past Perfect, would have + past participle”."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "would",
+          "If",
+          "I",
+          "I",
+          "had",
+          "money",
+          "travel"
+        ],
+        "answer": [
+          "If",
+          "I",
+          "had",
+          "money",
+          "I",
+          "would",
+          "travel"
+        ],
+        "explain": "If + past simple, would + base.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Second Conditional waxaa loo adeegsadaa xaalad mala-awaal ah oo hadda ama mustaqbalka ah: “if + Past Simple, would + falka asalka ah”. Third Conditional wuxuu ka hadlayaa wax aan hore u dhicin iyo natiijadii ka dhalan lahayd: “if + Past Perfect, would have + past participle”."
+      }
+    ],
+    "titleSo": "Second iyo Third Conditional",
+    "explanationSo": "Second Conditional waxaa loo adeegsadaa xaalad mala-awaal ah oo hadda ama mustaqbalka ah: “if + Past Simple, would + falka asalka ah”. Third Conditional wuxuu ka hadlayaa wax aan hore u dhicin iyo natiijadii ka dhalan lahayd: “if + Past Perfect, would have + past participle”.",
+    "examplesSo": [
+      "If I were rich, I would travel. = Haddii aan taajir ahaan lahaa, waan safri lahaa.",
+      "If she had left earlier, she would have caught the train. = Haddii ay hore u bixi lahayd, tareenka way qabsan lahayd."
+    ],
+    "mistakesSo": [
+      "Second iyo Third Conditional, “would” ha gelin qaybta “if”; ku isticmaal qaybta natiijada.",
+      "Second Conditional-ka rasmiga ah, “were” ayaa lala adeegsan karaa dhammaan dadka: “If I were…”."
+    ]
+  },
+  {
+    "id": "g-reported-speech",
+    "title": "Reported speech",
+    "level": "B2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Hadalka la soo guuriyo: 'I am tired' → She said she was tired (waqtiga dib baa loo celiyaa).",
+    "explanation": "When reporting, verbs usually shift back one tense: am → was, will → would, present perfect → past perfect. Pronouns and time words change too.",
+    "examples": [
+      "'I am busy,' he said → He said he was busy.",
+      "'I will call,' she said → She said she would call."
+    ],
+    "mistakes": [
+      "Don't keep the original tense: 'He said he was tired', not 'He said he is tired' (in most cases)."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "'I will help you,' she said. → She said she ___ help me.",
+        "options": [
+          "will",
+          "would",
+          "did"
+        ],
+        "answer": 1,
+        "explain": "will → would.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka hadal qof kale la soo tebiyo, falka badanaa hal heer ayuu dib ugu noqdaa: am → was, will → would, Present Perfect → Past Perfect. Magac-u-yaallada iyo erayada waqtiguna way is beddeli karaan iyadoo ku xidhan qofka iyo waqtiga laga hadlayo.",
+        "optionsSo": [
+          "mustaqbal ama ballan",
+          "xaalad mala-awaal ah ama hadal la soo tebiyey",
+          "qaabka hore ee “do”"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "'I am tired,' he said. → He said he ___ tired.",
+        "answer": "was",
+        "explain": "am → was.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka hadal qof kale la soo tebiyo, falka badanaa hal heer ayuu dib ugu noqdaa: am → was, will → would, Present Perfect → Past Perfect. Magac-u-yaallada iyo erayada waqtiguna way is beddeli karaan iyadoo ku xidhan qofka iyo waqtiga laga hadlayo."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: She said she will come tomorrow.",
+        "answer": "She said she would come the next day.",
+        "explain": "Backshift the tense.",
+        "accept": [
+          "She said she would come tomorrow."
+        ],
+        "promptSo": "Sax jumladdan Ingiriisiga ah: She said she will come tomorrow.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka hadal qof kale la soo tebiyo, falka badanaa hal heer ayuu dib ugu noqdaa: am → was, will → would, Present Perfect → Past Perfect. Magac-u-yaallada iyo erayada waqtiguna way is beddeli karaan iyadoo ku xidhan qofka iyo waqtiga laga hadlayo."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "said",
+          "he",
+          "was",
+          "he",
+          "busy"
+        ],
+        "answer": [
+          "he",
+          "said",
+          "he",
+          "was",
+          "busy"
+        ],
+        "explain": "Reporting verb + clause.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka hadal qof kale la soo tebiyo, falka badanaa hal heer ayuu dib ugu noqdaa: am → was, will → would, Present Perfect → Past Perfect. Magac-u-yaallada iyo erayada waqtiguna way is beddeli karaan iyadoo ku xidhan qofka iyo waqtiga laga hadlayo."
+      }
+    ],
+    "titleSo": "Reported Speech: hadal la soo tebiyey",
+    "explanationSo": "Marka hadal qof kale la soo tebiyo, falka badanaa hal heer ayuu dib ugu noqdaa: am → was, will → would, Present Perfect → Past Perfect. Magac-u-yaallada iyo erayada waqtiguna way is beddeli karaan iyadoo ku xidhan qofka iyo waqtiga laga hadlayo.",
+    "examplesSo": [
+      "“I am busy,” he said → He said he was busy. = Wuxuu yidhi inuu mashquul yahay.",
+      "“I will call,” she said → She said she would call. = Waxay tidhi inay soo wici doonto."
+    ],
+    "mistakesSo": [
+      "Hadalka la soo tebiyo badanaa waqtiga dib u celi: “He said he was tired”, halkii aad ka odhan lahayd “He said he is tired”."
+    ]
+  },
+  {
+    "id": "g-inversion",
+    "title": "Inversion after negative adverbials",
+    "level": "C1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Marka xaaladaha diidmo hore loo dhigo, fal-gaarigu wuu horreeyaa: Never have I seen...",
+    "explanation": "After negative or restrictive adverbials (never, rarely, not only, hardly) at the start of a sentence, use question word order: Never have I seen such a view.",
+    "examples": [
+      "Rarely do we eat out.",
+      "Not only did she win, but she also broke the record.",
+      "Hardly had he arrived when it began to rain."
+    ],
+    "mistakes": [
+      "Don't keep normal order: 'Never I have seen', say 'Never have I seen'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Rarely ___ late.",
+        "options": [
+          "he is",
+          "is he",
+          "does he be"
+        ],
+        "answer": 1,
+        "explain": "Invert: is he.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka erayo xaddidaya ama taban sida “never”, “rarely”, “not only” ama “hardly” lagu bilaabo weedh, waxaa la adeegsadaa kala-horrayn u eg su’aal: falka caawiyaha ahi wuxuu ka horreeyaa qofka ama shayga falka samaynaya. Qaabkani waa mid rasmi ah oo xoogga saaraya hadalka.",
+        "optionsSo": [
+          "isagu waa",
+          "ma isaga baa",
+          "qaab naxwe ahaan khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Not only ___ she sing, but she also dances. (does/did)",
+        "answer": "does",
+        "explain": "Use do/does/did when there is no auxiliary.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka erayo xaddidaya ama taban sida “never”, “rarely”, “not only” ama “hardly” lagu bilaabo weedh, waxaa la adeegsadaa kala-horrayn u eg su’aal: falka caawiyaha ahi wuxuu ka horreeyaa qofka ama shayga falka samaynaya. Qaabkani waa mid rasmi ah oo xoogga saaraya hadalka."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: Never I have seen such a mess.",
+        "answer": "Never have I seen such a mess.",
+        "explain": "Auxiliary before subject.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: Never I have seen such a mess.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka erayo xaddidaya ama taban sida “never”, “rarely”, “not only” ama “hardly” lagu bilaabo weedh, waxaa la adeegsadaa kala-horrayn u eg su’aal: falka caawiyaha ahi wuxuu ka horreeyaa qofka ama shayga falka samaynaya. Qaabkani waa mid rasmi ah oo xoogga saaraya hadalka."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "had",
+          "Hardly",
+          "he",
+          "sat",
+          "down",
+          "when",
+          "it",
+          "rang"
+        ],
+        "answer": [
+          "Hardly",
+          "had",
+          "he",
+          "sat",
+          "down",
+          "when",
+          "it",
+          "rang"
+        ],
+        "explain": "Hardly + had + subject + past participle.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Marka erayo xaddidaya ama taban sida “never”, “rarely”, “not only” ama “hardly” lagu bilaabo weedh, waxaa la adeegsadaa kala-horrayn u eg su’aal: falka caawiyaha ahi wuxuu ka horreeyaa qofka ama shayga falka samaynaya. Qaabkani waa mid rasmi ah oo xoogga saaraya hadalka."
+      }
+    ],
+    "titleSo": "Isbeddelka kala-horraynta falka marka weedh taban horreyso",
+    "explanationSo": "Marka erayo xaddidaya ama taban sida “never”, “rarely”, “not only” ama “hardly” lagu bilaabo weedh, waxaa la adeegsadaa kala-horrayn u eg su’aal: falka caawiyaha ahi wuxuu ka horreeyaa qofka ama shayga falka samaynaya. Qaabkani waa mid rasmi ah oo xoogga saaraya hadalka.",
+    "examplesSo": [
+      "Rarely do we eat out. = Marar dhif ah ayaan bannaanka wax ku cunnaa.",
+      "Not only did she win, but she also broke the record. = Keliya ma ay guulaysan, ee rikoodh ayay sidoo kale jebisay.",
+      "Hardly had he arrived when it began to rain. = Isla markii uu yimid ayay roobabku bilaabmeen."
+    ],
+    "mistakesSo": [
+      "Marka eray taban lagu bilaabo weedha, ha ilaalin kala-horraynta caadiga ah; kaaliye-falka ka hor mari subject-ka: “Never have I seen…”."
+    ]
+  },
+  {
+    "id": "g-wish-regret",
+    "title": "Wish and if only",
+    "level": "C1",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Wish waxaa loo isticmaalaa quusasho: I wish I had more time. I wish I had studied.",
+    "explanation": "Use wish + past simple for present regrets (I wish I had a car). Use wish + past perfect for past regrets (I wish I had studied). Use wish + would for annoying habits.",
+    "examples": [
+      "I wish I knew the answer.",
+      "She wishes she had called him.",
+      "I wish you would stop talking."
+    ],
+    "mistakes": [
+      "Don't use present tense after wish: 'I wish I knew', not 'I wish I know'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I wish I ___ more free time now.",
+        "options": [
+          "have",
+          "had",
+          "would have"
+        ],
+        "answer": 1,
+        "explain": "Present regret: past simple.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Wish + Past Simple” waxaa lagu muujiyaa rabitaan ku saabsan xaalad hadda jirta oo ka duwan xaqiiqada. “Wish + Past Perfect” waxaa lagu muujiyaa qoomamo ku saabsan wixii hore u dhacay. “Wish + would” waxaa loo adeegsadaa marka laga cabanayo caado ama ficil qof kale ku celceliyo.",
+        "optionsSo": [
+          "kaaliye Present Perfect oo I/you/we/they raaca",
+          "kaaliye Past Perfect",
+          "wuu samayn lahaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She wishes she ___ studied harder. (past perfect)",
+        "answer": "had",
+        "explain": "wish + past perfect for past regret.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Wish + Past Simple” waxaa lagu muujiyaa rabitaan ku saabsan xaalad hadda jirta oo ka duwan xaqiiqada. “Wish + Past Perfect” waxaa lagu muujiyaa qoomamo ku saabsan wixii hore u dhacay. “Wish + would” waxaa loo adeegsadaa marka laga cabanayo caado ama ficil qof kale ku celceliyo."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I wish I have a bigger house.",
+        "answer": "I wish I had a bigger house.",
+        "explain": "Past simple after wish.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I wish I have a bigger house.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Wish + Past Simple” waxaa lagu muujiyaa rabitaan ku saabsan xaalad hadda jirta oo ka duwan xaqiiqada. “Wish + Past Perfect” waxaa lagu muujiyaa qoomamo ku saabsan wixii hore u dhacay. “Wish + would” waxaa loo adeegsadaa marka laga cabanayo caado ama ficil qof kale ku celceliyo."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "wish",
+          "I",
+          "knew",
+          "I",
+          "the",
+          "answer"
+        ],
+        "answer": [
+          "I",
+          "wish",
+          "I",
+          "knew",
+          "the",
+          "answer"
+        ],
+        "explain": "I wish + past simple.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “Wish + Past Simple” waxaa lagu muujiyaa rabitaan ku saabsan xaalad hadda jirta oo ka duwan xaqiiqada. “Wish + Past Perfect” waxaa lagu muujiyaa qoomamo ku saabsan wixii hore u dhacay. “Wish + would” waxaa loo adeegsadaa marka laga cabanayo caado ama ficil qof kale ku celceliyo."
+      }
+    ],
+    "titleSo": "Wish iyo If only: rabitaan iyo qoomamo",
+    "explanationSo": "“Wish + Past Simple” waxaa lagu muujiyaa rabitaan ku saabsan xaalad hadda jirta oo ka duwan xaqiiqada. “Wish + Past Perfect” waxaa lagu muujiyaa qoomamo ku saabsan wixii hore u dhacay. “Wish + would” waxaa loo adeegsadaa marka laga cabanayo caado ama ficil qof kale ku celceliyo.",
+    "examplesSo": [
+      "I wish I knew the answer. = Waxaan jeclaan lahaa inaan jawaabta garan lahaa.",
+      "She wishes she had called him. = Waxay ka qoomamaynaysaa in aanay isaga soo wicin.",
+      "I wish you would stop talking. = Waxaan jeclaan lahaa inaad hadalka joojiso."
+    ],
+    "mistakesSo": [
+      "Marka “wish” lagu muujinayo rabitaan ka duwan xaaladda hadda jirta, isticmaal Past Simple: “I wish I knew”."
+    ]
+  },
+  {
+    "id": "g-subjunctive",
+    "title": "The mandative subjunctive",
+    "level": "C2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Ka dib falalka sida suggest/insist, isticmaal foomka aasaasiga ah: I suggest that he be early.",
+    "explanation": "After verbs like suggest, insist, demand, recommend (and adjectives like essential), the clause may use the base form of the verb: It is essential that she be present.",
+    "examples": [
+      "I insist that he apologise.",
+      "The board recommended that the policy be revised.",
+      "It is vital that every student attend."
+    ],
+    "mistakes": [
+      "The base form has no -s: 'that he attend', not 'that he attends' (formal)."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "They demanded that he ___ immediately.",
+        "options": [
+          "leaves",
+          "leave",
+          "left"
+        ],
+        "answer": 1,
+        "explain": "Base form after demand.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falal ay ka mid yihiin suggest, insist, demand iyo recommend, iyo sifooyin sida essential, waxaa ka dambeeya weedh uu falku ku yimaaddo qaabkiisa asalka ah. Qaabkan rasmiga ah “-s” laguma daro xitaa marka qofka laga hadlayaa yahay he ama she.",
+        "optionsSo": [
+          "wuu baxaa (he/she/it)",
+          "falka asalka ah ee saxda ah",
+          "baxay (Past Simple)"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "It is essential that she ___ on time. (be)",
+        "answer": "be",
+        "explain": "Base form of be.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falal ay ka mid yihiin suggest, insist, demand iyo recommend, iyo sifooyin sida essential, waxaa ka dambeeya weedh uu falku ku yimaaddo qaabkiisa asalka ah. Qaabkan rasmiga ah “-s” laguma daro xitaa marka qofka laga hadlayaa yahay he ama she."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I suggest that he goes now.",
+        "answer": "I suggest that he go now.",
+        "explain": "Formal base form.",
+        "accept": [
+          "I suggest he go now."
+        ],
+        "promptSo": "Sax jumladdan Ingiriisiga ah: I suggest that he goes now.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falal ay ka mid yihiin suggest, insist, demand iyo recommend, iyo sifooyin sida essential, waxaa ka dambeeya weedh uu falku ku yimaaddo qaabkiisa asalka ah. Qaabkan rasmiga ah “-s” laguma daro xitaa marka qofka laga hadlayaa yahay he ama she."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "that",
+          "I",
+          "insist",
+          "he",
+          "apologise"
+        ],
+        "answer": [
+          "I",
+          "insist",
+          "that",
+          "he",
+          "apologise"
+        ],
+        "explain": "insist + that + base form.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Falal ay ka mid yihiin suggest, insist, demand iyo recommend, iyo sifooyin sida essential, waxaa ka dambeeya weedh uu falku ku yimaaddo qaabkiisa asalka ah. Qaabkan rasmiga ah “-s” laguma daro xitaa marka qofka laga hadlayaa yahay he ama she."
+      }
+    ],
+    "titleSo": "Mandative Subjunctive: qaabka falka ee dalab ama talo rasmi ah",
+    "explanationSo": "Falal ay ka mid yihiin suggest, insist, demand iyo recommend, iyo sifooyin sida essential, waxaa ka dambeeya weedh uu falku ku yimaaddo qaabkiisa asalka ah. Qaabkan rasmiga ah “-s” laguma daro xitaa marka qofka laga hadlayaa yahay he ama she.",
+    "examplesSo": [
+      "I insist that he apologise. = Waxaan ku adkaysanayaa inuu raalli-gelin bixiyo.",
+      "The board recommended that the policy be revised. = Guddigu wuxuu ku taliyey in siyaasadda dib loo eego.",
+      "It is vital that every student attend. = Aad bay muhiim u tahay in arday kastaa yimaaddo."
+    ],
+    "mistakesSo": [
+      "Mandative Subjunctive-ka rasmiga ah, falka asalka ah isticmaal oo ha ku darin “-s”: “that he attend”."
+    ]
+  },
+  {
+    "id": "g-cleft",
+    "title": "Cleft sentences for emphasis",
+    "level": "C2",
+    "track": "grammar",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Weedh ku xooga leh: It was John who broke the window.",
+    "explanation": "Cleft sentences put emphasis on one part. It-cleft: It was Maria who called. Wh-cleft: What I need is a rest.",
+    "examples": [
+      "It was the noise that woke me up.",
+      "What annoys me is the delay.",
+      "It is honesty that matters most."
+    ],
+    "mistakes": [
+      "Keep the relative word: 'It was John who...', not 'It was John he...'."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "It was Sara ___ won the prize.",
+        "options": [
+          "which",
+          "who",
+          "what"
+        ],
+        "answer": 1,
+        "explain": "Use who for people.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Cleft sentence waa qaab weedh loo kala qaybiyo si qayb gaar ah loo xoojiyo. Qaabka “It-cleft” wuxuu adeegsadaa “It is/was … that/who”, halka “Wh-cleft” uu adeegsado “What … is …”. Waxaa loo isticmaalaa in la muujiyo waxa ugu muhiimsan ee hadalka.",
+        "optionsSo": [
+          "shayga",
+          "qofka",
+          "waxa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "___ I need is a holiday.",
+        "answer": "What",
+        "explain": "Wh-cleft with what.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Cleft sentence waa qaab weedh loo kala qaybiyo si qayb gaar ah loo xoojiyo. Qaabka “It-cleft” wuxuu adeegsadaa “It is/was … that/who”, halka “Wh-cleft” uu adeegsado “What … is …”. Waxaa loo isticmaalaa in la muujiyo waxa ugu muhiimsan ee hadalka."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: It was the delay what annoyed me.",
+        "answer": "It was the delay that annoyed me.",
+        "explain": "Use that for things.",
+        "promptSo": "Sax jumladdan Ingiriisiga ah: It was the delay what annoyed me.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Cleft sentence waa qaab weedh loo kala qaybiyo si qayb gaar ah loo xoojiyo. Qaabka “It-cleft” wuxuu adeegsadaa “It is/was … that/who”, halka “Wh-cleft” uu adeegsado “What … is …”. Waxaa loo isticmaalaa in la muujiyo waxa ugu muhiimsan ee hadalka."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "was",
+          "It",
+          "who",
+          "Ali",
+          "called"
+        ],
+        "answer": [
+          "It",
+          "was",
+          "Ali",
+          "who",
+          "called"
+        ],
+        "explain": "It was + focus + who/that.",
+        "promptSo": "U kala hormari erayadan si ay u sameeyaan jumlad Ingiriisi ah oo sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Cleft sentence waa qaab weedh loo kala qaybiyo si qayb gaar ah loo xoojiyo. Qaabka “It-cleft” wuxuu adeegsadaa “It is/was … that/who”, halka “Wh-cleft” uu adeegsado “What … is …”. Waxaa loo isticmaalaa in la muujiyo waxa ugu muhiimsan ee hadalka."
+      }
+    ],
+    "titleSo": "Cleft Sentences: weedho xoogga saaraya qayb gaar ah",
+    "explanationSo": "Cleft sentence waa qaab weedh loo kala qaybiyo si qayb gaar ah loo xoojiyo. Qaabka “It-cleft” wuxuu adeegsadaa “It is/was … that/who”, halka “Wh-cleft” uu adeegsado “What … is …”. Waxaa loo isticmaalaa in la muujiyo waxa ugu muhiimsan ee hadalka.",
+    "examplesSo": [
+      "It was the noise that woke me up. = Buuqa ayaa ahaa waxa i toosiyey.",
+      "What annoys me is the delay. = Waxa i dhibaya waa dib-u-dhaca.",
+      "It is honesty that matters most. = Daacadnimada ayaa ah waxa ugu muhiimsan."
+    ],
+    "mistakesSo": [
+      "Cleft sentence-ka ilaali relative word-ka ku habboon: “It was John who…”, ee ha odhan “It was John he…”."
+    ]
+  }
 ]

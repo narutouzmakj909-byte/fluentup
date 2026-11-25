@@ -1,1 +1,142 @@
-[{"id":"l-x5-food","title":"Ordering lunch","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Hello. Can I have rice and chicken, please?","Yes. Anything to drink?","Water, please.","That is five dollars.","Here you are. Thank you."],"questions":[{"type":"mcq","prompt":"What does the customer order to eat?","options":["Rice and chicken","Pasta","Soup"],"answer":0,"explain":"\"rice and chicken\"."},{"type":"mcq","prompt":"What does the customer drink?","options":["Tea","Water","Juice"],"answer":1,"explain":"The customer asks for water."},{"type":"fill","prompt":"How many dollars is it? (a number word)","answer":"five","explain":"That is five dollars."}]},{"id":"l-x5-friend","title":"Introducing a friend","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Mum, this is my friend Layla.","Hello, Layla. Nice to meet you.","Nice to meet you too.","Layla is in my class.","Please come in and sit down."],"questions":[{"type":"mcq","prompt":"Who is Layla?","options":["A teacher","A friend","A neighbour"],"answer":1,"explain":"She is the speaker's friend."},{"type":"mcq","prompt":"Where is Layla with the speaker?","options":["In the same class","In the same street","At the same shop"],"answer":0,"explain":"Layla is in my class."},{"type":"fill","prompt":"Mum says: \"Please come in and sit ...\". (one word)","answer":"down","explain":"sit down."}]}]
+[
+  {
+    "id": "l-x5-food",
+    "title": "Ordering lunch",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Hello. Can I have rice and chicken, please?",
+      "Yes. Anything to drink?",
+      "Water, please.",
+      "That is five dollars.",
+      "Here you are. Thank you."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What does the customer order to eat?",
+        "options": [
+          "Rice and chicken",
+          "Pasta",
+          "Soup"
+        ],
+        "answer": 0,
+        "explain": "\"rice and chicken\".",
+        "promptSo": "Macaamilku muxuu cunto ahaan dalbaday?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Bariis iyo digaag",
+          "Baasto",
+          "Maraq"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the customer drink?",
+        "options": [
+          "Tea",
+          "Water",
+          "Juice"
+        ],
+        "answer": 1,
+        "explain": "The customer asks for water.",
+        "promptSo": "Macaamilku muxuu cabbayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Shaah",
+          "Biyo",
+          "Casiir"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "How many dollars is it? (a number word)",
+        "answer": "five",
+        "explain": "That is five dollars.",
+        "promptSo": "Immisa doollar ayay ku kacaysaa? (ku qor erayga tirada)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Dalbashada qadada",
+    "sentencesSo": [
+      "Salaan. Waxaan rabaa bariis iyo digaag, fadlan.",
+      "Haa. Wax cabitaan ah ma rabtaa?",
+      "Biyo, fadlan.",
+      "Waa shan doollar.",
+      "Waa kan. Mahadsanid."
+    ]
+  },
+  {
+    "id": "l-x5-friend",
+    "title": "Introducing a friend",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Mum, this is my friend Layla.",
+      "Hello, Layla. Nice to meet you.",
+      "Nice to meet you too.",
+      "Layla is in my class.",
+      "Please come in and sit down."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Who is Layla?",
+        "options": [
+          "A teacher",
+          "A friend",
+          "A neighbour"
+        ],
+        "answer": 1,
+        "explain": "She is the speaker's friend.",
+        "promptSo": "Layla waa tuma?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Macallin",
+          "Saaxiib",
+          "Deris"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where is Layla with the speaker?",
+        "options": [
+          "In the same class",
+          "In the same street",
+          "At the same shop"
+        ],
+        "answer": 0,
+        "explain": "Layla is in my class.",
+        "promptSo": "Layla iyo qofka hadlayaa xaggee ayay wada joogaan?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Isla fasalka",
+          "Isla waddada",
+          "Isla dukaanka"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Mum says: \"Please come in and sit ...\". (one word)",
+        "answer": "down",
+        "explain": "sit down.",
+        "promptSo": "Hooyadu waxay tidhi: “Fadlan soo gal oo ...”. (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Soo bandhigista saaxiib",
+    "sentencesSo": [
+      "Hooyo, kani waa saaxiibkay Layla.",
+      "Salaan Layla. Waan ku faraxsanahay inaan kula kulmo.",
+      "Aniguna waan ku faraxsanahay inaan kula kulmo.",
+      "Layla waxay ila dhigataa fasalka.",
+      "Soo gal oo fadhiiso, fadlan."
+    ]
+  }
+]

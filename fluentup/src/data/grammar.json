@@ -1,20 +1,228 @@
-[{"id":"g-be","title":"The verb to be: am, is, are","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"Use 'am' with I, 'is' with he, she and it, and 'are' with you, we and they.",
-"examples":["I am a student.","She is at home.","They are friends."],
-"exercises":[{"type":"fill","prompt":"She ___ my sister.","answer":"is","explain":"She takes 'is'."},
-{"type":"mcq","prompt":"We ___ ready.","options":["is","am","are"],"answer":2,"explain":"We takes 'are'."},
-{"type":"fill","prompt":"I ___ tired.","answer":"am","explain":"I takes 'am'."},
-{"type":"mcq","prompt":"It ___ cold today.","options":["are","is","am"],"answer":1,"explain":"It takes 'is'."}]},
-{"id":"g-articles","title":"Articles: a and an","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"Use 'an' before a vowel sound and 'a' before a consonant sound. It is the sound that matters, not the spelling.",
-"examples":["a book","an apple","an hour (the h is silent)","a university (it starts with a 'y' sound)"],
-"exercises":[{"type":"mcq","prompt":"___ orange","options":["a","an"],"answer":1,"explain":"Orange starts with a vowel sound."},
-{"type":"mcq","prompt":"___ university","options":["a","an"],"answer":0,"explain":"University starts with a 'y' sound, a consonant sound."},
-{"type":"fill","prompt":"I need ___ umbrella.","answer":"an","explain":"Umbrella starts with a vowel sound."},
-{"type":"mcq","prompt":"She is ___ honest person.","options":["a","an"],"answer":1,"explain":"Honest starts with a vowel sound because the h is silent."}]},
-{"id":"g-perfect","title":"Present perfect and past simple","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"Use the present perfect (have/has + past participle) for experiences or situations that connect to now. Use the past simple for finished times, such as 'in 2019' or 'yesterday'.",
-"examples":["I have visited Nairobi.","I visited Nairobi in 2019.","She has lived here for five years."],
-"exercises":[{"type":"mcq","prompt":"I ___ to Paris in 2018.","options":["have been","went","have gone"],"answer":1,"explain":"'In 2018' is a finished time, so use the past simple."},
-{"type":"mcq","prompt":"I ___ never eaten sushi.","options":["have","did","am"],"answer":0,"explain":"'Never eaten' is present perfect: have + eaten."},
-{"type":"fill","prompt":"She ___ (live) here since 2020.","answer":"has lived","accept":["'s lived"],"explain":"'Since 2020' links the past to now, so use has + lived."}]}]
+[
+  {
+    "id": "g-be",
+    "title": "The verb to be: am, is, are",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Use 'am' with I, 'is' with he, she and it, and 'are' with you, we and they.",
+    "examples": [
+      "I am a student.",
+      "She is at home.",
+      "They are friends."
+    ],
+    "exercises": [
+      {
+        "type": "fill",
+        "prompt": "She ___ my sister.",
+        "answer": "is",
+        "explain": "She takes 'is'.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Fal-falka “to be” waxaa loo adeegsadaa in lagu sheego qof ama shay waxa uu yahay, meesha uu joogo ama xaaladdiisa. “I” waxaa raaca “am”; “he”, “she” iyo “it” waxaa raaca “is”; “you”, “we” iyo “they” waxaa raaca “are”."
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ ready.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": 2,
+        "explain": "We takes 'are'.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Fal-falka “to be” waxaa loo adeegsadaa in lagu sheego qof ama shay waxa uu yahay, meesha uu joogo ama xaaladdiisa. “I” waxaa raaca “am”; “he”, “she” iyo “it” waxaa raaca “is”; “you”, “we” iyo “they” waxaa raaca “are”.",
+        "optionsSo": [
+          "waxaa la raaciyaa “he/she/it”",
+          "waxaa la raaciyaa “I”",
+          "waxaa la raaciyaa “you/we/they”"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ tired.",
+        "answer": "am",
+        "explain": "I takes 'am'.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Fal-falka “to be” waxaa loo adeegsadaa in lagu sheego qof ama shay waxa uu yahay, meesha uu joogo ama xaaladdiisa. “I” waxaa raaca “am”; “he”, “she” iyo “it” waxaa raaca “is”; “you”, “we” iyo “they” waxaa raaca “are”."
+      },
+      {
+        "type": "mcq",
+        "prompt": "It ___ cold today.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": 1,
+        "explain": "It takes 'is'.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Fal-falka “to be” waxaa loo adeegsadaa in lagu sheego qof ama shay waxa uu yahay, meesha uu joogo ama xaaladdiisa. “I” waxaa raaca “am”; “he”, “she” iyo “it” waxaa raaca “is”; “you”, “we” iyo “they” waxaa raaca “are”.",
+        "optionsSo": [
+          "waxaa la raaciyaa “you/we/they”",
+          "waxaa la raaciyaa “he/she/it”",
+          "waxaa la raaciyaa “I”"
+        ]
+      }
+    ],
+    "titleSo": "Fal-falka “to be” (am, is, are)",
+    "explanationSo": "Fal-falka “to be” waxaa loo adeegsadaa in lagu sheego qof ama shay waxa uu yahay, meesha uu joogo ama xaaladdiisa. “I” waxaa raaca “am”; “he”, “she” iyo “it” waxaa raaca “is”; “you”, “we” iyo “they” waxaa raaca “are”.",
+    "examplesSo": [
+      "I am a student. = Waxaan ahay arday.",
+      "She is at home. = Waxay joogtaa guriga.",
+      "They are friends. = Iyagu waa saaxiibbo."
+    ]
+  },
+  {
+    "id": "g-articles",
+    "title": "Articles: a and an",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Use 'an' before a vowel sound and 'a' before a consonant sound. It is the sound that matters, not the spelling.",
+    "examples": [
+      "a book",
+      "an apple",
+      "an hour (the h is silent)",
+      "a university (it starts with a 'y' sound)"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "___ orange",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explain": "Orange starts with a vowel sound.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “A” iyo “an” waa erayo magac-u-horreeya oo lagu isticmaalo magac keli ah oo aan weli si gaar ah loo cayimin. “An” waxaa la adeegsadaa marka dhawaaqa ugu horreeya uu yahay shaqal; “a” marka uu yahay shibbane. Waxa muhiimka ahi waa dhawaaqa, ma aha xarafka qoraalka.",
+        "optionsSo": [
+          "qodobka “a” (ka hor dhawaaq shibbane)",
+          "qodobka “an” (ka hor dhawaaq shaqal)"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ university",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explain": "University starts with a 'y' sound, a consonant sound.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “A” iyo “an” waa erayo magac-u-horreeya oo lagu isticmaalo magac keli ah oo aan weli si gaar ah loo cayimin. “An” waxaa la adeegsadaa marka dhawaaqa ugu horreeya uu yahay shaqal; “a” marka uu yahay shibbane. Waxa muhiimka ahi waa dhawaaqa, ma aha xarafka qoraalka.",
+        "optionsSo": [
+          "qodobka “a” (ka hor dhawaaq shibbane)",
+          "qodobka “an” (ka hor dhawaaq shaqal)"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I need ___ umbrella.",
+        "answer": "an",
+        "explain": "Umbrella starts with a vowel sound.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “A” iyo “an” waa erayo magac-u-horreeya oo lagu isticmaalo magac keli ah oo aan weli si gaar ah loo cayimin. “An” waxaa la adeegsadaa marka dhawaaqa ugu horreeya uu yahay shaqal; “a” marka uu yahay shibbane. Waxa muhiimka ahi waa dhawaaqa, ma aha xarafka qoraalka."
+      },
+      {
+        "type": "mcq",
+        "prompt": "She is ___ honest person.",
+        "options": [
+          "a",
+          "an"
+        ],
+        "answer": 1,
+        "explain": "Honest starts with a vowel sound because the h is silent.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: “A” iyo “an” waa erayo magac-u-horreeya oo lagu isticmaalo magac keli ah oo aan weli si gaar ah loo cayimin. “An” waxaa la adeegsadaa marka dhawaaqa ugu horreeya uu yahay shaqal; “a” marka uu yahay shibbane. Waxa muhiimka ahi waa dhawaaqa, ma aha xarafka qoraalka.",
+        "optionsSo": [
+          "qodobka “a” (ka hor dhawaaq shibbane)",
+          "qodobka “an” (ka hor dhawaaq shaqal)"
+        ]
+      }
+    ],
+    "titleSo": "Qodob-horeyaasha “a” iyo “an”",
+    "explanationSo": "“A” iyo “an” waa erayo magac-u-horreeya oo lagu isticmaalo magac keli ah oo aan weli si gaar ah loo cayimin. “An” waxaa la adeegsadaa marka dhawaaqa ugu horreeya uu yahay shaqal; “a” marka uu yahay shibbane. Waxa muhiimka ahi waa dhawaaqa, ma aha xarafka qoraalka.",
+    "examplesSo": [
+      "a book = buug",
+      "an apple = tufaax",
+      "an hour = saacad (h-ga lama dhawaaqo)",
+      "a university = jaamacad (bilowgeedu wuxuu u dhawaaqaa “y”)."
+    ]
+  },
+  {
+    "id": "g-perfect",
+    "title": "Present perfect and past simple",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Use the present perfect (have/has + past participle) for experiences or situations that connect to now. Use the past simple for finished times, such as 'in 2019' or 'yesterday'.",
+    "examples": [
+      "I have visited Nairobi.",
+      "I visited Nairobi in 2019.",
+      "She has lived here for five years."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I ___ to Paris in 2018.",
+        "options": [
+          "have been",
+          "went",
+          "have gone"
+        ],
+        "answer": 1,
+        "explain": "'In 2018' is a finished time, so use the past simple.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Perfect (have/has + past participle) waxaa loo adeegsadaa waayo-aragnimo ama xaalad hore u bilaabatay oo xidhiidh la leh waqtiga hadda. Past Simple waxaa loo adeegsadaa dhacdo dhammaatay oo wakhtigeeda la cayimay, sida “yesterday” ama “in 2019”.",
+        "optionsSo": [
+          "muddo ayuu ahaa/socday",
+          "wuu tegay (Past Simple)",
+          "way tageen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ never eaten sushi.",
+        "options": [
+          "have",
+          "did",
+          "am"
+        ],
+        "answer": 0,
+        "explain": "'Never eaten' is present perfect: have + eaten.",
+        "promptSo": "Dooro jawaabta saxda ah si jumladda Ingiriisigu u noqoto mid naxwe ahaan sax ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Perfect (have/has + past participle) waxaa loo adeegsadaa waayo-aragnimo ama xaalad hore u bilaabatay oo xidhiidh la leh waqtiga hadda. Past Simple waxaa loo adeegsadaa dhacdo dhammaatay oo wakhtigeeda la cayimay, sida “yesterday” ama “in 2019”.",
+        "optionsSo": [
+          "kaaliye Present Perfect oo I/you/we/they raaca",
+          "qaabka hore ee “do”",
+          "waxaa la raaciyaa “I”"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (live) here since 2020.",
+        "answer": "has lived",
+        "accept": [
+          "'s lived"
+        ],
+        "explain": "'Since 2020' links the past to now, so use has + lived.",
+        "promptSo": "Buuxi meesha bannaan adigoo dooranaya ama qoraya qaabka falka ee saxda ah.",
+        "explainSo": "Jawaabtani waxay raacaysaa xeerka casharkan: Present Perfect (have/has + past participle) waxaa loo adeegsadaa waayo-aragnimo ama xaalad hore u bilaabatay oo xidhiidh la leh waqtiga hadda. Past Simple waxaa loo adeegsadaa dhacdo dhammaatay oo wakhtigeeda la cayimay, sida “yesterday” ama “in 2019”."
+      }
+    ],
+    "titleSo": "Present Perfect iyo Past Simple",
+    "explanationSo": "Present Perfect (have/has + past participle) waxaa loo adeegsadaa waayo-aragnimo ama xaalad hore u bilaabatay oo xidhiidh la leh waqtiga hadda. Past Simple waxaa loo adeegsadaa dhacdo dhammaatay oo wakhtigeeda la cayimay, sida “yesterday” ama “in 2019”.",
+    "examplesSo": [
+      "I have visited Nairobi. = Waxaan booqday Nayroobi (waayo-aragnimo).",
+      "I visited Nairobi in 2019. = Waxaan Nayroobi booqday sannadkii 2019.",
+      "She has lived here for five years. = Halkan ayay degganayd muddo shan sano ah, welina way deggen tahay."
+    ]
+  }
+]

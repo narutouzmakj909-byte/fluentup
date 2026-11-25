@@ -1,13 +1,174 @@
-[{"id":"r-market","track":"reading","title":"A day at the market","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"On Saturday morning, Amina goes to the market with her mother. The market is busy and noisy. Every stall sells something different. Amina likes the fruit stall because the oranges are fresh and sweet. Her mother likes to bargain, so she asks for a lower price. They buy oranges, rice and bread, and they go home before noon.",
-"examples":["stall: a small table or shop where things are sold in a market","fresh: recently picked or made","bargain: to talk about the price to try to make it lower"],
-"exercises":[{"type":"mcq","prompt":"When does Amina go to the market?","options":["On Saturday morning","On Sunday evening","Every night"],"answer":0,"explain":"The text begins with Saturday morning."},
-{"type":"mcq","prompt":"Why does Amina like the fruit stall?","options":["It is close to home","The oranges are fresh and sweet","It has low prices"],"answer":1,"explain":"The text says the oranges are fresh and sweet."},
-{"type":"mcq","prompt":"What does her mother do?","options":["She sells bread","She asks for a lower price","She buys nothing"],"answer":1,"explain":"She likes to bargain, so she asks for a lower price."},
-{"type":"mcq","prompt":"When do they go home?","options":["Before noon","At night","After lunch"],"answer":0,"explain":"They go home before noon."}]},
-{"id":"r-remote","track":"reading","title":"Working from home","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"Many people now work from home at least some days of the week. The main advantage is that the schedule can be flexible: you can start early or take a break when you need one. However, there are also problems. At home, a distraction such as the television or a messy room can make it hard to focus. Successful remote workers usually build a routine, with fixed hours and a quiet place to work.",
-"examples":["flexible: able to change easily","distraction: something that stops you from paying attention","routine: the usual order in which you do things"],
-"exercises":[{"type":"mcq","prompt":"What is one advantage mentioned?","options":["Free food","A flexible schedule","No meetings"],"answer":1,"explain":"The text says the schedule can be flexible."},
-{"type":"mcq","prompt":"What can make it hard to focus?","options":["A quiet place","A fixed schedule","A distraction at home"],"answer":2,"explain":"A distraction such as the television can make it hard to focus."},
-{"type":"mcq","prompt":"What do successful remote workers usually build?","options":["A routine","A new office","A big team"],"answer":0,"explain":"They usually build a routine."}]}]
+[
+  {
+    "id": "r-market",
+    "track": "reading",
+    "title": "A day at the market",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Subaxnimadii Sabtida, Aamina waxay hooyadeed ula tagtaa suuqa. Suuqu waa mashquul badan yahay oo buuq badan. Miis kasta oo wax lagu iibiyo wuxuu iibiyaa alaab ka duwan kuwa kale. Aamina waxay jeceshahay meesha miraha lagu iibiyo, sababtoo ah liimuhu waa cusub yihiin oo macaan yihiin. Hooyadeed waxay jeceshahay gorgortanka, sidaas darteed waxay codsataa in qiimaha laga dhimo. Waxay iibsadaan liimo, bariis iyo rooti, dabadeedna guriga ayay ku noqdaan ka hor duhurkii.",
+    "explanation": "On Saturday morning, Amina goes to the market with her mother. The market is busy and noisy. Every stall sells something different. Amina likes the fruit stall because the oranges are fresh and sweet. Her mother likes to bargain, so she asks for a lower price. They buy oranges, rice and bread, and they go home before noon.",
+    "examples": [
+      "stall: a small table or shop where things are sold in a market",
+      "fresh: recently picked or made",
+      "bargain: to talk about the price to try to make it lower"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "When does Amina go to the market?",
+        "options": [
+          "On Saturday morning",
+          "On Sunday evening",
+          "Every night"
+        ],
+        "answer": 0,
+        "explain": "The text begins with Saturday morning.",
+        "promptSo": "Aamina goorma ayay suuqa tagtaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Subaxnimada Sabtida”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Subaxnimada Sabtida",
+          "Fiidnimada Axadda",
+          "Habeen kasta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does Amina like the fruit stall?",
+        "options": [
+          "It is close to home",
+          "The oranges are fresh and sweet",
+          "It has low prices"
+        ],
+        "answer": 1,
+        "explain": "The text says the oranges are fresh and sweet.",
+        "promptSo": "Maxay Aamina u jeceshahay meesha miraha lagu iibiyo?",
+        "explainSo": "Jawaabta saxda ahi waa “Liimuhu waa cusub yihiin oo macaan yihiin”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Wuxuu u dhow yahay guriga",
+          "Liimuhu waa cusub yihiin oo macaan yihiin",
+          "Qiimayaashiisu way jaban yihiin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does her mother do?",
+        "options": [
+          "She sells bread",
+          "She asks for a lower price",
+          "She buys nothing"
+        ],
+        "answer": 1,
+        "explain": "She likes to bargain, so she asks for a lower price.",
+        "promptSo": "Hooyadeed maxay samaysaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Qiimo ka jaban ayay codsataa”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Rooti ayay iibisaa",
+          "Qiimo ka jaban ayay codsataa",
+          "Waxba ma iibsato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When do they go home?",
+        "options": [
+          "Before noon",
+          "At night",
+          "After lunch"
+        ],
+        "answer": 0,
+        "explain": "They go home before noon.",
+        "promptSo": "Goorma ayay guriga ku noqdaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Duhur ka hor”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Duhur ka hor",
+          "Habeenkii",
+          "Qadada ka dib"
+        ]
+      }
+    ],
+    "titleSo": "Maalin suuqa lagu qaato",
+    "examplesSo": [
+      "meel wax lagu iibiyo: miis ama dukaan yar oo suuqa ku yaal oo alaab lagu iibiyo",
+      "cusub: dhawaan la soo guray ama la sameeyey",
+      "gorgortan: in qiimaha laga wada hadlo si loo dhimo"
+    ]
+  },
+  {
+    "id": "r-remote",
+    "track": "reading",
+    "title": "Working from home",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Dad badan ayaa hadda guriga ka shaqeeya ugu yaraan maalmo ka mid ah toddobaadka. Faa’iidada ugu weyn waa in jadwalku dabacsanaan karo: waxaad shaqada bilaabi kartaa goor hore ama nasasho qaadan kartaa marka aad u baahato. Si kastaba ha ahaatee, dhibaatooyin ayaa iyaguna jira. Marka guriga la joogo, waxyaabaha mashquuliya sida telefishinka ama qol aan hagaagsanayn waxay adkayn karaan in qofku diiradda saaro. Dadka si guul leh meel fog uga shaqeeya badanaa waxay samaystaan nidaam joogto ah, saacado shaqo oo go’an iyo meel deggan oo ay ka shaqeeyaan.",
+    "explanation": "Many people now work from home at least some days of the week. The main advantage is that the schedule can be flexible: you can start early or take a break when you need one. However, there are also problems. At home, a distraction such as the television or a messy room can make it hard to focus. Successful remote workers usually build a routine, with fixed hours and a quiet place to work.",
+    "examples": [
+      "flexible: able to change easily",
+      "distraction: something that stops you from paying attention",
+      "routine: the usual order in which you do things"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is one advantage mentioned?",
+        "options": [
+          "Free food",
+          "A flexible schedule",
+          "No meetings"
+        ],
+        "answer": 1,
+        "explain": "The text says the schedule can be flexible.",
+        "promptSo": "Waa maxay hal faa’iido oo qoraalka lagu xusay?",
+        "explainSo": "Jawaabta saxda ahi waa “Jadwal dabacsan”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Cunto bilaash ah",
+          "Jadwal dabacsan",
+          "Kulamo ma jiraan"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What can make it hard to focus?",
+        "options": [
+          "A quiet place",
+          "A fixed schedule",
+          "A distraction at home"
+        ],
+        "answer": 2,
+        "explain": "A distraction such as the television can make it hard to focus.",
+        "promptSo": "Maxaa qofka ku adkayn kara inuu feejignaado?",
+        "explainSo": "Jawaabta saxda ahi waa “Wax guriga ka mashquuliya”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Meel deggan",
+          "Jadwal go’an",
+          "Wax guriga ka mashquuliya"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do successful remote workers usually build?",
+        "options": [
+          "A routine",
+          "A new office",
+          "A big team"
+        ],
+        "answer": 0,
+        "explain": "They usually build a routine.",
+        "promptSo": "Shaqaalaha meel fog ka shaqeeya ee guulaysta maxay badanaa samaystaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Hab-raac joogto ah”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Hab-raac joogto ah",
+          "Xafiis cusub",
+          "Koox weyn"
+        ]
+      }
+    ],
+    "titleSo": "Ka shaqaynta guriga",
+    "examplesSo": [
+      "dabacsan: si fudud wax looga beddeli karo",
+      "wax mashquuliya: shay kaa jeediya waxa aad fiiro u leedahay",
+      "nidaam joogto ah: habka caadiga ah ee hawlaha loo kala qabto"
+    ]
+  }
+]

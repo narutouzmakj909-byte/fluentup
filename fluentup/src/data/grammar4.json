@@ -1,0 +1,1856 @@
+[
+  {
+    "id": "tense-present-simple",
+    "title": "Present Simple",
+    "level": "A1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Present",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Present Simple waxaa loo isticmaalaa caadooyin, hawlo joogto ah iyo xaqiiqooyin (tusaale: \"Maalin kasta waan shaqeeyaa\"). Marka mawduucu yahay he/she/it, verb-ka ku dar -s ama -es. Af-Soomaaliga ma laha -s sidaas oo kale, sidaa darteed ardayda badan way iloobaan.",
+    "explanation": "Use it for habits, routines and facts. Add -s/-es for he, she, it. Use do/does for negatives and questions.",
+    "formula": "Subject + verb (+s/es for he/she/it). Negative: do/does + not + verb. Question: Do/Does + subject + verb?",
+    "forms": {
+      "affirmative": [
+        [
+          "I work every day.",
+          "Maalin kasta waan shaqeeyaa."
+        ],
+        [
+          "She drinks tea in the morning.",
+          "Waxay subaxdii cabtaa shaah."
+        ],
+        [
+          "The sun rises in the east.",
+          "Qorraxdu waxay ka soo baxdaa bari."
+        ]
+      ],
+      "negative": [
+        [
+          "He doesn't eat meat.",
+          "Hilib ma cuno."
+        ],
+        [
+          "I don't like coffee.",
+          "Qaxwo ma jecli."
+        ]
+      ],
+      "question": [
+        [
+          "Do you speak English?",
+          "Ingiriisi ma ku hadashaa?"
+        ],
+        [
+          "Does she work here?",
+          "Ma halkan bay ka shaqaysaa?"
+        ]
+      ],
+      "wh": [
+        [
+          "Where do you live?",
+          "Xaggee ku nooshahay?"
+        ],
+        [
+          "What time does the shop open?",
+          "Imisa saac ayuu dukaanku furmaa?"
+        ]
+      ]
+    },
+    "examples": [
+      "I work every day.",
+      "She drinks tea in the morning.",
+      "The sun rises in the east."
+    ],
+    "mistakes": [
+      "He work → He works",
+      "She don't → She doesn't"
+    ],
+    "mistakesSo": [
+      "“He” marka subject yahay, Present Simple falka “work” wuxuu noqdaa “works”.",
+      "“She” waxaa la socda “doesn’t”, mana aha “don’t”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ English every day.",
+        "options": [
+          "study",
+          "studies",
+          "studys"
+        ],
+        "answer": 1,
+        "explain": "Consonant + y becomes -ies.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee fudud. Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wax baro",
+          "wuu wax bartaa",
+          "higgaad khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "He ___ (watch) TV in the evening.",
+        "answer": "watches",
+        "explain": "After ch, add -es.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee fudud. Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He don't like tea.",
+        "answer": "He doesn't like tea.",
+        "explain": "He/she/it uses doesn't.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee fudud. Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "Do",
+          "football",
+          "play",
+          "you"
+        ],
+        "answer": [
+          "Do",
+          "you",
+          "play",
+          "football"
+        ],
+        "explain": "Do + subject + verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee fudud. Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Water ___ at 100 degrees.",
+        "options": [
+          "boil",
+          "boils",
+          "is boiling"
+        ],
+        "answer": 1,
+        "explain": "A fact: present simple, with -s.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee fudud. Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "kar",
+          "wuu karkaraa",
+          "wuu karkarayaa"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + falka asalka ah (+s/es marka subject-ku yahay he/she/it). Diidmo: do/does + not + falka asalka ah. Su’aal: Do/Does + subject + falka asalka ah?",
+    "examplesSo": [
+      "Waxaan shaqeeyaa maalin kasta.",
+      "Subaxdii shaah ayay cabtaa.",
+      "Qorraxdu bari ayay ka soo baxdaa."
+    ],
+    "titleSo": "Waqtiga hadda ee fudud",
+    "explanationSo": "Waxaa loo adeegsadaa caadooyin, hawlo joogto ah iyo xaqiiqooyin. He, she iyo it marka ay subject yihiin, falka waxaa lagu daraa -s ama -es. Su’aalaha iyo diidmada waxaa la adeegsadaa do/does."
+  },
+  {
+    "id": "tense-present-continuous",
+    "title": "Present Continuous",
+    "level": "A1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Present",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Present Continuous wuxuu sheegayaa wax hadda socda ama qorshe dhow. Hab-dhismeedku waa am/is/are + verb-ka oo lagu daray -ing. Ardayda Soomaaliyeed badanaa waxay illoobaan am/is/are (\"I going\" waa khalad).",
+    "explanation": "Use it for actions happening now and for near-future plans. Use am/is/are + verb-ing.",
+    "formula": "Subject + am/is/are + verb-ing. Negative: am/is/are + not + verb-ing. Question: Am/Is/Are + subject + verb-ing?",
+    "forms": {
+      "affirmative": [
+        [
+          "I am eating.",
+          "Waan cunayaa (hadda)."
+        ],
+        [
+          "She is reading a book.",
+          "Waxay akhrinaysaa buug."
+        ],
+        [
+          "They are playing football.",
+          "Waxay ciyaarayaan kubbadda cagta."
+        ]
+      ],
+      "negative": [
+        [
+          "I'm not sleeping.",
+          "Ma seexanayo."
+        ],
+        [
+          "He isn't working today.",
+          "Maanta ma shaqaynayo."
+        ]
+      ],
+      "question": [
+        [
+          "Are you studying now?",
+          "Hadda ma wax baranaysaa?"
+        ],
+        [
+          "Is it raining?",
+          "Roobku ma da'ayaa?"
+        ]
+      ],
+      "wh": [
+        [
+          "What are you doing?",
+          "Maxaad sameyneysaa?"
+        ],
+        [
+          "Where is she going?",
+          "Xaggay u socotaa?"
+        ]
+      ]
+    },
+    "examples": [
+      "I am eating.",
+      "She is reading a book.",
+      "They are playing football."
+    ],
+    "mistakes": [
+      "I going → I am going",
+      "She reading → She is reading"
+    ],
+    "mistakesSo": [
+      "Present Continuous wuxuu u baahan yahay “am” marka subject-ku yahay “I”: “I am going”.",
+      "“She” waxaa la socda “is” ka hor falka -ing: “She is reading”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "They ___ football now.",
+        "options": [
+          "play",
+          "are playing",
+          "is playing"
+        ],
+        "answer": 1,
+        "explain": "They + are + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee socda. Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "ciyaar",
+          "way ciyaarayaan",
+          "wuu ciyaarayaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (study) English now.",
+        "answer": "am studying",
+        "explain": "I + am + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee socda. Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: She reading a book.",
+        "answer": "She is reading a book.",
+        "explain": "Add is.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee socda. Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "is",
+          "she",
+          "cooking",
+          "What"
+        ],
+        "answer": [
+          "What",
+          "is",
+          "she",
+          "cooking"
+        ],
+        "explain": "Wh-word + is + subject + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee socda. Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Look! It ___ .",
+        "options": [
+          "rains",
+          "is raining",
+          "rain"
+        ],
+        "answer": 1,
+        "explain": "Happening now.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtiga hadda ee socda. Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "roob baa da’a",
+          "roob baa da’aya",
+          "roob da’"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + am/is/are + verb-ing. Diidmo: am/is/are + not + verb-ing. Su’aal: Am/Is/Are + subject + verb-ing?",
+    "examplesSo": [
+      "Waxaan cunayaa.",
+      "Waxay akhrinaysaa buug.",
+      "Waxay ciyaarayaan kubbadda cagta."
+    ],
+    "titleSo": "Waqtiga hadda ee socda",
+    "explanationSo": "Waxaa loo adeegsadaa ficil hadda socda ama qorshe mustaqbal oo dhow. Waxaa lagu dhisaa am/is/are + fal ku dhammaada -ing."
+  },
+  {
+    "id": "tense-present-perfect",
+    "title": "Present Perfect",
+    "level": "A2",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Present",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Present Perfect wuxuu isku xiraa wakhtigii hore iyo hadda: wax hore u dhacay laakiin saamaynta ama waayo-aragnimadu hadda taal. Hab-dhismeedku waa have/has + verb-ka qaybtiisa saddexaad (past participle). Ha ku darin wakhti dhammaaday sida \"yesterday\".",
+    "explanation": "Use it for experiences, recent results and situations that continue to now. Have/has + past participle. Do not use it with finished-time words (yesterday, last year).",
+    "formula": "Subject + have/has + past participle.",
+    "forms": {
+      "affirmative": [
+        [
+          "I have finished my homework.",
+          "Shaqadii guriga waan dhammeeyay."
+        ],
+        [
+          "She has lost her key.",
+          "Furahii bay lumisay."
+        ],
+        [
+          "We have lived here for five years.",
+          "Shan sano ayaan halkan ku noolaannay (wali waan ku nool nahay)."
+        ]
+      ],
+      "negative": [
+        [
+          "I haven't seen him today.",
+          "Maanta ma arkin."
+        ],
+        [
+          "He hasn't called yet.",
+          "Weli ma wicin."
+        ]
+      ],
+      "question": [
+        [
+          "Have you eaten?",
+          "Wax ma cuntay?"
+        ],
+        [
+          "Has she arrived?",
+          "Ma timid?"
+        ]
+      ],
+      "wh": [
+        [
+          "How long have you lived here?",
+          "Muddo intee le' ayaad halkan ku nooshahay?"
+        ],
+        [
+          "What have you done?",
+          "Maxaad sameysay?"
+        ]
+      ]
+    },
+    "examples": [
+      "I have finished my homework.",
+      "She has lost her key.",
+      "We have lived here for five years."
+    ],
+    "mistakes": [
+      "I have seen him yesterday → I saw him yesterday",
+      "She has went → She has gone"
+    ],
+    "mistakesSo": [
+      "“Yesterday” waa waqti dhammaaday; isticmaal Past Simple: “I saw him yesterday”.",
+      "Present Perfect wuxuu u baahan yahay past participle; qaabka saxda ah waa “has gone”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I ___ never ___ sushi.",
+        "options": [
+          "have / eat",
+          "have / eaten",
+          "did / eaten"
+        ],
+        "answer": 1,
+        "explain": "have + past participle (eaten).",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect. Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "isku-dar aan sax ahayn",
+          "have + past participle",
+          "isku-dar naxwe oo khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (live) here since 2020.",
+        "answer": "has lived",
+        "explain": "She + has + past participle; since = still true.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect. Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I have seen him yesterday.",
+        "answer": "I saw him yesterday.",
+        "explain": "Yesterday needs Past Simple.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect. Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "you",
+          "Have",
+          "eaten",
+          "lunch"
+        ],
+        "answer": [
+          "Have",
+          "you",
+          "eaten",
+          "lunch"
+        ],
+        "explain": "Have + subject + past participle.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect. Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "He has ___ his phone. He cannot call.",
+        "options": [
+          "lose",
+          "lost",
+          "losing"
+        ],
+        "answer": 1,
+        "explain": "Past participle of lose is lost.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect. Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "lumi",
+          "lumiyey",
+          "luminta"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + have/has + past participle.",
+    "examplesSo": [
+      "Waxaan dhammaystiray shaqadii guriga.",
+      "Furihii ayay lumisay.",
+      "Halkan waxaan deggannahay muddo shan sano ah."
+    ],
+    "titleSo": "Present Perfect",
+    "explanationSo": "Waxaa loo adeegsadaa waayo-aragnimo, natiijo dhowaan dhacday ama xaalad hore u bilaabatay oo ilaa hadda socota. Waxaa lagu dhisaa have/has + past participle. Ha la isticmaalin waqti dhammaaday sida yesterday ama last year."
+  },
+  {
+    "id": "tense-present-perfect-continuous",
+    "title": "Present Perfect Continuous",
+    "level": "B1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Present",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Waxaa loo isticmaalaa wax bilaabmay waagii hore oo wali socda ama hadda dhawaan dhammaaday, iyadoo la muujinayo muddada. Hab-dhismeedku waa have/has + been + verb-ing. Af-Soomaaliga badanaa waxaa lagu fahmaa macnaha, sidaa darteed qaabkan si gaar ah u baro.",
+    "explanation": "Use it for actions that started in the past and continue now, with for/since, or recent activity with a visible result.",
+    "formula": "Subject + have/has + been + verb-ing.",
+    "forms": {
+      "affirmative": [
+        [
+          "I have been studying for two hours.",
+          "Laba saac ayaan wax baranayay (wali waan wax baranayaa)."
+        ],
+        [
+          "She has been waiting since morning.",
+          "Subaxdii ayay sugaysay (wali way sugaysaa)."
+        ],
+        [
+          "They have been working here since 2020.",
+          "Tan iyo 2020 ayay halkan ka shaqeynayeen."
+        ]
+      ],
+      "negative": [
+        [
+          "I haven't been sleeping well.",
+          "Si fiican ma seexanayn."
+        ],
+        [
+          "He hasn't been working lately.",
+          "Dhawaan ma shaqaynayn."
+        ]
+      ],
+      "question": [
+        [
+          "Have you been waiting long?",
+          "Muddo dheer ma sugaysay?"
+        ],
+        [
+          "Has it been raining?",
+          "Roob ma da'ayay?"
+        ]
+      ],
+      "wh": [
+        [
+          "How long have you been learning English?",
+          "Intee ayaad Ingiriisi baranaysay?"
+        ],
+        [
+          "What have you been doing?",
+          "Maxaad samaynaysay?"
+        ]
+      ]
+    },
+    "examples": [
+      "I have been studying for two hours.",
+      "She has been waiting since morning.",
+      "They have been working here since 2020."
+    ],
+    "mistakes": [
+      "I am studying since two hours → I have been studying for two hours",
+      "for/since mixed: for two hours, since 2020"
+    ],
+    "mistakesSo": [
+      "Muddada laba saacadood ah waxaa la raaciyaa “for”, waxaana halkan ku habboon “have been studying”.",
+      "“For” waxaa lala adeegsadaa muddo (for two hours); “since” waxaa lala adeegsadaa bilowga waqtiga (since 2020)."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I ___ for you for an hour.",
+        "options": [
+          "wait",
+          "have been waiting",
+          "am waiting"
+        ],
+        "answer": 1,
+        "explain": "for an hour + still going.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect Continuous. Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "sug",
+          "muddo ayaan sugayey",
+          "hadda ayaan sugayaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (work) here since 2019.",
+        "answer": "has been working",
+        "explain": "has been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect Continuous. Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He has been work all day.",
+        "answer": "He has been working all day.",
+        "explain": "been needs verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect Continuous. Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "How",
+          "you",
+          "long",
+          "have",
+          "been",
+          "learning"
+        ],
+        "answer": [
+          "How",
+          "long",
+          "have",
+          "you",
+          "been",
+          "learning"
+        ],
+        "explain": "How long + have + subject + been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect Continuous. Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "We ___ since 8 o'clock.",
+        "options": [
+          "have been studying",
+          "study",
+          "are studied"
+        ],
+        "answer": 0,
+        "explain": "since + start time.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Present Perfect Continuous. Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "waxay wax baranayeen",
+          "wax baro",
+          "waa la bartaa"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + have/has + been + verb-ing.",
+    "examplesSo": [
+      "Waxaan wax baranayey muddo laba saacadood ah.",
+      "Waxay sugaysay tan iyo subaxdii.",
+      "Halkan ayay ka shaqaynayeen tan iyo 2020."
+    ],
+    "titleSo": "Present Perfect Continuous",
+    "explanationSo": "Waxaa loo adeegsadaa ficil hore u bilaabmay oo ilaa hadda socda, gaar ahaan marka muddada lagu sheego for ama since; sidoo kale ficil dhowaan socday oo raadkiisu muuqdo."
+  },
+  {
+    "id": "tense-past-simple",
+    "title": "Past Simple",
+    "level": "A1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Past",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Past Simple wuxuu sheegayaa wax dhammaaday waqti hore la yaqaan (shalay, sannadkii hore). Verb-yada caadiga ah waxaa lagu daraa -ed; kuwa aan caadiga ahayn way kala duwan yihiin (go → went). Su'aalaha iyo diidmada waxaa la isticmaalaa did + verb-ka asalka ah.",
+    "explanation": "Use it for finished actions at a known time in the past. Regular verbs: -ed. Irregular verbs must be learned. Questions and negatives use did + base verb.",
+    "formula": "Subject + verb-ed / irregular past. Negative: did not + base verb. Question: Did + subject + base verb?",
+    "forms": {
+      "affirmative": [
+        [
+          "I visited my aunt yesterday.",
+          "Shalay habaryartay ayaan booqday."
+        ],
+        [
+          "She bought a new phone.",
+          "Taleefan cusub ayay iibsatay."
+        ],
+        [
+          "We watched a film last night.",
+          "Xalay filim ayaan daawanay."
+        ]
+      ],
+      "negative": [
+        [
+          "I didn't go to school.",
+          "Dugsiga ma aan aadin."
+        ],
+        [
+          "They didn't call me.",
+          "Ima wicin."
+        ]
+      ],
+      "question": [
+        [
+          "Did you see him?",
+          "Ma aragtay?"
+        ],
+        [
+          "Did she come?",
+          "Ma timid?"
+        ]
+      ],
+      "wh": [
+        [
+          "Where did you go?",
+          "Xaggaad aaday?"
+        ],
+        [
+          "When did he arrive?",
+          "Goorma buu yimid?"
+        ]
+      ]
+    },
+    "examples": [
+      "I visited my aunt yesterday.",
+      "She bought a new phone.",
+      "We watched a film last night."
+    ],
+    "mistakes": [
+      "I didn't went → I didn't go",
+      "goed → went"
+    ],
+    "mistakesSo": [
+      "Ka dib “didn’t” isticmaal falka asalka ah: “go”, ee ha isticmaalin “went”.",
+      "“Go” waa fal aan caadi ahayn; Past Simple-kiisu waa “went”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Yesterday I ___ to the market.",
+        "options": [
+          "go",
+          "went",
+          "gone"
+        ],
+        "answer": 1,
+        "explain": "Past simple of go is went.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee fudud. Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "tag",
+          "wuu tegay (Past Simple)",
+          "tegay (past participle)"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (buy) a dress last week.",
+        "answer": "bought",
+        "explain": "Irregular: buy → bought.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee fudud. Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: I didn't went to school.",
+        "answer": "I didn't go to school.",
+        "explain": "didn't + base verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee fudud. Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "did",
+          "Where",
+          "go",
+          "you"
+        ],
+        "answer": [
+          "Where",
+          "did",
+          "you",
+          "go"
+        ],
+        "explain": "Wh-word + did + subject + base verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee fudud. Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ you see the match?",
+        "options": [
+          "Do",
+          "Did",
+          "Does"
+        ],
+        "answer": 1,
+        "explain": "Past question: Did.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee fudud. Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "kaaliye su’aal/diidmo oo I/you/we/they raaca",
+          "kaaliye su’aal/diidmo ee Past Simple",
+          "kaaliye su’aal/diidmo oo he/she/it raaca"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + past verb (-ed ama qaab aan caadi ahayn). Diidmo: did not + falka asalka ah. Su’aal: Did + subject + falka asalka ah?",
+    "examplesSo": [
+      "Shalay ayaan eeddaday booqday.",
+      "Waxay iibsatay telefoon cusub.",
+      "Xalay filim ayaan daawannay."
+    ],
+    "titleSo": "Waqtigii hore ee fudud",
+    "explanationSo": "Waxaa loo adeegsadaa ficil hore u dhacay oo dhammaaday, badanaa iyadoo waqtiga la yaqaan. Falalka caadiga ah waxay qaataan -ed; falalka aan caadiga ahayn waa in la barto. Su’aalaha iyo diidmada waxaa la adeegsadaa did + falka asalka ah."
+  },
+  {
+    "id": "tense-past-continuous",
+    "title": "Past Continuous",
+    "level": "A2",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Past",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Past Continuous wuxuu sheegayaa wax socday waqti hore, inta badan marka wax kale dhacay (\"Wax ayaan karinayay markuu soo wacay\"). Hab-dhismeedku waa was/were + verb-ing.",
+    "explanation": "Use it for actions in progress at a past moment, or interrupted by another action. Was/were + verb-ing.",
+    "formula": "Subject + was/were + verb-ing.",
+    "forms": {
+      "affirmative": [
+        [
+          "I was cooking when he called.",
+          "Wax ayaan karinayay markuu soo wacay."
+        ],
+        [
+          "They were sleeping at 10 pm.",
+          "Saacadda 10-ka habeenkii way seexanayeen."
+        ],
+        [
+          "It was raining all day.",
+          "Maalintii oo dhan roob ayaa da'ayay."
+        ]
+      ],
+      "negative": [
+        [
+          "I wasn't listening.",
+          "Ma dhegaysanayn."
+        ],
+        [
+          "We weren't working.",
+          "Ma shaqaynayn."
+        ]
+      ],
+      "question": [
+        [
+          "Were you sleeping?",
+          "Ma hurdaysay?"
+        ],
+        [
+          "Was he driving?",
+          "Ma wadayay baabuurka?"
+        ]
+      ],
+      "wh": [
+        [
+          "What were you doing at 8?",
+          "Maxaad samaynaysay saacadda 8?"
+        ],
+        [
+          "Where were they going?",
+          "Xaggay u socdeen?"
+        ]
+      ]
+    },
+    "examples": [
+      "I was cooking when he called.",
+      "They were sleeping at 10 pm.",
+      "It was raining all day."
+    ],
+    "mistakes": [
+      "I cooking → I was cooking",
+      "They was → They were"
+    ],
+    "mistakesSo": [
+      "Past Continuous wuxuu u baahan yahay “was/were” ka hor falka -ing: “I was cooking”.",
+      "Subject-ka “they” waxaa la socda “were”, ee ma aha “was”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "She ___ when I arrived.",
+        "options": [
+          "was sleeping",
+          "were sleeping",
+          "sleeps"
+        ],
+        "answer": 0,
+        "explain": "She + was.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee socday. Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuu hurdayey",
+          "way hurdayeen",
+          "wuu seexdaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "They ___ (play) at five o'clock.",
+        "answer": "were playing",
+        "explain": "They + were + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee socday. Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: We was watching TV.",
+        "answer": "We were watching TV.",
+        "explain": "We + were.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee socday. Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "were",
+          "doing",
+          "What",
+          "you"
+        ],
+        "answer": [
+          "What",
+          "were",
+          "you",
+          "doing"
+        ],
+        "explain": "Wh-word + were + subject + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee socday. Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "I ___ TV when the lights went out.",
+        "options": [
+          "watched",
+          "was watching",
+          "watch"
+        ],
+        "answer": 1,
+        "explain": "Longer action interrupted.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Waqtigii hore ee socday. Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "daawaday",
+          "wuu daawanayey",
+          "daawo"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + was/were + verb-ing.",
+    "examplesSo": [
+      "Waxaan karinayey cuntada markii uu soo wacay.",
+      "Waxay hurdayeen tobanka habeenimo.",
+      "Maalintii oo dhan roob ayaa da’ayey."
+    ],
+    "titleSo": "Waqtigii hore ee socday",
+    "explanationSo": "Waxaa loo adeegsadaa ficil socday waqti gaar ah oo hore ama ficil uu ficil kale kala dhex galay. Waxaa lagu dhisaa was/were + verb-ing."
+  },
+  {
+    "id": "tense-past-perfect",
+    "title": "Past Perfect",
+    "level": "B1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Past",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Past Perfect wuxuu sheegayaa wax dhacay ka hor wax kale oo hore u dhacay (\"Markaan imid, basku wuu tegey\"). Hab-dhismeedku waa had + qaybta saddexaad ee verb-ka.",
+    "explanation": "Use it for the earlier of two past events. Had + past participle.",
+    "formula": "Subject + had + past participle.",
+    "forms": {
+      "affirmative": [
+        [
+          "When I arrived, the bus had left.",
+          "Markaan imid, basku horay ayuu u tegey."
+        ],
+        [
+          "She had finished before I called.",
+          "Intaanan wicin ayay dhammeysay."
+        ],
+        [
+          "They had already eaten.",
+          "Horay bay wax u cuneen."
+        ]
+      ],
+      "negative": [
+        [
+          "I hadn't seen that film before.",
+          "Filimkaas hore uguma arkin."
+        ],
+        [
+          "He hadn't studied.",
+          "Wax ma uusan baran."
+        ]
+      ],
+      "question": [
+        [
+          "Had you met her before?",
+          "Hore ma ku aragtay?"
+        ],
+        [
+          "Had they left?",
+          "Ma tageen?"
+        ]
+      ],
+      "wh": [
+        [
+          "What had happened?",
+          "Maxaa dhacay?"
+        ],
+        [
+          "Where had he been?",
+          "Xagguu joogay?"
+        ]
+      ]
+    },
+    "examples": [
+      "When I arrived, the bus had left.",
+      "She had finished before I called.",
+      "They had already eaten."
+    ],
+    "mistakes": [
+      "The bus left when I arrived (earlier action) → had left",
+      "had went → had gone"
+    ],
+    "mistakesSo": [
+      "Ficilka dhacay marka hore wuxuu qaataa Past Perfect: “had left”.",
+      "“Had” waxaa raaca past participle; “go” past participle-kiisu waa “gone”."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "When I got there, they ___ .",
+        "options": [
+          "already left",
+          "had already left",
+          "have left"
+        ],
+        "answer": 1,
+        "explain": "Earlier event: had left.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect. Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "hore ayuu u baxay",
+          "hore ayuu u baxay (ka hor dhacdo kale)",
+          "way baxeen"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (eat) before I came.",
+        "answer": "had eaten",
+        "explain": "had + eaten.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect. Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He had went home.",
+        "answer": "He had gone home.",
+        "explain": "Use past participle gone.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect. Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "had",
+          "I",
+          "never",
+          "seen",
+          "it"
+        ],
+        "answer": [
+          "I",
+          "had",
+          "never",
+          "seen",
+          "it"
+        ],
+        "explain": "Subject + had + never + past participle.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect. Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "He was tired because he ___ all night.",
+        "options": [
+          "worked",
+          "had worked",
+          "works"
+        ],
+        "answer": 1,
+        "explain": "Reason from before.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect. Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "shaqeeyey",
+          "wuu shaqeeyey",
+          "wuu shaqeeyaa"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + had + past participle.",
+    "examplesSo": [
+      "Markii aan imid, basku wuu baxay.",
+      "Waxay dhammaysay ka hor intaanan soo wicin.",
+      "Hore ayay wax u cuneen."
+    ],
+    "titleSo": "Past Perfect",
+    "explanationSo": "Waxaa loo adeegsadaa ficilka ugu horreeyey marka laba dhacdo oo hore la isbarbardhigayo. Waxaa lagu dhisaa had + past participle."
+  },
+  {
+    "id": "tense-past-perfect-continuous",
+    "title": "Past Perfect Continuous",
+    "level": "B2",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Past",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Waxaa loo isticmaalaa wax muddo socday ka hor wakhti hore oo la sheegay (\"Saacado ayaan shaqaynayay markuu yimid\"). Hab-dhismeedku waa had been + verb-ing. Waa tense aad u gaar ah; Soomaaliga macnaha badanaa waxaa lagu fahmaa muddada.",
+    "explanation": "Use it for an action that had been in progress for some time before a past moment. Had been + verb-ing.",
+    "formula": "Subject + had been + verb-ing.",
+    "forms": {
+      "affirmative": [
+        [
+          "I had been working for hours when he came.",
+          "Saacado ayaan shaqaynayay markuu yimid."
+        ],
+        [
+          "She had been crying.",
+          "Way ooyaysay."
+        ],
+        [
+          "They had been waiting since morning.",
+          "Subaxdii ayay sugayeen."
+        ]
+      ],
+      "negative": [
+        [
+          "He hadn't been sleeping well.",
+          "Si fiican ma seexanayn."
+        ],
+        [
+          "We hadn't been studying.",
+          "Ma baranaynayn."
+        ]
+      ],
+      "question": [
+        [
+          "Had you been waiting long?",
+          "Muddo dheer ma sugaysay?"
+        ],
+        [
+          "Had she been working there?",
+          "Halkaas ma ka shaqaysay?"
+        ]
+      ],
+      "wh": [
+        [
+          "How long had you been driving?",
+          "Intee ayaad baabuurka wadaysay?"
+        ],
+        [
+          "What had they been doing?",
+          "Maxay samaynayeen?"
+        ]
+      ]
+    },
+    "examples": [
+      "I had been working for hours when he came.",
+      "She had been crying.",
+      "They had been waiting since morning."
+    ],
+    "mistakes": [
+      "had been work → had been working",
+      "Confusing with Past Perfect"
+    ],
+    "mistakesSo": [
+      "Qaabka Past Perfect Continuous waa “had been + verb-ing”.",
+      "Ha isku khaldin Past Perfect iyo Past Perfect Continuous: kan dambe wuxuu xoogga saaraa muddada ficilku socday."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "He was tired. He ___ all day.",
+        "options": [
+          "had been working",
+          "has worked",
+          "is working"
+        ],
+        "answer": 0,
+        "explain": "Long action before a past point.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect Continuous. Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "muddo ayuu shaqaynayey",
+          "wuu shaqeeyey (xidhiidh hadda leh)",
+          "hadda ayuu shaqaynayaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "We ___ (wait) for an hour when the bus came.",
+        "answer": "had been waiting",
+        "explain": "had been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect Continuous. Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: She had been cry.",
+        "answer": "She had been crying.",
+        "explain": "been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect Continuous. Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "long",
+          "had",
+          "How",
+          "been",
+          "you",
+          "driving"
+        ],
+        "answer": [
+          "How",
+          "long",
+          "had",
+          "you",
+          "been",
+          "driving"
+        ],
+        "explain": "How long + had + subject + been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect Continuous. Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Her eyes were red. She ___ .",
+        "options": [
+          "had been crying",
+          "cried",
+          "cries"
+        ],
+        "answer": 0,
+        "explain": "Visible result of earlier activity.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Past Perfect Continuous. Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "muddo ayay ooyaysay",
+          "way ooyday",
+          "way ooydaa"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + had been + verb-ing.",
+    "examplesSo": [
+      "Waxaan shaqaynayey saacado badan markii uu yimid.",
+      "Way ooyaysay.",
+      "Waxay sugayeen tan iyo subaxdii."
+    ],
+    "titleSo": "Past Perfect Continuous",
+    "explanationSo": "Waxaa loo adeegsadaa ficil muddo socday ka hor waqti ama dhacdo kale oo hore. Waxaa lagu dhisaa had been + verb-ing."
+  },
+  {
+    "id": "tense-future-simple",
+    "title": "Future Simple",
+    "level": "A2",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Future",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Future Simple wuxuu sheegayaa wax mustaqbalka dhici doona, go'aan degdeg ah, ballan iyo malo. Hab-dhismeedku waa will + verb-ka asalka ah. Soomaaliga waxaa lagu yidhaa \"...doonaa\". Ka dib will ha ku darin -s ama to.",
+    "explanation": "Use it for predictions, promises and quick decisions. Will + base verb. No -s after will.",
+    "formula": "Subject + will + base verb. Negative: will not (won't). Question: Will + subject + base verb?",
+    "forms": {
+      "affirmative": [
+        [
+          "I will call you tomorrow.",
+          "Berri ayaan ku soo wici doonaa."
+        ],
+        [
+          "It will rain tonight.",
+          "Caawa roob ayaa da'ay doona."
+        ],
+        [
+          "I think she will pass.",
+          "Waxaan u malaynayaa inay gudbi doonto."
+        ]
+      ],
+      "negative": [
+        [
+          "I won't be late.",
+          "Ma daahi doono."
+        ],
+        [
+          "They won't come.",
+          "Ma iman doonaan."
+        ]
+      ],
+      "question": [
+        [
+          "Will you help me?",
+          "Ma i caawin doontaa?"
+        ],
+        [
+          "Will it be hot?",
+          "Ma kulul doonaa?"
+        ]
+      ],
+      "wh": [
+        [
+          "When will you arrive?",
+          "Goorma ayaad imaan doontaa?"
+        ],
+        [
+          "What will we eat?",
+          "Maxaan cuni doonnaa?"
+        ]
+      ]
+    },
+    "examples": [
+      "I will call you tomorrow.",
+      "It will rain tonight.",
+      "I think she will pass."
+    ],
+    "mistakes": [
+      "She will goes → She will go",
+      "I will to go → I will go"
+    ],
+    "mistakesSo": [
+      "Ka dib “will” isticmaal falka asalka ah; ha ku darin -s: “will go”.",
+      "Ka dib “will” si toos ah u dhig falka asalka ah; “to” looma baahna."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "I think it ___ rain tomorrow.",
+        "options": [
+          "will",
+          "wills",
+          "is will"
+        ],
+        "answer": 0,
+        "explain": "will + base verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Simple. Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "mustaqbalka",
+          "qaab khaldan; will isma beddelo",
+          "qaab naxwe ahaan khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (help) you tomorrow.",
+        "answer": "will help",
+        "explain": "will + base verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Simple. Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He will goes tomorrow.",
+        "answer": "He will go tomorrow.",
+        "explain": "No -s after will.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Simple. Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "will",
+          "you",
+          "When",
+          "arrive"
+        ],
+        "answer": [
+          "When",
+          "will",
+          "you",
+          "arrive"
+        ],
+        "explain": "Wh-word + will + subject + verb.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Simple. Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Promise: I ___ tell anyone.",
+        "options": [
+          "will not",
+          "am not",
+          "did not"
+        ],
+        "answer": 0,
+        "explain": "Promise uses will.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Simple. Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "ma samayn doono",
+          "ma ihi / ma samaynayo",
+          "ma samayn (diidmo Past Simple)"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + will + falka asalka ah. Diidmo: will not (won’t). Su’aal: Will + subject + falka asalka ah?",
+    "examplesSo": [
+      "Berri ayaan ku soo wici doonaa.",
+      "Caawa roob ayaa da’i doona.",
+      "Waxaan filayaa inay gudbi doonto."
+    ],
+    "titleSo": "Future Simple",
+    "explanationSo": "Waxaa loo adeegsadaa saadaal, ballan iyo go’aan degdeg ah. Waxaa lagu dhisaa will + falka asalka ah; falka laguma daro -s."
+  },
+  {
+    "id": "tense-future-continuous",
+    "title": "Future Continuous",
+    "level": "B1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Future",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Future Continuous wuxuu sheegayaa wax mustaqbalka socon doona waqti gaar ah (\"Waqtigan berri waan duulayaa\"). Hab-dhismeedku waa will be + verb-ing.",
+    "explanation": "Use it for actions in progress at a future time. Will be + verb-ing.",
+    "formula": "Subject + will be + verb-ing.",
+    "forms": {
+      "affirmative": [
+        [
+          "This time tomorrow I will be flying.",
+          "Waqtigan berri waxaan duulayaa."
+        ],
+        [
+          "She will be working at 9.",
+          "Saacadda 9-ka way shaqaynaysaa."
+        ],
+        [
+          "They will be waiting for us.",
+          "Way na sugayaan."
+        ]
+      ],
+      "negative": [
+        [
+          "I won't be sleeping.",
+          "Ma seexanayo."
+        ],
+        [
+          "He won't be using the car.",
+          "Baabuurka ma isticmaalayo."
+        ]
+      ],
+      "question": [
+        [
+          "Will you be using the car?",
+          "Baabuurka ma isticmaalaysaa?"
+        ],
+        [
+          "Will she be working tomorrow?",
+          "Berri ma shaqaynaysaa?"
+        ]
+      ],
+      "wh": [
+        [
+          "What will you be doing at 5?",
+          "Maxaad samaynaysaa saacadda 5?"
+        ],
+        [
+          "Where will they be staying?",
+          "Xaggay degi doonaan?"
+        ]
+      ]
+    },
+    "examples": [
+      "This time tomorrow I will be flying.",
+      "She will be working at 9.",
+      "They will be waiting for us."
+    ],
+    "mistakes": [
+      "I will working → I will be working",
+      "Using it for sudden decisions"
+    ],
+    "mistakesSo": [
+      "Future Continuous wuxuu u baahan yahay “will be + verb-ing”.",
+      "Go’aan degdeg ah badanaa waxaa lagu muujiyaa Future Simple (“will”), ee ma aha Future Continuous."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "At 8 tomorrow I ___ .",
+        "options": [
+          "will be working",
+          "will working",
+          "works"
+        ],
+        "answer": 0,
+        "explain": "will be + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Continuous. Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuu shaqayn doonaa wakhtigaas",
+          "qaab khaldan; “will be working” ayaa sax ah",
+          "wuu shaqeeyaa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (travel) this time next week.",
+        "answer": "will be travelling",
+        "explain": "will be + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Continuous. Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: They will waiting.",
+        "answer": "They will be waiting.",
+        "explain": "Add be.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Continuous. Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "be",
+          "will",
+          "doing",
+          "you",
+          "What"
+        ],
+        "answer": [
+          "What",
+          "will",
+          "you",
+          "be",
+          "doing"
+        ],
+        "explain": "What will + subject + be + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Continuous. Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Will you ___ the car tonight?",
+        "options": [
+          "be using",
+          "using",
+          "to use"
+        ],
+        "answer": 0,
+        "explain": "will + be + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Continuous. Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "isticmaalaya / isticmaalaysaa",
+          "isticmaalid",
+          "in la isticmaalo"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + will be + verb-ing.",
+    "examplesSo": [
+      "Berrigan oo kale duulimaad ayaan ku jiri doonaa.",
+      "Sagaalka ayay shaqayn doontaa.",
+      "Way na sugi doonaan."
+    ],
+    "titleSo": "Future Continuous",
+    "explanationSo": "Waxaa loo adeegsadaa ficil socon doona waqti cayiman oo mustaqbalka ah. Waxaa lagu dhisaa will be + verb-ing."
+  },
+  {
+    "id": "tense-future-perfect",
+    "title": "Future Perfect",
+    "level": "B2",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Future",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Future Perfect wuxuu sheegayaa wax la dhammeyn doono ka hor waqti mustaqbal ah (\"Jimcaha ka hor waxaan dhammeyn doonaa warbixinta\"). Hab-dhismeedku waa will have + qaybta saddexaad.",
+    "explanation": "Use it for actions that will be completed before a future time. Will have + past participle.",
+    "formula": "Subject + will have + past participle.",
+    "forms": {
+      "affirmative": [
+        [
+          "By Friday I will have finished the report.",
+          "Jimcaha ka hor waxaan dhammeyn doonaa warbixinta."
+        ],
+        [
+          "She will have left by 6.",
+          "Saacadda 6-ta waxay horay u tegi doontaa."
+        ],
+        [
+          "They will have arrived by noon.",
+          "Duhurka waxay horay u gaari doonaan."
+        ]
+      ],
+      "negative": [
+        [
+          "I won't have finished by then.",
+          "Wakhtigaas ma dhammeyn doono."
+        ],
+        [
+          "He won't have eaten.",
+          "Weli wax ma cuni doono."
+        ]
+      ],
+      "question": [
+        [
+          "Will you have finished by Monday?",
+          "Isniinta ma dhammeysan doontaa?"
+        ],
+        [
+          "Will she have arrived?",
+          "Ma gaari doontaa?"
+        ]
+      ],
+      "wh": [
+        [
+          "What will you have done by then?",
+          "Maxaad sameyn doontaa ilaa markaas?"
+        ],
+        [
+          "By when will they have finished?",
+          "Goorma ayay dhammeyn doonaan?"
+        ]
+      ]
+    },
+    "examples": [
+      "By Friday I will have finished the report.",
+      "She will have left by 6.",
+      "They will have arrived by noon."
+    ],
+    "mistakes": [
+      "will finished → will have finished",
+      "by + time"
+    ],
+    "mistakesSo": [
+      "Future Perfect waxaa lagu dhisaa “will have + past participle”.",
+      "“By” waxaa la adeegsadaa marka la tilmaamayo wakhti kama dambays ah oo ficilku ka hor dhammaystirmayo."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "By 2030 she ___ her degree.",
+        "options": [
+          "will have finished",
+          "will finish",
+          "has finished"
+        ],
+        "answer": 0,
+        "explain": "Completed before a future time.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect. Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuu dhammaystiri doonaa",
+          "wuu dhammayn doonaa",
+          "wuu dhammaystiray"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ (write) the report by Friday.",
+        "answer": "will have written",
+        "explain": "will have + past participle.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect. Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: He will have went.",
+        "answer": "He will have gone.",
+        "explain": "have + gone.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect. Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "will",
+          "finished",
+          "have",
+          "I"
+        ],
+        "answer": [
+          "I",
+          "will",
+          "have",
+          "finished"
+        ],
+        "explain": "Subject + will have + past participle.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect. Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "By next year we ___ here for ten years.",
+        "options": [
+          "will have lived",
+          "will live",
+          "live"
+        ],
+        "answer": 0,
+        "explain": "Total by a future point.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect. Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuxuu deggenaan doonaa muddo",
+          "wuu deggenaan doonaa",
+          "deggenow"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + will have + past participle.",
+    "examplesSo": [
+      "Jimcaha ka hor ayaan warbixinta dhammaystiri doonaa.",
+      "Lixda ka hor ayay bixi doontaa.",
+      "Duhurka ka hor ayay iman doonaan."
+    ],
+    "titleSo": "Future Perfect",
+    "explanationSo": "Waxaa loo adeegsadaa ficil la dhammaystiri doono ka hor waqti mustaqbalka ah. Waxaa lagu dhisaa will have + past participle."
+  },
+  {
+    "id": "tense-future-perfect-continuous",
+    "title": "Future Perfect Continuous",
+    "level": "C1",
+    "track": "grammar",
+    "series": "tenses",
+    "group": "Future",
+    "status": "somali-draft",
+    "source": "original, authored for NORA; Somali needs native review",
+    "somali": "Waxaa loo isticmaalaa in la muujiyo muddada wax socon doonaan ilaa waqti mustaqbal ah (\"Illaa Juun, toban sano ayaan halkan ka shaqeynayay\"). Hab-dhismeedku waa will have been + verb-ing. Waa tense aan badanaa la isticmaalin; marka hore ku dhis kuwa kale.",
+    "explanation": "Use it to stress how long something will have been in progress by a future time. Will have been + verb-ing. Rare in everyday speech.",
+    "formula": "Subject + will have been + verb-ing.",
+    "forms": {
+      "affirmative": [
+        [
+          "By June I will have been working here for ten years.",
+          "Illaa Juun, toban sano ayaan halkan ka shaqeynayay."
+        ],
+        [
+          "She will have been studying for three hours by 8.",
+          "Saacadda 8, saddex saac ayay wax baranaysay."
+        ],
+        [
+          "We will have been travelling for a day.",
+          "Maalin ayaan safarayay."
+        ]
+      ],
+      "negative": [
+        [
+          "I won't have been waiting long.",
+          "Muddo dheer ma sugi doono."
+        ],
+        [
+          "He won't have been sleeping.",
+          "Ma seexan doono."
+        ]
+      ],
+      "question": [
+        [
+          "Will you have been working for a year?",
+          "Hal sano ma shaqaynaysay?"
+        ],
+        [
+          "Will they have been waiting long?",
+          "Muddo dheer ma sugi doonaan?"
+        ]
+      ],
+      "wh": [
+        [
+          "How long will you have been studying?",
+          "Intee ayaad wax baranaysaa?"
+        ],
+        [
+          "What will she have been doing?",
+          "Maxay samaynaysaa?"
+        ]
+      ]
+    },
+    "examples": [
+      "By June I will have been working here for ten years.",
+      "She will have been studying for three hours by 8.",
+      "We will have been travelling for a day."
+    ],
+    "mistakes": [
+      "will have been work → will have been working",
+      "Using it for completed result"
+    ],
+    "mistakesSo": [
+      "Future Perfect Continuous wuxuu u baahan yahay “will have been + verb-ing”.",
+      "Haddii aad xoogga saarayso natiijo dhammaatay, Future Perfect ayaa ku habboon; Future Perfect Continuous wuxuu xoogga saaraa muddada."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "By May I ___ here for a year.",
+        "options": [
+          "will have been working",
+          "will work",
+          "work"
+        ],
+        "answer": 0,
+        "explain": "Duration by a future time.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect Continuous. Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuu shaqaynayey muddo marka wakhtigaas la gaadho",
+          "wuu shaqayn doonaa",
+          "shaqee"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "She ___ (study) for hours by then.",
+        "answer": "will have been studying",
+        "explain": "will have been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect Continuous. Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "correct",
+        "prompt": "Correct the sentence: They will have been wait.",
+        "answer": "They will have been waiting.",
+        "explain": "been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect Continuous. Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "order",
+        "prompt": "Order the words.",
+        "words": [
+          "long",
+          "How",
+          "have",
+          "you",
+          "will",
+          "been",
+          "working"
+        ],
+        "answer": [
+          "How",
+          "long",
+          "will",
+          "you",
+          "have",
+          "been",
+          "working"
+        ],
+        "explain": "How long will + subject + have been + verb-ing.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect Continuous. Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which stresses duration?",
+        "options": [
+          "will have finished",
+          "will have been finishing",
+          "will finish"
+        ],
+        "answer": 1,
+        "explain": "Continuous = duration.",
+        "explainSo": "Jawaabtu waxay ku salaysan tahay xeerka Future Perfect Continuous. Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah.",
+        "promptSo": "Ka jawaab layligan adigoo adeegsanaya xeerka waqtigan naxwe.",
+        "optionsSo": [
+          "wuu dhammaystiri doonaa",
+          "qaab aan caadi ahaan sax ahayn",
+          "wuu dhammayn doonaa"
+        ]
+      }
+    ],
+    "formulaSo": "Subject + will have been + verb-ing.",
+    "examplesSo": [
+      "Bisha Juun marka la gaadho, toban sano ayaan halkan ka shaqaynayey.",
+      "Siddeeda marka la gaadho, saddex saacadood ayay wax baranaysay.",
+      "Maalin dhan ayaan safar ku jirnay."
+    ],
+    "titleSo": "Future Perfect Continuous",
+    "explanationSo": "Waxaa loo adeegsadaa in la muujiyo muddada ficil soconayey marka la gaadho waqti mustaqbalka ah. Qaabkani ma badna hadalka maalinlaha ah."
+  }
+]

@@ -7,8 +7,8 @@ test('no two lessons, conversations, listening items, writing prompts or library
   dup(A(...lessonFiles), 'lessons'); dup(A('conversations', 'conversations2', 'conversations3', 'conversations4'), 'conversations'); dup(A('listening', 'listening2', 'listening3', 'listening4'), 'listening');
   dup(A('writing', 'writing2', 'writing3'), 'writing'); dup(A('seed', 'seed2', 'seed3', 'seed4', 'seed5'), 'entries');
 });
-test('batch 5: lessons and conversations validate, are unverified, and carry no invented Somali', () => {
-  for (const l of A('reading4', 'professional4')) { assert.deepEqual(validateLesson(l), [], l.id); assert.equal(l.status, 'unverified'); assert.equal(l.somali, null); }
+test('batch 5: lessons and conversations validate, retain supplied Somali, and remain unverified', () => {
+  for (const l of A('reading4', 'professional4')) { assert.deepEqual(validateLesson(l), [], l.id); assert.equal(l.status, 'unverified'); if (l.track === 'reading') assert.ok(typeof l.somali === 'string' && l.somali.length > 30, l.id); else assert.ok(typeof l.explanationSo === 'string' && l.explanationSo.trim()); }
   for (const c of A('conversations4')) { assert.deepEqual(validateConversation(c), [], c.id); assert.equal(c.status, 'unverified'); }
   for (const l of A('listening4')) { assert.ok(l.sentences.length >= 4 && l.questions.length >= 3, l.id); for (const q of l.questions) if (q.type === 'mcq') assert.ok(q.options[q.answer], l.id); }
 });
@@ -20,7 +20,7 @@ test('batch 5 fills the CEFR gaps it targets', () => {
 });
 test('seed5 entries import cleanly with the rest of the library (no rejects)', () => {
   const r = importEntries(A('seed', 'seed2', 'seed3', 'seed4', 'seed5')); assert.equal(r.rejected.length, 0, JSON.stringify(r.rejected.slice(0, 2)));
-  for (const e of A('seed5')) { assert.equal(e.status, 'unverified'); assert.equal(e.somali, null); assert.ok(LEVELS.includes(e.level)); }
+  for (const e of A('seed5')) { assert.equal(e.status, 'unverified'); assert.ok(typeof e.somali === 'string' && e.somali.trim()); assert.ok(LEVELS.includes(e.level)); }
 });
 test('every conversation can be finished: every branch reaches an end node with a best path scoring maximum', () => {
   for (const c of A('conversations4')) { let best = 0; (function walk(k, s, seen) { const n = c.nodes[k]; if (n.end) { best = Math.max(best, s); return; } for (const ch of n.choices) if (!seen.has(ch.next)) walk(ch.next, s + ch.score, new Set([...seen, k])); })(c.start, 0, new Set()); assert.ok(best >= 4, c.id + ' best ' + best); }

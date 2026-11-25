@@ -1,1 +1,357 @@
-[{"id":"r-neighbour","track":"reading","title":"A new neighbour","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Last week a new family moved into the flat next to mine. The mother is called Sara and she works at a hospital. Her son Omar is eight years old and he plays football every afternoon. Yesterday Sara knocked on my door and gave me a cake. I made tea and we talked for an hour. I think we will be good friends.","examples":["move into: to start living in a new home","flat: a set of rooms to live in, inside a larger building","knock: to hit a door gently so people know you are there"],"exercises":[{"type":"mcq","prompt":"Where does Sara work?","options":["At a school","At a hospital","At a shop"],"answer":1,"explain":"She works at a hospital."},{"type":"mcq","prompt":"How old is Omar?","options":["Six","Eight","Ten"],"answer":1,"explain":"Omar is eight years old."},{"type":"fill","prompt":"Sara gave the writer a... (one word)","answer":"cake","explain":"She gave me a cake."}]},{"id":"r-long-commute","track":"reading","title":"The long commute","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Daniel lives forty kilometres from his office. Every morning he takes a train and then a bus, which takes almost two hours. At first he found the journey exhausting, but he soon discovered that it was the only quiet time in his day. He now uses it to read books and learn languages. Although he would prefer a shorter trip, he admits that the commute has made him more patient.","examples":["exhausting: making you very tired","discover: to find or learn something for the first time","patient: able to wait calmly"],"exercises":[{"type":"mcq","prompt":"How long is Daniel's journey?","options":["About one hour","Almost two hours","Four hours"],"answer":1,"explain":"\"almost two hours\"."},{"type":"mcq","prompt":"What does Daniel use the commute for?","options":["Sleeping","Reading and learning languages","Working on reports"],"answer":1,"explain":"He reads books and learns languages."},{"type":"mcq","prompt":"What has the commute taught him?","options":["To be more patient","To drive","To dislike trains"],"answer":0,"explain":"It has made him more patient."}]},{"id":"r-attention","track":"reading","title":"The attention economy","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Many free apps earn money by capturing our attention and selling it to advertisers. The longer users stay on a platform, the more profit it makes, so designers add features such as endless scrolling and constant notifications. Critics argue that these techniques exploit natural psychological habits. Supporters reply that users remain free to leave at any time. The debate raises a broader question: who is responsible for protecting attention, the companies or the individuals?","examples":["capture: to take and hold","exploit: to use something unfairly for your own benefit","notification: a message that appears to tell you something new"],"exercises":[{"type":"mcq","prompt":"How do many free apps earn money?","options":["By selling subscriptions only","By selling users' attention to advertisers","By charging for downloads"],"answer":1,"explain":"They capture attention and sell it to advertisers."},{"type":"mcq","prompt":"What do critics say about these techniques?","options":["They are harmless","They exploit natural habits","They are illegal in all countries"],"answer":1,"explain":"Critics argue they exploit natural psychological habits."},{"type":"fill","prompt":"Supporters say users are free to ... at any time. (one word)","answer":"leave","explain":"Users remain free to leave at any time."}]},{"id":"r-urban","track":"reading","title":"Rethinking the city","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"For decades, urban planners prioritised the car, widening roads and relegating pedestrians to narrow pavements. Yet cities that have reclaimed street space for cycling and public transport report cleaner air and livelier neighbourhoods. Sceptics caution that such schemes can displace lower-income residents when rising property values follow improvements. Consequently, the most thoughtful proposals pair infrastructure with affordable housing, so that the benefits of renewal are widely shared rather than concentrated.","examples":["relegate: to move to a less important position","displace: to force people to leave their home","concentrated: gathered in one place or group"],"exercises":[{"type":"mcq","prompt":"What did planners prioritise for decades?","options":["Pedestrians","The car","Railways"],"answer":1,"explain":"They prioritised the car."},{"type":"mcq","prompt":"What risk do sceptics mention?","options":["Higher pollution","Displacement of lower-income residents","Fewer cyclists"],"answer":1,"explain":"Rising property values can displace lower-income residents."},{"type":"mcq","prompt":"What do thoughtful proposals combine infrastructure with?","options":["Lower taxes","Affordable housing","New car parks"],"answer":1,"explain":"They pair it with affordable housing."}]},{"id":"r-translation","track":"reading","title":"The limits of translation","level":"C2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Translators often speak of fidelity and fluency as though they were opposing virtues: the former demands loyalty to the source text, the latter to the reader. Yet this antithesis is arguably too neat. A rendering that preserves every word may betray the spirit of the original, whereas one that smooths away strangeness may erase precisely what made the work distinctive. The accomplished translator, therefore, negotiates rather than resolves this tension, accepting that some loss is inevitable and that the choice of what to sacrifice is itself an interpretive act.","examples":["fidelity: faithfulness to the original","antithesis: a direct contrast between two ideas","inevitable: certain to happen and impossible to avoid"],"exercises":[{"type":"mcq","prompt":"What does \"fidelity\" demand?","options":["Loyalty to the source text","Easy reading for the audience","Shorter sentences"],"answer":0,"explain":"Fidelity demands loyalty to the source text."},{"type":"mcq","prompt":"What may a word-for-word rendering do?","options":["Always improve the text","Betray the spirit of the original","Make it more fluent"],"answer":1,"explain":"It may betray the spirit of the original."},{"type":"fill","prompt":"The translator ... the tension rather than resolving it. (one word)","answer":"negotiates","explain":"The accomplished translator negotiates rather than resolves."}]}]
+[
+  {
+    "id": "r-neighbour",
+    "track": "reading",
+    "title": "A new neighbour",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Toddobaadkii hore qoys cusub ayaa u soo guuray guriga dabaqa ah ee ku dheggan kayga. Hooyada waxaa la yidhaahdaa Saara, waxayna ka shaqaysaa isbitaal. Wiilkeeda Cumar waa siddeed jir, galab kastana kubbadda cagta ayuu ciyaaraa. Shalay Saara albaabkayga ayay soo garaacday, keegna way i siisay. Shaah ayaan sameeyey, muddo saacad ahna waan wada sheekaysannay. Waxaan filayaa inaan noqon doonno saaxiibbo wanaagsan.",
+    "explanation": "Last week a new family moved into the flat next to mine. The mother is called Sara and she works at a hospital. Her son Omar is eight years old and he plays football every afternoon. Yesterday Sara knocked on my door and gave me a cake. I made tea and we talked for an hour. I think we will be good friends.",
+    "examples": [
+      "move into: to start living in a new home",
+      "flat: a set of rooms to live in, inside a larger building",
+      "knock: to hit a door gently so people know you are there"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Where does Sara work?",
+        "options": [
+          "At a school",
+          "At a hospital",
+          "At a shop"
+        ],
+        "answer": 1,
+        "explain": "She works at a hospital.",
+        "promptSo": "Saara xaggee ayay ka shaqaysaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Isbitaal”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Dugsi",
+          "Isbitaal",
+          "Dukaan"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is Omar?",
+        "options": [
+          "Six",
+          "Eight",
+          "Ten"
+        ],
+        "answer": 1,
+        "explain": "Omar is eight years old.",
+        "promptSo": "Cumar imisa jir ayuu yahay?",
+        "explainSo": "Jawaabta saxda ahi waa “Siddeed”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Lix",
+          "Siddeed",
+          "Toban"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Sara gave the writer a... (one word)",
+        "answer": "cake",
+        "explain": "She gave me a cake.",
+        "promptSo": "Saara waxay qoraaga siisay ... (hal eray).",
+        "explainSo": "Jawaabta saxda ahi waa “cake”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas."
+      }
+    ],
+    "titleSo": "Deris cusub",
+    "examplesSo": [
+      "u soo guurid: in la bilaabo deggenaanshaha guri cusub",
+      "guri dabaq ah: guri ka mid ah dhisme leh guryo badan",
+      "garaacid: albaabka si tartiib ah u taabasho si dadka gudaha jooga kuu ogaadaan"
+    ]
+  },
+  {
+    "id": "r-long-commute",
+    "track": "reading",
+    "title": "The long commute",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Daanyeel wuxuu gurigiisa ka deggan yahay meel afartan kiiloomitir u jirta xafiiskiisa. Subax kasta tareen ayuu raacaa, dabadeedna bas; safarku wuxuu qaataa ku dhowaad laba saacadood. Markii hore safarku aad buu u daalin jiray, balse muddo yar ka dib wuxuu ogaaday inuu yahay waqtiga keliya ee maalintiisa uu ku helo degganaansho. Hadda wuxuu waqtigaas u isticmaalaa akhrinta buugaagta iyo barashada luqadaha. Inkastoo uu jeclaan lahaa safar ka gaaban, haddana wuxuu qirayaa in safarkaasi ka dhigay qof dulqaad badan.",
+    "explanation": "Daniel lives forty kilometres from his office. Every morning he takes a train and then a bus, which takes almost two hours. At first he found the journey exhausting, but he soon discovered that it was the only quiet time in his day. He now uses it to read books and learn languages. Although he would prefer a shorter trip, he admits that the commute has made him more patient.",
+    "examples": [
+      "exhausting: making you very tired",
+      "discover: to find or learn something for the first time",
+      "patient: able to wait calmly"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How long is Daniel's journey?",
+        "options": [
+          "About one hour",
+          "Almost two hours",
+          "Four hours"
+        ],
+        "answer": 1,
+        "explain": "\"almost two hours\".",
+        "promptSo": "Safarka Daanyeel intee ayuu qaataa?",
+        "explainSo": "Jawaabta saxda ahi waa “Ku dhowaad laba saacadood”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Qiyaastii hal saac",
+          "Ku dhowaad laba saacadood",
+          "Afar saacadood"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does Daniel use the commute for?",
+        "options": [
+          "Sleeping",
+          "Reading and learning languages",
+          "Working on reports"
+        ],
+        "answer": 1,
+        "explain": "He reads books and learns languages.",
+        "promptSo": "Daanyeel muxuu u adeegsadaa waqtiga safarka shaqada?",
+        "explainSo": "Jawaabta saxda ahi waa “Akhris iyo barashada luuqado”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Seexasho",
+          "Akhris iyo barashada luuqado",
+          "Ka shaqaynta warbixinno"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What has the commute taught him?",
+        "options": [
+          "To be more patient",
+          "To drive",
+          "To dislike trains"
+        ],
+        "answer": 0,
+        "explain": "It has made him more patient.",
+        "promptSo": "Muxuu safarka maalinlaha ahi baray?",
+        "explainSo": "Jawaabta saxda ahi waa “Inuu samir badan yeesho”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Inuu samir badan yeesho",
+          "Inuu baabuur wado",
+          "Inuu tareennada necbaysto"
+        ]
+      }
+    ],
+    "titleSo": "Safarka dheer ee shaqada",
+    "examplesSo": [
+      "aad u daaliya: qofka si weyn u daaliya",
+      "ogaansho: helid ama barasho wax markii ugu horreysay",
+      "dulqaad leh: awood u leh inuu si deggan wax u sugo"
+    ]
+  },
+  {
+    "id": "r-attention",
+    "track": "reading",
+    "title": "The attention economy",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Barnaamijyo badan oo bilaash ah ayaa lacag ku sameeya iyagoo soo jiita dareenkayaga dabadeedna ka iibiya xayaysiiyeyaasha. Inta ay isticmaalayaashu madal ku sii jiraan, faa’iidada shirkaddu way sii badanaysaa; sidaas darteed naqshadeeyayaashu waxay ku daraan astaamo ay ka mid yihiin rogrogid aan dhammaad lahayn iyo ogeysiisyo joogto ah. Dadka dhaliila waxay ku doodaan in farsamooyinkani ka faa’iidaystaan caadooyinka dabiiciga ah ee maskaxda. Dadka taageera waxay ku jawaabaan in isticmaalayaashu xor u yihiin inay wakhti kasta ka baxaan. Dooddani waxay dhalinaysaa su’aal ka ballaadhan: yaa mas’uul ka ah ilaalinta dareenkayaga, shirkadaha mise shakhsiyaadka?",
+    "explanation": "Many free apps earn money by capturing our attention and selling it to advertisers. The longer users stay on a platform, the more profit it makes, so designers add features such as endless scrolling and constant notifications. Critics argue that these techniques exploit natural psychological habits. Supporters reply that users remain free to leave at any time. The debate raises a broader question: who is responsible for protecting attention, the companies or the individuals?",
+    "examples": [
+      "capture: to take and hold",
+      "exploit: to use something unfairly for your own benefit",
+      "notification: a message that appears to tell you something new"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How do many free apps earn money?",
+        "options": [
+          "By selling subscriptions only",
+          "By selling users' attention to advertisers",
+          "By charging for downloads"
+        ],
+        "answer": 1,
+        "explain": "They capture attention and sell it to advertisers.",
+        "promptSo": "Barnaamijyo badan oo bilaash ahi sidee ayay lacag u sameeyaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Iibinta dareenka isticmaalayaasha xayaysiiyeyaasha”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Iibinta rukumashooyin oo keliya",
+          "Iibinta dareenka isticmaalayaasha xayaysiiyeyaasha",
+          "Lacag ka qaadista soo dejinta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do critics say about these techniques?",
+        "options": [
+          "They are harmless",
+          "They exploit natural habits",
+          "They are illegal in all countries"
+        ],
+        "answer": 1,
+        "explain": "Critics argue they exploit natural psychological habits.",
+        "promptSo": "Dadka dhaliila farsamooyinkan maxay ka yidhaahdaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Waxay ka faa’iidaystaan caadooyinka dabiiciga ah”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Waxyeello ma leh",
+          "Waxay ka faa’iidaystaan caadooyinka dabiiciga ah",
+          "Dhammaan dalalka waa sharci-darro"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Supporters say users are free to ... at any time. (one word)",
+        "answer": "leave",
+        "explain": "Users remain free to leave at any time.",
+        "promptSo": "Taageerayaashu waxay leeyihiin isticmaalayaashu xor bay u yihiin inay ... wakhti kasta. (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waa “leave”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas."
+      }
+    ],
+    "titleSo": "Dhaqaalaha ku dhisan soo jiidashada dareenka",
+    "examplesSo": [
+      "soo jiidid: qabasho iyo hayn",
+      "ka faa’iidaysi aan caddaalad ahayn: wax u adeegsi dan kuu gaar ah adigoo dadka kale dulminaya",
+      "ogeysiis: farriin kuu soo baxda si ay kuu sheegto wax cusub"
+    ]
+  },
+  {
+    "id": "r-urban",
+    "track": "reading",
+    "title": "Rethinking the city",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Tobannaan sano, qorsheeyayaasha magaalooyinku waxay mudnaanta siin jireen baabuurta: waddooyinka ayay ballaadhin jireen, dadka lugaynayana waxay ku koobayeen waddooyin cidhiidhi ah. Hase yeeshee, magaalooyinka dib u siiyey baaskiillada iyo gaadiidka dadweynaha qayb ka mid ah waddooyinka waxay soo sheegaan hawo nadiif ah iyo xaafado nolol badan leh. Dadka shakiga qaba waxay ka digayaan in qorshayaashaas ay barakicin karaan dadka dakhligoodu hooseeyo marka qiimaha hantidu kordho ka dib hagaajinta deegaanka. Sidaas darteed, qorshayaasha ugu miisaaman waxay kaabayaasha cusub ku daraan guryo qiimahoodu la awoodi karo, si faa’iidada horumarku dad badan u wada gaadho halkii ay koox yar ku koobnaan lahayd.",
+    "explanation": "For decades, urban planners prioritised the car, widening roads and relegating pedestrians to narrow pavements. Yet cities that have reclaimed street space for cycling and public transport report cleaner air and livelier neighbourhoods. Sceptics caution that such schemes can displace lower-income residents when rising property values follow improvements. Consequently, the most thoughtful proposals pair infrastructure with affordable housing, so that the benefits of renewal are widely shared rather than concentrated.",
+    "examples": [
+      "relegate: to move to a less important position",
+      "displace: to force people to leave their home",
+      "concentrated: gathered in one place or group"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What did planners prioritise for decades?",
+        "options": [
+          "Pedestrians",
+          "The car",
+          "Railways"
+        ],
+        "answer": 1,
+        "explain": "They prioritised the car.",
+        "promptSo": "Qorsheeyayaasha magaalooyinku tobannaan sano maxay mudnaanta siinayeen?",
+        "explainSo": "Jawaabta saxda ahi waa “Baabuurta”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Dad lugeeya",
+          "Baabuurta",
+          "Waddooyinka tareennada"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What risk do sceptics mention?",
+        "options": [
+          "Higher pollution",
+          "Displacement of lower-income residents",
+          "Fewer cyclists"
+        ],
+        "answer": 1,
+        "explain": "Rising property values can displace lower-income residents.",
+        "promptSo": "Kuwa shakisan khatart noocee ah ayay xusaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Barakicinta dadka dakhligoodu hooseeyo”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Wasakhow badan",
+          "Barakicinta dadka dakhligoodu hooseeyo",
+          "Dad baaskiil wata oo yaraada"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do thoughtful proposals combine infrastructure with?",
+        "options": [
+          "Lower taxes",
+          "Affordable housing",
+          "New car parks"
+        ],
+        "answer": 1,
+        "explain": "They pair it with affordable housing.",
+        "promptSo": "Soo-jeedimaha si fiican looga fiirsaday kaabayaasha dhaqaalaha maxay la isku daraan?",
+        "explainSo": "Jawaabta saxda ahi waa “Guryo la awoodi karo”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Cashuur hoose",
+          "Guryo la awoodi karo",
+          "Goobo baarkin oo cusub"
+        ]
+      }
+    ],
+    "titleSo": "Dib-u-fikirka magaalada",
+    "examplesSo": [
+      "hoos u rarid: in wax loo wareejiyo meel ama darajo ka hooseysa",
+      "barakicin: dad si khasab ah looga saaro guryahooda",
+      "ku koobnaan: in hal meel ama koox keliya lagu ururiyo"
+    ]
+  },
+  {
+    "id": "r-translation",
+    "track": "reading",
+    "title": "The limits of translation",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Tarjumayaashu badanaa waxay daacadnimada qoraalka asalka ah iyo hab-qoraal akhristaha u fudud u hadlaan sidii laba sifo oo iska soo horjeeda: tan koowaad waxay dalbanaysaa in qoraalka asalka ah si dhow loo raaco, tan labaadna in akhristuhu si fudud u fahmo. Hase yeeshee, iska-hor-imaadkani waxaa laga yaabaa inuu aad u fudud yahay. Tarjumaad eray kasta ilaalisa waxay lumin kartaa ruuxa qoraalka asalka ah, halka tarjumaad wax kasta oo aan caadi ahayn simaysa ay tirtiri karto waxa qoraalkaas gaar ka dhigay. Sidaas darteed, turjumaanka xirfadda leh xiisaddaas wuu maareeyaa halkii uu si buuxda u xallin lahaa; wuxuu aqbalaa in waxyaabo qaar luminayaan, isla markaana go’aanka waxa la luminayo laftiisu yahay fasiraad.",
+    "explanation": "Translators often speak of fidelity and fluency as though they were opposing virtues: the former demands loyalty to the source text, the latter to the reader. Yet this antithesis is arguably too neat. A rendering that preserves every word may betray the spirit of the original, whereas one that smooths away strangeness may erase precisely what made the work distinctive. The accomplished translator, therefore, negotiates rather than resolves this tension, accepting that some loss is inevitable and that the choice of what to sacrifice is itself an interpretive act.",
+    "examples": [
+      "fidelity: faithfulness to the original",
+      "antithesis: a direct contrast between two ideas",
+      "inevitable: certain to happen and impossible to avoid"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does \"fidelity\" demand?",
+        "options": [
+          "Loyalty to the source text",
+          "Easy reading for the audience",
+          "Shorter sentences"
+        ],
+        "answer": 0,
+        "explain": "Fidelity demands loyalty to the source text.",
+        "promptSo": "Erayga “fidelity” muxuu dalbanayaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Daacad u ahaanshaha qoraalka asalka ah”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Daacad u ahaanshaha qoraalka asalka ah",
+          "Akhris u fudud dhagaystayaasha",
+          "Weedho gaagaaban"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What may a word-for-word rendering do?",
+        "options": [
+          "Always improve the text",
+          "Betray the spirit of the original",
+          "Make it more fluent"
+        ],
+        "answer": 1,
+        "explain": "It may betray the spirit of the original.",
+        "promptSo": "Turjumaad eray-eray ahi maxay keeni kartaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Luminta ujeeddada qoraalka asalka ah”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Mar walba hagaajinta qoraalka",
+          "Luminta ujeeddada qoraalka asalka ah",
+          "Ka dhigista mid si fudud u akhrismaya"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The translator ... the tension rather than resolving it. (one word)",
+        "answer": "negotiates",
+        "explain": "The accomplished translator negotiates rather than resolves.",
+        "promptSo": "Turjumaanku xiisadda ... halkii uu gebi ahaanba xallin lahaa. (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waa “negotiates”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas."
+      }
+    ],
+    "titleSo": "Xuduudaha tarjumaadda",
+    "examplesSo": [
+      "daacadnimo: ku-dhegganaanta qoraalka asalka ah",
+      "iska soo horjeed: laba fikradood oo si toos ah isu diiddan",
+      "lama huraan: wax hubaal dhici doona oo aan laga baaqsan karin"
+    ]
+  }
+]

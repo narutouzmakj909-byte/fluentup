@@ -1,1 +1,422 @@
-[{"id":"l13","title":"At the pharmacy","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Good morning. Can I help you?","Yes, I have a headache. Do you have anything for it?","Take one tablet every six hours with water.","Thank you. How much is it?","It is four dollars."],"questions":[{"type":"mcq","prompt":"What problem does the customer have?","options":["A headache","A cough","A sore foot"],"answer":0,"explain":"The customer says \"I have a headache\"."},{"type":"mcq","prompt":"How often should the customer take a tablet?","options":["Every two hours","Every six hours","Once a week"],"answer":1,"explain":"\"every six hours\"."},{"type":"fill","prompt":"How much does the medicine cost, in dollars? (a number word)","answer":"four","explain":"It is four dollars."}]},{"id":"l14","title":"Changing a meeting","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Hi Nadia, are you free on Tuesday afternoon?","I have a dentist appointment at three, but I am free at one.","One o'clock is too early for me because I have a class.","How about Wednesday morning instead?","Wednesday at ten works well. I will send the invitation."],"questions":[{"type":"mcq","prompt":"Why can Nadia not meet at three on Tuesday?","options":["She has a dentist appointment","She has a class","She is travelling"],"answer":0,"explain":"She has a dentist appointment at three."},{"type":"mcq","prompt":"When do they agree to meet?","options":["Tuesday at one","Wednesday at ten","Tuesday at three"],"answer":1,"explain":"They agree on Wednesday at ten."},{"type":"fill","prompt":"Who will send the invitation? (a name)","answer":"Nadia","explain":"The final speaker, Nadia, says she will send it."}]},{"id":"l15","title":"A delayed flight","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Attention, passengers on flight 218 to Nairobi.","Due to bad weather, your flight is delayed by two hours.","The new departure time is six forty-five in the evening.","Meal vouchers are available at the information desk.","We apologise for the inconvenience."],"questions":[{"type":"mcq","prompt":"Why is the flight delayed?","options":["Bad weather","A technical fault","Staff shortage"],"answer":0,"explain":"\"Due to bad weather\"."},{"type":"mcq","prompt":"Where can passengers get meal vouchers?","options":["At the gate","At the information desk","On the plane"],"answer":1,"explain":"Vouchers are at the information desk."},{"type":"fill","prompt":"What is the destination city?","answer":"Nairobi","explain":"Flight 218 goes to Nairobi."}]},{"id":"l16","title":"Feedback on a project","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Overall, the report is well structured and easy to follow.","However, the conclusion could be stronger, because it does not mention the budget.","I would also suggest adding a short summary at the beginning.","If you can revise it by Friday, we can present it on Monday.","That is a fair point. I will make those changes."],"questions":[{"type":"mcq","prompt":"What is the main weakness mentioned?","options":["The structure","The conclusion does not mention the budget","The report is too long"],"answer":1,"explain":"The speaker says the conclusion does not mention the budget."},{"type":"mcq","prompt":"When must the report be revised?","options":["By Friday","By Monday","By Wednesday"],"answer":0,"explain":"\"by Friday\"."},{"type":"fill","prompt":"What should be added at the beginning? (one word)","answer":"summary","explain":"A short summary at the beginning."}]},{"id":"l17","title":"A radio interview about remote work","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Remote work has undeniably changed how companies recruit.","On the one hand, firms can hire talent from anywhere in the world.","On the other hand, managers struggle to build a shared culture across time zones.","The evidence suggests that productivity rises, provided that expectations are clear.","Ultimately, the success of the model depends on trust rather than on surveillance."],"questions":[{"type":"mcq","prompt":"What benefit of remote work is mentioned for recruitment?","options":["Lower salaries","Hiring talent from anywhere","Shorter contracts"],"answer":1,"explain":"Firms can hire talent from anywhere."},{"type":"mcq","prompt":"According to the speaker, productivity rises if...","options":["managers watch employees closely","expectations are clear","meetings are longer"],"answer":1,"explain":"\"provided that expectations are clear\"."},{"type":"fill","prompt":"The success of the model depends on trust, not on... (one word)","answer":"surveillance","explain":"The last sentence contrasts trust with surveillance."}]},{"id":"l18","title":"A lecture on language change","level":"C2","status":"unverified","source":"original, authored for FluentUp","somali":null,"audio":null,"sentences":["Languages are never static; they evolve in response to the communities that use them.","What purists decry as corruption is frequently the seed of tomorrow's standard usage.","Consider how the word \"nice\" has drifted from meaning foolish to meaning pleasant.","Such shifts are rarely deliberate, and they seldom follow any predictable course.","The linguist's task is therefore to describe change, not to legislate against it."],"questions":[{"type":"mcq","prompt":"How does the speaker describe what purists call corruption?","options":["Always harmful","Often the beginning of future standard usage","Completely unnatural"],"answer":1,"explain":"It is \"frequently the seed of tomorrow's standard usage\"."},{"type":"mcq","prompt":"What did the word \"nice\" originally mean in the example?","options":["Pleasant","Foolish","Polite"],"answer":1,"explain":"It drifted from meaning foolish to pleasant."},{"type":"fill","prompt":"The linguist should describe change, not... against it. (one word)","answer":"legislate","explain":"The last sentence says \"not to legislate against it\"."}]}]
+[
+  {
+    "id": "l13",
+    "title": "At the pharmacy",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Good morning. Can I help you?",
+      "Yes, I have a headache. Do you have anything for it?",
+      "Take one tablet every six hours with water.",
+      "Thank you. How much is it?",
+      "It is four dollars."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What problem does the customer have?",
+        "options": [
+          "A headache",
+          "A cough",
+          "A sore foot"
+        ],
+        "answer": 0,
+        "explain": "The customer says \"I have a headache\".",
+        "promptSo": "Macaamilku dhibaato noocee ah ayuu qabaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Madax-xanuun",
+          "Qufac",
+          "Cag xanuunaysa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How often should the customer take a tablet?",
+        "options": [
+          "Every two hours",
+          "Every six hours",
+          "Once a week"
+        ],
+        "answer": 1,
+        "explain": "\"every six hours\".",
+        "promptSo": "Intee jeer ayuu qofku kiniinka qaadanayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Labadii saacadoodba",
+          "Lixdii saacadoodba",
+          "Toddobaadkiiba mar"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "How much does the medicine cost, in dollars? (a number word)",
+        "answer": "four",
+        "explain": "It is four dollars.",
+        "promptSo": "Daawadu waa imisa doollar? (ku qor erayga tirada)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Farmashiyaha",
+    "sentencesSo": [
+      "Subax wanaagsan. Ma ku caawin karaa?",
+      "Haa, madaxaa i xanuunaya. Wax ma haysaan oo iga caawin kara?",
+      "Qaado hal kiniin lixdii saacadoodba mar adigoo biyo la cabbaya.",
+      "Mahadsanid. Waa imisa qiimihiisu?",
+      "Afar doollar ayuu ku kacayaa."
+    ]
+  },
+  {
+    "id": "l14",
+    "title": "Changing a meeting",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Hi Nadia, are you free on Tuesday afternoon?",
+      "I have a dentist appointment at three, but I am free at one.",
+      "One o'clock is too early for me because I have a class.",
+      "How about Wednesday morning instead?",
+      "Wednesday at ten works well. I will send the invitation."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Why can Nadia not meet at three on Tuesday?",
+        "options": [
+          "She has a dentist appointment",
+          "She has a class",
+          "She is travelling"
+        ],
+        "answer": 0,
+        "explain": "She has a dentist appointment at three.",
+        "promptSo": "Maxay Nadia saddexda Talaadada ula kulmi karin?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Waxay ballan la leedahay dhakhtarka ilkaha",
+          "Waxay leedahay fasal",
+          "Way safraysaa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When do they agree to meet?",
+        "options": [
+          "Tuesday at one",
+          "Wednesday at ten",
+          "Tuesday at three"
+        ],
+        "answer": 1,
+        "explain": "They agree on Wednesday at ten.",
+        "promptSo": "Goorma ayay ku heshiiyeen inay kulmaan?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Talaadada kowda",
+          "Arbacada tobanka",
+          "Talaadada saddexda"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Who will send the invitation? (a name)",
+        "answer": "Nadia",
+        "explain": "The final speaker, Nadia, says she will send it.",
+        "promptSo": "Yaa soo diraya casuumaadda? (magac)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Beddelidda kulan",
+    "sentencesSo": [
+      "Salaan Nadia, Talaadada galabtii ma firaaqo baad tahay?",
+      "Saddexda ballan dhakhtarka ilkaha ayaan leeyahay, balse kowda waan firaaqo ahay.",
+      "Kowdu aniga aad bay iigu horraysaa, sababtoo ah fasal ayaan leeyahay.",
+      "Ka warran subaxda Arbacada beddelkeeda?",
+      "Arbacada tobanka way igu habboon tahay. Casuumaadda waan kuu soo diri doonaa."
+    ]
+  },
+  {
+    "id": "l15",
+    "title": "A delayed flight",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Attention, passengers on flight 218 to Nairobi.",
+      "Due to bad weather, your flight is delayed by two hours.",
+      "The new departure time is six forty-five in the evening.",
+      "Meal vouchers are available at the information desk.",
+      "We apologise for the inconvenience."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Why is the flight delayed?",
+        "options": [
+          "Bad weather",
+          "A technical fault",
+          "Staff shortage"
+        ],
+        "answer": 0,
+        "explain": "\"Due to bad weather\".",
+        "promptSo": "Maxaa sababay dib-u-dhaca duulimaadka?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Cimilo xumo",
+          "Cilad farsamo",
+          "Shaqaale yari"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Where can passengers get meal vouchers?",
+        "options": [
+          "At the gate",
+          "At the information desk",
+          "On the plane"
+        ],
+        "answer": 1,
+        "explain": "Vouchers are at the information desk.",
+        "promptSo": "Rakaabku xaggee ayay ka heli karaan foojarrada cuntada?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Albaabka laga raaco",
+          "Miiska macluumaadka",
+          "Diyaaradda dhexdeeda"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "What is the destination city?",
+        "answer": "Nairobi",
+        "explain": "Flight 218 goes to Nairobi.",
+        "promptSo": "Magaaladee ayuu duulimaadku ku socdaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Duulimaad dib u dhacay",
+    "sentencesSo": [
+      "Fiiro gaar ah, rakaabka duulimaadka 218 ee ku socda Nayroobi.",
+      "Cimilo xumo awgeed, duulimaadkiinnu laba saacadood ayuu dib u dhacay.",
+      "Waqtiga cusub ee bixitaanku waa lix iyo afartan iyo shan fiidnimo.",
+      "Foojarrada cuntada waxaa laga heli karaa miiska macluumaadka.",
+      "Waan ka cudur daaranaynaa dhibaatada idin soo gaadhay."
+    ]
+  },
+  {
+    "id": "l16",
+    "title": "Feedback on a project",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Overall, the report is well structured and easy to follow.",
+      "However, the conclusion could be stronger, because it does not mention the budget.",
+      "I would also suggest adding a short summary at the beginning.",
+      "If you can revise it by Friday, we can present it on Monday.",
+      "That is a fair point. I will make those changes."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What is the main weakness mentioned?",
+        "options": [
+          "The structure",
+          "The conclusion does not mention the budget",
+          "The report is too long"
+        ],
+        "answer": 1,
+        "explain": "The speaker says the conclusion does not mention the budget.",
+        "promptSo": "Waa maxay tabardarrada ugu weyn ee la sheegay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Qaab-dhismeedka",
+          "Gunaanadku ma xusayo miisaaniyadda",
+          "Warbixintu aad bay u dheer tahay"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When must the report be revised?",
+        "options": [
+          "By Friday",
+          "By Monday",
+          "By Wednesday"
+        ],
+        "answer": 0,
+        "explain": "\"by Friday\".",
+        "promptSo": "Goorma ayay tahay in warbixinta dib loo habeeyo?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Jimcaha ka hor",
+          "Isniinta ka hor",
+          "Arbacada ka hor"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "What should be added at the beginning? (one word)",
+        "answer": "summary",
+        "explain": "A short summary at the beginning.",
+        "promptSo": "Maxaa habboon in bilowga lagu daro? (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Faallo ku saabsan mashruuc",
+    "sentencesSo": [
+      "Guud ahaan, warbixintu si wanaagsan ayay u habaysan tahay, wayna fududahay in la raaco.",
+      "Si kastaba, gunaanadku wuu ka sii xoog badnaan karaa, sababtoo ah miisaaniyadda laguma xusin.",
+      "Waxaan sidoo kale soo jeedin lahaa in bilowga lagu daro soo koobid gaaban.",
+      "Haddii aad Jimcaha ka hor dib u habayn karto, Isniinta ayaan soo bandhigi karnaa.",
+      "Waa talo macquul ah. Isbeddelladaas waan samayn doonaa."
+    ]
+  },
+  {
+    "id": "l17",
+    "title": "A radio interview about remote work",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Remote work has undeniably changed how companies recruit.",
+      "On the one hand, firms can hire talent from anywhere in the world.",
+      "On the other hand, managers struggle to build a shared culture across time zones.",
+      "The evidence suggests that productivity rises, provided that expectations are clear.",
+      "Ultimately, the success of the model depends on trust rather than on surveillance."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What benefit of remote work is mentioned for recruitment?",
+        "options": [
+          "Lower salaries",
+          "Hiring talent from anywhere",
+          "Shorter contracts"
+        ],
+        "answer": 1,
+        "explain": "Firms can hire talent from anywhere.",
+        "promptSo": "Faa’iidadee shaqada fog laga qabto u leedahay qorista shaqaalaha?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Mushahar hoose",
+          "Shaqaaleysiinta xirfadlayaal meel kasta jooga",
+          "Heshiisyo gaagaaban"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "According to the speaker, productivity rises if...",
+        "options": [
+          "managers watch employees closely",
+          "expectations are clear",
+          "meetings are longer"
+        ],
+        "answer": 1,
+        "explain": "\"provided that expectations are clear\".",
+        "promptSo": "Sida uu qofka hadlayaa qabo, goorma ayuu wax-soo-saarku kordhaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Maamulayaashu shaqaalaha si dhow ayay ula socdaan",
+          "Filashooyinku way cad yihiin",
+          "Kulamadu way dheer yihiin"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The success of the model depends on trust, not on... (one word)",
+        "answer": "surveillance",
+        "explain": "The last sentence contrasts trust with surveillance.",
+        "promptSo": "Guusha nidaamku waxay ku xidhan tahay kalsooni, ee kuma xidhna ... (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Wareysi raadiye oo ku saabsan shaqada fog",
+    "sentencesSo": [
+      "Shaqada meel fog laga qabto shaki la’aan waxay beddeshay sida shirkaduhu shaqaale u qortaan.",
+      "Dhinac, shirkaduhu waxay shaqaaleysiin karaan xirfadlayaal meel kasta oo adduunka ah.",
+      "Dhinaca kale, maamulayaashu waxay ku dhibtoodaan dhisidda dhaqan shaqo oo mideysan marka saacadaha gobolladu kala duwan yihiin.",
+      "Caddayntu waxay tilmaamaysaa in wax-soo-saarku kordho haddii filashooyinka iyo waajibaadku cad yihiin.",
+      "Ugu dambayn, guusha nidaamkani waxay ku xidhan tahay kalsooni, ee ma aha kormeer joogto ah."
+    ]
+  },
+  {
+    "id": "l18",
+    "title": "A lecture on language change",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "audio": null,
+    "sentences": [
+      "Languages are never static; they evolve in response to the communities that use them.",
+      "What purists decry as corruption is frequently the seed of tomorrow's standard usage.",
+      "Consider how the word \"nice\" has drifted from meaning foolish to meaning pleasant.",
+      "Such shifts are rarely deliberate, and they seldom follow any predictable course.",
+      "The linguist's task is therefore to describe change, not to legislate against it."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "How does the speaker describe what purists call corruption?",
+        "options": [
+          "Always harmful",
+          "Often the beginning of future standard usage",
+          "Completely unnatural"
+        ],
+        "answer": 1,
+        "explain": "It is \"frequently the seed of tomorrow's standard usage\".",
+        "promptSo": "Sidee ayuu qofka hadlayaa u tilmaamayaa waxa dadka luuqadda ilaaliya ugu yeedhaan fasahaad?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Mar walba waxyeello leh",
+          "Badanaa bilowga adeegsiga caadiga ah ee mustaqbalka",
+          "Geb ahaanba aan dabiici ahayn"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What did the word \"nice\" originally mean in the example?",
+        "options": [
+          "Pleasant",
+          "Foolish",
+          "Polite"
+        ],
+        "answer": 1,
+        "explain": "It drifted from meaning foolish to pleasant.",
+        "promptSo": "Erayga “nice” muxuu markii hore tusaalahan uga dhignaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Lagu farxo",
+          "Doqonimo",
+          "Edeb leh"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The linguist should describe change, not... against it. (one word)",
+        "answer": "legislate",
+        "explain": "The last sentence says \"not to legislate against it\".",
+        "promptSo": "Aqoonyahanka luuqaddu waa inuu isbeddelka sharxo, ee aanu ka ... (hal eray)",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Muxaadaro ku saabsan isbeddelka luqadda",
+    "sentencesSo": [
+      "Luqaduhu weligood ma aha kuwo aan isbeddelin; waxay la jaanqaadaan bulshooyinka adeegsada.",
+      "Waxa dadka ku ad-adag luuqaddu ku tilmaamaan fasahaad, badanaa wuxuu noqdaa bilowga adeegsiga caadiga ah ee mustaqbalka.",
+      "Ka fiirso sida erayga “nice” uu uga soo wareegay macnaha “doqon” una noqday “wanaagsan ama lagu farxo”.",
+      "Isbeddellada noocan ahi dhif ayay si ula kac ah u dhacaan, mana raacaan waddo si fudud loo sii saadaalin karo.",
+      "Sidaas darteed, shaqada aqoonyahanka luuqaddu waa inuu isbeddelka sharxo, ee aanu ka mamnuucin."
+    ]
+  }
+]

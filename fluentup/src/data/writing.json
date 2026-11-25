@@ -1,7 +1,90 @@
 [
-{"id":"w-sent1","title":"Write about yourself","kind":"sentence","level":"A1","prompt":"Write 2 or 3 sentences about yourself: your name, your city and one thing you like.","minWords":8,"maxWords":60,"formal":false,"required":[],"model":"My name is Amina. I live in Hargeisa. I like reading books."},
-{"id":"w-par1","title":"My daily routine","kind":"paragraph","level":"A2","prompt":"Write a short paragraph about your daily routine. Use first, then and after that.","minWords":30,"maxWords":120,"formal":false,"required":["first","then"],"model":"First, I wake up at six. Then I have breakfast and go to school. After that, I study at home."},
-{"id":"w-mail1","title":"Ask for information","kind":"email","level":"B1","prompt":"Write a short formal email asking a language school about course prices. Start with 'Dear' and end with 'Regards'.","minWords":40,"maxWords":150,"formal":true,"required":["dear","regards","please"],"model":"Dear Sir or Madam, I am writing to ask about your English courses. Could you please send me the prices and the start dates? Thank you for your help. Regards, Amina."},
-{"id":"w-pro1","title":"Reschedule a meeting","level":"B2","kind":"professional","prompt":"Write a professional email to a colleague asking to reschedule tomorrow's meeting. Give a reason and suggest a new time.","minWords":50,"maxWords":160,"formal":true,"required":["dear","reschedule","regards"],"model":"Dear Mr Hassan, I am writing to ask whether we could reschedule tomorrow's meeting because I have to meet a client. Would Thursday at ten be convenient? Regards, Amina."},
-{"id":"w-ess1","title":"Technology and study","level":"C1","kind":"essay","prompt":"Write a short essay (about 120 words): does technology improve learning? Give two reasons and one counter-argument.","minWords":100,"maxWords":250,"formal":true,"required":["however","because"],"model":null}
+  {
+    "id": "w-sent1",
+    "title": "Write about yourself",
+    "kind": "sentence",
+    "level": "A1",
+    "prompt": "Write 2 or 3 sentences about yourself: your name, your city and one thing you like.",
+    "minWords": 8,
+    "maxWords": 60,
+    "formal": false,
+    "required": [],
+    "model": "My name is Amina. I live in Hargeisa. I like reading books.",
+    "titleSo": "Naftaada ka hadal",
+    "promptSo": "Naftaada ku qor 2 ama 3 jumladood: magacaaga, magaalada aad ku nooshahay iyo hal shay oo aad jeceshahay.",
+    "modelSo": "Magacaygu waa Aamina. Waxaan ku noolahay Hargeysa. Waxaan jeclahay akhrinta buugaagta."
+  },
+  {
+    "id": "w-par1",
+    "title": "My daily routine",
+    "kind": "paragraph",
+    "level": "A2",
+    "prompt": "Write a short paragraph about your daily routine. Use first, then and after that.",
+    "minWords": 30,
+    "maxWords": 120,
+    "formal": false,
+    "required": [
+      "first",
+      "then"
+    ],
+    "model": "First, I wake up at six. Then I have breakfast and go to school. After that, I study at home.",
+    "titleSo": "Hawlaha maalinlaha ah",
+    "promptSo": "Qor faqrado gaaban oo ka hadlaya hawlahaaga maalinlaha ah. Adeegso erayada “marka hore”, “ka dib”, iyo “intaa ka dib”.",
+    "modelSo": "Marka hore, waxaan toosaa lixda subaxnimo. Ka dib waan quraacdaa oo dugsiga ayaan aadaa. Intaa ka dib, guriga ayaan wax ku bartaa."
+  },
+  {
+    "id": "w-mail1",
+    "title": "Ask for information",
+    "kind": "email",
+    "level": "B1",
+    "prompt": "Write a short formal email asking a language school about course prices. Start with 'Dear' and end with 'Regards'.",
+    "minWords": 40,
+    "maxWords": 150,
+    "formal": true,
+    "required": [
+      "dear",
+      "regards",
+      "please"
+    ],
+    "model": "Dear Sir or Madam, I am writing to ask about your English courses. Could you please send me the prices and the start dates? Thank you for your help. Regards, Amina.",
+    "titleSo": "Weydiinta macluumaad",
+    "promptSo": "Qor iimayl rasmi ah oo kooban oo aad dugsi luqadeed ku weydiinayso qiimaha koorsooyinka. Ku bilow “Dear” kuna dhammee “Regards”.",
+    "modelSo": "Mudane ama Marwo, Waxaan idiin soo qorayaa inaan wax ka ogaado koorsooyinkiinna Ingiriisiga. Fadlan ma ii soo diri kartaan qiimayaasha iyo taariikhaha ay bilaabmaan? Waad ku mahadsan tihiin caawimada. Salaan wanaagsan, Aamina."
+  },
+  {
+    "id": "w-pro1",
+    "title": "Reschedule a meeting",
+    "level": "B2",
+    "kind": "professional",
+    "prompt": "Write a professional email to a colleague asking to reschedule tomorrow's meeting. Give a reason and suggest a new time.",
+    "minWords": 50,
+    "maxWords": 160,
+    "formal": true,
+    "required": [
+      "dear",
+      "reschedule",
+      "regards"
+    ],
+    "model": "Dear Mr Hassan, I am writing to ask whether we could reschedule tomorrow's meeting because I have to meet a client. Would Thursday at ten be convenient? Regards, Amina.",
+    "titleSo": "Dib u dhigista kulan",
+    "promptSo": "Qor iimayl xirfadeed oo aad saaxiib-shaqo ku weydiinayso in dib loo dhigo kulanka berri. Sheeg sababta, kuna soo jeedi waqti cusub.",
+    "modelSo": "Mudane Xasan, Waxaan jeclaan lahaa inaan ku weydiiyo haddii aan dib u dhigi karno kulanka berri, sababtoo ah waa inaan la kulmaa macmiil. Khamiista saacadda tobanka ma kugu habboon tahay? Salaan wanaagsan, Aamina."
+  },
+  {
+    "id": "w-ess1",
+    "title": "Technology and study",
+    "level": "C1",
+    "kind": "essay",
+    "prompt": "Write a short essay (about 120 words): does technology improve learning? Give two reasons and one counter-argument.",
+    "minWords": 100,
+    "maxWords": 250,
+    "formal": true,
+    "required": [
+      "however",
+      "because"
+    ],
+    "model": null,
+    "titleSo": "Tiknoolajiyadda iyo waxbarashada",
+    "promptSo": "Qor maqaal gaaban (qiyaastii 120 eray): tiknoolajiyaddu ma hagaajisaa waxbarashada? Bixi laba sababood iyo hal dood oo ka soo horjeedda."
+  }
 ]

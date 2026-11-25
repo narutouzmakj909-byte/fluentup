@@ -1,1 +1,576 @@
-[{"id":"l5","title":"Asking the time","level":"A1","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Excuse me, what time is it?","It is half past two.","Thank you. When does the shop close?","It closes at six."],"questions":[{"type":"mcq","prompt":"What time is it?","options":["Half past two","Half past three","Six o'clock"],"answer":0,"explain":"\"half past two\""},{"type":"mcq","prompt":"When does the shop close?","options":["At two","At six","At nine"],"answer":1,"explain":"It closes at six."},{"type":"fill","prompt":"The first speaker says \"Thank you\" and then asks about the...","answer":"shop","accept":["store"],"explain":"They ask when the shop closes."}]},{"id":"l6","title":"At the supermarket","level":"A1","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Do you have any apples?","Yes, they are over there, next to the bananas.","How much are they?","One pound a kilo."],"questions":[{"type":"mcq","prompt":"Where are the apples?","options":["Next to the bananas","Next to the milk","By the door"],"answer":0,"explain":"Next to the bananas."},{"type":"fill","prompt":"How much are the apples per kilo (in pounds)?","answer":"one","accept":["1"],"explain":"One pound a kilo."},{"type":"mcq","prompt":"What does the customer want to buy?","options":["Apples","Bread","Rice"],"answer":0,"explain":"The customer asks about apples."}]},{"id":"l7","title":"Weekend plans","level":"A2","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["What are you doing this weekend?","I am visiting my grandmother on Saturday. She lives near the sea.","That sounds nice. And on Sunday?","I will stay at home and rest because I have exams next week."],"questions":[{"type":"mcq","prompt":"Who is the speaker visiting?","options":["A friend","Their grandmother","A teacher"],"answer":1,"explain":"Their grandmother."},{"type":"mcq","prompt":"Why will the speaker rest on Sunday?","options":["They are ill","They have exams next week","They are travelling"],"answer":1,"explain":"\"because I have exams next week\""},{"type":"fill","prompt":"Where does the grandmother live? Near the...","answer":"sea","accept":["coast","ocean"],"explain":"\"near the sea\""}]},{"id":"l8","title":"Lost luggage","level":"B1","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Good afternoon. My suitcase did not arrive on the flight from Nairobi.","I am sorry to hear that. Could you describe it, please?","It is large and black, with a red ribbon on the handle.","We will trace it and deliver it to your hotel within twenty-four hours."],"questions":[{"type":"mcq","prompt":"What is the problem?","options":["A missed flight","A missing suitcase","A wrong ticket"],"answer":1,"explain":"The suitcase did not arrive."},{"type":"fill","prompt":"What colour is the ribbon?","answer":"red","accept":[],"explain":"A red ribbon on the handle."},{"type":"mcq","prompt":"When will it be delivered?","options":["Within twenty-four hours","Next week","Today at noon"],"answer":0,"explain":"Within twenty-four hours."}]},{"id":"l9","title":"A team update","level":"B1","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Before we finish, I would like to update everyone on the project.","We have completed the first stage, but the testing is two days behind schedule.","Do you need more people to help?","Not yet. If it slips any further, I will let you know."],"questions":[{"type":"mcq","prompt":"What is behind schedule?","options":["The design","The testing","The budget"],"answer":1,"explain":"Testing is two days behind."},{"type":"mcq","prompt":"Has the first stage been completed?","options":["Yes","No","Only half"],"answer":0,"explain":"\"completed the first stage\""},{"type":"fill","prompt":"How many days behind is it?","answer":"two","accept":["2"],"explain":"Two days behind schedule."}]},{"id":"l10","title":"A radio interview about housing","level":"B2","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Rents in the capital have risen by almost fifteen per cent in two years, according to a new report.","The authors say the main cause is a shortage of new homes rather than rising demand.","They are calling on the government to ease planning rules so that more affordable housing can be built quickly."],"questions":[{"type":"mcq","prompt":"By how much have rents risen?","options":["About 5%","Almost 15%","Over 50%"],"answer":1,"explain":"\"almost fifteen per cent\""},{"type":"mcq","prompt":"What do the authors say is the main cause?","options":["A shortage of new homes","Rising demand","Higher wages"],"answer":0,"explain":"Shortage of new homes."},{"type":"mcq","prompt":"What do they ask the government to do?","options":["Ease planning rules","Raise taxes","Ban rent"],"answer":0,"explain":"\"ease planning rules\""}]},{"id":"l11","title":"A lecture on memory","level":"C1","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["Memory is not a recording but a reconstruction; each time we recall an event, we rebuild it, and in doing so may subtly alter it.","This explains why eyewitness testimony, though delivered with great confidence, can be unreliable.","Confidence, in other words, is a poor guide to accuracy."],"questions":[{"type":"mcq","prompt":"What does the lecturer say memory is?","options":["A recording","A reconstruction","A photograph"],"answer":1,"explain":"\"a reconstruction\""},{"type":"mcq","prompt":"What can be unreliable?","options":["Eyewitness testimony","Written records","Maps"],"answer":0,"explain":"Eyewitness testimony."},{"type":"mcq","prompt":"What is a poor guide to accuracy?","options":["Confidence","Time","Age"],"answer":0,"explain":"\"Confidence ... is a poor guide to accuracy.\""}]},{"id":"l12","title":"A debate on translation","level":"C2","status":"unverified","source":"original, authored for FluentUp","audio":null,"sentences":["It is often said that translation is betrayal, yet that view presupposes that meaning resides entirely in the words.","In practice, a faithful translator must sometimes depart from the letter of the text in order to preserve its spirit.","The real failure is not liberty but indifference to the reader."],"questions":[{"type":"mcq","prompt":"What does the first view assume?","options":["Meaning is entirely in the words","Translation is easy","Readers do not matter"],"answer":0,"explain":"It \"presupposes that meaning resides entirely in the words\"."},{"type":"mcq","prompt":"When may a translator depart from the letter?","options":["To preserve the spirit of the text","To shorten it","To change the author's opinion"],"answer":0,"explain":"To preserve its spirit."},{"type":"mcq","prompt":"What is the \"real failure\"?","options":["Indifference to the reader","Using many words","Literal translation"],"answer":0,"explain":"\"indifference to the reader\""}]}]
+[
+  {
+    "id": "l5",
+    "title": "Asking the time",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Excuse me, what time is it?",
+      "It is half past two.",
+      "Thank you. When does the shop close?",
+      "It closes at six."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What time is it?",
+        "options": [
+          "Half past two",
+          "Half past three",
+          "Six o'clock"
+        ],
+        "answer": 0,
+        "explain": "\"half past two\"",
+        "promptSo": "Saacaddu waa imisa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Laba iyo badh",
+          "Saddex iyo badh",
+          "Lix saac"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the shop close?",
+        "options": [
+          "At two",
+          "At six",
+          "At nine"
+        ],
+        "answer": 1,
+        "explain": "It closes at six.",
+        "promptSo": "Dukaanku goorma ayuu xidhmaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Laba saac",
+          "Lixda",
+          "Sagaalka"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "The first speaker says \"Thank you\" and then asks about the...",
+        "answer": "shop",
+        "accept": [
+          "store"
+        ],
+        "explain": "They ask when the shop closes.",
+        "promptSo": "Qofka koowaad markuu “mahadsanid” yidhaahdo, dabadeed muxuu wax ka weydiinayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Weydiinta waqtiga",
+    "sentencesSo": [
+      "Iga raalli ahow, saacaddu waa imisa?",
+      "Waa laba iyo badh.",
+      "Waad mahadsan tahay. Dukaanku goorma ayuu xidhmaa?",
+      "Lixda ayuu xidhmaa."
+    ]
+  },
+  {
+    "id": "l6",
+    "title": "At the supermarket",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Do you have any apples?",
+      "Yes, they are over there, next to the bananas.",
+      "How much are they?",
+      "One pound a kilo."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Where are the apples?",
+        "options": [
+          "Next to the bananas",
+          "Next to the milk",
+          "By the door"
+        ],
+        "answer": 0,
+        "explain": "Next to the bananas.",
+        "promptSo": "Tufaaxu xaggee yaallaan?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Mooska agtiisa",
+          "Caanaha agtooda",
+          "Albaabka agtiisa"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "How much are the apples per kilo (in pounds)?",
+        "answer": "one",
+        "accept": [
+          "1"
+        ],
+        "explain": "One pound a kilo.",
+        "promptSo": "Kiiladii tufaaxu waa imisa (giniga)?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the customer want to buy?",
+        "options": [
+          "Apples",
+          "Bread",
+          "Rice"
+        ],
+        "answer": 0,
+        "explain": "The customer asks about apples.",
+        "promptSo": "Macaamilku muxuu doonayaa inuu iibsado?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Tufaax",
+          "Rooti",
+          "Bariis"
+        ]
+      }
+    ],
+    "titleSo": "Dukaanka weyn",
+    "sentencesSo": [
+      "Tufaax ma haysaan?",
+      "Haa, halkaas ayay yaallaan, mooska agtiisa.",
+      "Imisa ayay ku kacayaan?",
+      "Kiiladii hal gini."
+    ]
+  },
+  {
+    "id": "l7",
+    "title": "Weekend plans",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "What are you doing this weekend?",
+      "I am visiting my grandmother on Saturday. She lives near the sea.",
+      "That sounds nice. And on Sunday?",
+      "I will stay at home and rest because I have exams next week."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Who is the speaker visiting?",
+        "options": [
+          "A friend",
+          "Their grandmother",
+          "A teacher"
+        ],
+        "answer": 1,
+        "explain": "Their grandmother.",
+        "promptSo": "Qofka hadlayaa yaa booqanaya?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Saaxiib",
+          "Ayeeyadood",
+          "Macallin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why will the speaker rest on Sunday?",
+        "options": [
+          "They are ill",
+          "They have exams next week",
+          "They are travelling"
+        ],
+        "answer": 1,
+        "explain": "\"because I have exams next week\"",
+        "promptSo": "Muxuu qofku Axadda u nasanayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Way xanuunsan yihiin",
+          "Toddobaadka dambe imtixaanno ayay leeyihiin",
+          "Way safrayaan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Where does the grandmother live? Near the...",
+        "answer": "sea",
+        "accept": [
+          "coast",
+          "ocean"
+        ],
+        "explain": "\"near the sea\"",
+        "promptSo": "Ayeeyadu xaggee ayay deggan tahay? Meel u dhow ...",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Qorshaha dhammaadka toddobaadka",
+    "sentencesSo": [
+      "Toddobaadkan dhammaadkiisa maxaad samaynaysaa?",
+      "Sabtida waxaan booqanayaa ayeeyday. Waxay deggan tahay meel badda u dhow.",
+      "Taasi way fiican tahay. Axaddana?",
+      "Guriga ayaan joogi doonaa oo nasan doonaa, sababtoo ah toddobaadka dambe imtixaanno ayaan leeyahay."
+    ]
+  },
+  {
+    "id": "l8",
+    "title": "Lost luggage",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Good afternoon. My suitcase did not arrive on the flight from Nairobi.",
+      "I am sorry to hear that. Could you describe it, please?",
+      "It is large and black, with a red ribbon on the handle.",
+      "We will trace it and deliver it to your hotel within twenty-four hours."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What is the problem?",
+        "options": [
+          "A missed flight",
+          "A missing suitcase",
+          "A wrong ticket"
+        ],
+        "answer": 1,
+        "explain": "The suitcase did not arrive.",
+        "promptSo": "Dhibaatadu maxay tahay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Duulimaad laga baaqday",
+          "Shandad maqan",
+          "Tigidh khaldan"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "What colour is the ribbon?",
+        "answer": "red",
+        "accept": [],
+        "explain": "A red ribbon on the handle.",
+        "promptSo": "Xariggu midabkee ayuu yahay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      },
+      {
+        "type": "mcq",
+        "prompt": "When will it be delivered?",
+        "options": [
+          "Within twenty-four hours",
+          "Next week",
+          "Today at noon"
+        ],
+        "answer": 0,
+        "explain": "Within twenty-four hours.",
+        "promptSo": "Goorma ayaa shandadda la keenayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "24 saacadood gudahood",
+          "Toddobaadka dambe",
+          "Maanta duhurnimada"
+        ]
+      }
+    ],
+    "titleSo": "Boorso lumay",
+    "sentencesSo": [
+      "Galab wanaagsan. Shandaddaydii kuma iman duulimaadkii Nayroobi ka yimid.",
+      "Waan ka xumahay arrintaas. Ma ii sifayn kartaa, fadlan?",
+      "Way weyn tahay oo madow, gacankana waxaa kaga xidhan xarig cas.",
+      "Waan raadin doonnaa, hudheelkaagana waxaan kuugu keenaynaa 24 saacadood gudahood."
+    ]
+  },
+  {
+    "id": "l9",
+    "title": "A team update",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Before we finish, I would like to update everyone on the project.",
+      "We have completed the first stage, but the testing is two days behind schedule.",
+      "Do you need more people to help?",
+      "Not yet. If it slips any further, I will let you know."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What is behind schedule?",
+        "options": [
+          "The design",
+          "The testing",
+          "The budget"
+        ],
+        "answer": 1,
+        "explain": "Testing is two days behind.",
+        "promptSo": "Maxaa jadwalka ka dambeeya?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Naqshadda",
+          "Tijaabinta",
+          "Miisaaniyadda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Has the first stage been completed?",
+        "options": [
+          "Yes",
+          "No",
+          "Only half"
+        ],
+        "answer": 0,
+        "explain": "\"completed the first stage\"",
+        "promptSo": "Wejigii koowaad ma la dhammaystiray?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Haa",
+          "Maya",
+          "Kala badh oo keliya"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "How many days behind is it?",
+        "answer": "two",
+        "accept": [
+          "2"
+        ],
+        "explain": "Two days behind schedule.",
+        "promptSo": "Imisa maalmood ayuu dib-u-dhacu yahay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Warbixin kooxda ah",
+    "sentencesSo": [
+      "Intaanan dhamayn, waxaan jeclaan lahaa inaan qof walba warbixin ka siiyo mashruuca.",
+      "Waxaan dhammaystirnay wejigii koowaad, balse tijaabintu jadwalka ayay laba maalmood ka dambaysaa.",
+      "Ma u baahan tihiin dad dheeraad ah oo caawiya?",
+      "Weli maya. Haddii dib-u-dhacu sii kordho, waan kula socodsiin doonaa."
+    ]
+  },
+  {
+    "id": "l10",
+    "title": "A radio interview about housing",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Rents in the capital have risen by almost fifteen per cent in two years, according to a new report.",
+      "The authors say the main cause is a shortage of new homes rather than rising demand.",
+      "They are calling on the government to ease planning rules so that more affordable housing can be built quickly."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "By how much have rents risen?",
+        "options": [
+          "About 5%",
+          "Almost 15%",
+          "Over 50%"
+        ],
+        "answer": 1,
+        "explain": "\"almost fifteen per cent\"",
+        "promptSo": "Kiradu intee ayay korodhay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Qiyaastii 5%",
+          "Ku dhowaad 15%",
+          "In ka badan 50%"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do the authors say is the main cause?",
+        "options": [
+          "A shortage of new homes",
+          "Rising demand",
+          "Higher wages"
+        ],
+        "answer": 0,
+        "explain": "Shortage of new homes.",
+        "promptSo": "Qorayaashu maxay ku sheegeen sababta ugu weyn?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Guryo cusub oo yari",
+          "Baahi sii kordhaysa",
+          "Mushahar sare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they ask the government to do?",
+        "options": [
+          "Ease planning rules",
+          "Raise taxes",
+          "Ban rent"
+        ],
+        "answer": 0,
+        "explain": "\"ease planning rules\"",
+        "promptSo": "Dawladda maxay ka codsanayaan inay samayso?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Fududaynta xeerarka qorshaynta",
+          "Cashuuraha kordhinta",
+          "Kirada mamnuucidda"
+        ]
+      }
+    ],
+    "titleSo": "Wareysi raadiye oo ku saabsan guryaha",
+    "sentencesSo": [
+      "Warbixin cusub ayaa sheegaysa in kirada guryaha caasimaddu ku dhowaad boqolkiiba shan iyo toban korodhay muddo laba sano ah.",
+      "Qorayaashu waxay sheegayaan in sababta ugu weyn ay tahay guryo cusub oo yari, ee aanay ahayn baahida oo korodhay.",
+      "Waxay dawladda ka codsanayaan inay fududayso xeerarka qorshaynta si guryo qiimahoodu jaban yahay si dhakhso ah loo dhisi karo."
+    ]
+  },
+  {
+    "id": "l11",
+    "title": "A lecture on memory",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Memory is not a recording but a reconstruction; each time we recall an event, we rebuild it, and in doing so may subtly alter it.",
+      "This explains why eyewitness testimony, though delivered with great confidence, can be unreliable.",
+      "Confidence, in other words, is a poor guide to accuracy."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What does the lecturer say memory is?",
+        "options": [
+          "A recording",
+          "A reconstruction",
+          "A photograph"
+        ],
+        "answer": 1,
+        "explain": "\"a reconstruction\"",
+        "promptSo": "Macallinku muxuu ku sheegay xusuusta?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Duubis",
+          "Dib-u-dhis",
+          "Sawir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What can be unreliable?",
+        "options": [
+          "Eyewitness testimony",
+          "Written records",
+          "Maps"
+        ],
+        "answer": 0,
+        "explain": "Eyewitness testimony.",
+        "promptSo": "Maxaa aan la isku hallayn karin noqon kara?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Markhaatiga goob-joogaha",
+          "Diiwaanno qoraal ah",
+          "Khariidado"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is a poor guide to accuracy?",
+        "options": [
+          "Confidence",
+          "Time",
+          "Age"
+        ],
+        "answer": 0,
+        "explain": "\"Confidence ... is a poor guide to accuracy.\"",
+        "promptSo": "Maxaa aan ahayn halbeeg wanaagsan oo lagu cabbiro saxnaanta?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Kalsooni",
+          "Waqti",
+          "Da’"
+        ]
+      }
+    ],
+    "titleSo": "Muxaadaro ku saabsan xusuusta",
+    "sentencesSo": [
+      "Xusuustu ma aha duubis; waa dib-u-dhis. Mar kasta oo aynu dhacdo xusuusanno, dib ayaynu u dhisnaa, waxaana laga yaabaa inay wax yar is beddesho.",
+      "Tani waxay sharraxaysaa sababta markhaatiga qof goob-joog ahaa, inkastoo uu si kalsooni leh u hadlayo, haddana aanu mar walba la isku hallayn karin.",
+      "Si kale haddii loo dhigo, kalsoonidu ma aha halbeeg wanaagsan oo lagu cabbiro saxnaanta."
+    ]
+  },
+  {
+    "id": "l12",
+    "title": "A debate on translation",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "It is often said that translation is betrayal, yet that view presupposes that meaning resides entirely in the words.",
+      "In practice, a faithful translator must sometimes depart from the letter of the text in order to preserve its spirit.",
+      "The real failure is not liberty but indifference to the reader."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What does the first view assume?",
+        "options": [
+          "Meaning is entirely in the words",
+          "Translation is easy",
+          "Readers do not matter"
+        ],
+        "answer": 0,
+        "explain": "It \"presupposes that meaning resides entirely in the words\".",
+        "promptSo": "Aragtida koowaad maxay u qaadanaysaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Macnuhu gebi ahaanba wuxuu ku jiraa erayada",
+          "Turjumaaddu way fududahay",
+          "Akhristayaashu muhiim ma aha"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When may a translator depart from the letter?",
+        "options": [
+          "To preserve the spirit of the text",
+          "To shorten it",
+          "To change the author's opinion"
+        ],
+        "answer": 0,
+        "explain": "To preserve its spirit.",
+        "promptSo": "Goorma ayuu turjumaanku ka leexan karaa erayada qoraalka?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Si loo ilaaliyo ruuxa qoraalka",
+          "In la soo gaabiyo",
+          "In la beddelo aragtida qoraaga"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the \"real failure\"?",
+        "options": [
+          "Indifference to the reader",
+          "Using many words",
+          "Literal translation"
+        ],
+        "answer": 0,
+        "explain": "\"indifference to the reader\"",
+        "promptSo": "Waa maxay “fashilka dhabta ahi”?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Danayn la’aanta akhristaha",
+          "Adeegsiga erayo badan",
+          "Turjumaad eray-eray ah"
+        ]
+      }
+    ],
+    "titleSo": "Dood ku saabsan turjumaadda",
+    "sentencesSo": [
+      "Badanaa waxaa la yidhaahdaa turjumaaddu waa khiyaano, balse aragtidaasi waxay u qaadanaysaa in macnuhu gebi ahaanba ku jiro erayada.",
+      "Dhab ahaantii, turjumaan daacad ahi mararka qaarkood waa inuu ka leexdaa erayada tooska ah si uu u ilaaliyo ruuxa iyo ujeeddada qoraalka.",
+      "Fashilka dhabta ahi ma aha xorriyadda turjumaadda, ee waa danayn la’aanta akhristaha."
+    ]
+  }
+]

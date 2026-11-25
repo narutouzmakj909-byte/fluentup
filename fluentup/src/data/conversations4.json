@@ -1,1 +1,391 @@
-[{"id":"c-x5-greet","title":"Meeting a new classmate","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"context":"It is your first day in a new class. A classmate says hello.","start":"a","nodes":{"a":{"speaker":"Sam","say":"Hi! I am Sam. What is your name?","choices":[{"text":"Hi, Sam. I am Amina. Nice to meet you.","score":2,"feedback":"Friendly and complete.","next":"b"},{"text":"Amina.","score":1,"feedback":"Correct, but add a greeting to sound friendly.","next":"b"},{"text":"Why do you want to know?","score":0,"feedback":"This sounds unfriendly when someone says hello.","next":"b2"}]},"b":{"speaker":"Sam","say":"Nice to meet you, Amina. Where are you from?","choices":[{"text":"I am from Somalia. And you?","score":2,"feedback":"Good answer, and you asked a question back.","next":"e1"},{"text":"Somalia.","score":1,"feedback":"Correct. A full sentence is better.","next":"e1"},{"text":"I do not know.","score":0,"feedback":"Try to say where you are from.","next":"e2"}]},"b2":{"speaker":"Sam","say":"Oh, sorry. I only wanted to say hello.","choices":[{"text":"That is OK. I am Amina. Nice to meet you.","score":2,"feedback":"A kind way to fix the moment.","next":"b"},{"text":"Hmm.","score":0,"feedback":"A short sound does not help the conversation.","next":"e2"}]},"e1":{"speaker":"Sam","say":"Great! Let us sit together.","end":true},"e2":{"speaker":"Sam","say":"OK. See you later.","end":true}}},{"id":"c-x5-cafe","title":"Ordering a drink at a café","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"context":"You are at a café and want a tea.","start":"a","nodes":{"a":{"speaker":"Waiter","say":"Hello. What would you like?","choices":[{"text":"Hello. A tea, please.","score":2,"feedback":"Polite and clear.","next":"b"},{"text":"Tea.","score":1,"feedback":"Understood, but add \"please\".","next":"b"},{"text":"Give me tea now.","score":0,"feedback":"This is too direct and not polite.","next":"b2"}]},"b":{"speaker":"Waiter","say":"Hot or cold?","choices":[{"text":"Hot, please.","score":2,"feedback":"Short and polite.","next":"c"},{"text":"Hot.","score":1,"feedback":"Fine. Add \"please\".","next":"c"},{"text":"I like Tuesday.","score":0,"feedback":"This does not answer the question.","next":"e2"}]},"b2":{"speaker":"Waiter","say":"Sorry? Could you ask again, please?","choices":[{"text":"Sorry. A tea, please.","score":2,"feedback":"A good, polite repair.","next":"b"},{"text":"No.","score":0,"feedback":"This ends the conversation badly.","next":"e2"}]},"c":{"speaker":"Waiter","say":"That is two dollars.","choices":[{"text":"Here you are. Thank you.","score":2,"feedback":"Natural when you pay.","next":"e1"},{"text":"Okay.","score":1,"feedback":"Acceptable, but add thanks.","next":"e1"},{"text":"Too much!","score":0,"feedback":"Rude when the price is fair.","next":"e2"}]},"e1":{"speaker":"Waiter","say":"Thank you! Enjoy your tea.","end":true},"e2":{"speaker":"Waiter","say":"Okay. Have a nice day.","end":true}}},{"id":"c-x5-diplomacy","title":"Disagreeing with a senior colleague","level":"C2","status":"unverified","source":"original, authored for FluentUp","somali":null,"context":"A senior director proposes cutting the training budget. You believe this is a mistake and need to say so without damaging the relationship.","start":"a","nodes":{"a":{"speaker":"Director","say":"I think we should cut the training budget entirely this year. It is the easiest saving available.","choices":[{"text":"I appreciate the pressure on costs, and I wonder whether we might look at the longer-term picture before we decide.","score":2,"feedback":"Acknowledges the concern, then reframes diplomatically.","next":"b1"},{"text":"That would be a mistake.","score":0,"feedback":"Blunt disagreement with a senior colleague closes the discussion.","next":"b2"},{"text":"If that is what you think best, I will go along with it.","score":1,"feedback":"Avoids conflict but gives up your point.","next":"b3"}]},"b1":{"speaker":"Director","say":"Go on. What are you worried about?","choices":[{"text":"Our attrition figures suggest that untrained staff leave sooner, so the saving may prove false economy. Might a reduced programme be a fair compromise?","score":2,"feedback":"Evidence plus a constructive alternative.","next":"e1"},{"text":"Everyone knows training matters.","score":0,"feedback":"A vague appeal is easy to dismiss.","next":"e2"},{"text":"I simply feel uneasy about it.","score":1,"feedback":"Honest but lacks substance.","next":"e2"}]},"b2":{"speaker":"Director","say":"I beg your pardon? I would like to hear your reasoning, if you have any.","choices":[{"text":"That came across more sharply than I intended. My concern is that the savings may be short-lived, and I would like to explain why.","score":2,"feedback":"A gracious recovery that keeps your argument alive.","next":"b1"},{"text":"Well, it is obvious.","score":0,"feedback":"Escalates the conflict.","next":"e2"}]},"b3":{"speaker":"Director","say":"Good. I am glad we are aligned.","choices":[{"text":"Actually, before we finalise, could I raise one reservation?","score":2,"feedback":"Reopens the issue politely at the right moment.","next":"b1"},{"text":"Of course. Nothing further.","score":0,"feedback":"You have conceded without voicing a real concern.","next":"e2"}]},"e1":{"speaker":"Director","say":"That is a fair point. Let us draft a reduced programme and review it next month.","end":true},"e2":{"speaker":"Director","say":"I will think about it, but my inclination stands.","end":true}}}]
+[
+  {
+    "id": "c-x5-greet",
+    "title": "Meeting a new classmate",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "context": "It is your first day in a new class. A classmate says hello.",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "speaker": "Sam",
+        "say": "Hi! I am Sam. What is your name?",
+        "choices": [
+          {
+            "text": "Hi, Sam. I am Amina. Nice to meet you.",
+            "score": 2,
+            "feedback": "Friendly and complete.",
+            "next": "b",
+            "textSo": "Salaan, Sam. Magacaygu waa Amina. Waan ku faraxsanahay inaan kula kulmo.",
+            "feedbackSo": "Jawaab saaxiibtinimo leh oo dhammaystiran."
+          },
+          {
+            "text": "Amina.",
+            "score": 1,
+            "feedback": "Correct, but add a greeting to sound friendly.",
+            "next": "b",
+            "textSo": "Amina.",
+            "feedbackSo": "Waa sax, laakiin salaanta ku dar si hadalkaagu u noqdo mid saaxiibtinimo leh."
+          },
+          {
+            "text": "Why do you want to know?",
+            "score": 0,
+            "feedback": "This sounds unfriendly when someone says hello.",
+            "next": "b2",
+            "textSo": "Maxaad u rabtaa inaad ogaato?",
+            "feedbackSo": "Tani waxay u muuqanaysaa jawaab aan saaxiibtinimo lahayn marka qof ku salaamo."
+          }
+        ],
+        "saySo": "Salaan! Magacaygu waa Sam. Adiguna magacaa?"
+      },
+      "b": {
+        "speaker": "Sam",
+        "say": "Nice to meet you, Amina. Where are you from?",
+        "choices": [
+          {
+            "text": "I am from Somalia. And you?",
+            "score": 2,
+            "feedback": "Good answer, and you asked a question back.",
+            "next": "e1",
+            "textSo": "Waxaan ka imid Soomaaliya. Adiguna?",
+            "feedbackSo": "Jawaab wanaagsan ayaad bixisay, su’aalna dib ayaad u weydiisay."
+          },
+          {
+            "text": "Somalia.",
+            "score": 1,
+            "feedback": "Correct. A full sentence is better.",
+            "next": "e1",
+            "textSo": "Soomaaliya.",
+            "feedbackSo": "Waa sax. Weedh dhammaystiran ayaa ka fiican."
+          },
+          {
+            "text": "I do not know.",
+            "score": 0,
+            "feedback": "Try to say where you are from.",
+            "next": "e2",
+            "textSo": "Ma garanayo.",
+            "feedbackSo": "Isku day inaad sheegto meesha aad ka timid."
+          }
+        ],
+        "saySo": "Waan ku faraxsanahay inaan kula kulmo, Amina. Xaggee baad ka timid?"
+      },
+      "b2": {
+        "speaker": "Sam",
+        "say": "Oh, sorry. I only wanted to say hello.",
+        "choices": [
+          {
+            "text": "That is OK. I am Amina. Nice to meet you.",
+            "score": 2,
+            "feedback": "A kind way to fix the moment.",
+            "next": "b",
+            "textSo": "Waa hagaag. Magacaygu waa Amina. Waan ku faraxsanahay inaan kula kulmo.",
+            "feedbackSo": "Waa hab wanaagsan oo aad xaaladda ku hagaajin karto."
+          },
+          {
+            "text": "Hmm.",
+            "score": 0,
+            "feedback": "A short sound does not help the conversation.",
+            "next": "e2",
+            "textSo": "Hmm.",
+            "feedbackSo": "Cod gaaban wax badan kama tarayo sii wadidda wada sheekaysiga."
+          }
+        ],
+        "saySo": "Haye, iga raalli ahow. Waxaan doonayay oo keliya inaan ku salaamo."
+      },
+      "e1": {
+        "speaker": "Sam",
+        "say": "Great! Let us sit together.",
+        "end": true,
+        "saySo": "Wanaagsan! Aan wada fariisanno."
+      },
+      "e2": {
+        "speaker": "Sam",
+        "say": "OK. See you later.",
+        "end": true,
+        "saySo": "Hagaag. Mar dambe ayaan is arki doonnaa."
+      }
+    },
+    "titleSo": "La kulanka arday cusub",
+    "contextSo": "Waa maalintaadii koowaad ee fasal cusub. Arday kula dhigta ayaa ku salaamaya.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-x5-cafe",
+    "title": "Ordering a drink at a café",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "context": "You are at a café and want a tea.",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "speaker": "Waiter",
+        "say": "Hello. What would you like?",
+        "choices": [
+          {
+            "text": "Hello. A tea, please.",
+            "score": 2,
+            "feedback": "Polite and clear.",
+            "next": "b",
+            "textSo": "Salaan. Shaah ayaan rabaa, fadlan.",
+            "feedbackSo": "Waa edeb badan tahay, waana cadahay."
+          },
+          {
+            "text": "Tea.",
+            "score": 1,
+            "feedback": "Understood, but add \"please\".",
+            "next": "b",
+            "textSo": "Shaah.",
+            "feedbackSo": "Waa la fahmay, laakiin ku dar “fadlan”."
+          },
+          {
+            "text": "Give me tea now.",
+            "score": 0,
+            "feedback": "This is too direct and not polite.",
+            "next": "b2",
+            "textSo": "Hadda shaah i sii.",
+            "feedbackSo": "Tani waa hadal amar ah oo aan edeb lahayn."
+          }
+        ],
+        "saySo": "Salaan. Maxaad jeclaan lahayd?"
+      },
+      "b": {
+        "speaker": "Waiter",
+        "say": "Hot or cold?",
+        "choices": [
+          {
+            "text": "Hot, please.",
+            "score": 2,
+            "feedback": "Short and polite.",
+            "next": "c",
+            "textSo": "Kulul, fadlan.",
+            "feedbackSo": "Jawaab gaaban oo edeb leh."
+          },
+          {
+            "text": "Hot.",
+            "score": 1,
+            "feedback": "Fine. Add \"please\".",
+            "next": "c",
+            "textSo": "Kulul.",
+            "feedbackSo": "Waa hagaag. Ku dar “fadlan”."
+          },
+          {
+            "text": "I like Tuesday.",
+            "score": 0,
+            "feedback": "This does not answer the question.",
+            "next": "e2",
+            "textSo": "Waxaan jeclahay Talaadada.",
+            "feedbackSo": "Tani kama jawaabayso su’aasha."
+          }
+        ],
+        "saySo": "Kulul mise qabow?"
+      },
+      "b2": {
+        "speaker": "Waiter",
+        "say": "Sorry? Could you ask again, please?",
+        "choices": [
+          {
+            "text": "Sorry. A tea, please.",
+            "score": 2,
+            "feedback": "A good, polite repair.",
+            "next": "b",
+            "textSo": "Waan ka xumahay. Shaah ayaan rabaa, fadlan.",
+            "feedbackSo": "Waa hab wanaagsan oo edeb leh oo aad hadalka ku saxdo."
+          },
+          {
+            "text": "No.",
+            "score": 0,
+            "feedback": "This ends the conversation badly.",
+            "next": "e2",
+            "textSo": "Maya.",
+            "feedbackSo": "Tani waxay wada sheekaysiga ku dhamaynaysaa si aan wanaagsanayn."
+          }
+        ],
+        "saySo": "Waan ka xumahay? Ma ku celin kartaa codsigaaga, fadlan?"
+      },
+      "c": {
+        "speaker": "Waiter",
+        "say": "That is two dollars.",
+        "choices": [
+          {
+            "text": "Here you are. Thank you.",
+            "score": 2,
+            "feedback": "Natural when you pay.",
+            "next": "e1",
+            "textSo": "Waa kan. Mahadsanid.",
+            "feedbackSo": "Tani waa hadal dabiici ah markaad lacag bixinayso."
+          },
+          {
+            "text": "Okay.",
+            "score": 1,
+            "feedback": "Acceptable, but add thanks.",
+            "next": "e1",
+            "textSo": "Hagaag.",
+            "feedbackSo": "Waa la aqbali karaa, laakiin mahadnaq ku dar."
+          },
+          {
+            "text": "Too much!",
+            "score": 0,
+            "feedback": "Rude when the price is fair.",
+            "next": "e2",
+            "textSo": "Aad buu qaali u yahay!",
+            "feedbackSo": "Tani waa hadal qallafsan marka qiimuhu macquul yahay."
+          }
+        ],
+        "saySo": "Qiimuhu waa laba doollar."
+      },
+      "e1": {
+        "speaker": "Waiter",
+        "say": "Thank you! Enjoy your tea.",
+        "end": true,
+        "saySo": "Mahadsanid! Ku raaxayso shaahaaga."
+      },
+      "e2": {
+        "speaker": "Waiter",
+        "say": "Okay. Have a nice day.",
+        "end": true,
+        "saySo": "Hagaag. Maalin wanaagsan."
+      }
+    },
+    "titleSo": "Dalbashada cabitaan maqaaxi",
+    "contextSo": "Waxaad joogtaa maqaaxi, waxaadna doonaysaa inaad shaah dalbato.",
+    "somaliStatus": "draft-needs-native-review"
+  },
+  {
+    "id": "c-x5-diplomacy",
+    "title": "Disagreeing with a senior colleague",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "context": "A senior director proposes cutting the training budget. You believe this is a mistake and need to say so without damaging the relationship.",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "speaker": "Director",
+        "say": "I think we should cut the training budget entirely this year. It is the easiest saving available.",
+        "choices": [
+          {
+            "text": "I appreciate the pressure on costs, and I wonder whether we might look at the longer-term picture before we decide.",
+            "score": 2,
+            "feedback": "Acknowledges the concern, then reframes diplomatically.",
+            "next": "b1",
+            "textSo": "Waan fahmay cadaadiska kharashka, waxaana is weydiinayaa inay habboon tahay inaan eegno saamaynta muddada dheer ka hor go’aanka.",
+            "feedbackSo": "Wuxuu aqoonsaday walaaca, dabadeedna si diblomaasiyadeed ayuu arrinta u qaabeeyey."
+          },
+          {
+            "text": "That would be a mistake.",
+            "score": 0,
+            "feedback": "Blunt disagreement with a senior colleague closes the discussion.",
+            "next": "b2",
+            "textSo": "Taasi waa khalad.",
+            "feedbackSo": "Diidmo toos ahi waxay xidhaysaa wada-hadalka qof kaa sarreeya."
+          },
+          {
+            "text": "If that is what you think best, I will go along with it.",
+            "score": 1,
+            "feedback": "Avoids conflict but gives up your point.",
+            "next": "b3",
+            "textSo": "Haddii aad sidaas u aragto, waan kugu raacayaa.",
+            "feedbackSo": "Khilaafka wuu ka fogaanayaa, balse aragtidiisa ayuu ka tanaasulayaa."
+          }
+        ],
+        "saySo": "Waxaan qabaa inaan sannadkan gebi ahaanba jarno miisaaniyadda tababarka. Taasi waa meesha ugu fudud ee kharashka laga dhimi karo."
+      },
+      "b1": {
+        "speaker": "Director",
+        "say": "Go on. What are you worried about?",
+        "choices": [
+          {
+            "text": "Our attrition figures suggest that untrained staff leave sooner, so the saving may prove false economy. Might a reduced programme be a fair compromise?",
+            "score": 2,
+            "feedback": "Evidence plus a constructive alternative.",
+            "next": "e1",
+            "textSo": "Tirakoobka shaqaalaha naga taga wuxuu muujinayaa in shaqaalaha aan la tababarin ay dhaqso u baxaan; sidaas darteed kaydku wuxuu noqon karaa khasaaro dambe. Ma noqon karaa barnaamij la dhimay tanaasul cadaalad ah?",
+            "feedbackSo": "Wuxuu keenayaa caddayn iyo xal kale oo wax dhisaya."
+          },
+          {
+            "text": "Everyone knows training matters.",
+            "score": 0,
+            "feedback": "A vague appeal is easy to dismiss.",
+            "next": "e2",
+            "textSo": "Qof walba wuu og yahay in tababarku muhiim yahay.",
+            "feedbackSo": "Waa dood guud oo si fudud loo diidi karo."
+          },
+          {
+            "text": "I simply feel uneasy about it.",
+            "score": 1,
+            "feedback": "Honest but lacks substance.",
+            "next": "e2",
+            "textSo": "Kaliya waxaan dareemayaa inaan arrintan ku qanacsanayn.",
+            "feedbackSo": "Waa daacad, balse caddayn ma laha."
+          }
+        ],
+        "saySo": "Sii wad. Maxaa kaa walaacinaya?"
+      },
+      "b2": {
+        "speaker": "Director",
+        "say": "I beg your pardon? I would like to hear your reasoning, if you have any.",
+        "choices": [
+          {
+            "text": "That came across more sharply than I intended. My concern is that the savings may be short-lived, and I would like to explain why.",
+            "score": 2,
+            "feedback": "A gracious recovery that keeps your argument alive.",
+            "next": "b1",
+            "textSo": "Hadalkaasi si ka adag intii aan ula jeeday ayuu u dhacay. Walaacaygu waa in kaydku muddo gaaban oo keliya jiri karo; waxaan jeclaan lahaa inaan sababta sharxo.",
+            "feedbackSo": "Wuxuu si xushmad leh u saxayaa hadalkiisa, dooddiisana wuu sii wadaa."
+          },
+          {
+            "text": "Well, it is obvious.",
+            "score": 0,
+            "feedback": "Escalates the conflict.",
+            "next": "e2",
+            "textSo": "Hagaag, waa iska caddahay.",
+            "feedbackSo": "Khilaafka ayuu sii kicinayaa."
+          }
+        ],
+        "saySo": "Raalli ahow? Waxaan jeclaan lahaa inaan maqlo sababta aad sidaas u qabto, haddii ay jirto."
+      },
+      "b3": {
+        "speaker": "Director",
+        "say": "Good. I am glad we are aligned.",
+        "choices": [
+          {
+            "text": "Actually, before we finalise, could I raise one reservation?",
+            "score": 2,
+            "feedback": "Reopens the issue politely at the right moment.",
+            "next": "b1",
+            "textSo": "Dhab ahaantii, ka hor inta aynaan go’aanka kama dambaysta ah gaadhin, ma soo qaadi karaa hal walaac?",
+            "feedbackSo": "Wuxuu si edeb leh arrinta dib ugu furayaa waqtigii ku habboonaa."
+          },
+          {
+            "text": "Of course. Nothing further.",
+            "score": 0,
+            "feedback": "You have conceded without voicing a real concern.",
+            "next": "e2",
+            "textSo": "Dabcan. Wax kale ma jiraan.",
+            "feedbackSo": "Wuxuu tanaasulay isaga oo aan walaaciisa sheegin."
+          }
+        ],
+        "saySo": "Waa hagaag. Waan ku faraxsanahay inaan isku aragti nahay."
+      },
+      "e1": {
+        "speaker": "Director",
+        "say": "That is a fair point. Let us draft a reduced programme and review it next month.",
+        "end": true,
+        "saySo": "Taasi waa qodob macquul ah. Aan diyaarino barnaamij la dhimay oo bisha dambe dib u eegno."
+      },
+      "e2": {
+        "speaker": "Director",
+        "say": "I will think about it, but my inclination stands.",
+        "end": true,
+        "saySo": "Waan ka fiirsan doonaa, balse aragtidaydii hore ayaan u janjeedhaa."
+      }
+    },
+    "titleSo": "Si xirfad leh uga aragti duwanaanshaha shaqaale sare",
+    "contextSo": "Agaasime sare ayaa soo jeediyey in miisaaniyadda tababarka gebi ahaanba la jaro. Waxaad aaminsan tahay inay khalad tahay, balse waxaad rabtaa inaad si edeb leh u sheegto adigoon dhaawicin xidhiidhka shaqo."
+  }
+]

@@ -5,7 +5,7 @@ export const nativeAvailable = () => !!plugin() && globalThis.Capacitor?.isNativ
 const idOf = (alarmId, k) => { let h = 7; for (const ch of alarmId + ':' + k) h = (h * 31 + ch.charCodeAt(0)) | 0; return Math.abs(h) % 2147483000 + 1; };
 export function buildSchedule(alarms) {
   const out = [];
-  for (const a of alarms) { if (!a.enabled) continue; const body = a.label || 'Time to learn English', title = 'FluentUp';
+  for (const a of alarms) { if (!a.enabled) continue; const body = a.label || 'Time to learn English', title = 'NORA';
     const base = { title, body, channelId: 'reminders' };
     if (!a.days?.length) out.push({ ...base, id: idOf(a.id, 'd'), schedule: { on: { hour: a.hour, minute: a.minute }, allowWhileIdle: true } });
     else for (const d of a.days) out.push({ ...base, id: idOf(a.id, d), schedule: { on: { weekday: d + 1, hour: a.hour, minute: a.minute }, allowWhileIdle: true } }); }

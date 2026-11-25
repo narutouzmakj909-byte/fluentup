@@ -1,1 +1,472 @@
-[{"id":"p-interview","track":"professional","title":"Answering interview questions","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"A strong answer to 'Tell me about a time you solved a problem' follows a simple structure: describe the situation, explain your task, say what action you took, and finish with the result. Use specific numbers where you can, and keep each answer under two minutes.","examples":["I took the initiative to…: I started something without being asked","As a result, …: used to introduce the outcome","strengths: your best skills"],"exercises":[{"type":"mcq","prompt":"Which part should end your answer?","options":["The result","The situation","Your salary"],"answer":0,"explain":"Finish with the result."},{"type":"mcq","prompt":"Which phrase introduces an outcome?","options":["As a result,","By the way,","Instead of,"],"answer":0,"explain":"\"As a result,\" shows consequence."},{"type":"mcq","prompt":"How long should an answer be?","options":["Under two minutes","At least ten minutes","One word"],"answer":0,"explain":"Keep it concise."}]},{"id":"p-presentation","track":"professional","title":"Opening a presentation","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Clear presentations begin by welcoming the audience, stating the topic and outlining the structure. For example: 'Good morning, everyone. Today I'll present our sales results and then suggest three priorities for next quarter.' Signpost each change of topic with phrases such as 'Moving on to…' or 'To sum up…'.","examples":["signpost: to tell the audience where you are in the talk","outline: a short summary of the main points","Moving on to…: used to change topic"],"exercises":[{"type":"mcq","prompt":"What should an opening include?","options":["A welcome, the topic and the structure","A joke only","The conclusion only"],"answer":0,"explain":"Welcome, topic, structure."},{"type":"mcq","prompt":"Which phrase changes topic?","options":["Moving on to…","Excuse me,","In the end,"],"answer":0,"explain":"It signals a new section."},{"type":"mcq","prompt":"What does \"To sum up…\" introduce?","options":["A summary","A question","An apology"],"answer":0,"explain":"It begins the summary."}]},{"id":"p-phone","track":"professional","title":"Professional phone calls","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Begin a call by saying who you are and why you are calling: 'Hello, this is Ahmed from Nova Ltd. I'm calling about your invoice.' If the line is poor, say 'Sorry, could you repeat that?' To end, summarise the next step and thank the person: 'So I'll send the file today. Thank you for your time.'","examples":["invoice: a document asking for payment","summarise: to say the main points briefly","next step: the action to take after the call"],"exercises":[{"type":"mcq","prompt":"How should you begin a professional call?","options":["Say who you are and why you call","Ask \"Who is this?\"","Say nothing"],"answer":0,"explain":"Introduce yourself and the reason."},{"type":"mcq","prompt":"Which phrase asks for repetition?","options":["Sorry, could you repeat that?","Say again!","What?"],"answer":0,"explain":"It is polite."},{"type":"mcq","prompt":"How should you end?","options":["Summarise the next step and thank them","Hang up quickly","Change topic"],"answer":0,"explain":"Confirm the next step."}]},{"id":"p-report","track":"professional","title":"Writing a short report","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"A concise report opens with a one-sentence purpose, presents findings in order of importance, and closes with recommendations. Favour precise verbs ('increased by 12%', 'remained stable') over vague ones ('went up a lot'), and avoid unsupported claims. Each recommendation should state who should act and by when.","examples":["findings: what you discovered","recommendation: advice about what to do","unsupported claim: a statement without evidence"],"exercises":[{"type":"mcq","prompt":"How should findings be ordered?","options":["By importance","Randomly","Alphabetically"],"answer":0,"explain":"Most important first."},{"type":"mcq","prompt":"Which wording is better?","options":["increased by 12%","went up a lot","got big"],"answer":0,"explain":"Precise and measurable."},{"type":"mcq","prompt":"What should a recommendation state?","options":["Who acts and by when","The writer's mood","A joke"],"answer":0,"explain":"Responsibility and timing."}]},{"id":"p-negotiation","track":"professional","title":"Negotiating politely","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"In negotiation, soften disagreement with phrases like 'I see your point, but…' or 'Would you be open to…?'. Offer conditional deals using 'if': 'If you can deliver by Friday, we can agree to the higher price.' Avoid ultimatums; summarise agreed points at the end to prevent misunderstanding.","examples":["conditional: depending on something else","ultimatum: a final demand","soften: to make less direct"],"exercises":[{"type":"mcq","prompt":"Which phrase softens disagreement?","options":["I see your point, but…","That is wrong.","No way."],"answer":0,"explain":"It acknowledges the other view."},{"type":"mcq","prompt":"What does a conditional offer use?","options":["if","never","because only"],"answer":0,"explain":"\"If you can… we can…\""},{"type":"mcq","prompt":"What should you do at the end?","options":["Summarise agreed points","Leave silently","Raise new demands"],"answer":0,"explain":"This avoids misunderstanding."}]},{"id":"p-workplace-vocab","track":"professional","title":"Workplace vocabulary","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Useful workplace words include deadline (the date by which work must be finished), colleague (someone you work with), schedule (a plan of times), and feedback (comments to help improve). Phrases such as 'Let's touch base next week' mean 'let's talk briefly next week'. 'Could you get back to me by Thursday?' asks for a reply.","examples":["deadline: the date work must be finished","colleague: a person you work with","touch base: to have a short conversation","get back to someone: to reply later"],"exercises":[{"type":"mcq","prompt":"What is a deadline?","options":["The date work must be finished","A type of meeting","A salary"],"answer":0,"explain":"It is a finishing date."},{"type":"mcq","prompt":"\"Let's touch base\" means…","options":["Let's talk briefly","Let's play","Let's leave"],"answer":0,"explain":"A short check-in."},{"type":"mcq","prompt":"\"Get back to me\" asks for…","options":["A reply","A gift","A meeting room"],"answer":0,"explain":"Reply later."}]}]
+[
+  {
+    "id": "p-interview",
+    "track": "professional",
+    "title": "Answering interview questions",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "A strong answer to 'Tell me about a time you solved a problem' follows a simple structure: describe the situation, explain your task, say what action you took, and finish with the result. Use specific numbers where you can, and keep each answer under two minutes.",
+    "examples": [
+      "I took the initiative to…: I started something without being asked",
+      "As a result, …: used to introduce the outcome",
+      "strengths: your best skills"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which part should end your answer?",
+        "options": [
+          "The result",
+          "The situation",
+          "Your salary"
+        ],
+        "answer": 0,
+        "explain": "Finish with the result.",
+        "promptSo": "Qaybtee ayay tahay inay jawaabtaadu ku dhammaato?",
+        "explainSo": "Jawaabta ku dhammee natiijada.",
+        "optionsSo": [
+          "Natiijada",
+          "Xaaladdii",
+          "Mushaharkaaga"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which phrase introduces an outcome?",
+        "options": [
+          "As a result,",
+          "By the way,",
+          "Instead of,"
+        ],
+        "answer": 0,
+        "explain": "\"As a result,\" shows consequence.",
+        "promptSo": "Weedhee ayaa lagu bilaabaa sheegidda natiijo ka dhalatay wax dhacay?",
+        "explainSo": "“As a result,” waxay muujisaa natiijada ama saamaynta wax dhacay.",
+        "optionsSo": [
+          "Natiijo ahaan,",
+          "Dhanka kale,",
+          "Halkii..."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How long should an answer be?",
+        "options": [
+          "Under two minutes",
+          "At least ten minutes",
+          "One word"
+        ],
+        "answer": 0,
+        "explain": "Keep it concise.",
+        "promptSo": "Intee in le’eg ayay jawaabtu ahaataa?",
+        "explainSo": "Jawaabta ka dhig mid kooban oo si toos ah ujeeddada u gaarta.",
+        "optionsSo": [
+          "Wax ka yar laba daqiiqo",
+          "Ugu yaraan toban daqiiqo",
+          "Hal eray"
+        ]
+      }
+    ],
+    "titleSo": "Ka jawaabista su’aalaha wareysiga shaqada",
+    "explanationSo": "Jawaab wanaagsan oo laga bixiyo su’aasha “Ii sheeg waqti aad dhibaato xallisay” waxay raacdaa qaab fudud: sharax xaaladdii jirtay, sheeg hawshii lagaa rabay, faahfaahi tallaabadii aad qaaday, kuna soo gabagabee natiijada. Haddii ay suurtagal tahay, isticmaal tirooyin iyo tusaalooyin cad. Jawaab kasta ku koob wax ka yar laba daqiiqo.",
+    "examplesSo": [
+      "“Waxaan anigu bilaabay...” — waxaan hawl bilaabay anigoon la i farayn.",
+      "“Natiijadii ka dhalatay...” — waxaa lagu bilaabaa sheegidda waxa ka soo baxay hawsha.",
+      "Awoodahaaga: xirfadaha aad sida fiican u leedahay."
+    ]
+  },
+  {
+    "id": "p-presentation",
+    "track": "professional",
+    "title": "Opening a presentation",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Clear presentations begin by welcoming the audience, stating the topic and outlining the structure. For example: 'Good morning, everyone. Today I'll present our sales results and then suggest three priorities for next quarter.' Signpost each change of topic with phrases such as 'Moving on to…' or 'To sum up…'.",
+    "examples": [
+      "signpost: to tell the audience where you are in the talk",
+      "outline: a short summary of the main points",
+      "Moving on to…: used to change topic"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What should an opening include?",
+        "options": [
+          "A welcome, the topic and the structure",
+          "A joke only",
+          "The conclusion only"
+        ],
+        "answer": 0,
+        "explain": "Welcome, topic, structure.",
+        "promptSo": "Maxaa habboon inuu ku jiro furitaanka bandhigga?",
+        "explainSo": "Furitaanku waa inuu yeeshaa soo dhoweyn, mawduuca iyo qaabka bandhigga.",
+        "optionsSo": [
+          "Soo dhoweyn, mawduuca iyo qaab-dhismeedka",
+          "Kaftan keliya",
+          "Gunaanadka oo keliya"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which phrase changes topic?",
+        "options": [
+          "Moving on to…",
+          "Excuse me,",
+          "In the end,"
+        ],
+        "answer": 0,
+        "explain": "It signals a new section.",
+        "promptSo": "Weedhee ayaa lagu beddelaa mawduuca?",
+        "explainSo": "Weedhani waxay dhagaystayaasha tusaysaa in qayb cusub bilaabanayso.",
+        "optionsSo": [
+          "Aan u gudubno...",
+          "Iga raalli ahow,",
+          "Ugu dambayn,"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does \"To sum up…\" introduce?",
+        "options": [
+          "A summary",
+          "A question",
+          "An apology"
+        ],
+        "answer": 0,
+        "explain": "It begins the summary.",
+        "promptSo": "Maxaa lagu bilaabaa “To sum up…”?",
+        "explainSo": "Weedhani waxay bilow u tahay soo koobidda qodobbada.",
+        "optionsSo": [
+          "Soo koobid",
+          "Su’aal",
+          "Raalli-gelin"
+        ]
+      }
+    ],
+    "titleSo": "Furitaanka bandhigga",
+    "explanationSo": "Bandhig si cad loo soo bandhigayo wuxuu ku bilaabmaa soo dhoweynta dhagaystayaasha, sheegidda mawduuca iyo tilmaamidda qaabka bandhiggu u socon doono. Tusaale ahaan: “Subax wanaagsan dhammaantiin. Maanta waxaan soo bandhigayaa natiijooyinkeenna iibka, dabadeedna waxaan soo jeedinayaa saddex arrimood oo mudnaan leh rubuca soo socda.” Marka aad mawduuc beddelayso, adeegso weedho hagaya dhagaystayaasha sida “Aan u gudubno...” ama “Marka la soo koobo...”.",
+    "examplesSo": [
+      "Weedh hagitaan: weedh dhagaystayaasha u sheegaysa qaybta aad hadda marayso.",
+      "Qaab-dhismeed guud: soo koobid kooban oo qodobbada ugu muhiimsan ah.",
+      "“Aan u gudubno...” — waxaa loo adeegsadaa beddelidda mawduuca."
+    ]
+  },
+  {
+    "id": "p-phone",
+    "track": "professional",
+    "title": "Professional phone calls",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Begin a call by saying who you are and why you are calling: 'Hello, this is Ahmed from Nova Ltd. I'm calling about your invoice.' If the line is poor, say 'Sorry, could you repeat that?' To end, summarise the next step and thank the person: 'So I'll send the file today. Thank you for your time.'",
+    "examples": [
+      "invoice: a document asking for payment",
+      "summarise: to say the main points briefly",
+      "next step: the action to take after the call"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How should you begin a professional call?",
+        "options": [
+          "Say who you are and why you call",
+          "Ask \"Who is this?\"",
+          "Say nothing"
+        ],
+        "answer": 0,
+        "explain": "Introduce yourself and the reason.",
+        "promptSo": "Sidee ayay habboon tahay inaad ku bilowdo wicitaan shaqo?",
+        "explainSo": "Isbar oo sheeg sababta wicitaanka.",
+        "optionsSo": [
+          "Sheeg qofka aad tahay iyo sababta aad u soo wacayso",
+          "Weydii “Yaa hadlaya?”",
+          "Waxba ha odhan"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which phrase asks for repetition?",
+        "options": [
+          "Sorry, could you repeat that?",
+          "Say again!",
+          "What?"
+        ],
+        "answer": 0,
+        "explain": "It is polite.",
+        "promptSo": "Weedhee ayaa si edeb leh qofka looga codsadaa inuu hadalka ku celiyo?",
+        "explainSo": "Weedhani waa codsi edeb leh.",
+        "optionsSo": [
+          "Waan ka xumahay, ma ku celin kartaa?",
+          "Mar kale dheh!",
+          "Maxay?"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How should you end?",
+        "options": [
+          "Summarise the next step and thank them",
+          "Hang up quickly",
+          "Change topic"
+        ],
+        "answer": 0,
+        "explain": "Confirm the next step.",
+        "promptSo": "Sidee ayay habboon tahay inaad wicitaanka ku dhamayso?",
+        "explainSo": "Xaqiiji waxa xiga ee la qabanayo.",
+        "optionsSo": [
+          "Soo koob tallaabada xigta oo u mahadceli",
+          "Si degdeg ah u jar telefoonka",
+          "Mawduuc kale bilow"
+        ]
+      }
+    ],
+    "titleSo": "Wicitaannada telefoonka ee shaqada",
+    "explanationSo": "Marka aad wicitaan shaqo bilowdo, sheeg qofka aad tahay iyo sababta aad u soo wacday: “Salaan, waxaan ahay Axmed oo ka socda shirkadda Nova. Waxaan ka soo wacayaa qaansheegtaada.” Haddii codku si fiican kuu soo gaadhi waayo, dheh: “Waan ka xumahay, ma ku celin kartaa?” Marka aad wicitaanka dhamaynayso, soo koob tallaabada xigta oo qofka u mahadceli: “Haddaba faylka maanta ayaan kuu soo dirayaa. Waad ku mahadsan tahay waqtigaaga.”",
+    "examplesSo": [
+      "Qaansheeg: dukumenti lacag-bixin lagu dalbanayo.",
+      "Soo koobid: in qodobbada ugu muhiimsan si kooban loo sheego.",
+      "Tallaabada xigta: hawsha la qabanayo marka wicitaanku dhammaado."
+    ]
+  },
+  {
+    "id": "p-report",
+    "track": "professional",
+    "title": "Writing a short report",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "A concise report opens with a one-sentence purpose, presents findings in order of importance, and closes with recommendations. Favour precise verbs ('increased by 12%', 'remained stable') over vague ones ('went up a lot'), and avoid unsupported claims. Each recommendation should state who should act and by when.",
+    "examples": [
+      "findings: what you discovered",
+      "recommendation: advice about what to do",
+      "unsupported claim: a statement without evidence"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How should findings be ordered?",
+        "options": [
+          "By importance",
+          "Randomly",
+          "Alphabetically"
+        ],
+        "answer": 0,
+        "explain": "Most important first.",
+        "promptSo": "Sidee ayay tahay in natiijooyinka warbixinta loo kala hormariyo?",
+        "explainSo": "Qodobka ugu muhiimsan marka hore.",
+        "optionsSo": [
+          "Muhiimaddooda",
+          "Si aan nidaam lahayn",
+          "Sida xarfaha alifbeetada"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which wording is better?",
+        "options": [
+          "increased by 12%",
+          "went up a lot",
+          "got big"
+        ],
+        "answer": 0,
+        "explain": "Precise and measurable.",
+        "promptSo": "Weedhee ayaa ka saxan oo la cabbiri karaa?",
+        "explainSo": "Weedhani waa sax oo tiro ayay ku cabbiraysaa isbeddelka.",
+        "optionsSo": [
+          "Wuxuu kordhay 12%.",
+          "Aad buu u kordhay.",
+          "Wuu weynaaday."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What should a recommendation state?",
+        "options": [
+          "Who acts and by when",
+          "The writer's mood",
+          "A joke"
+        ],
+        "answer": 0,
+        "explain": "Responsibility and timing.",
+        "promptSo": "Maxay tahay inay talo-bixintu sheegto?",
+        "explainSo": "Waa in la caddeeyo masuuliyadda iyo waqtiga.",
+        "optionsSo": [
+          "Cidda tallaabada qaadaysa iyo waqtiga",
+          "Dareenka qoraaga",
+          "Kaftan"
+        ]
+      }
+    ],
+    "titleSo": "Qorista warbixin kooban",
+    "explanationSo": "Warbixin kooban ku fur hal jumlad oo sheegaysa ujeeddada. Natiijooyinka u kala hormari sida ay muhiim u yihiin, kuna dhammee talooyin. Ka dooro falal sax ah oo la cabbiri karo, sida “wuxuu kordhay 12%” ama “wuxuu ahaa mid deggan”, halkii aad ka adeegsan lahayd hadal aan caddayn sida “aad buu u kordhay”. Ha sheegin wax aan caddayn lagu taageerin. Talo kasta ku caddee cidda tallaabada qaadaysa iyo waqtiga ay tahay inay ku qabato.",
+    "examplesSo": [
+      "Natiijooyin: waxyaabaha aad ogaatay ama baaritaanka ka soo baxay.",
+      "Talo-bixin: fikrad ama talo ku saabsan waxa habboon in la sameeyo.",
+      "Sheegasho aan caddayn lahayn: hadal aan lagu taageerin caddayn."
+    ]
+  },
+  {
+    "id": "p-negotiation",
+    "track": "professional",
+    "title": "Negotiating politely",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "In negotiation, soften disagreement with phrases like 'I see your point, but…' or 'Would you be open to…?'. Offer conditional deals using 'if': 'If you can deliver by Friday, we can agree to the higher price.' Avoid ultimatums; summarise agreed points at the end to prevent misunderstanding.",
+    "examples": [
+      "conditional: depending on something else",
+      "ultimatum: a final demand",
+      "soften: to make less direct"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which phrase softens disagreement?",
+        "options": [
+          "I see your point, but…",
+          "That is wrong.",
+          "No way."
+        ],
+        "answer": 0,
+        "explain": "It acknowledges the other view.",
+        "promptSo": "Weedhee ayaa khilaafka u muujinaysa si dabacsan oo edeb leh?",
+        "explainSo": "Waxay marka hore aqoonsanaysaa aragtida qofka kale.",
+        "optionsSo": [
+          "Waan fahmay aragtidaada, laakiin...",
+          "Taasi waa khalad.",
+          "Marnaba maya."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does a conditional offer use?",
+        "options": [
+          "if",
+          "never",
+          "because only"
+        ],
+        "answer": 0,
+        "explain": "\"If you can… we can…\"",
+        "promptSo": "Maxaa lagu isticmaalaa soo jeedin shuruud ku xidhan?",
+        "explainSo": "Qaabka “If you can... we can...” wuxuu muujinayaa shuruud.",
+        "optionsSo": [
+          "if (haddii)",
+          "never (marnaba)",
+          "because oo keliya (sababtoo ah)"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What should you do at the end?",
+        "options": [
+          "Summarise agreed points",
+          "Leave silently",
+          "Raise new demands"
+        ],
+        "answer": 0,
+        "explain": "This avoids misunderstanding.",
+        "promptSo": "Maxaa habboon in la sameeyo dhammaadka wada-xaajoodka?",
+        "explainSo": "Soo koobiddu waxay ka hortagtaa isfaham-darro.",
+        "optionsSo": [
+          "Soo koob qodobbada lagu heshiiyey",
+          "Aamus oo iska tag",
+          "Dalabyo cusub keen"
+        ]
+      }
+    ],
+    "titleSo": "Wada-xaajoodka si edeb leh",
+    "explanationSo": "Marka wada-xaajood la samaynayo, khilaafka ku muuji weedho hadalka jilciya sida “Waan fahmay aragtidaada, laakiin...” ama “Ma diyaar baad u tahay inaad...?”. Soo jeedi heshiis shuruud ku xidhan adigoo adeegsanaya “if”: “Haddii aad alaabta keeni karto Jimcaha, waxaan aqbali karnaa qiimaha sare.” Ka fogow dalabyo kama dambays ah oo cadaadis leh. Dhammaadka, soo koob qodobbada lagu heshiiyey si isfaham-darro looga hortago.",
+    "examplesSo": [
+      "Shuruud ku xidhan: wax ku xiran in arrin kale dhacdo.",
+      "Dalab kama dambays ah: dalab ama shuruud adag oo aan tanaasul lahayn.",
+      "Jilcin: in hadal laga dhigo mid aan aad u qallafsanayn."
+    ]
+  },
+  {
+    "id": "p-workplace-vocab",
+    "track": "professional",
+    "title": "Workplace vocabulary",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "Useful workplace words include deadline (the date by which work must be finished), colleague (someone you work with), schedule (a plan of times), and feedback (comments to help improve). Phrases such as 'Let's touch base next week' mean 'let's talk briefly next week'. 'Could you get back to me by Thursday?' asks for a reply.",
+    "examples": [
+      "deadline: the date work must be finished",
+      "colleague: a person you work with",
+      "touch base: to have a short conversation",
+      "get back to someone: to reply later"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is a deadline?",
+        "options": [
+          "The date work must be finished",
+          "A type of meeting",
+          "A salary"
+        ],
+        "answer": 0,
+        "explain": "It is a finishing date.",
+        "promptSo": "Waa maxay “deadline”?",
+        "explainSo": "Waa taariikhda kama dambaysta ah ee hawsha.",
+        "optionsSo": [
+          "Taariikhda ay tahay in shaqada lagu dhammeeyo",
+          "Nooc kulan ah",
+          "Mushahar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "\"Let's touch base\" means…",
+        "options": [
+          "Let's talk briefly",
+          "Let's play",
+          "Let's leave"
+        ],
+        "answer": 0,
+        "explain": "A short check-in.",
+        "promptSo": "Maxay ka dhigan tahay “Let’s touch base”?",
+        "explainSo": "Waxay ka dhigan tahay wada-hadal kooban ama is-xog-waraysi.",
+        "optionsSo": [
+          "Aan si kooban u wada hadalno",
+          "Aan ciyaarno",
+          "Aan tagno"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "\"Get back to me\" asks for…",
+        "options": [
+          "A reply",
+          "A gift",
+          "A meeting room"
+        ],
+        "answer": 0,
+        "explain": "Reply later.",
+        "promptSo": "“Get back to me” maxaa laga codsanayaa?",
+        "explainSo": "Waxaa laga codsanayaa in jawaab dambe la bixiyo.",
+        "optionsSo": [
+          "Jawaab",
+          "Hadiyad",
+          "Qol kulan"
+        ]
+      }
+    ],
+    "titleSo": "Eray-bixinta goobta shaqada",
+    "explanationSo": "Erayada muhiimka ah ee goobta shaqada waxaa ka mid ah “deadline” (taariikhda ugu dambaysa ee hawsha la dhammeeyo), “colleague” (qof kula shaqeeya), “schedule” (qorshaha wakhtiyada) iyo “feedback” (faallooyin kaa caawinaya horumarinta shaqada). Weedha “Let’s touch base next week” waxay ka dhigan tahay “aan toddobaadka dambe si kooban u wada hadalno”. “Could you get back to me by Thursday?” waxay qofka ka codsanaysaa inuu jawaab ku siiyo ugu dambayn Khamiista.",
+    "examplesSo": [
+      "Waqtiga kama dambaysta ah: taariikhda ay tahay in shaqada lagu dhammeeyo.",
+      "Shaqaale kula shaqeeya: qof aad isla goob ama hay’ad ka wada shaqaysaan.",
+      "Si kooban u wada xiriir: in muddo gaaban la wada hadlo ama la is xog-wareysto.",
+      "Qof dib ugu soo jawaab: in qof loo celiyo jawaab dambe."
+    ]
+  }
+]

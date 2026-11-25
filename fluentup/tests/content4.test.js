@@ -3,7 +3,7 @@ import { validateLesson } from '../src/core/lessons.js'; import { LEVELS } from 
 const J = f => JSON.parse(readFileSync(new URL(`../src/data/${f}.json`, import.meta.url), 'utf8'));
 test('reading3 + professional3 lessons validate, unique ids vs all earlier lessons, unverified, no fabricated Somali', () => {
   const prior = ['grammar', 'grammar2', 'grammar3', 'reading', 'reading2', 'professional', 'professional2'].flatMap(J), mine = [...J('reading3'), ...J('professional3')];
-  for (const l of mine) { assert.deepEqual(validateLesson(l), [], l.id); assert.equal(l.status, 'unverified'); assert.equal(l.somali, null); }
+  for (const l of mine) { assert.deepEqual(validateLesson(l), [], l.id); assert.equal(l.status, 'unverified'); if (l.track === 'reading') assert.ok(typeof l.somali === 'string' && l.somali.length > 30, l.id); else assert.equal(l.somali, null); }
   assert.equal(new Set([...prior, ...mine].map(l => l.id)).size, prior.length + mine.length);
   for (const l of ['A2', 'B1', 'B2', 'C1', 'C2']) assert.ok(J('reading3').some(x => x.level === l), 'reading ' + l);
 });

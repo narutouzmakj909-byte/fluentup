@@ -1,1 +1,136 @@
-[{"id":"r-x5-cafe","track":"reading","title":"At the café","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Omar is at a café. He sits near the window. He orders a cup of tea and a small cake. The tea is hot. The cake is sweet. Omar reads a book and drinks his tea. He pays two dollars. Then he goes home.","examples":["window: the glass part of a wall where you can see outside","order: to ask for food or drink in a café","sweet: tasting like sugar"],"exercises":[{"type":"mcq","prompt":"Where does Omar sit?","options":["Near the window","Near the door","At home"],"answer":0,"explain":"He sits near the window."},{"type":"mcq","prompt":"What does he order?","options":["Tea and a small cake","Coffee and bread","Water"],"answer":0,"explain":"He orders tea and a small cake."},{"type":"fill","prompt":"He pays two... (one word)","answer":"dollars","explain":"He pays two dollars."}]},{"id":"r-x5-school","track":"reading","title":"My school","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"My name is Hana. I go to a big school. My school has twenty classrooms and one library. I study English, maths and science. My favourite teacher is Mr Yusuf. School starts at eight and finishes at two. I walk to school with my friend.","examples":["library: a place with many books","favourite: the one you like best","finish: to end"],"exercises":[{"type":"mcq","prompt":"How many classrooms are there?","options":["Ten","Twenty","Two"],"answer":1,"explain":"The school has twenty classrooms."},{"type":"mcq","prompt":"When does school finish?","options":["At eight","At two","At twelve"],"answer":1,"explain":"School finishes at two."},{"type":"fill","prompt":"Hana walks to school with her... (one word)","answer":"friend","explain":"She walks with her friend."}]}]
+[
+  {
+    "id": "r-x5-cafe",
+    "track": "reading",
+    "title": "At the café",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Cumar wuxuu joogaa maqaayad yar. Wuxuu fadhiistaa meel u dhow daaqadda. Wuxuu dalbadaa koob shaah ah iyo keeg yar. Shaahu waa kulul yahay. Keeggu waa macaan yahay. Cumar buug ayuu akhriyaa isagoo shaahiisa cabbaya. Laba doollar ayuu bixiyaa. Dabadeed guriga ayuu aadaa.",
+    "explanation": "Omar is at a café. He sits near the window. He orders a cup of tea and a small cake. The tea is hot. The cake is sweet. Omar reads a book and drinks his tea. He pays two dollars. Then he goes home.",
+    "examples": [
+      "window: the glass part of a wall where you can see outside",
+      "order: to ask for food or drink in a café",
+      "sweet: tasting like sugar"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Where does Omar sit?",
+        "options": [
+          "Near the window",
+          "Near the door",
+          "At home"
+        ],
+        "answer": 0,
+        "explain": "He sits near the window.",
+        "promptSo": "Cumar xaggee ayuu fadhiistaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Daaqadda agteeda”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Daaqadda agteeda",
+          "Albaabka agtiisa",
+          "Guriga"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does he order?",
+        "options": [
+          "Tea and a small cake",
+          "Coffee and bread",
+          "Water"
+        ],
+        "answer": 0,
+        "explain": "He orders tea and a small cake.",
+        "promptSo": "Muxuu dalbadaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Shaah iyo keeg yar”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Shaah iyo keeg yar",
+          "Bun iyo rooti",
+          "Biyo"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "He pays two... (one word)",
+        "answer": "dollars",
+        "explain": "He pays two dollars.",
+        "promptSo": "Wuxuu bixiyaa laba ... (hal eray).",
+        "explainSo": "Jawaabta saxda ahi waa “dollars”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas."
+      }
+    ],
+    "titleSo": "Maqaayadda yar",
+    "examplesSo": [
+      "daaqad: qaybta muraayadda leh ee gidaarka oo bannaanka laga arko",
+      "dalbid: codsashada cunto ama cabitaan maqaayad",
+      "macaan: dhadhan sonkor leh"
+    ]
+  },
+  {
+    "id": "r-x5-school",
+    "track": "reading",
+    "title": "My school",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Magacaygu waa Xamdi. Waxaan dhigtaa dugsi weyn. Dugsigaygu wuxuu leeyahay labaatan fasal iyo hal maktabad. Waxaan bartaa Ingiriisi, xisaab iyo saynis. Macallinka aan ugu jeclahay waa Mudane Yuusuf. Dugsigu wuxuu bilaabmaa siddeedda subaxnimo wuxuuna dhammaadaa labada duhurnimo. Saaxiibkay ayaan lug kula aadaa dugsiga.",
+    "explanation": "My name is Hana. I go to a big school. My school has twenty classrooms and one library. I study English, maths and science. My favourite teacher is Mr Yusuf. School starts at eight and finishes at two. I walk to school with my friend.",
+    "examples": [
+      "library: a place with many books",
+      "favourite: the one you like best",
+      "finish: to end"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How many classrooms are there?",
+        "options": [
+          "Ten",
+          "Twenty",
+          "Two"
+        ],
+        "answer": 1,
+        "explain": "The school has twenty classrooms.",
+        "promptSo": "Imisa fasal ayaa dugsiga ku yaal?",
+        "explainSo": "Jawaabta saxda ahi waa “Labaatan”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Toban",
+          "Labaatan",
+          "Laba"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does school finish?",
+        "options": [
+          "At eight",
+          "At two",
+          "At twelve"
+        ],
+        "answer": 1,
+        "explain": "School finishes at two.",
+        "promptSo": "Dugsigu goorma ayuu dhammaadaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Laba-da”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Siddeedda",
+          "Laba-da",
+          "Laba iyo tobanka"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Hana walks to school with her... (one word)",
+        "answer": "friend",
+        "explain": "She walks with her friend.",
+        "promptSo": "Hana dugsiga waxay la lugaysaa ... (hal eray).",
+        "explainSo": "Jawaabta saxda ahi waa “friend”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas."
+      }
+    ],
+    "titleSo": "Dugsigayga",
+    "examplesSo": [
+      "maktabad: meel buugaag badan yaallaan",
+      "ugu jecel: qofka ama shayga aad kuwa kale uga jeceshahay",
+      "dhammaad: in wax la soo afjaro"
+    ]
+  }
+]

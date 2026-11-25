@@ -11,7 +11,7 @@ test('library filters, bookmarks, detail, rest day calendar, theme, mistakes', a
   await app.onchange({ target: { id: 'ft', value: 'idiom' } }); assert.match(app.innerHTML, /2 entries/); assert.match(app.innerHTML, /break the ice/); assert.doesNotMatch(app.innerHTML, /resilient/);
   await app.onchange({ target: { id: 'ft', value: '' } }); await app.onchange({ target: { id: 'fl', value: 'A2' } }); assert.match(app.innerHTML, /1 entry/);
   await app.onchange({ target: { id: 'fl', value: '' } }); app.oninput({ target: { id: 'q', value: 'ice', selectionStart: 3 } }); assert.match(app.innerHTML, /1 entry/);
-  await click({ open: 'i1' }); assert.match(app.innerHTML, /Somali explanation: not added yet/); assert.match(app.innerHTML, /☆ Save/);
+  await click({ open: 'i1' }); assert.match(app.innerHTML, /Inaad hadal furto/); assert.match(app.innerHTML, /☆ Save/);
   await click({ bm: 'i1' }); assert.match(app.innerHTML, /★ Saved/); await click({ back: '1' });
   app.oninput({ target: { id: 'q', value: '', selectionStart: 0 } }); await app.onchange({ target: { id: 'fs', checked: true } }); assert.match(app.innerHTML, /1 entry/); assert.match(app.innerHTML, /★ break the ice/);
   go('plan'); assert.match(app.innerHTML, /Mark today as rest day/); await click({}, 'restToggle'); assert.match(app.innerHTML, /Remove today as rest day/); assert.match(app.innerHTML, /c-rest/);

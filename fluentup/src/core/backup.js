@@ -19,9 +19,9 @@ export function validCard(c) {
 // Returns { ok:true, data, skipped } or { ok:false, error }. Never throws.
 export function parseBackup(text) {
   if (typeof text !== 'string' || !text.trim()) return { ok: false, error: 'The file is empty.' };
-  if (text.length > MAX_BYTES) return { ok: false, error: 'The file is too large to be a FluentUp backup.' };
-  let d; try { d = JSON.parse(text); } catch { return { ok: false, error: 'This is not valid JSON, so it cannot be a FluentUp backup.' }; }
-  if (!isObj(d) || d.app !== 'fluentup') return { ok: false, error: 'This file is not a FluentUp backup.' };
+  if (text.length > MAX_BYTES) return { ok: false, error: 'The file is too large to be a NORA backup.' };
+  let d; try { d = JSON.parse(text); } catch { return { ok: false, error: 'This is not valid JSON, so it cannot be a NORA backup.' }; }
+  if (!isObj(d) || !['fluentup','nora'].includes(d.app)) return { ok: false, error: 'This file is not a NORA backup.' };
   if (d.format !== FORMAT) return { ok: false, error: `Unsupported backup format (${d.format}). This app reads format ${FORMAT}.` };
   if (!Array.isArray(d.cards) || !isObj(d.meta)) return { ok: false, error: 'The backup is missing its cards or settings.' };
   const cards = d.cards.filter(validCard), meta = {};

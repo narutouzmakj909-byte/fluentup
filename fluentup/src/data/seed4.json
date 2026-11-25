@@ -1,1 +1,784 @@
-[{"id":"h100","type":"word","en":"neighbour","def":"a person who lives near you","ex":["Our neighbour is very kind."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"home","category":"home"},{"id":"h101","type":"word","en":"ticket","def":"a paper or card that lets you travel or enter a place","ex":["I bought a train ticket."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"travel","category":"travel"},{"id":"h102","type":"word","en":"early","def":"before the usual or planned time","ex":["She wakes up early every day."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"everyday","category":"everyday"},{"id":"h103","type":"word","en":"between","def":"in the space separating two things","ex":["The bank is between the shop and the school."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"directions","category":"directions"},{"id":"h104","type":"phrase","en":"How much is it?","def":"a question asking the price of something","ex":["How much is it? I only have ten dollars."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"shopping","category":"shopping"},{"id":"h105","type":"phrase","en":"Could you repeat that?","def":"a polite request to hear something again","ex":["Sorry, could you repeat that, please?"],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"conversation","category":"conversation"},{"id":"h106","type":"phrasal_verb","en":"wake up","def":"to stop sleeping","ex":["I wake up at six."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"routine","category":"routine"},{"id":"h107","type":"phrasal_verb","en":"sit down","def":"to move into a sitting position","ex":["Please sit down and relax."],"level":"A1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"everyday","category":"everyday"},{"id":"h108","type":"word","en":"delay","def":"a time when something happens later than planned","ex":["There is a delay because of the snow."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"travel","category":"travel"},{"id":"h109","type":"word","en":"invite","def":"to ask someone to come to an event","ex":["I want to invite you to my party."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"social","category":"social"},{"id":"h110","type":"word","en":"comfortable","def":"pleasant to wear, sit in or be in","ex":["This chair is very comfortable."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"home","category":"home"},{"id":"h111","type":"phrase","en":"I'm looking for…","def":"a way to say what you want to find","ex":["I'm looking for a pair of black shoes."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"shopping","category":"shopping"},{"id":"h112","type":"phrase","en":"It depends on…","def":"used when the answer changes with the situation","ex":["It depends on the weather."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"conversation","category":"conversation"},{"id":"h113","type":"phrasal_verb","en":"pick up","def":"to collect someone or something","ex":["I'll pick you up at eight."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"travel","category":"travel"},{"id":"h114","type":"phrasal_verb","en":"turn off","def":"to stop a machine or light from working","ex":["Please turn off your phone."],"level":"A2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"everyday","category":"everyday"},{"id":"h115","type":"word","en":"struggle","def":"to try very hard to do something difficult","ex":["Many students struggle with phrasal verbs."],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"study","category":"study"},{"id":"h116","type":"word","en":"estimate","def":"to guess an amount using the information you have","ex":["Can you estimate how long it will take?"],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h117","type":"phrase","en":"To be honest,","def":"used before saying what you really think","ex":["To be honest, I preferred the first plan."],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"informal","context":"conversation","category":"conversation"},{"id":"h118","type":"phrase","en":"As far as I know,","def":"used when you are not completely sure of the facts","ex":["As far as I know, the shop closes at six."],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"conversation","category":"conversation"},{"id":"h119","type":"idiom","en":"break the habit","def":"to stop doing something you do regularly","ex":["It took months to break the habit of checking my phone."],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"lifestyle","category":"lifestyle"},{"id":"h120","type":"idiom","en":"in the long run","def":"over a long period of time, or eventually","ex":["Saving money now will help you in the long run."],"level":"B1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"general","category":"general"},{"id":"h121","type":"word","en":"assume","def":"to think something is true without proof","ex":["Don't assume everyone agrees with you."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"general","category":"general"},{"id":"h122","type":"word","en":"tentative","def":"not certain or final","ex":["We made a tentative plan for Friday."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"work","category":"work"},{"id":"h123","type":"word","en":"outcome","def":"the result of an action or process","ex":["We are happy with the outcome of the meeting."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h124","type":"phrase","en":"That being said,","def":"used to add a point that contrasts with what you just said","ex":["The plan is good. That being said, it is expensive."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"discussion","category":"discussion"},{"id":"h125","type":"phrase","en":"I couldn't agree more.","def":"a strong way to say you completely agree","ex":["I couldn't agree more with your point."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"discussion","category":"discussion"},{"id":"h126","type":"phrasal_verb","en":"follow up on","def":"to take further action about something","ex":["I will follow up on your request tomorrow."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h127","type":"phrasal_verb","en":"back out of","def":"to decide not to do something you agreed to do","ex":["He backed out of the deal at the last minute."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h128","type":"idiom","en":"on the same page","def":"sharing the same understanding","ex":["Let's make sure we are all on the same page."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"informal","context":"work","category":"work"},{"id":"h129","type":"idiom","en":"bite off more than you can chew","def":"to try to do more than you are able to manage","ex":["I think I bit off more than I can chew with three jobs."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"informal","context":"general","category":"general"},{"id":"h130","type":"slang","en":"heads-up","def":"an early warning or piece of information","ex":["Thanks for the heads-up about the meeting."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"informal","context":"work","category":"work"},{"id":"h131","type":"slang","en":"swamped","def":"having too much work to deal with","ex":["I'm swamped this week, so I can't meet."],"level":"B2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"informal","context":"work","category":"work"},{"id":"h132","type":"word","en":"scrutiny","def":"careful and critical examination","ex":["The proposal came under intense scrutiny."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"work","category":"work"},{"id":"h133","type":"word","en":"nuance","def":"a small but important difference in meaning or tone","ex":["Learners often miss the nuance of polite requests."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"language","category":"language"},{"id":"h134","type":"word","en":"pragmatic","def":"dealing with things in a practical, realistic way","ex":["We need a pragmatic approach to the budget."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"work","category":"work"},{"id":"h135","type":"phrase","en":"With the benefit of hindsight,","def":"used when judging a past decision knowing what happened later","ex":["With the benefit of hindsight, we should have waited."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"discussion","category":"discussion"},{"id":"h136","type":"phrase","en":"It goes without saying that…","def":"used for something that is obvious","ex":["It goes without saying that safety comes first."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"discussion","category":"discussion"},{"id":"h137","type":"phrasal_verb","en":"iron out","def":"to solve small problems in a plan or situation","ex":["We still need to iron out a few details."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h138","type":"phrasal_verb","en":"phase out","def":"to stop using something gradually","ex":["The company will phase out paper invoices."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"work","category":"work"},{"id":"h139","type":"idiom","en":"read between the lines","def":"to understand a hidden meaning","ex":["If you read between the lines, he is unhappy."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"general","category":"general"},{"id":"h140","type":"idiom","en":"a double-edged sword","def":"something with both good and bad effects","ex":["Social media is a double-edged sword."],"level":"C1","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"discussion","category":"discussion"},{"id":"h141","type":"word","en":"equivocal","def":"open to more than one interpretation, often unclear on purpose","ex":["The minister gave an equivocal answer."],"level":"C2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"discussion","category":"discussion"},{"id":"h142","type":"word","en":"Machiavellian","def":"cunning and willing to deceive to gain an advantage","ex":["His Machiavellian tactics upset the team."],"level":"C2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"formal","context":"general","category":"general"},{"id":"h143","type":"phrase","en":"To put it mildly,","def":"used to say something is much more extreme than your words suggest","ex":["To put it mildly, the launch was a disappointment."],"level":"C2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"discussion","category":"discussion"},{"id":"h144","type":"idiom","en":"the elephant in the room","def":"an obvious problem that people avoid talking about","ex":["Pay was the elephant in the room during the meeting."],"level":"C2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"},{"id":"h145","type":"idiom","en":"cut through the noise","def":"to find what really matters among distractions","ex":["Good summaries cut through the noise."],"level":"C2","ipa":null,"status":"unverified","source":"original, authored for FluentUp","somali":null,"register":"neutral","context":"work","category":"work"}]
+[
+  {
+    "id": "h100",
+    "type": "word",
+    "en": "neighbour",
+    "def": "a person who lives near you",
+    "ex": [
+      "Our neighbour is very kind."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "deris",
+    "register": "neutral",
+    "context": "home",
+    "category": "home"
+  },
+  {
+    "id": "h101",
+    "type": "word",
+    "en": "ticket",
+    "def": "a paper or card that lets you travel or enter a place",
+    "ex": [
+      "I bought a train ticket."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "tigidh",
+    "register": "neutral",
+    "context": "travel",
+    "category": "travel"
+  },
+  {
+    "id": "h102",
+    "type": "word",
+    "en": "early",
+    "def": "before the usual or planned time",
+    "ex": [
+      "She wakes up early every day."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "waqti hore; ka hor waqtiga la filayey",
+    "register": "neutral",
+    "context": "everyday",
+    "category": "everyday"
+  },
+  {
+    "id": "h103",
+    "type": "word",
+    "en": "between",
+    "def": "in the space separating two things",
+    "ex": [
+      "The bank is between the shop and the school."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "inta u dhexaysa",
+    "register": "neutral",
+    "context": "directions",
+    "category": "directions"
+  },
+  {
+    "id": "h104",
+    "type": "phrase",
+    "en": "How much is it?",
+    "def": "a question asking the price of something",
+    "ex": [
+      "How much is it? I only have ten dollars."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Immisa ayuu yahay? / Waa imisa qiimihiisu?",
+    "register": "neutral",
+    "context": "shopping",
+    "category": "shopping"
+  },
+  {
+    "id": "h105",
+    "type": "phrase",
+    "en": "Could you repeat that?",
+    "def": "a polite request to hear something again",
+    "ex": [
+      "Sorry, could you repeat that, please?"
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Ma ku celin kartaa, fadlan?",
+    "register": "neutral",
+    "context": "conversation",
+    "category": "conversation"
+  },
+  {
+    "id": "h106",
+    "type": "phrasal_verb",
+    "en": "wake up",
+    "def": "to stop sleeping",
+    "ex": [
+      "I wake up at six."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "soo toos",
+    "register": "neutral",
+    "context": "routine",
+    "category": "routine"
+  },
+  {
+    "id": "h107",
+    "type": "phrasal_verb",
+    "en": "sit down",
+    "def": "to move into a sitting position",
+    "ex": [
+      "Please sit down and relax."
+    ],
+    "level": "A1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "fadhiiso",
+    "register": "neutral",
+    "context": "everyday",
+    "category": "everyday"
+  },
+  {
+    "id": "h108",
+    "type": "word",
+    "en": "delay",
+    "def": "a time when something happens later than planned",
+    "ex": [
+      "There is a delay because of the snow."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "dib-u-dhac",
+    "register": "neutral",
+    "context": "travel",
+    "category": "travel"
+  },
+  {
+    "id": "h109",
+    "type": "word",
+    "en": "invite",
+    "def": "to ask someone to come to an event",
+    "ex": [
+      "I want to invite you to my party."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "casuum",
+    "register": "neutral",
+    "context": "social",
+    "category": "social"
+  },
+  {
+    "id": "h110",
+    "type": "word",
+    "en": "comfortable",
+    "def": "pleasant to wear, sit in or be in",
+    "ex": [
+      "This chair is very comfortable."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "raaxo leh",
+    "register": "neutral",
+    "context": "home",
+    "category": "home"
+  },
+  {
+    "id": "h111",
+    "type": "phrase",
+    "en": "I'm looking for…",
+    "def": "a way to say what you want to find",
+    "ex": [
+      "I'm looking for a pair of black shoes."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Waxaan raadinayaa…",
+    "register": "neutral",
+    "context": "shopping",
+    "category": "shopping"
+  },
+  {
+    "id": "h112",
+    "type": "phrase",
+    "en": "It depends on…",
+    "def": "used when the answer changes with the situation",
+    "ex": [
+      "It depends on the weather."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Waxay ku xiran tahay…",
+    "register": "neutral",
+    "context": "conversation",
+    "category": "conversation"
+  },
+  {
+    "id": "h113",
+    "type": "phrasal_verb",
+    "en": "pick up",
+    "def": "to collect someone or something",
+    "ex": [
+      "I'll pick you up at eight."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "soo qaad; ka soo qaad",
+    "register": "neutral",
+    "context": "travel",
+    "category": "travel"
+  },
+  {
+    "id": "h114",
+    "type": "phrasal_verb",
+    "en": "turn off",
+    "def": "to stop a machine or light from working",
+    "ex": [
+      "Please turn off your phone."
+    ],
+    "level": "A2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "dam",
+    "register": "neutral",
+    "context": "everyday",
+    "category": "everyday"
+  },
+  {
+    "id": "h115",
+    "type": "word",
+    "en": "struggle",
+    "def": "to try very hard to do something difficult",
+    "ex": [
+      "Many students struggle with phrasal verbs."
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "ku dhibtoon; ku dadaal",
+    "register": "neutral",
+    "context": "study",
+    "category": "study"
+  },
+  {
+    "id": "h116",
+    "type": "word",
+    "en": "estimate",
+    "def": "to guess an amount using the information you have",
+    "ex": [
+      "Can you estimate how long it will take?"
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "qiyaas",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h117",
+    "type": "phrase",
+    "en": "To be honest,",
+    "def": "used before saying what you really think",
+    "ex": [
+      "To be honest, I preferred the first plan."
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Run ahaantii…",
+    "register": "informal",
+    "context": "conversation",
+    "category": "conversation"
+  },
+  {
+    "id": "h118",
+    "type": "phrase",
+    "en": "As far as I know,",
+    "def": "used when you are not completely sure of the facts",
+    "ex": [
+      "As far as I know, the shop closes at six."
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Inta aan ogahay…",
+    "register": "neutral",
+    "context": "conversation",
+    "category": "conversation"
+  },
+  {
+    "id": "h119",
+    "type": "idiom",
+    "en": "break the habit",
+    "def": "to stop doing something you do regularly",
+    "ex": [
+      "It took months to break the habit of checking my phone."
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "jooji caadada",
+    "register": "neutral",
+    "context": "lifestyle",
+    "category": "lifestyle"
+  },
+  {
+    "id": "h120",
+    "type": "idiom",
+    "en": "in the long run",
+    "def": "over a long period of time, or eventually",
+    "ex": [
+      "Saving money now will help you in the long run."
+    ],
+    "level": "B1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "mustaqbalka fog",
+    "register": "neutral",
+    "context": "general",
+    "category": "general"
+  },
+  {
+    "id": "h121",
+    "type": "word",
+    "en": "assume",
+    "def": "to think something is true without proof",
+    "ex": [
+      "Don't assume everyone agrees with you."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "u qaadan (adigoon caddayn haysan)",
+    "register": "neutral",
+    "context": "general",
+    "category": "general"
+  },
+  {
+    "id": "h122",
+    "type": "word",
+    "en": "tentative",
+    "def": "not certain or final",
+    "ex": [
+      "We made a tentative plan for Friday."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "ku-meel-gaar ah; aan weli go’aan kama dambays ah ahayn",
+    "register": "formal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h123",
+    "type": "word",
+    "en": "outcome",
+    "def": "the result of an action or process",
+    "ex": [
+      "We are happy with the outcome of the meeting."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "natiijo",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h124",
+    "type": "phrase",
+    "en": "That being said,",
+    "def": "used to add a point that contrasts with what you just said",
+    "ex": [
+      "The plan is good. That being said, it is expensive."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Si kastaba ha ahaatee…",
+    "register": "neutral",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h125",
+    "type": "phrase",
+    "en": "I couldn't agree more.",
+    "def": "a strong way to say you completely agree",
+    "ex": [
+      "I couldn't agree more with your point."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Si buuxda ayaan kuugu raacsanahay.",
+    "register": "neutral",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h126",
+    "type": "phrasal_verb",
+    "en": "follow up on",
+    "def": "to take further action about something",
+    "ex": [
+      "I will follow up on your request tomorrow."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "dib uga daba-gal",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h127",
+    "type": "phrasal_verb",
+    "en": "back out of",
+    "def": "to decide not to do something you agreed to do",
+    "ex": [
+      "He backed out of the deal at the last minute."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "ka noqosho heshiis ama ballan",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h128",
+    "type": "idiom",
+    "en": "on the same page",
+    "def": "sharing the same understanding",
+    "ex": [
+      "Let's make sure we are all on the same page."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "isku faham ah",
+    "register": "informal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h129",
+    "type": "idiom",
+    "en": "bite off more than you can chew",
+    "def": "to try to do more than you are able to manage",
+    "ex": [
+      "I think I bit off more than I can chew with three jobs."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "isku day inaad qabato wax ka badan awooddaada",
+    "register": "informal",
+    "context": "general",
+    "category": "general"
+  },
+  {
+    "id": "h130",
+    "type": "slang",
+    "en": "heads-up",
+    "def": "an early warning or piece of information",
+    "ex": [
+      "Thanks for the heads-up about the meeting."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "war hore oo muhiim ah; digniin",
+    "register": "informal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h131",
+    "type": "slang",
+    "en": "swamped",
+    "def": "having too much work to deal with",
+    "ex": [
+      "I'm swamped this week, so I can't meet."
+    ],
+    "level": "B2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "hawlo badan ku hafan",
+    "register": "informal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h132",
+    "type": "word",
+    "en": "scrutiny",
+    "def": "careful and critical examination",
+    "ex": [
+      "The proposal came under intense scrutiny."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "baaritaan iyo qiimayn adag",
+    "register": "formal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h133",
+    "type": "word",
+    "en": "nuance",
+    "def": "a small but important difference in meaning or tone",
+    "ex": [
+      "Learners often miss the nuance of polite requests."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "nuance: kala-duwanaansho yar oo macne ama cod ah",
+    "register": "formal",
+    "context": "language",
+    "category": "language"
+  },
+  {
+    "id": "h134",
+    "type": "word",
+    "en": "pragmatic",
+    "def": "dealing with things in a practical, realistic way",
+    "ex": [
+      "We need a pragmatic approach to the budget."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "wax-ku-ool ah; xaaladda si dhab ah u eegaya",
+    "register": "formal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h135",
+    "type": "phrase",
+    "en": "With the benefit of hindsight,",
+    "def": "used when judging a past decision knowing what happened later",
+    "ex": [
+      "With the benefit of hindsight, we should have waited."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Marka dib loo eego wixii dhacay…",
+    "register": "formal",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h136",
+    "type": "phrase",
+    "en": "It goes without saying that…",
+    "def": "used for something that is obvious",
+    "ex": [
+      "It goes without saying that safety comes first."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Waa iska caddahay in…",
+    "register": "formal",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h137",
+    "type": "phrasal_verb",
+    "en": "iron out",
+    "def": "to solve small problems in a plan or situation",
+    "ex": [
+      "We still need to iron out a few details."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "xallin dhibaatooyin yaryar; hagaajin",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h138",
+    "type": "phrasal_verb",
+    "en": "phase out",
+    "def": "to stop using something gradually",
+    "ex": [
+      "The company will phase out paper invoices."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "si tartiib ah u joojin",
+    "register": "formal",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h139",
+    "type": "idiom",
+    "en": "read between the lines",
+    "def": "to understand a hidden meaning",
+    "ex": [
+      "If you read between the lines, he is unhappy."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "fahmo macnaha qarsoon",
+    "register": "neutral",
+    "context": "general",
+    "category": "general"
+  },
+  {
+    "id": "h140",
+    "type": "idiom",
+    "en": "a double-edged sword",
+    "def": "something with both good and bad effects",
+    "ex": [
+      "Social media is a double-edged sword."
+    ],
+    "level": "C1",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Arrin leh laba dhinac: faa’iidooyin iyo khasaarooyin labadaba.",
+    "register": "neutral",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h141",
+    "type": "word",
+    "en": "equivocal",
+    "def": "open to more than one interpretation, often unclear on purpose",
+    "ex": [
+      "The minister gave an equivocal answer."
+    ],
+    "level": "C2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Hadalk ama jawaab loo fasiri karo siyaabo kala duwan, badanaa si aan caddayn.",
+    "register": "formal",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h142",
+    "type": "word",
+    "en": "Machiavellian",
+    "def": "cunning and willing to deceive to gain an advantage",
+    "ex": [
+      "His Machiavellian tactics upset the team."
+    ],
+    "level": "C2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Qof xeelad badan oo khiyaano u adeegsada inuu faa’iido ama awood ku helo.",
+    "register": "formal",
+    "context": "general",
+    "category": "general"
+  },
+  {
+    "id": "h143",
+    "type": "phrase",
+    "en": "To put it mildly,",
+    "def": "used to say something is much more extreme than your words suggest",
+    "ex": [
+      "To put it mildly, the launch was a disappointment."
+    ],
+    "level": "C2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Weedh lagu muujiyo in xaqiiqadu ka daran tahay sida hadalka loo dhigay.",
+    "register": "neutral",
+    "context": "discussion",
+    "category": "discussion"
+  },
+  {
+    "id": "h144",
+    "type": "idiom",
+    "en": "the elephant in the room",
+    "def": "an obvious problem that people avoid talking about",
+    "ex": [
+      "Pay was the elephant in the room during the meeting."
+    ],
+    "level": "C2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Dhibaato ama arrin si cad u muuqata oo dadku ka meermeeraan inay ka hadlaan.",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  },
+  {
+    "id": "h145",
+    "type": "idiom",
+    "en": "cut through the noise",
+    "def": "to find what really matters among distractions",
+    "ex": [
+      "Good summaries cut through the noise."
+    ],
+    "level": "C2",
+    "ipa": null,
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "In la kala saaro waxa muhiimka ah iyo buuqa ama xogta mashquulinta ah.",
+    "register": "neutral",
+    "context": "work",
+    "category": "work"
+  }
+]

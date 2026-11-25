@@ -1,6 +1,6 @@
 # Supabase setup (not tested against a live project)
 
-1. Create a project. In the SQL editor run `db/schema.sql`, then migrations `002`, `003`, `004`. (Schema/migrations were **never executed** by the author; run them on a throwaway project first and test RLS with two users.)
+1. Create a project. In the SQL editor run `db/schema.sql`, then migrations `002`, `003`, `004`, `005` (AI Tutor rate limit) and `006` (rate-limit lock). The AI Tutor also needs the `tutor` Edge Function and its secrets: see `docs/TUTOR.md`. (Schema/migrations were **never executed** by the author; run them on a throwaway project first and test RLS with two users.)
 2. Load content into `entries` (e.g. `node tools/import.mjs in.jsonl outdir`, then insert via service role). Card sync has a foreign key to `entries`.
 3. Copy `config.example.js` to `config.js`, set `SUPABASE_URL` and `SUPABASE_ANON_KEY`. Never put the `service_role` key in the client. `config.js` is gitignored.
 4. Auth: enable Email provider; set Site URL and redirect URLs for password recovery.

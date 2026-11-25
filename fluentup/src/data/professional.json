@@ -1,12 +1,140 @@
-[{"id":"p-email","track":"professional","title":"Writing a polite email","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"A formal email has a greeting, a clear purpose, and a polite closing. Start with 'Dear' and the person's title and name, say why you are writing, and end with a closing such as 'Kind regards'.",
-"examples":["Dear Mr Brown,","I am writing to ask about the vacancy.","I look forward to hearing from you.","Kind regards,"],
-"exercises":[{"type":"mcq","prompt":"Which opening suits a formal email?","options":["Hey!","Dear Mr Brown,","Yo Brown"],"answer":1,"explain":"'Dear' plus a title and name is the standard formal greeting."},
-{"type":"fill","prompt":"I am ___ to ask about the vacancy.","answer":"writing","explain":"'I am writing to...' states the purpose of the email."},
-{"type":"mcq","prompt":"Which closing is most suitable?","options":["See ya","Kind regards,","Bye bye"],"answer":1,"explain":"'Kind regards' is polite and neutral."}]},
-{"id":"p-meeting","track":"professional","title":"Taking part in meetings","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,
-"explanation":"In meetings, use polite phrases to interrupt, agree, and move the discussion forward. Polite language helps colleagues listen to you.",
-"examples":["Sorry to interrupt, could I add something?","I agree with that point.","Let's move on to the next item."],
-"exercises":[{"type":"mcq","prompt":"How can you interrupt politely?","options":["Shut up","Sorry to interrupt, could I add something?","Wait!"],"answer":1,"explain":"It apologises and asks permission."},
-{"type":"mcq","prompt":"How can you change the topic politely?","options":["Let's move on to the next item.","Stop talking.","Nobody cares."],"answer":0,"explain":"It is neutral and helps the group continue."},
-{"type":"fill","prompt":"I ___ with that point.","answer":"agree","explain":"'I agree with that point' shows support."}]}]
+[
+  {
+    "id": "p-email",
+    "track": "professional",
+    "title": "Writing a polite email",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "A formal email has a greeting, a clear purpose, and a polite closing. Start with 'Dear' and the person's title and name, say why you are writing, and end with a closing such as 'Kind regards'.",
+    "examples": [
+      "Dear Mr Brown,",
+      "I am writing to ask about the vacancy.",
+      "I look forward to hearing from you.",
+      "Kind regards,"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening suits a formal email?",
+        "options": [
+          "Hey!",
+          "Dear Mr Brown,",
+          "Yo Brown"
+        ],
+        "answer": 1,
+        "explain": "'Dear' plus a title and name is the standard formal greeting.",
+        "promptSo": "Furitaan noocee ah ayaa ku habboon iimayl rasmi ah?",
+        "explainSo": "“Dear” oo ay raacaan darajada iyo magaca qofka waa salaanta caadiga ah ee iimaylka rasmiga ah.",
+        "optionsSo": [
+          "Salaan aan rasmi ahayn!",
+          "Mudane Brown,",
+          "Yo Brown"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I am ___ to ask about the vacancy.",
+        "answer": "writing",
+        "explain": "'I am writing to...' states the purpose of the email.",
+        "promptSo": "Buuxi meel bannaan: “I am ___ to ask about the vacancy.”",
+        "explainSo": "Weedha “I am writing to...” waxay sheegaysaa ujeeddada iimaylka."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which closing is most suitable?",
+        "options": [
+          "See ya",
+          "Kind regards,",
+          "Bye bye"
+        ],
+        "answer": 1,
+        "explain": "'Kind regards' is polite and neutral.",
+        "promptSo": "Xiritaankee ayaa ugu habboon?",
+        "explainSo": "“Kind regards” waa xiritaan edeb leh oo dhexdhexaad ah.",
+        "optionsSo": [
+          "Nabadgelyo (hadal caadi ah)",
+          "Salaan wanaagsan,",
+          "Nabadgelyo nabadgelyo"
+        ]
+      }
+    ],
+    "titleSo": "Qorista iimayl edeb leh",
+    "explanationSo": "Iimayl rasmi ah wuxuu leeyahay salaam bilow ah, ujeeddo cad iyo xiritaan edeb leh. Ku bilow “Dear” oo raaci darajada iyo magaca qofka. Sheeg sababta aad u qorayso, kuna dhammee weedh xiritaan ah sida “Kind regards”.",
+    "examplesSo": [
+      "Mudane Brown, (salaan rasmi ah)",
+      "Waxaan idiin soo qorayaa inaan wax ka weydiiyo booska shaqo ee bannaan.",
+      "Waxaan rajaynayaa inaan jawaab idinka helo.",
+      "Salaan wanaagsan, (xiritaan iimayl)"
+    ]
+  },
+  {
+    "id": "p-meeting",
+    "track": "professional",
+    "title": "Taking part in meetings",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "In meetings, use polite phrases to interrupt, agree, and move the discussion forward. Polite language helps colleagues listen to you.",
+    "examples": [
+      "Sorry to interrupt, could I add something?",
+      "I agree with that point.",
+      "Let's move on to the next item."
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How can you interrupt politely?",
+        "options": [
+          "Shut up",
+          "Sorry to interrupt, could I add something?",
+          "Wait!"
+        ],
+        "answer": 1,
+        "explain": "It apologises and asks permission.",
+        "promptSo": "Sidee ayaad si edeb leh hadalka u dhex geli kartaa?",
+        "explainSo": "Weedhani waxay muujinaysaa raalli-gelin waxayna oggolaansho waydiisanaysaa.",
+        "optionsSo": [
+          "Aamus!",
+          "Waan ka xumahay inaan hadalka dhex galo; ma ku dari karaa fikrad?",
+          "Sug!"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How can you change the topic politely?",
+        "options": [
+          "Let's move on to the next item.",
+          "Stop talking.",
+          "Nobody cares."
+        ],
+        "answer": 0,
+        "explain": "It is neutral and helps the group continue.",
+        "promptSo": "Sidee ayaad mawduuca si edeb leh ugu beddeli kartaa?",
+        "explainSo": "Weedhani waa dhexdhexaad waxayna kooxda ka caawisaa inay doodda sii waddo.",
+        "optionsSo": [
+          "Aan u gudubno qodobka xiga.",
+          "Jooji hadalka.",
+          "Qofna dan kama laha."
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "I ___ with that point.",
+        "answer": "agree",
+        "explain": "'I agree with that point' shows support.",
+        "promptSo": "Buuxi: “I ___ with that point.”",
+        "explainSo": "“I agree with that point” waxay muujinaysaa inaad taageersan tahay fikradda."
+      }
+    ],
+    "titleSo": "Ka qaybgalka shirarka",
+    "explanationSo": "Marka aad shir ka qaybgalayso, adeegso weedho edeb leh si aad hadalka u dhex gasho, u muujiso inaad ku raacsan tahay qof, ama doodda ugu gudbiso qodobka xiga. Luqadda edebta leh waxay ka caawisaa asxaabta shaqada inay si wanaagsan kuu dhegaystaan.",
+    "examplesSo": [
+      "Waan ka xumahay inaan hadalka dhex galo; ma ku dari karaa fikrad?",
+      "Waan ku raacsanahay qodobkaas.",
+      "Aan u gudubno qodobka xiga."
+    ]
+  }
+]

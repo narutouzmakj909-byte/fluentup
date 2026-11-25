@@ -1,3 +1,17 @@
+# Current integrated state — 26 November 2026
+
+NORA v0.9.0 remains the original Liquid Glass PWA/Capacitor application. The latest Somali integration is described in the root-level `NORA_AUDIT_REPORT.md`.
+
+- Automated tests: **152/152 passed**.
+- Production build: **passed** (`www/` regenerated).
+- Content totals: 151 vocabulary entries, 37 grammar lessons, 20 reading lessons, 20 listening lessons, 21 conversations, 19 writing tasks and 14 Professional English lessons.
+- Learner-facing Somali content localization is complete for the identified datasets; general UI strings intentionally remain English. See `SOMALI_LOCALIZATION_PROGRESS.md` and `NORA_AUDIT_REPORT.md` for exact field counts and remaining review items.
+- Browser E2E could not be completed in this environment: Chromium navigation to the local server returned `ERR_BLOCKED_BY_ADMINISTRATOR`.
+- No live Supabase deployment, Android APK or physical-device verification is claimed.
+- Historical release notes below describe earlier checkpoints and should not be read as the current localization coverage.
+
+---
+
 # FluentUp — project state (v0.9.0, Ultra Premium Liquid Glass)
 
 ## v0.9.0 Liquid Glass redesign — COMPLETE (details and exact verification list in CONTINUATION.md)
@@ -90,3 +104,7 @@ Stack: dependency-free ES modules (no bundler, no runtime deps). `npm test` = no
 - Housekeeping: removed stray `{src` directory, package.json version synced to 0.5.0, `www/` git-ignored, service worker cache bumped to v9 and lists grammar3.
 - Verified: `npm test` 59/59; `npm run build` ok; Chromium e2e 18/18, no console errors.
 - Unchanged and still NOT done: APK build, live Supabase/migration/RLS run, premium redesign / React-TS migration, large library (83 entries), formal accessibility audit, Somali review, pronunciation scoring.
+
+
+## Phase 1: AI Tutor integration
+Added the Tutor screen (`src/ui/tutorScreen.js`, `src/core/tutorChat.js`), upgraded `src/core/tutor.js`, hardened the Edge Function (`core.ts` + `index.ts`), migration 006, docs/TUTOR.md, tests `tests/tutor*.test.js` and `tests/e2e/tutor.py`. Service worker cache v14. Not tested against a live Supabase project.

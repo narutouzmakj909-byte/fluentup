@@ -10,6 +10,10 @@ export function createSupabase({ url, anonKey, fetch: f = globalThis.fetch, stor
   const sess = j => { if (j.access_token) save({ access_token: j.access_token, refresh_token: j.refresh_token, user: j.user, expires_at: Date.now() + (j.expires_in ?? 3600) * 1000 }); return j; };
   return {
     user: () => session?.user ?? null, signedIn: () => !!session,
+    // Current access token for calling Edge Functions; refreshes first when it is about to expire. Resolves null when signed out.
+    accessToken: async () => { if (!session) return null;
+      if (session.refresh_token && session.expires_at && session.expires_at - Date.now() < 60000) { try { await sess(await call('/auth/v1/token?grant_type=refresh_token', { refresh_token: session.refresh_token })); } catch {} }
+      return session?.access_token ?? null; },
     signUp: async (email, password) => sess(await call('/auth/v1/signup', { email, password })),
     signIn: async (email, password) => sess(await call('/auth/v1/token?grant_type=password', { email, password })),
     recover: email => call('/auth/v1/recover', { email }),

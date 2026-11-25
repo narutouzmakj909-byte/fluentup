@@ -1,20 +1,261 @@
 [
-{"id":"l1","title":"At the bus stop","level":"A1","status":"unverified","source":"original, authored for FluentUp","audio":null,
- "sentences":["Excuse me, is this the bus to the city centre?","Yes, it is. It leaves at nine o'clock.","How much is a ticket?","It costs two pounds."],
- "questions":[{"type":"mcq","prompt":"Where does the bus go?","options":["The airport","The city centre","The school"],"answer":1,"explain":"The first speaker asks about the city centre."},
- {"type":"mcq","prompt":"What time does the bus leave?","options":["Eight","Nine","Ten"],"answer":1,"explain":"It leaves at nine o'clock."},
- {"type":"fill","prompt":"How much is a ticket (in pounds)?","answer":"two","accept":["2"],"explain":"It costs two pounds."}]},
-{"id":"l2","title":"Booking a table","level":"A2","status":"unverified","source":"original, authored for FluentUp","audio":null,
- "sentences":["Good evening. I'd like to book a table for four people.","For what time, please?","At half past seven tomorrow.","Certainly. Could I have your name?"],
- "questions":[{"type":"mcq","prompt":"How many people is the table for?","options":["Two","Three","Four"],"answer":2,"explain":"A table for four people."},
- {"type":"mcq","prompt":"When is the booking?","options":["Tonight","Tomorrow","Next week"],"answer":1,"explain":"At half past seven tomorrow."},
- {"type":"fill","prompt":"What does the waiter ask for?","answer":"name","accept":["your name","the name"],"explain":"Could I have your name?"}]},
-{"id":"l3","title":"A change of plans","level":"B1","status":"unverified","source":"original, authored for FluentUp","audio":null,
- "sentences":["I'm afraid I can't make it to the meeting on Thursday.","That's a shame. Is something wrong?","My manager asked me to travel to another office.","No problem. Let's reschedule for next Monday."],
- "questions":[{"type":"mcq","prompt":"Why can't the speaker attend?","options":["They are ill","They have to travel","They forgot"],"answer":1,"explain":"The manager asked them to travel."},
- {"type":"mcq","prompt":"When is the new meeting?","options":["Thursday","Friday","Next Monday"],"answer":2,"explain":"Let's reschedule for next Monday."}]},
-{"id":"l4","title":"Remote working debate","level":"B2","status":"unverified","source":"original, authored for FluentUp","audio":null,
- "sentences":["Working from home has clearly increased my productivity.","I see your point, but I find it harder to collaborate.","That's fair. Perhaps a hybrid arrangement would suit us both.","Exactly. Two days in the office and three at home."],
- "questions":[{"type":"mcq","prompt":"What does the second speaker find difficult?","options":["Being productive","Collaborating","Travelling"],"answer":1,"explain":"They find it harder to collaborate."},
- {"type":"mcq","prompt":"What do they agree on?","options":["Full-time office work","Fully remote work","A hybrid arrangement"],"answer":2,"explain":"They propose and agree on a hybrid arrangement."}]}
+  {
+    "id": "l1",
+    "title": "At the bus stop",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Excuse me, is this the bus to the city centre?",
+      "Yes, it is. It leaves at nine o'clock.",
+      "How much is a ticket?",
+      "It costs two pounds."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Where does the bus go?",
+        "options": [
+          "The airport",
+          "The city centre",
+          "The school"
+        ],
+        "answer": 1,
+        "explain": "The first speaker asks about the city centre.",
+        "promptSo": "Basku xaggee ayuu aadayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Garoonka diyaaradaha",
+          "Bartamaha magaalada",
+          "Dugsiga"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What time does the bus leave?",
+        "options": [
+          "Eight",
+          "Nine",
+          "Ten"
+        ],
+        "answer": 1,
+        "explain": "It leaves at nine o'clock.",
+        "promptSo": "Basku saacaddu imisa ayuu baxayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Siddeed",
+          "Sagaal",
+          "Toban"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "How much is a ticket (in pounds)?",
+        "answer": "two",
+        "accept": [
+          "2"
+        ],
+        "explain": "It costs two pounds.",
+        "promptSo": "Tigidhku waa imisa (giniga)?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Joogsiga baska",
+    "sentencesSo": [
+      "Iga raalli ahow, baskani ma kan tagaya bartamaha magaalada baa?",
+      "Haa, waa kaas. Sagaalka ayuu baxayaa.",
+      "Tigidhku waa imisa?",
+      "Laba gini ayuu ku kacayaa."
+    ]
+  },
+  {
+    "id": "l2",
+    "title": "Booking a table",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Good evening. I'd like to book a table for four people.",
+      "For what time, please?",
+      "At half past seven tomorrow.",
+      "Certainly. Could I have your name?"
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "How many people is the table for?",
+        "options": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 2,
+        "explain": "A table for four people.",
+        "promptSo": "Miisku imisa qof ayuu u qoran yahay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Laba",
+          "Saddex",
+          "Afar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When is the booking?",
+        "options": [
+          "Tonight",
+          "Tomorrow",
+          "Next week"
+        ],
+        "answer": 1,
+        "explain": "At half past seven tomorrow.",
+        "promptSo": "Goorma ayay ballantu tahay?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Caawa",
+          "Berri",
+          "Toddobaadka dambe"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "What does the waiter ask for?",
+        "answer": "name",
+        "accept": [
+          "your name",
+          "the name"
+        ],
+        "explain": "Could I have your name?",
+        "promptSo": "Kabalyeeruhu muxuu weydiinayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan."
+      }
+    ],
+    "titleSo": "Miis sii qabsasho",
+    "sentencesSo": [
+      "Fiid wanaagsan. Waxaan jeclaan lahaa inaan miis u sii qabsado afar qof.",
+      "Saacaddu imisa ayay noqonaysaa, fadlan?",
+      "Berri toddobada iyo badhka.",
+      "Waa hagaag. Magacaaga ma heli karaa?"
+    ]
+  },
+  {
+    "id": "l3",
+    "title": "A change of plans",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "I'm afraid I can't make it to the meeting on Thursday.",
+      "That's a shame. Is something wrong?",
+      "My manager asked me to travel to another office.",
+      "No problem. Let's reschedule for next Monday."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "Why can't the speaker attend?",
+        "options": [
+          "They are ill",
+          "They have to travel",
+          "They forgot"
+        ],
+        "answer": 1,
+        "explain": "The manager asked them to travel.",
+        "promptSo": "Muxuu qofka hadlayaa u iman karin kulanka?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Way xanuunsan yihiin",
+          "Waa inay safraan",
+          "Way illoobeen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When is the new meeting?",
+        "options": [
+          "Thursday",
+          "Friday",
+          "Next Monday"
+        ],
+        "answer": 2,
+        "explain": "Let's reschedule for next Monday.",
+        "promptSo": "Goorma ayaa kulanka cusub la qabanayaa?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Khamiista",
+          "Jimcaha",
+          "Isniinta soo socota"
+        ]
+      }
+    ],
+    "titleSo": "Qorshayaal isbeddelay",
+    "sentencesSo": [
+      "Waxaan ka xumahay, Khamiista ma iman karo kulanka.",
+      "Waa wax laga xumaado. Wax ma jiraan?",
+      "Maamulahaygu wuxuu iga codsaday inaan xafiis kale u safro.",
+      "Dhib ma leh. Aan dib ugu dhigno Isniinta soo socota."
+    ]
+  },
+  {
+    "id": "l4",
+    "title": "Remote working debate",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "audio": null,
+    "sentences": [
+      "Working from home has clearly increased my productivity.",
+      "I see your point, but I find it harder to collaborate.",
+      "That's fair. Perhaps a hybrid arrangement would suit us both.",
+      "Exactly. Two days in the office and three at home."
+    ],
+    "questions": [
+      {
+        "type": "mcq",
+        "prompt": "What does the second speaker find difficult?",
+        "options": [
+          "Being productive",
+          "Collaborating",
+          "Travelling"
+        ],
+        "answer": 1,
+        "explain": "They find it harder to collaborate.",
+        "promptSo": "Maxaa ku adag qofka labaad ee hadlaya?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Wax-soo-saar leh ahaanshaha",
+          "Wada-shaqaynta",
+          "Safarka"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do they agree on?",
+        "options": [
+          "Full-time office work",
+          "Fully remote work",
+          "A hybrid arrangement"
+        ],
+        "answer": 2,
+        "explain": "They propose and agree on a hybrid arrangement.",
+        "promptSo": "Maxay ku heshiiyeen?",
+        "explainSo": "Jawaabta saxda ahi waxay si toos ah uga muuqataa qaybta maqalka. Dhageyso jumladaha Ingiriisiga ah oo ku xidh macnaha ay gudbinayaan.",
+        "optionsSo": [
+          "Shaqo xafiis oo waqti buuxa ah",
+          "Shaqo gebi ahaan meel fog laga qabto",
+          "Nidaam isku-dhafan"
+        ]
+      }
+    ],
+    "titleSo": "Dood ku saabsan shaqada fog",
+    "sentencesSo": [
+      "Ka shaqaynta gurigu si cad ayay u kordhisay wax-soo-saarkayga.",
+      "Waan fahmay aragtidaada, balse wada-shaqaynta ayaa igu adkaata.",
+      "Taasi waa arrin la fahmi karo. Waxaa laga yaabaa in nidaam isku-dhafan labadeenaba noo roon yahay.",
+      "Sax. Laba maalmood xafiiska, saddexna guriga."
+    ]
+  }
 ]

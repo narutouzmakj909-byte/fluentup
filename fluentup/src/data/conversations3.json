@@ -1,1 +1,335 @@
-[{"id":"c-refund","title":"Returning a faulty phone","level":"B2","context":"You bought a phone two weeks ago and the screen is faulty. You are in the shop.","start":"a","nodes":{"a":{"speaker":"Assistant","say":"Good afternoon. How can I help?","choices":[{"text":"Hello. I bought this phone two weeks ago and the screen has stopped working. I'd like a refund, please.","score":2,"feedback":"Clear problem and clear request.","next":"b1"},{"text":"This phone is rubbish!","score":0,"feedback":"Complaining without details makes it harder to get help.","next":"b2"},{"text":"I think there's a problem with this phone. Could you take a look?","score":1,"feedback":"Polite, but state what you want.","next":"b3"}]},"b1":{"speaker":"Assistant","say":"I am sorry about that. Do you have the receipt?","choices":[{"text":"Yes, here it is. It's dated the ninth.","score":2,"feedback":"Efficient.","next":"c1"},{"text":"I've lost it, but I paid by card. Could you check the transaction?","score":2,"feedback":"Good problem-solving.","next":"c2"},{"text":"No. Why do you need it?","score":0,"feedback":"Sounds defensive. Explain your situation.","next":"c2"}]},"b2":{"speaker":"Assistant","say":"I understand you are upset. Could you tell me what exactly is wrong?","choices":[{"text":"I'm sorry. The screen went black after a week and won't turn on.","score":2,"feedback":"Recovering politely works well.","next":"b1"},{"text":"Just give me my money back.","score":0,"feedback":"Demanding without details rarely helps.","next":"c2"}]},"b3":{"speaker":"Assistant","say":"Of course. What seems to be the problem?","choices":[{"text":"The screen has stopped working, so I would like a refund or a replacement.","score":2,"feedback":"Gives options.","next":"b1"},{"text":"It doesn't work.","score":1,"feedback":"Add details.","next":"b1"}]},"c1":{"speaker":"Assistant","say":"Thank you. I can offer a full refund or a replacement. Which would you prefer?","choices":[{"text":"A replacement, please, if you have one in stock.","score":2,"feedback":"Clear preference with a condition.","next":"end"},{"text":"I'd prefer a refund, thank you.","score":2,"feedback":"Clear and polite.","next":"end"},{"text":"Whatever.","score":0,"feedback":"Too dismissive.","next":"end"}]},"c2":{"speaker":"Assistant","say":"Without a receipt I would need a manager to approve it. It may take ten minutes.","choices":[{"text":"That's fine, I'll wait. Thank you for your help.","score":2,"feedback":"Patient and polite.","next":"end"},{"text":"This is ridiculous. I have no time.","score":0,"feedback":"Frustration rarely speeds things up.","next":"end"},{"text":"Could you call me when the manager has decided? I can leave my number.","score":2,"feedback":"Practical alternative.","next":"end"}]},"end":{"end":true,"speaker":"Assistant","say":"Thank you for your patience. Is there anything else I can do for you?"}},"status":"unverified","source":"original, authored for FluentUp","somali":null},{"id":"c-roommate","title":"Sharing a flat: a disagreement","level":"B1","context":"Your flatmate keeps leaving dirty dishes in the sink. You want to talk about it.","start":"a","nodes":{"a":{"speaker":"Flatmate","say":"Hey, you wanted to talk?","choices":[{"text":"Yes. I'd like to talk about the dishes. Is now a good time?","score":2,"feedback":"Checking the time is considerate.","next":"b1"},{"text":"You never clean up!","score":0,"feedback":"\"Never\" sounds like an attack.","next":"b2"},{"text":"Nothing, forget it.","score":0,"feedback":"Avoiding the issue will not solve it.","next":"b3"}]},"b1":{"speaker":"Flatmate","say":"Sure. What about them?","choices":[{"text":"There are often dirty dishes in the sink, and it's becoming a problem for me.","score":2,"feedback":"Describes the situation using \"I\" language.","next":"c"},{"text":"You're so lazy.","score":0,"feedback":"Personal insults make people defensive.","next":"b2"}]},"b2":{"speaker":"Flatmate","say":"That's not fair. I've been very busy lately.","choices":[{"text":"I understand you're busy. Could we agree on a simple rota?","score":2,"feedback":"Acknowledges the other view, then proposes a solution.","next":"c"},{"text":"I don't care. Clean them now.","score":0,"feedback":"Orders create conflict.","next":"end"}]},"b3":{"speaker":"Flatmate","say":"Are you sure? You seem annoyed.","choices":[{"text":"Well, actually, yes. It's about the dishes.","score":2,"feedback":"Being honest is better.","next":"b1"},{"text":"I'm fine.","score":0,"feedback":"The problem stays unsolved.","next":"end"}]},"c":{"speaker":"Flatmate","say":"OK, you're right. What do you suggest?","choices":[{"text":"How about we each wash our own dishes the same evening?","score":2,"feedback":"A clear, fair proposal.","next":"end"},{"text":"You do all of them from now on.","score":1,"feedback":"Not very fair; aim for compromise.","next":"end"}]},"end":{"end":true,"speaker":"Flatmate","say":"Alright. Let's try that and see how it goes."}},"status":"unverified","source":"original, authored for FluentUp","somali":null}]
+[
+  {
+    "id": "c-refund",
+    "title": "Returning a faulty phone",
+    "level": "B2",
+    "context": "You bought a phone two weeks ago and the screen is faulty. You are in the shop.",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "speaker": "Assistant",
+        "say": "Good afternoon. How can I help?",
+        "choices": [
+          {
+            "text": "Hello. I bought this phone two weeks ago and the screen has stopped working. I'd like a refund, please.",
+            "score": 2,
+            "feedback": "Clear problem and clear request.",
+            "next": "b1",
+            "textSo": "Salaan. Telefoonkan waxaan iibsaday laba toddobaad ka hor, shaashaddiisuna way istaagtay. Waxaan jeclaan lahaa in lacagta la ii celiyo, fadlan.",
+            "feedbackSo": "Dhibaatada iyo codsiga si cad ayuu u sheegay."
+          },
+          {
+            "text": "This phone is rubbish!",
+            "score": 0,
+            "feedback": "Complaining without details makes it harder to get help.",
+            "next": "b2",
+            "textSo": "Telefoonkan waa wax aan qiimo lahayn!",
+            "feedbackSo": "Cabasho aan faahfaahin lahayn waxay adkaynaysaa in lagu caawiyo."
+          },
+          {
+            "text": "I think there's a problem with this phone. Could you take a look?",
+            "score": 1,
+            "feedback": "Polite, but state what you want.",
+            "next": "b3",
+            "textSo": "Waxaan u malaynayaa in telefoonkan cilad ka jirto. Ma eegi kartaa?",
+            "feedbackSo": "Waa edeb leh, balse sheeg waxa aad rabto."
+          }
+        ],
+        "saySo": "Galab wanaagsan. Sideen kuu caawin karaa?"
+      },
+      "b1": {
+        "speaker": "Assistant",
+        "say": "I am sorry about that. Do you have the receipt?",
+        "choices": [
+          {
+            "text": "Yes, here it is. It's dated the ninth.",
+            "score": 2,
+            "feedback": "Efficient.",
+            "next": "c1",
+            "textSo": "Haa, waa kan. Taariikhdu waa sagaalka.",
+            "feedbackSo": "Waa jawaab hufan."
+          },
+          {
+            "text": "I've lost it, but I paid by card. Could you check the transaction?",
+            "score": 2,
+            "feedback": "Good problem-solving.",
+            "next": "c2",
+            "textSo": "Waan lumiyey, balse kaadh ayaan ku bixiyey. Ma hubin kartaa macaamilka lacag-bixinta?",
+            "feedbackSo": "Waa hab wanaagsan oo xal loo raadiyo."
+          },
+          {
+            "text": "No. Why do you need it?",
+            "score": 0,
+            "feedback": "Sounds defensive. Explain your situation.",
+            "next": "c2",
+            "textSo": "Maya. Maxaad ugu baahan tahay?",
+            "feedbackSo": "Waxay u muuqataa difaac; xaaladdaada sharax."
+          }
+        ],
+        "saySo": "Waan ka xumahay arrintaas. Rasiidka ma haysataa?"
+      },
+      "b2": {
+        "speaker": "Assistant",
+        "say": "I understand you are upset. Could you tell me what exactly is wrong?",
+        "choices": [
+          {
+            "text": "I'm sorry. The screen went black after a week and won't turn on.",
+            "score": 2,
+            "feedback": "Recovering politely works well.",
+            "next": "b1",
+            "textSo": "Waan ka xumahay. Shaashaddu toddobaad ka dib ayay madoobaatay, mana shidmayso.",
+            "feedbackSo": "Si edeb leh ayuu hadalka u hagaajiyey."
+          },
+          {
+            "text": "Just give me my money back.",
+            "score": 0,
+            "feedback": "Demanding without details rarely helps.",
+            "next": "c2",
+            "textSo": "Kaliya lacagta ii celi.",
+            "feedbackSo": "Dalab aan faahfaahin lahayn badanaa waxba ma fududeeyo."
+          }
+        ],
+        "saySo": "Waan fahmay inaad xanaaqsan tahay. Ma ii sheegi kartaa waxa saxda ah ee khaldan?"
+      },
+      "b3": {
+        "speaker": "Assistant",
+        "say": "Of course. What seems to be the problem?",
+        "choices": [
+          {
+            "text": "The screen has stopped working, so I would like a refund or a replacement.",
+            "score": 2,
+            "feedback": "Gives options.",
+            "next": "b1",
+            "textSo": "Shaashaddu way shaqayn weyday, sidaas darteed waxaan rabaa lacag-celin ama telefoon beddel ah.",
+            "feedbackSo": "Wuxuu bixiyaa laba xal oo suuragal ah."
+          },
+          {
+            "text": "It doesn't work.",
+            "score": 1,
+            "feedback": "Add details.",
+            "next": "b1",
+            "textSo": "Ma shaqaynayo.",
+            "feedbackSo": "Faahfaahin ku dar."
+          }
+        ],
+        "saySo": "Dabcan. Dhibaatadu maxay tahay?"
+      },
+      "c1": {
+        "speaker": "Assistant",
+        "say": "Thank you. I can offer a full refund or a replacement. Which would you prefer?",
+        "choices": [
+          {
+            "text": "A replacement, please, if you have one in stock.",
+            "score": 2,
+            "feedback": "Clear preference with a condition.",
+            "next": "end",
+            "textSo": "Telefoon kale ayaan doorbidayaa, fadlan, haddii aad kayd ku haysaan.",
+            "feedbackSo": "Doorbid cad oo shuruud leh."
+          },
+          {
+            "text": "I'd prefer a refund, thank you.",
+            "score": 2,
+            "feedback": "Clear and polite.",
+            "next": "end",
+            "textSo": "Waxaan doorbidayaa in lacagta la ii celiyo, mahadsanid.",
+            "feedbackSo": "Waa cad yahay oo edeb leh."
+          },
+          {
+            "text": "Whatever.",
+            "score": 0,
+            "feedback": "Too dismissive.",
+            "next": "end",
+            "textSo": "Wax kasta.",
+            "feedbackSo": "Waa jawaab aan danayn muujinayn."
+          }
+        ],
+        "saySo": "Waad mahadsan tahay. Waxaan kuu soo celin karaa lacagta oo dhan ama telefoon kale ayaan ku siin karaa. Kee baad doorbidaysaa?"
+      },
+      "c2": {
+        "speaker": "Assistant",
+        "say": "Without a receipt I would need a manager to approve it. It may take ten minutes.",
+        "choices": [
+          {
+            "text": "That's fine, I'll wait. Thank you for your help.",
+            "score": 2,
+            "feedback": "Patient and polite.",
+            "next": "end",
+            "textSo": "Waa hagaag, waan sugayaa. Waad ku mahadsan tahay caawimadaada.",
+            "feedbackSo": "Samir iyo edeb ayay muujinaysaa."
+          },
+          {
+            "text": "This is ridiculous. I have no time.",
+            "score": 0,
+            "feedback": "Frustration rarely speeds things up.",
+            "next": "end",
+            "textSo": "Tani waa wax aan macquul ahayn. Waqti ma hayo.",
+            "feedbackSo": "Xanaaqdu dhif ayay wax dedejisaa."
+          },
+          {
+            "text": "Could you call me when the manager has decided? I can leave my number.",
+            "score": 2,
+            "feedback": "Practical alternative.",
+            "next": "end",
+            "textSo": "Ma i soo wici kartaa marka maamuluhu go’aan gaadho? Lambarkayga waan ka tagi karaa.",
+            "feedbackSo": "Waa xal kale oo wax ku ool ah."
+          }
+        ],
+        "saySo": "Rasiid la’aantiis waa inaan maamule oggolaansho ka helaa. Waxay qaadan kartaa toban daqiiqo."
+      },
+      "end": {
+        "end": true,
+        "speaker": "Assistant",
+        "say": "Thank you for your patience. Is there anything else I can do for you?",
+        "saySo": "Waad ku mahadsan tahay samirkaaga. Wax kale ma kuu qaban karaa?"
+      }
+    },
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "titleSo": "Soo celinta telefoon ciladaysan",
+    "contextSo": "Waxaad telefoon iibsatay laba toddobaad ka hor, shaashaddiisuna way ciladaysan tahay. Waxaad joogtaa dukaankii."
+  },
+  {
+    "id": "c-roommate",
+    "title": "Sharing a flat: a disagreement",
+    "level": "B1",
+    "context": "Your flatmate keeps leaving dirty dishes in the sink. You want to talk about it.",
+    "start": "a",
+    "nodes": {
+      "a": {
+        "speaker": "Flatmate",
+        "say": "Hey, you wanted to talk?",
+        "choices": [
+          {
+            "text": "Yes. I'd like to talk about the dishes. Is now a good time?",
+            "score": 2,
+            "feedback": "Checking the time is considerate.",
+            "next": "b1",
+            "textSo": "Haa. Waxaan jeclaan lahaa inaan ka hadalno weelasha. Hadda ma kuu habboon tahay?",
+            "feedbackSo": "Wuxuu tixgelinayaa waqtiga qofka kale."
+          },
+          {
+            "text": "You never clean up!",
+            "score": 0,
+            "feedback": "\"Never\" sounds like an attack.",
+            "next": "b2",
+            "textSo": "Waligaa ma nadiifisid!",
+            "feedbackSo": "Erayga “waligaa” wuxuu u ekaan karaa weerar."
+          },
+          {
+            "text": "Nothing, forget it.",
+            "score": 0,
+            "feedback": "Avoiding the issue will not solve it.",
+            "next": "b3",
+            "textSo": "Waxba, iska illow.",
+            "feedbackSo": "Ka meeraysiga dhibaatadu ma xallinayo."
+          }
+        ],
+        "saySo": "Haye, ma waxaad rabtay inaad ila hadasho?"
+      },
+      "b1": {
+        "speaker": "Flatmate",
+        "say": "Sure. What about them?",
+        "choices": [
+          {
+            "text": "There are often dirty dishes in the sink, and it's becoming a problem for me.",
+            "score": 2,
+            "feedback": "Describes the situation using \"I\" language.",
+            "next": "c",
+            "textSo": "Weel wasakh ah ayaa badanaa saxanka yaalla, arrintaasina way i dhibaysaa.",
+            "feedbackSo": "Wuxuu xaaladda ku sharxayaa dareenkiisa isaga oo aan qofka weerarin."
+          },
+          {
+            "text": "You're so lazy.",
+            "score": 0,
+            "feedback": "Personal insults make people defensive.",
+            "next": "b2",
+            "textSo": "Aad baad u caajis badan tahay.",
+            "feedbackSo": "Aflagaaddada qofka waxay ku keentaa inuu is difaaco."
+          }
+        ],
+        "saySo": "Hagaag. Maxaa ku saabsan weelasha?"
+      },
+      "b2": {
+        "speaker": "Flatmate",
+        "say": "That's not fair. I've been very busy lately.",
+        "choices": [
+          {
+            "text": "I understand you're busy. Could we agree on a simple rota?",
+            "score": 2,
+            "feedback": "Acknowledges the other view, then proposes a solution.",
+            "next": "c",
+            "textSo": "Waan fahmay inaad mashquulsan tahay. Ma ku heshiin karnaa jadwal fudud oo hawsha loo qaybsado?",
+            "feedbackSo": "Wuxuu tixgeliyey aragtida kale, dabadeedna xal ayuu soo jeediyey."
+          },
+          {
+            "text": "I don't care. Clean them now.",
+            "score": 0,
+            "feedback": "Orders create conflict.",
+            "next": "end",
+            "textSo": "Waxba igama gelin. Hadda dhaq!",
+            "feedbackSo": "Amaradu khilaaf ayay abuuraan."
+          }
+        ],
+        "saySo": "Taasi cadaalad ma aha. Muddooyinkan aad baan u mashquulsanaa."
+      },
+      "b3": {
+        "speaker": "Flatmate",
+        "say": "Are you sure? You seem annoyed.",
+        "choices": [
+          {
+            "text": "Well, actually, yes. It's about the dishes.",
+            "score": 2,
+            "feedback": "Being honest is better.",
+            "next": "b1",
+            "textSo": "Hagaag, run ahaantii haa. Arrintu waxay ku saabsan tahay weelasha.",
+            "feedbackSo": "Daacadnimadu way ka wanaagsan tahay."
+          },
+          {
+            "text": "I'm fine.",
+            "score": 0,
+            "feedback": "The problem stays unsolved.",
+            "next": "end",
+            "textSo": "Waan fiicanahay.",
+            "feedbackSo": "Dhibaatadu sidii hore ayay ahaanaysaa."
+          }
+        ],
+        "saySo": "Ma hubtaa? Waxaad u muuqataa qof xanaaqsan."
+      },
+      "c": {
+        "speaker": "Flatmate",
+        "say": "OK, you're right. What do you suggest?",
+        "choices": [
+          {
+            "text": "How about we each wash our own dishes the same evening?",
+            "score": 2,
+            "feedback": "A clear, fair proposal.",
+            "next": "end",
+            "textSo": "Ka warran haddii qof walba weelkiisa dhaqo isla fiidkaas?",
+            "feedbackSo": "Waa soo-jeedin cad oo cadaalad ah."
+          },
+          {
+            "text": "You do all of them from now on.",
+            "score": 1,
+            "feedback": "Not very fair; aim for compromise.",
+            "next": "end",
+            "textSo": "Hadda ka dib adigu dhammaantood dhaq.",
+            "feedbackSo": "Cadaalad ma aha; isku day tanaasul."
+          }
+        ],
+        "saySo": "Hagaag, waad saxan tahay. Maxaad soo jeedinaysaa?"
+      },
+      "end": {
+        "end": true,
+        "speaker": "Flatmate",
+        "say": "Alright. Let's try that and see how it goes.",
+        "saySo": "Waa hagaag. Aan sidaas isku dayno oo eegno sida ay noqoto."
+      }
+    },
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "titleSo": "Wada-deggenaansho: khilaaf yar",
+    "contextSo": "Qofka kula deggan guriga ayaa weel wasakh ah marar badan saxanka kaga taga. Waxaad rabtaa inaad kala hadasho."
+  }
+]

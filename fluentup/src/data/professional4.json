@@ -1,1 +1,223 @@
-[{"id":"p-x5-intro","track":"professional","title":"Introducing yourself at work","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"When you meet a new colleague, say your name, your job and your team: \"Hello, I am Ali. I work in the finance team.\" Ask a simple question back: \"What do you do?\" Use \"Nice to meet you\" and shake hands or smile. Keep the language simple and clear.","examples":["I work in…: I am part of a department","team: a group of people who work together","Nice to meet you: a polite phrase when you meet someone"],"exercises":[{"type":"mcq","prompt":"Which sentence introduces your job?","options":["I work in the finance team.","I am Tuesday.","Finance is a team."],"answer":0,"explain":"\"I work in…\" says where you work."},{"type":"mcq","prompt":"What can you ask back?","options":["What do you do?","Where is my coffee?","Why you are here?"],"answer":0,"explain":"It is a natural, polite question."},{"type":"fill","prompt":"A polite phrase when you meet someone: \"Nice to ... you.\" (one word)","answer":"meet","explain":"\"Nice to meet you\"."}]},{"id":"p-x5-email","track":"professional","title":"Short workplace emails","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"A short email has a greeting, one clear message and a closing. Start with \"Dear Mr Hassan,\" or \"Hi Fatima,\". Write your request in one or two short sentences: \"Could you send me the report, please?\" End with \"Thank you\" and \"Best wishes\" or \"Regards\".","examples":["Dear Mr/Ms…: a polite greeting for people you do not know well","attach: to add a file to an email","Regards: a polite way to end an email"],"exercises":[{"type":"mcq","prompt":"Which is a polite request?","options":["Send the report.","Could you send me the report, please?","Report now."],"answer":1,"explain":"\"Could you… please?\" is polite."},{"type":"mcq","prompt":"Which is a good ending?","options":["Whatever.","Thank you. Best wishes, Amina","Bye bye bye"],"answer":1,"explain":"It thanks the reader and closes politely."},{"type":"order","prompt":"Put the words in order.","words":["please?","file,","the","me","send","you","Could"],"answer":["Could","you","send","me","the","file,","please?"],"explain":"A polite request."}]},{"id":"p-x5-persuade","track":"professional","title":"Diplomatic and persuasive language","level":"C2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"At the highest level, persuasion depends on tone as much as content. Hedging softens a claim (\"It could be argued that…\", \"I wonder whether…\"), concessions build trust (\"While I take your point about cost,…\"), and framing links your proposal to the listener's goals (\"This would help us meet the target you set.\"). Avoid absolute words such as \"obviously\" and \"everyone knows\", which invite resistance.","examples":["hedge: to make a statement less direct or certain","concession: admitting a point in the other person's view","frame: to present an idea from a particular angle"],"exercises":[{"type":"mcq","prompt":"Which sentence is the most diplomatic?","options":["Obviously, you are wrong.","While I take your point about cost, I wonder whether the long-term picture might favour another approach.","Everyone knows this plan fails."],"answer":1,"explain":"It concedes, then hedges."},{"type":"mcq","prompt":"Why avoid \"everyone knows\"?","options":["It is too short","It invites resistance because it presumes agreement","It is formal"],"answer":1,"explain":"Absolute claims provoke pushback."},{"type":"fill","prompt":"Admitting part of the other side's point is called a ... (one word)","answer":"concession","explain":"A concession builds trust."}]}]
+[
+  {
+    "id": "p-x5-intro",
+    "track": "professional",
+    "title": "Introducing yourself at work",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "When you meet a new colleague, say your name, your job and your team: \"Hello, I am Ali. I work in the finance team.\" Ask a simple question back: \"What do you do?\" Use \"Nice to meet you\" and shake hands or smile. Keep the language simple and clear.",
+    "examples": [
+      "I work in…: I am part of a department",
+      "team: a group of people who work together",
+      "Nice to meet you: a polite phrase when you meet someone"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which sentence introduces your job?",
+        "options": [
+          "I work in the finance team.",
+          "I am Tuesday.",
+          "Finance is a team."
+        ],
+        "answer": 0,
+        "explain": "\"I work in…\" says where you work.",
+        "promptSo": "Jumladdee ayaa sheegaysa shaqadaada?",
+        "explainSo": "“I work in...” waxay sheegaysaa goobta ama waaxda aad ka shaqayso.",
+        "optionsSo": [
+          "Waxaan ka shaqeeyaa waaxda maaliyadda.",
+          "Waxaan ahay Talaado.",
+          "Maaliyaddu waa koox."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What can you ask back?",
+        "options": [
+          "What do you do?",
+          "Where is my coffee?",
+          "Why you are here?"
+        ],
+        "answer": 0,
+        "explain": "It is a natural, polite question.",
+        "promptSo": "Su’aashee ayaad adiguna weydiin kartaa?",
+        "explainSo": "Waa su’aal dabiici ah oo edeb leh.",
+        "optionsSo": [
+          "Adigu maxaad qabataa?",
+          "Qaxwahaygu xaggee yaal?",
+          "Maxaad halkan u joogtaa?"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "A polite phrase when you meet someone: \"Nice to ... you.\" (one word)",
+        "answer": "meet",
+        "explain": "\"Nice to meet you\".",
+        "promptSo": "Buuxi weedha edebta leh: “Nice to ... you.” (hal eray)",
+        "explainSo": "Weedha saxda ahi waa “Nice to meet you”."
+      }
+    ],
+    "titleSo": "Isbarashada goobta shaqada",
+    "explanationSo": "Marka aad la kulanto shaqaale cusub, sheeg magacaaga, shaqadaada iyo kooxda aad ka tirsan tahay: “Salaan, waxaan ahay Cali. Waxaan ka shaqeeyaa waaxda maaliyadda.” Adiguna su’aal fudud weydii: “Adigu maxaad qabataa?” Adeegso “Nice to meet you” (waan ku faraxsanahay inaan kula kulmo), dabadeed gacan qaad ama dhoolla-caddee. Hadalkaaga ka dhig mid fudud oo cad.",
+    "examplesSo": [
+      "Waxaan ka shaqeeyaa...: waxaan ka tirsanahay waax ama qayb shaqo.",
+      "Koox: dad wada shaqeeya.",
+      "Waan ku faraxsanahay inaan kula kulmo: weedh edeb leh oo la adeegsado marka qof cusub la kulmo."
+    ]
+  },
+  {
+    "id": "p-x5-email",
+    "track": "professional",
+    "title": "Short workplace emails",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "A short email has a greeting, one clear message and a closing. Start with \"Dear Mr Hassan,\" or \"Hi Fatima,\". Write your request in one or two short sentences: \"Could you send me the report, please?\" End with \"Thank you\" and \"Best wishes\" or \"Regards\".",
+    "examples": [
+      "Dear Mr/Ms…: a polite greeting for people you do not know well",
+      "attach: to add a file to an email",
+      "Regards: a polite way to end an email"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which is a polite request?",
+        "options": [
+          "Send the report.",
+          "Could you send me the report, please?",
+          "Report now."
+        ],
+        "answer": 1,
+        "explain": "\"Could you… please?\" is polite.",
+        "promptSo": "Codsigee ayaa edeb leh?",
+        "explainSo": "“Could you... please?” waa qaab codsi edeb leh.",
+        "optionsSo": [
+          "Soo dir warbixinta.",
+          "Ma ii soo diri kartaa warbixinta, fadlan?",
+          "Warbixinta hadda!"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which is a good ending?",
+        "options": [
+          "Whatever.",
+          "Thank you. Best wishes, Amina",
+          "Bye bye bye"
+        ],
+        "answer": 1,
+        "explain": "It thanks the reader and closes politely.",
+        "promptSo": "Xiritaankee ayaa wanaagsan?",
+        "explainSo": "Waxay qofka u mahadcelinaysaa, iimaylkana si wanaagsan ayay u xidhaysaa.",
+        "optionsSo": [
+          "Wax kasta ha ahaadeene.",
+          "Mahadsanid. Salaan wanaagsan, Aamina",
+          "Nabadgelyo nabadgelyo nabadgelyo"
+        ]
+      },
+      {
+        "type": "order",
+        "prompt": "Put the words in order.",
+        "words": [
+          "please?",
+          "file,",
+          "the",
+          "me",
+          "send",
+          "you",
+          "Could"
+        ],
+        "answer": [
+          "Could",
+          "you",
+          "send",
+          "me",
+          "the",
+          "file,",
+          "please?"
+        ],
+        "explain": "A polite request.",
+        "promptSo": "Isku hagaaji erayada si ay jumlad u noqdaan.",
+        "explainSo": "Waa codsi edeb leh oo ku saabsan in fayl la soo diro."
+      }
+    ],
+    "titleSo": "Iimayllo gaagaaban oo goobta shaqada ah",
+    "explanationSo": "Iimayl gaaban wuxuu leeyahay salaam, hal farriin oo cad iyo xiritaan. Ku bilow “Dear Mr Hassan,” ama “Hi Fatima,”. Codsigaaga ku qor hal ama laba jumladood oo gaagaaban: “Ma ii soo diri kartaa warbixinta, fadlan?” Ku dhammee “Thank you” iyo “Best wishes” ama “Regards”.",
+    "examplesSo": [
+      "Mudane/Marwo...: salaam edeb leh oo loo adeegsado qof aadan si fiican u aqoon.",
+      "Ku lifaaq: in fayl lagu daro iimaylka.",
+      "Salaan wanaagsan: hab edeb leh oo iimaylka lagu dhammeeyo."
+    ]
+  },
+  {
+    "id": "p-x5-persuade",
+    "track": "professional",
+    "title": "Diplomatic and persuasive language",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": null,
+    "explanation": "At the highest level, persuasion depends on tone as much as content. Hedging softens a claim (\"It could be argued that…\", \"I wonder whether…\"), concessions build trust (\"While I take your point about cost,…\"), and framing links your proposal to the listener's goals (\"This would help us meet the target you set.\"). Avoid absolute words such as \"obviously\" and \"everyone knows\", which invite resistance.",
+    "examples": [
+      "hedge: to make a statement less direct or certain",
+      "concession: admitting a point in the other person's view",
+      "frame: to present an idea from a particular angle"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which sentence is the most diplomatic?",
+        "options": [
+          "Obviously, you are wrong.",
+          "While I take your point about cost, I wonder whether the long-term picture might favour another approach.",
+          "Everyone knows this plan fails."
+        ],
+        "answer": 1,
+        "explain": "It concedes, then hedges.",
+        "promptSo": "Jumladdee ayaa ah tan ugu diblomaasiyadaysan?",
+        "explainSo": "Waxay marka hore qiraysaa qodobka qofka kale, dabadeedna waxay adeegsanaysaa hadal jilicsan.",
+        "optionsSo": [
+          "Sida cad, waad qaldan tahay.",
+          "Inkastoo aan fahamsanahay qodobka kharashka, waxaan is weydiinayaa in aragtida muddada dheer ay taageeri karto hab kale.",
+          "Qof walba wuu og yahay in qorshahani fashilmo."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why avoid \"everyone knows\"?",
+        "options": [
+          "It is too short",
+          "It invites resistance because it presumes agreement",
+          "It is formal"
+        ],
+        "answer": 1,
+        "explain": "Absolute claims provoke pushback.",
+        "promptSo": "Maxaa looga fogaanayaa weedha “everyone knows” (qof walba wuu og yahay)?",
+        "explainSo": "Sheegasho go’aan adag leh waxay dadka ku dhiirrigelin kartaa inay ka hor yimaadaan.",
+        "optionsSo": [
+          "Aad bay u gaaban tahay",
+          "Waxay dhalin kartaa diidmo, maadaama ay iska malaynayso in qof walba isku raacsan yahay",
+          "Waa weedh rasmi ah"
+        ]
+      },
+      {
+        "type": "fill",
+        "prompt": "Admitting part of the other side's point is called a ... (one word)",
+        "answer": "concession",
+        "explain": "A concession builds trust.",
+        "promptSo": "Qiridda qayb ka mid ah aragtida dhinaca kale maxaa la yidhaahdaa? (hal eray)",
+        "explainSo": "Qirasho qayb ah waxay gacan ka geysataa dhisidda kalsoonida."
+      }
+    ],
+    "titleSo": "Luqad diblomaasiyadeed iyo qancin leh",
+    "explanationSo": "Heerka ugu sarreeya, qancintu waxay ku xidhan tahay codka iyo qaabka hadalka, iyo sidoo kale nuxurka. Adeegso weedho jilciya sheegashada si aysan u noqon mid go’aan adag u muuqata (“Waxaa la odhan karaa...”, “Waxaan is weydiinayaa in...”). Aqbal qayb ka mid ah aragtida qofka kale si kalsooni loo dhiso (“Inkastoo aan fahamsanahay qodobka kharashka...”). Soo jeedintaada ku xidh yoolalka qofka dhegaysanaya (“Tani waxay naga caawin lahayd inaan gaarno bartilmaameedkii aad dejisay.”). Ka fogow erayo go’aan kama dambays ah muujinaya sida “sida cad” iyo “qof walba wuu og yahay”, waayo waxay dadka ku dhalin karaan inay diidaan hadalka.",
+    "examplesSo": [
+      "Jilcin hadal: in sheegasho laga dhigo mid aan aad u toosnayn ama hubanti buuxda muujinayn.",
+      "Qirasho: aqbalidda qayb ka mid ah aragtida qofka kale.",
+      "Qaabayn: in fikrad loo soo bandhigo dhinac gaar ah si loo muujiyo muhiimaddeeda."
+    ]
+  }
+]

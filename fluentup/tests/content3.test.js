@@ -22,3 +22,13 @@ test('recordings persist locally, are not queued for sync, and only the newest 3
   const all = await r.recordings(); assert.equal(all.length, 30); assert.equal(all[0].id, 'r3'); assert.equal((await r.pending()).length, 0);
   await r.delRecording('r5'); assert.equal((await r.recordings()).length, 29);
 });
+test('writing Somali localization: every task has a translated title and prompt; every model answer has a Somali counterpart', () => {
+  const all = [...L('writing.json'), ...L('writing2.json'), ...L('writing3.json')];
+  assert.equal(all.length, 19);
+  for (const w of all) {
+    assert.ok(w.titleSo?.trim(), `${w.id}: titleSo`);
+    assert.ok(w.promptSo?.trim(), `${w.id}: promptSo`);
+    if (w.model) assert.ok(w.modelSo?.trim(), `${w.id}: modelSo`);
+    else assert.equal(w.modelSo, undefined, `${w.id}: no invented model answer`);
+  }
+});

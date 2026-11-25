@@ -1,1 +1,855 @@
-[{"id":"r-family","track":"reading","title":"My family","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"My name is Ali. I live with my mother, my father and my sister. My sister is ten years old. She likes books. My father works in a shop. My mother is a nurse. We eat dinner together every evening.","examples":["shop: a place where you buy things","nurse: a person who helps sick people","together: with each other"],"exercises":[{"type":"mcq","prompt":"Who works in a shop?","options":["Ali's father","Ali's mother","Ali's sister"],"answer":0,"explain":"The text says \"My father works in a shop.\""},{"type":"mcq","prompt":"How old is Ali's sister?","options":["Eight","Ten","Twelve"],"answer":1,"explain":"She is ten years old."},{"type":"mcq","prompt":"When does the family eat dinner together?","options":["Every morning","Every evening","On Sundays"],"answer":1,"explain":"\"every evening\""}]},{"id":"r-weather","track":"reading","title":"The weather today","level":"A1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Today is Monday. It is cold and windy in the city. The sky is grey. Sara wears a warm coat and a hat. She takes an umbrella because it may rain in the afternoon. Tomorrow will be sunny.","examples":["windy: with a lot of wind","coat: warm clothing for outside","umbrella: used to stay dry in the rain"],"exercises":[{"type":"mcq","prompt":"What is the weather like this morning?","options":["Hot and sunny","Cold and windy","Snowy"],"answer":1,"explain":"\"cold and windy\""},{"type":"mcq","prompt":"Why does Sara take an umbrella?","options":["It may rain","It is sunny","She likes it"],"answer":0,"explain":"\"because it may rain\""},{"type":"mcq","prompt":"What will tomorrow be like?","options":["Sunny","Rainy","Windy"],"answer":0,"explain":"\"Tomorrow will be sunny.\""}]},{"id":"r-trip","track":"reading","title":"A trip to the coast","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Last weekend, Mohamed and his friends took a bus to the coast. The journey took three hours, but the view from the window was beautiful. They swam in the sea, played football on the sand and had fish for lunch. In the evening they were tired, so they slept on the bus all the way home.","examples":["journey: a trip from one place to another","view: what you can see from a place","tired: needing rest or sleep"],"exercises":[{"type":"mcq","prompt":"How did they travel?","options":["By train","By bus","By car"],"answer":1,"explain":"They \"took a bus\"."},{"type":"mcq","prompt":"What did they eat for lunch?","options":["Fish","Chicken","Rice only"],"answer":0,"explain":"\"had fish for lunch\""},{"type":"mcq","prompt":"What did they do on the way home?","options":["Played football","Slept","Swam"],"answer":1,"explain":"\"slept on the bus\""}]},{"id":"r-newjob","track":"reading","title":"Starting a new job","level":"A2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Hodan started her new job at a bookshop on Monday. At first she was nervous because she did not know anyone. Her manager showed her around and introduced her to the team. By the end of the day she knew how to use the till and where the children's books were. She is looking forward to tomorrow.","examples":["nervous: a little afraid or worried","manager: the person in charge of a team","till: the machine that records payments"],"exercises":[{"type":"mcq","prompt":"Why was Hodan nervous?","options":["She was late","She did not know anyone","She lost her bag"],"answer":1,"explain":"\"she did not know anyone\""},{"type":"mcq","prompt":"Who showed her around?","options":["A customer","Her manager","Her friend"],"answer":1,"explain":"Her manager showed her around."},{"type":"mcq","prompt":"How does she feel about tomorrow?","options":["Worried","Excited to go back","Bored"],"answer":1,"explain":"\"looking forward to tomorrow\""}]},{"id":"r-commute","track":"reading","title":"The case for working from home","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Many companies now allow staff to work from home at least part of the week. Supporters say it saves time and money because there is no daily commute, and employees often report better concentration. However, critics argue that people can feel isolated and that it is harder to build team spirit. Most experts suggest a balance: a few days at home and a few days together in the office.","examples":["commute: the regular journey to work","concentration: the ability to focus","isolated: feeling alone and separated from others"],"exercises":[{"type":"mcq","prompt":"What is one advantage mentioned?","options":["Higher salaries","No daily commute","Longer holidays"],"answer":1,"explain":"It \"saves time and money\"."},{"type":"mcq","prompt":"What do critics worry about?","options":["Isolation and team spirit","Slow internet","Office costs"],"answer":0,"explain":"Critics mention isolation and team spirit."},{"type":"mcq","prompt":"What do most experts recommend?","options":["Always at home","Always in the office","A balance"],"answer":2,"explain":"\"a balance\""}]},{"id":"r-recycle","track":"reading","title":"Recycling in our town","level":"B1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Last year our town introduced separate bins for paper, plastic and food waste. At first many residents were confused, and some bins were used incorrectly. The council then sent leaflets to every home and organised short information sessions. Since then, the amount of recycled waste has almost doubled, and the town hopes to reach its target within two years.","examples":["residents: people who live in a place","council: the local government","target: a goal you want to reach"],"exercises":[{"type":"mcq","prompt":"What was the first reaction of residents?","options":["They were confused","They refused to pay","They were pleased"],"answer":0,"explain":"\"many residents were confused\""},{"type":"mcq","prompt":"How did the council respond?","options":["By closing the bins","By sending leaflets and holding sessions","By raising taxes"],"answer":1,"explain":"Leaflets and information sessions."},{"type":"mcq","prompt":"What has happened to recycled waste?","options":["It has halved","It has almost doubled","It is unchanged"],"answer":1,"explain":"\"almost doubled\""}]},{"id":"r-sleep","track":"reading","title":"Why sleep matters","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Although many people regard sleep as a luxury, research consistently shows that it is essential for memory, mood and physical health. During deep sleep the brain consolidates what we have learnt during the day, which is why students who sleep after studying often remember more. Chronic sleep deprivation, on the other hand, has been linked to weakened immunity and reduced concentration. Experts therefore advise adults to aim for seven to nine hours a night.","examples":["consolidate: to make stronger and more stable","chronic: lasting for a long time","immunity: the body's ability to resist disease"],"exercises":[{"type":"mcq","prompt":"According to the text, why do students benefit from sleeping after study?","options":["The brain consolidates what they learnt","They become taller","They need less food"],"answer":0,"explain":"Deep sleep consolidates learning."},{"type":"mcq","prompt":"What is linked to chronic sleep deprivation?","options":["Better mood","Weakened immunity","Faster reading"],"answer":1,"explain":"\"weakened immunity\""},{"type":"mcq","prompt":"How much sleep do experts advise for adults?","options":["Five to six hours","Seven to nine hours","Ten hours or more"],"answer":1,"explain":"\"seven to nine hours\""}]},{"id":"r-remote-city","track":"reading","title":"Cities and the cost of living","level":"B2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Over the past decade, housing costs in major cities have risen far faster than wages. As a result, many young professionals have moved to smaller towns, where rents are lower and the pace of life is slower. Nevertheless, cities continue to attract those seeking career opportunities and cultural variety. Urban planners warn that unless more affordable homes are built, cities risk becoming accessible only to the wealthy.","examples":["wages: money paid regularly for work","urban: relating to cities","affordable: not too expensive"],"exercises":[{"type":"mcq","prompt":"What has risen faster than wages?","options":["Housing costs","Train fares","Food quality"],"answer":0,"explain":"\"housing costs ... risen far faster than wages\""},{"type":"mcq","prompt":"Why do some people leave cities?","options":["Lower rents and a slower pace elsewhere","Too much culture","Better schools"],"answer":0,"explain":"Smaller towns have lower rents."},{"type":"mcq","prompt":"What do planners warn about?","options":["Cities becoming accessible only to the wealthy","Too many parks","Fewer jobs in towns"],"answer":0,"explain":"Unaffordable cities."}]},{"id":"r-automation","track":"reading","title":"Automation and the future of work","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"The prospect of widespread automation has provoked considerable anxiety, yet history suggests that technological change tends to reshape rather than simply eliminate employment. While certain routine tasks are indeed being delegated to machines, new roles continue to emerge, often requiring skills that were scarcely imaginable a generation ago. The decisive question, therefore, is not whether work will disappear but whether education systems can equip people to adapt swiftly enough.","examples":["provoke: to cause a reaction","routine: regular and repeated, not creative","equip: to give someone what they need","swiftly: quickly"],"exercises":[{"type":"mcq","prompt":"What does history suggest about technological change?","options":["It reshapes employment rather than only eliminating it","It always destroys jobs","It has no effect"],"answer":0,"explain":"It \"reshape[s] rather than simply eliminate[s]\"."},{"type":"mcq","prompt":"What kind of tasks are being delegated to machines?","options":["Creative tasks","Routine tasks","Management tasks"],"answer":1,"explain":"\"certain routine tasks\""},{"type":"mcq","prompt":"What does the writer see as the decisive question?","options":["Whether education can help people adapt","Whether machines are expensive","Whether people want to work"],"answer":0,"explain":"Adaptation through education."}]},{"id":"r-language","track":"reading","title":"Why accents matter less than clarity","level":"C1","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"Learners frequently worry that their accent will mark them out as foreigners, and some invest enormous effort in eliminating it. Linguists, however, emphasise that intelligibility, not nativeness, is what ensures successful communication. A speaker with a pronounced accent who articulates clearly and structures ideas coherently will generally be understood far better than a native speaker who mumbles. The more productive goal is therefore clear, confident speech.","examples":["intelligibility: how easily speech can be understood","pronounced: very noticeable","articulate: to speak clearly","coherently: in a logical, connected way"],"exercises":[{"type":"mcq","prompt":"What do linguists emphasise?","options":["Intelligibility","Eliminating accents","Speaking quickly"],"answer":0,"explain":"\"intelligibility, not nativeness\""},{"type":"mcq","prompt":"Who may be understood better?","options":["A clear speaker with an accent","A native speaker who mumbles","Both equally"],"answer":0,"explain":"The clear speaker with an accent."},{"type":"mcq","prompt":"What is the \"more productive goal\"?","options":["A native accent","Clear, confident speech","Fast speech"],"answer":1,"explain":"Stated in the last sentence."}]},{"id":"r-nuance","track":"reading","title":"The quiet power of understatement","level":"C2","status":"unverified","source":"original, authored for FluentUp","somali":null,"explanation":"British understatement, so often misread by outsiders, performs a subtle social function: by deliberately minimising the gravity of an event, the speaker signals composure and invites the listener to infer the true magnitude. To describe a catastrophic delay as 'a bit of an inconvenience' is thus not dishonesty but a ritual of restraint. The difficulty for learners lies in the fact that the literal words and the intended meaning diverge, and only shared cultural context bridges the gap.","examples":["understatement: saying something is less important than it is","gravity: seriousness","composure: calmness","diverge: to become different"],"exercises":[{"type":"mcq","prompt":"What does understatement signal, according to the passage?","options":["Composure","Dishonesty","Anger"],"answer":0,"explain":"It \"signals composure\"."},{"type":"mcq","prompt":"Why is it difficult for learners?","options":["Literal words and intended meaning differ","The grammar is complex","The words are rare"],"answer":0,"explain":"The literal and intended meanings diverge."},{"type":"mcq","prompt":"What bridges the gap?","options":["A dictionary","Shared cultural context","Longer sentences"],"answer":1,"explain":"\"only shared cultural context bridges the gap\""}]}]
+[
+  {
+    "id": "r-family",
+    "track": "reading",
+    "title": "My family",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Magacaygu waa Cali. Waxaan la noolahay hooyaday, aabbahay iyo walaashay. Walaashay waa toban jir. Waxay jeceshahay buugaagta. Aabbahay dukaan ayuu ka shaqeeyaa. Hooyaday waa kalkaaliso caafimaad. Fiid kasta cashada ayaan wada cunnaa.",
+    "explanation": "My name is Ali. I live with my mother, my father and my sister. My sister is ten years old. She likes books. My father works in a shop. My mother is a nurse. We eat dinner together every evening.",
+    "examples": [
+      "shop: a place where you buy things",
+      "nurse: a person who helps sick people",
+      "together: with each other"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Who works in a shop?",
+        "options": [
+          "Ali's father",
+          "Ali's mother",
+          "Ali's sister"
+        ],
+        "answer": 0,
+        "explain": "The text says \"My father works in a shop.\"",
+        "promptSo": "Yaa ka shaqeeya dukaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Aabbaha Cali”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Aabbaha Cali",
+          "Hooyada Cali",
+          "Walaasha Cali"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How old is Ali's sister?",
+        "options": [
+          "Eight",
+          "Ten",
+          "Twelve"
+        ],
+        "answer": 1,
+        "explain": "She is ten years old.",
+        "promptSo": "Walaasha Cali imisa jir ayay tahay?",
+        "explainSo": "Jawaabta saxda ahi waa “Toban”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Siddeed",
+          "Toban",
+          "Laba iyo toban"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "When does the family eat dinner together?",
+        "options": [
+          "Every morning",
+          "Every evening",
+          "On Sundays"
+        ],
+        "answer": 1,
+        "explain": "\"every evening\"",
+        "promptSo": "Qoysku goorma ayay cashada wada cunaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Fiid kasta”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Subax kasta",
+          "Fiid kasta",
+          "Axadaha"
+        ]
+      }
+    ],
+    "titleSo": "Qoyskayga",
+    "examplesSo": [
+      "dukaan: meel alaab laga iibsado",
+      "kalkaaliso caafimaad: qof bukaanka daryeela oo caawiya",
+      "wadajir: iyadoo dadku isla joogaan ama wax wada samaynayaan"
+    ]
+  },
+  {
+    "id": "r-weather",
+    "track": "reading",
+    "title": "The weather today",
+    "level": "A1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Maanta waa Isniin. Magaalada waa qabow oo dabayl badan. Cirku waa cirro. Saara waxay xidhataa jaakad diirran iyo koofiyad. Waxay qaadataa dallad, sababtoo ah galabta roob ayaa laga yaabaa inuu da’o. Berri cimilo qorrax leh ayaa jiri doonta.",
+    "explanation": "Today is Monday. It is cold and windy in the city. The sky is grey. Sara wears a warm coat and a hat. She takes an umbrella because it may rain in the afternoon. Tomorrow will be sunny.",
+    "examples": [
+      "windy: with a lot of wind",
+      "coat: warm clothing for outside",
+      "umbrella: used to stay dry in the rain"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is the weather like this morning?",
+        "options": [
+          "Hot and sunny",
+          "Cold and windy",
+          "Snowy"
+        ],
+        "answer": 1,
+        "explain": "\"cold and windy\"",
+        "promptSo": "Cimiladu sidee ayay tahay saaka?",
+        "explainSo": "Jawaabta saxda ahi waa “Qabow oo dabayl leh”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kulul oo qorrax leh",
+          "Qabow oo dabayl leh",
+          "Baraf leh"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why does Sara take an umbrella?",
+        "options": [
+          "It may rain",
+          "It is sunny",
+          "She likes it"
+        ],
+        "answer": 0,
+        "explain": "\"because it may rain\"",
+        "promptSo": "Maxay Saara dallad u qaadanaysaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Roob ayaa dhici kara”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Roob ayaa dhici kara",
+          "Qorrax ayaa jirta",
+          "Way jeceshahay"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What will tomorrow be like?",
+        "options": [
+          "Sunny",
+          "Rainy",
+          "Windy"
+        ],
+        "answer": 0,
+        "explain": "\"Tomorrow will be sunny.\"",
+        "promptSo": "Cimilada berri sidee ayay noqon doontaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Qorrax leh”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Qorrax leh",
+          "Roob leh",
+          "Dabayl leh"
+        ]
+      }
+    ],
+    "titleSo": "Cimilada maanta",
+    "examplesSo": [
+      "dabayl badan: cimilo ay dabayl xooggan jirto",
+      "jaakad: dhar diirran oo bannaanka lagu xidho",
+      "dallad: shay roobka kaa ilaaliya"
+    ]
+  },
+  {
+    "id": "r-trip",
+    "track": "reading",
+    "title": "A trip to the coast",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Toddobaadkii hore dhammaadkiisii, Maxamed iyo saaxiibbadiis bas ayay xeebta ku tageen. Safarku wuxuu qaatay saddex saacadood, balse muuqaalka daaqadda laga arkayey wuxuu ahaa mid qurux badan. Waxay ku dabaasheen badda, kubbadna waxay ku ciyaareen ciidda, qadadana kalluun ayay cuneen. Fiidkii way daaleen, sidaas darteed baska ayay ku seexdeen intii ay guriga ku soo jireen.",
+    "explanation": "Last weekend, Mohamed and his friends took a bus to the coast. The journey took three hours, but the view from the window was beautiful. They swam in the sea, played football on the sand and had fish for lunch. In the evening they were tired, so they slept on the bus all the way home.",
+    "examples": [
+      "journey: a trip from one place to another",
+      "view: what you can see from a place",
+      "tired: needing rest or sleep"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "How did they travel?",
+        "options": [
+          "By train",
+          "By bus",
+          "By car"
+        ],
+        "answer": 1,
+        "explain": "They \"took a bus\".",
+        "promptSo": "Sidee ayay u safreen?",
+        "explainSo": "Jawaabta saxda ahi waa “Bas”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Tareen",
+          "Bas",
+          "Baabuur"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What did they eat for lunch?",
+        "options": [
+          "Fish",
+          "Chicken",
+          "Rice only"
+        ],
+        "answer": 0,
+        "explain": "\"had fish for lunch\"",
+        "promptSo": "Maxay qadada cuneen?",
+        "explainSo": "Jawaabta saxda ahi waa “Kalluun”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kalluun",
+          "Digaag",
+          "Bariis oo keliya"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What did they do on the way home?",
+        "options": [
+          "Played football",
+          "Slept",
+          "Swam"
+        ],
+        "answer": 1,
+        "explain": "\"slept on the bus\"",
+        "promptSo": "Maxay sameeyeen intii ay guriga ku soo socdeen?",
+        "explainSo": "Jawaabta saxda ahi waa “Way seexdeen”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kubbadda cagta ayay ciyaareen",
+          "Way seexdeen",
+          "Way dabaasheen"
+        ]
+      }
+    ],
+    "titleSo": "Safar xeebta loo aaday",
+    "examplesSo": [
+      "safar: socdaal meel laga tagayo oo meel kale loo aadayo",
+      "muuqaal: waxa meel laga arki karo",
+      "daallan: u baahan nasasho ama hurdo"
+    ]
+  },
+  {
+    "id": "r-newjob",
+    "track": "reading",
+    "title": "Starting a new job",
+    "level": "A2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Hodan waxay shaqadeeda cusub ee dukaan buugaagta lagu iibiyo bilowday Isniintii. Markii hore way welwelsanayd, sababtoo ah qofna ma ay aqoon. Maamulaha ayaa goobta tusay, wuxuuna baray shaqaalaha kale. Dhammaadkii maalinta waxay taqaanay sida loo isticmaalo mashiinka lacagta lagu diiwaangeliyo iyo meesha buugaagta carruurtu yaallaan. Waxay xiisaynaysaa inay berri shaqada ku soo noqoto.",
+    "explanation": "Hodan started her new job at a bookshop on Monday. At first she was nervous because she did not know anyone. Her manager showed her around and introduced her to the team. By the end of the day she knew how to use the till and where the children's books were. She is looking forward to tomorrow.",
+    "examples": [
+      "nervous: a little afraid or worried",
+      "manager: the person in charge of a team",
+      "till: the machine that records payments"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Why was Hodan nervous?",
+        "options": [
+          "She was late",
+          "She did not know anyone",
+          "She lost her bag"
+        ],
+        "answer": 1,
+        "explain": "\"she did not know anyone\"",
+        "promptSo": "Maxay Hodan u walwalsanayd?",
+        "explainSo": "Jawaabta saxda ahi waa “Cidna ma ay aqoon”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Way soo daahday",
+          "Cidna ma ay aqoon",
+          "Boorsadeedii ayay lumisay"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who showed her around?",
+        "options": [
+          "A customer",
+          "Her manager",
+          "Her friend"
+        ],
+        "answer": 1,
+        "explain": "Her manager showed her around.",
+        "promptSo": "Yaa tusay goobta oo baray meesha ay waxyaabuhu yaallaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Maamulaheeda”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Macaamil",
+          "Maamulaheeda",
+          "Saaxiibteed"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How does she feel about tomorrow?",
+        "options": [
+          "Worried",
+          "Excited to go back",
+          "Bored"
+        ],
+        "answer": 1,
+        "explain": "\"looking forward to tomorrow\"",
+        "promptSo": "Sidee ayay ka dareemaysaa maalinta berri?",
+        "explainSo": "Jawaabta saxda ahi waa “Way ku faraxsan tahay inay dib u noqoto”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Walaacsan",
+          "Way ku faraxsan tahay inay dib u noqoto",
+          "Caajisan"
+        ]
+      }
+    ],
+    "titleSo": "Bilowga shaqo cusub",
+    "examplesSo": [
+      "welwelsan: xoogaa cabsi ama walaac dareemaya",
+      "maamule: qofka koox ama goob shaqo masuulka ka ah",
+      "mashiinka lacagta: qalabka lacag-bixinta lagu diiwaangeliyo"
+    ]
+  },
+  {
+    "id": "r-commute",
+    "track": "reading",
+    "title": "The case for working from home",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Shirkado badan ayaa hadda shaqaalaha u oggolaada inay guriga ka shaqeeyaan ugu yaraan qayb ka mid ah toddobaadka. Dadka taageera arrintan waxay sheegaan inay kaydiso waqti iyo lacag, maadaama aan maalin kasta shaqada loo safri doonin, shaqaaluhuna badanaa sheegaan inay si fiican diiradda u saari karaan. Hase yeeshee, dadka dhaliila waxay ku doodaan in qofku dareemi karo kelinimo, isla markaana ay adkaan karto dhisidda isku-duubnida kooxda. Khubaro badan waxay ku talinayaan dheellitirnaan: maalmo guriga laga shaqeeyo iyo maalmo xafiiska la wada joogo.",
+    "explanation": "Many companies now allow staff to work from home at least part of the week. Supporters say it saves time and money because there is no daily commute, and employees often report better concentration. However, critics argue that people can feel isolated and that it is harder to build team spirit. Most experts suggest a balance: a few days at home and a few days together in the office.",
+    "examples": [
+      "commute: the regular journey to work",
+      "concentration: the ability to focus",
+      "isolated: feeling alone and separated from others"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What is one advantage mentioned?",
+        "options": [
+          "Higher salaries",
+          "No daily commute",
+          "Longer holidays"
+        ],
+        "answer": 1,
+        "explain": "It \"saves time and money\".",
+        "promptSo": "Waa maxay hal faa’iido oo qoraalka lagu xusay?",
+        "explainSo": "Jawaabta saxda ahi waa “Safar shaqo oo maalinle ah ma jiro”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Mushahar sare",
+          "Safar shaqo oo maalinle ah ma jiro",
+          "Fasaxyo dhaadheer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do critics worry about?",
+        "options": [
+          "Isolation and team spirit",
+          "Slow internet",
+          "Office costs"
+        ],
+        "answer": 0,
+        "explain": "Critics mention isolation and team spirit.",
+        "promptSo": "Maxay dadka dhaliila arrintani ka walaacsan yihiin?",
+        "explainSo": "Jawaabta saxda ahi waa “Go’doon iyo niyadda kooxda”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Go’doon iyo niyadda kooxda",
+          "Internet gaabis ah",
+          "Kharashaadka xafiiska"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do most experts recommend?",
+        "options": [
+          "Always at home",
+          "Always in the office",
+          "A balance"
+        ],
+        "answer": 2,
+        "explain": "\"a balance\"",
+        "promptSo": "Khubarada badankoodu maxay ku talinayaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Isku-dheellitirnaan”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Mar walba guriga",
+          "Mar walba xafiiska",
+          "Isku-dheellitirnaan"
+        ]
+      }
+    ],
+    "titleSo": "Sababta shaqada guriga looga shaqeeyo",
+    "examplesSo": [
+      "safar shaqo: socdaalka joogtada ah ee guriga iyo goobta shaqada u dhexeeya",
+      "diirad-saar: awoodda qofku wax ugu fiirsado",
+      "go’doonsan: dareemaya kelinimo iyo ka fogaansho dadka kale"
+    ]
+  },
+  {
+    "id": "r-recycle",
+    "track": "reading",
+    "title": "Recycling in our town",
+    "level": "B1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Sannadkii hore magaaladeennu waxay hirgelisay haamo kala gaar ah oo loogu talagalay waraaqaha, caagagga iyo qashinka cuntada. Markii hore dad badan oo deggan magaalada way ku wareereen, qaarna haamaha si khaldan ayay u isticmaaleen. Dabadeed golaha deegaanka ayaa guri kasta u diray waraaqo wargelin ah, wuxuuna qabtay kulammo gaagaaban oo xog-bixin ah. Tan iyo markaas, qashinka dib loo warshadeeyo ku dhowaad laba jibbaar ayuu noqday, magaaladuna waxay rajaynaysaa inay yoolkeeda gaadho labada sano ee soo socda.",
+    "explanation": "Last year our town introduced separate bins for paper, plastic and food waste. At first many residents were confused, and some bins were used incorrectly. The council then sent leaflets to every home and organised short information sessions. Since then, the amount of recycled waste has almost doubled, and the town hopes to reach its target within two years.",
+    "examples": [
+      "residents: people who live in a place",
+      "council: the local government",
+      "target: a goal you want to reach"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What was the first reaction of residents?",
+        "options": [
+          "They were confused",
+          "They refused to pay",
+          "They were pleased"
+        ],
+        "answer": 0,
+        "explain": "\"many residents were confused\"",
+        "promptSo": "Sidee ayay markii hore dadka deegaanka uga falceliyeen?",
+        "explainSo": "Jawaabta saxda ahi waa “Way wareereen”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Way wareereen",
+          "Way diideen inay bixiyaan",
+          "Way ku farxeen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How did the council respond?",
+        "options": [
+          "By closing the bins",
+          "By sending leaflets and holding sessions",
+          "By raising taxes"
+        ],
+        "answer": 1,
+        "explain": "Leaflets and information sessions.",
+        "promptSo": "Golaha deegaanka sidee ayuu uga jawaabay?",
+        "explainSo": "Jawaabta saxda ahi waa “Wuxuu diray waraaqo wargelin ah, wuxuuna qabtay kulamo”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Weelasha qashinka ayuu xidhay",
+          "Wuxuu diray waraaqo wargelin ah, wuxuuna qabtay kulamo",
+          "Cashuuraha ayuu kordhiyey"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What has happened to recycled waste?",
+        "options": [
+          "It has halved",
+          "It has almost doubled",
+          "It is unchanged"
+        ],
+        "answer": 1,
+        "explain": "\"almost doubled\"",
+        "promptSo": "Qashinka dib loo warshadeeyo maxaa ku dhacay?",
+        "explainSo": "Jawaabta saxda ahi waa “Ku dhowaad laba jibbaar ayuu noqday”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kala badh ayuu noqday",
+          "Ku dhowaad laba jibbaar ayuu noqday",
+          "Isma beddelin"
+        ]
+      }
+    ],
+    "titleSo": "Dib-u-warshadaynta qashinka magaaladeenna",
+    "examplesSo": [
+      "dadka deggan: dadka meel ku nool",
+      "golaha deegaanka: maamulka dowladeed ee degmada ama magaalada",
+      "yool: hadaf aad doonayso inaad gaadho"
+    ]
+  },
+  {
+    "id": "r-sleep",
+    "track": "reading",
+    "title": "Why sleep matters",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Inkastoo dad badani hurdada u arkaan wax raaxo ah oo aan daruuri ahayn, cilmi-baadhisyadu si joogto ah ayay u muujinayaan inay muhiim u tahay xusuusta, niyadda iyo caafimaadka jirka. Inta lagu jiro hurdada qotada dheer, maskaxdu waxay xoojisaa oo habaysaa wixii aan maalintii barannay; taasina waa sababta ardayda seexata marka ay wax bartaan ka dib ay badanaa wax badan u xasuustaan. Dhanka kale, hurdo-yaraanta muddada dheer waxaa lala xiriiriyey difaaca jirka oo daciifa iyo awoodda diirad-saaridda oo yaraata. Sidaas darteed, khubaradu waxay dadka waaweyn kula taliyaan inay habeenkii seexdaan toddoba ilaa sagaal saacadood.",
+    "explanation": "Although many people regard sleep as a luxury, research consistently shows that it is essential for memory, mood and physical health. During deep sleep the brain consolidates what we have learnt during the day, which is why students who sleep after studying often remember more. Chronic sleep deprivation, on the other hand, has been linked to weakened immunity and reduced concentration. Experts therefore advise adults to aim for seven to nine hours a night.",
+    "examples": [
+      "consolidate: to make stronger and more stable",
+      "chronic: lasting for a long time",
+      "immunity: the body's ability to resist disease"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "According to the text, why do students benefit from sleeping after study?",
+        "options": [
+          "The brain consolidates what they learnt",
+          "They become taller",
+          "They need less food"
+        ],
+        "answer": 0,
+        "explain": "Deep sleep consolidates learning.",
+        "promptSo": "Sida qoraalku sheegayo, maxay ardaydu uga faa’iidaystaan hurdada marka ay wax bartaan ka dib?",
+        "explainSo": "Jawaabta saxda ahi waa “Maskaxdu waxay xoojisaa wixii ay barteen”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Maskaxdu waxay xoojisaa wixii ay barteen",
+          "Way dheeraadaan",
+          "Cunto yar ayay u baahan yihiin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is linked to chronic sleep deprivation?",
+        "options": [
+          "Better mood",
+          "Weakened immunity",
+          "Faster reading"
+        ],
+        "answer": 1,
+        "explain": "\"weakened immunity\"",
+        "promptSo": "Maxaa lala xidhiidhiyaa hurdo-yaraanta muddada dheer?",
+        "explainSo": "Jawaabta saxda ahi waa “Difaaca jirka oo daciifa”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Niyad wanaagsan",
+          "Difaaca jirka oo daciifa",
+          "Akhris degdeg ah"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "How much sleep do experts advise for adults?",
+        "options": [
+          "Five to six hours",
+          "Seven to nine hours",
+          "Ten hours or more"
+        ],
+        "answer": 1,
+        "explain": "\"seven to nine hours\"",
+        "promptSo": "Khubaradu dadka waaweyn imisa saacadood oo hurdo ah ayay kula talinayaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Toddoba ilaa sagaal saacadood”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Shan ilaa lix saacadood",
+          "Toddoba ilaa sagaal saacadood",
+          "Toban saacadood ama ka badan"
+        ]
+      }
+    ],
+    "titleSo": "Sababta hurdadu muhiim u tahay",
+    "examplesSo": [
+      "xoojin: wax ka dhigid adag oo deggan",
+      "muddada dheer: sii jira waqti dheer",
+      "difaaca jirka: awoodda jirku cudurrada isaga caabbiyo"
+    ]
+  },
+  {
+    "id": "r-remote-city",
+    "track": "reading",
+    "title": "Cities and the cost of living",
+    "level": "B2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Tobankii sano ee la soo dhaafay, kirada iyo kharashka guryaha ee magaalooyinka waaweyn ayaa aad uga dheereeyey kororka mushaharka. Sidaas darteed, xirfadlayaal badan oo dhallinyaro ah ayaa u guuray magaalooyin yaryar, halkaas oo kiradu ka jaban tahay, noloshuna ka deggan tahay. Si kastaba ha ahaatee, magaalooyinku weli waxay soo jiitaan dadka raadinaya fursado shaqo iyo kala-duwanaansho dhaqameed. Qorsheeyayaasha magaalooyinku waxay ka digayaan in haddii aan la dhisin guryo qiimahoodu macquul yahay, magaalooyinku halis ugu jiraan inay noqdaan meelo ay dadka hodanka ahi oo keliya awoodaan inay ku noolaadaan.",
+    "explanation": "Over the past decade, housing costs in major cities have risen far faster than wages. As a result, many young professionals have moved to smaller towns, where rents are lower and the pace of life is slower. Nevertheless, cities continue to attract those seeking career opportunities and cultural variety. Urban planners warn that unless more affordable homes are built, cities risk becoming accessible only to the wealthy.",
+    "examples": [
+      "wages: money paid regularly for work",
+      "urban: relating to cities",
+      "affordable: not too expensive"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What has risen faster than wages?",
+        "options": [
+          "Housing costs",
+          "Train fares",
+          "Food quality"
+        ],
+        "answer": 0,
+        "explain": "\"housing costs ... risen far faster than wages\"",
+        "promptSo": "Maxaa ka dheereeya korodhka mushaharka?",
+        "explainSo": "Jawaabta saxda ahi waa “Kharashaadka guryaha”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kharashaadka guryaha",
+          "Qiimaha tareenka",
+          "Tayada cuntada"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why do some people leave cities?",
+        "options": [
+          "Lower rents and a slower pace elsewhere",
+          "Too much culture",
+          "Better schools"
+        ],
+        "answer": 0,
+        "explain": "Smaller towns have lower rents.",
+        "promptSo": "Maxay dadka qaarkood magaalooyinka uga guuraan?",
+        "explainSo": "Jawaabta saxda ahi waa “Kirada oo jaban iyo nolol ka deggan meel kale”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Kirada oo jaban iyo nolol ka deggan meel kale",
+          "Dhaqan aad u badan",
+          "Dugsiyo ka wanaagsan"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What do planners warn about?",
+        "options": [
+          "Cities becoming accessible only to the wealthy",
+          "Too many parks",
+          "Fewer jobs in towns"
+        ],
+        "answer": 0,
+        "explain": "Unaffordable cities.",
+        "promptSo": "Qorsheeyayaasha magaalooyinku maxay ka digayaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Magaalooyinka oo ay heli karaan oo keliya dadka hodanka ahi”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Magaalooyinka oo ay heli karaan oo keliya dadka hodanka ahi",
+          "Jardiinooyin aad u badan",
+          "Shaqooyin yar oo magaalooyinka yaryar yaal"
+        ]
+      }
+    ],
+    "titleSo": "Magaalooyinka iyo kharashka nolosha",
+    "examplesSo": [
+      "mushahar: lacag si joogto ah shaqo lagu bixiyo",
+      "magaalo la xiriira: wax ku saabsan magaalooyinka",
+      "qiime macquul ah: aan aad qaali u ahayn"
+    ]
+  },
+  {
+    "id": "r-automation",
+    "track": "reading",
+    "title": "Automation and the future of work",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Rajada ah in mashiinnada otomaatiga ahi si baahsan u shaqayn doonaan waxay dhalisay walaac badan, hase yeeshee taariikhdu waxay muujinaysaa in isbeddelka tiknoolajiyaddu badanaa shaqada dib u qaabeeyo halkii uu gebi ahaanba baabi’in lahaa. Inkastoo hawlo joogto ah qaarkood mashiinno loo wareejinayo, haddana shaqooyin cusub ayaa soo baxaya, kuwaas oo inta badan u baahan xirfado jiilkii hore aan si fudud u qiyaasi karin. Sidaas darteed, su’aasha go’aamisa ma aha in shaqadu dhammaan doonto iyo in kale, balse waa in nidaamyada waxbarashadu dadka siin karaan qalabka iyo xirfadaha ay si dhakhso leh ula qabsan lahaayeen.",
+    "explanation": "The prospect of widespread automation has provoked considerable anxiety, yet history suggests that technological change tends to reshape rather than simply eliminate employment. While certain routine tasks are indeed being delegated to machines, new roles continue to emerge, often requiring skills that were scarcely imaginable a generation ago. The decisive question, therefore, is not whether work will disappear but whether education systems can equip people to adapt swiftly enough.",
+    "examples": [
+      "provoke: to cause a reaction",
+      "routine: regular and repeated, not creative",
+      "equip: to give someone what they need",
+      "swiftly: quickly"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does history suggest about technological change?",
+        "options": [
+          "It reshapes employment rather than only eliminating it",
+          "It always destroys jobs",
+          "It has no effect"
+        ],
+        "answer": 0,
+        "explain": "It \"reshape[s] rather than simply eliminate[s]\".",
+        "promptSo": "Taariikhdu maxay ka tilmaamaysaa isbeddelka tiknoolajiyadda?",
+        "explainSo": "Jawaabta saxda ahi waa “Waxay beddeshaa shaqooyinka halkii ay keliya baabi’in lahayd”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Waxay beddeshaa shaqooyinka halkii ay keliya baabi’in lahayd",
+          "Mar walba shaqooyinka way baabi’isaa",
+          "Wax saamayn ah ma leh"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What kind of tasks are being delegated to machines?",
+        "options": [
+          "Creative tasks",
+          "Routine tasks",
+          "Management tasks"
+        ],
+        "answer": 1,
+        "explain": "\"certain routine tasks\"",
+        "promptSo": "Hawlaha noocee ah ayaa mashiinnada loo dhiibayaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Hawlo joogto ah oo soo noqnoqda”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Hawlo hal-abuur leh",
+          "Hawlo joogto ah oo soo noqnoqda",
+          "Hawlo maamul"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What does the writer see as the decisive question?",
+        "options": [
+          "Whether education can help people adapt",
+          "Whether machines are expensive",
+          "Whether people want to work"
+        ],
+        "answer": 0,
+        "explain": "Adaptation through education.",
+        "promptSo": "Qoraagu muxuu u arkaa su’aasha go’aamisa arrintan?",
+        "explainSo": "Jawaabta saxda ahi waa “In waxbarashadu dadka ka caawin karto la qabsiga”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "In waxbarashadu dadka ka caawin karto la qabsiga",
+          "In mashiinnadu qaali yihiin",
+          "In dadku rabaan inay shaqeeyaan"
+        ]
+      }
+    ],
+    "titleSo": "Mashiinnada otomaatiga ah iyo mustaqbalka shaqada",
+    "examplesSo": [
+      "dhalin: sabab u noqoshada falcelin ama dareen",
+      "joogto oo soo noqnoqda: si caadi ah marar badan u dhaca, aan hal-abuur badnayn",
+      "qalabayn: qof siin waxyaabaha uu u baahan yahay",
+      "si dhakhso leh: waqti gaaban gudaheed"
+    ]
+  },
+  {
+    "id": "r-language",
+    "track": "reading",
+    "title": "Why accents matter less than clarity",
+    "level": "C1",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Ardayda luqadaha barta badanaa waxay ka welwelaan in lahjaddoodu dadka tusayso inay ajnabi yihiin, qaarna dadaal badan ayay geliyaan sidii ay lahjadda uga takhalusi lahaayeen. Hase yeeshee, khubarada luqaddu waxay adkaynayaan in waxa isfahamka suurtageliya ay tahay hadalka si fudud loo fahmi karo, ee aanay ahayn in qofku u dhawaaqo sida qof afka hooyo ku hadla. Qof lahjad muuqata leh oo si cad u dhawaaqa, fikradihiisana si nidaamsan u cabbira, guud ahaan si ka wanaagsan ayaa loo fahmaa marka loo eego qof afka hooyo ku hadla oo hadalkiisa liqa. Sidaas darteed, yoolka waxtarka badan waa hadal cad oo kalsooni leh.",
+    "explanation": "Learners frequently worry that their accent will mark them out as foreigners, and some invest enormous effort in eliminating it. Linguists, however, emphasise that intelligibility, not nativeness, is what ensures successful communication. A speaker with a pronounced accent who articulates clearly and structures ideas coherently will generally be understood far better than a native speaker who mumbles. The more productive goal is therefore clear, confident speech.",
+    "examples": [
+      "intelligibility: how easily speech can be understood",
+      "pronounced: very noticeable",
+      "articulate: to speak clearly",
+      "coherently: in a logical, connected way"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What do linguists emphasise?",
+        "options": [
+          "Intelligibility",
+          "Eliminating accents",
+          "Speaking quickly"
+        ],
+        "answer": 0,
+        "explain": "\"intelligibility, not nativeness\"",
+        "promptSo": "Aqoonyahannada luuqaduhu maxay xoogga saarayaan?",
+        "explainSo": "Jawaabta saxda ahi waa “Faham-fudaydka hadalka”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Faham-fudaydka hadalka",
+          "Ciribtirka lahjadaha",
+          "Hadal degdeg ah"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Who may be understood better?",
+        "options": [
+          "A clear speaker with an accent",
+          "A native speaker who mumbles",
+          "Both equally"
+        ],
+        "answer": 0,
+        "explain": "The clear speaker with an accent.",
+        "promptSo": "Yaa si ka wanaagsan loo fahmi karaa?",
+        "explainSo": "Jawaabta saxda ahi waa “Qof lahjad leh oo si cad u hadlaya”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Qof lahjad leh oo si cad u hadlaya",
+          "Qof afka hooyo ku hadla balse aan si cad u dhawaaqin",
+          "Labaduba si isku mid ah"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What is the \"more productive goal\"?",
+        "options": [
+          "A native accent",
+          "Clear, confident speech",
+          "Fast speech"
+        ],
+        "answer": 1,
+        "explain": "Stated in the last sentence.",
+        "promptSo": "Waa maxay yoolka “waxtarka badan”?",
+        "explainSo": "Jawaabta saxda ahi waa “Hadal cad oo kalsooni leh”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Lahjad af-hooyo",
+          "Hadal cad oo kalsooni leh",
+          "Hadal degdeg ah"
+        ]
+      }
+    ],
+    "titleSo": "Sababta lahjaddu uga muhiimsanayn caddaynta hadalka",
+    "examplesSo": [
+      "faham-fudayd: heerka ay fududahay in hadalka la fahmo",
+      "muuqda: si cad loo dareemi karo",
+      "si cad u dhawaaqid: erayada oo si la fahmi karo loo yidhaahdo",
+      "si isku xiran: hab macquul ah oo fikraduhu isugu xiran yihiin"
+    ]
+  },
+  {
+    "id": "r-nuance",
+    "track": "reading",
+    "title": "The quiet power of understatement",
+    "level": "C2",
+    "status": "unverified",
+    "source": "original, authored for FluentUp",
+    "somali": "Dhaqanka Ingiriiska ee waxyaabaha waaweyn si yar loo sheego, oo dadka dibadda ka yimaadaa marar badan si khaldan u fahmaan, wuxuu leeyahay shaqo bulsheed oo xeeladaysan: marka qofku si ula kac ah u yareeyo culayska dhacdo, wuxuu muujinayaa degganaansho, wuxuuna dhegaystaha ku dhiirrigeliyaa inuu fahmo baaxadda dhabta ah. Sidaas darteed, masiibo weyn oo dib u dhac ah in lagu tilmaamo “wax yar oo dhib ah” ma aha been-sheegid, balse waa hab dhaqan oo lagu muujiyo is-xakamayn. Dhibaatada ardayda luqaddu waxay tahay in erayada tooska ah iyo macnaha loola jeedo ay kala duwanaan karaan; macnaha guud ee dhaqanka ay wadaagaan dadka hadlaya oo keliya ayaa buuxiya farqigaas.",
+    "explanation": "British understatement, so often misread by outsiders, performs a subtle social function: by deliberately minimising the gravity of an event, the speaker signals composure and invites the listener to infer the true magnitude. To describe a catastrophic delay as 'a bit of an inconvenience' is thus not dishonesty but a ritual of restraint. The difficulty for learners lies in the fact that the literal words and the intended meaning diverge, and only shared cultural context bridges the gap.",
+    "examples": [
+      "understatement: saying something is less important than it is",
+      "gravity: seriousness",
+      "composure: calmness",
+      "diverge: to become different"
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "What does understatement signal, according to the passage?",
+        "options": [
+          "Composure",
+          "Dishonesty",
+          "Anger"
+        ],
+        "answer": 0,
+        "explain": "It \"signals composure\".",
+        "promptSo": "Sida qoraalku sheegayo, maxay muujisaa hadal si ula kac ah loo khafiifiyey?",
+        "explainSo": "Jawaabta saxda ahi waa “Degganaansho”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Degganaansho",
+          "Daacad-darro",
+          "Cadho"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Why is it difficult for learners?",
+        "options": [
+          "Literal words and intended meaning differ",
+          "The grammar is complex",
+          "The words are rare"
+        ],
+        "answer": 0,
+        "explain": "The literal and intended meanings diverge.",
+        "promptSo": "Maxay arrintani ugu adag tahay dadka luuqadda baranaya?",
+        "explainSo": "Jawaabta saxda ahi waa “Erayada tooska ah iyo macnaha loola jeedo way kala duwan yihiin”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Erayada tooska ah iyo macnaha loola jeedo way kala duwan yihiin",
+          "Naxwuhu waa adag yahay",
+          "Erayadu waa dhif"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "What bridges the gap?",
+        "options": [
+          "A dictionary",
+          "Shared cultural context",
+          "Longer sentences"
+        ],
+        "answer": 1,
+        "explain": "\"only shared cultural context bridges the gap\"",
+        "promptSo": "Maxaa buuxiya farqiga u dhexeeya labada macne?",
+        "explainSo": "Jawaabta saxda ahi waa “Xaalad-dhaqan ay wadaagaan”. Ka raadi qoraalka jumladda taageeraysa jawaabtan, hana ku salayn qiyaas.",
+        "optionsSo": [
+          "Qaamuus",
+          "Xaalad-dhaqan ay wadaagaan",
+          "Weedho dhaadheer"
+        ]
+      }
+    ],
+    "titleSo": "Awoodda qarsoon ee hadalka wax yaraynaya",
+    "examplesSo": [
+      "hadal-yareyn: wax ka sheegid si ka yar sida uu dhab ahaan u weyn yahay",
+      "culays ama darnaan: heerka ay arrin u tahay mid halis ah",
+      "degganaansho: xaalad qofku is-xakameeyo oo aanu kacsanayn",
+      "kala duwanaansho: laba shay oo isu ekaan waaya"
+    ]
+  }
+]
