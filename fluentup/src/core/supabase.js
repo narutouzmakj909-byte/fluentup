@@ -9,13 +9,24 @@ export function createSupabase({ url, anonKey, fetch: f = globalThis.fetch, stor
     const j = await r.json().catch(() => ({})); if (!r.ok) throw Object.assign(new Error(j.msg || j.error_description || j.message || 'request failed'), { status: r.status }); return j; };
   const sess = j => { if (j.access_token) save({ access_token: j.access_token, refresh_token: j.refresh_token, user: j.user, expires_at: Date.now() + (j.expires_in ?? 3600) * 1000 }); return j; };
   return {
-    user: () => session?.user ?? null, signedIn: () => !!session,
+    user: () => session?.user ?? null, signedIn: () => !!session && (!session.expires_at || session.expires_at > Date.now()),
+    // Called once during boot. Refresh only when the persisted token is expired/near expiry; no artificial wait.
+    initialize: async () => {
+      if (!session) return null;
+      if (!session.refresh_token) { save(null); return null; }
+      if (session.expires_at && session.expires_at - Date.now() < 60000) {
+        try { await sess(await call('/auth/v1/token?grant_type=refresh_token', { refresh_token: session.refresh_token })); }
+        catch (e) { if ([400, 401, 403].includes(e?.status)) save(null); return null; }
+      }
+      return session;
+    },
     // Current access token for calling Edge Functions; refreshes first when it is about to expire. Resolves null when signed out.
     accessToken: async () => { if (!session) return null;
       if (session.refresh_token && session.expires_at && session.expires_at - Date.now() < 60000) { try { await sess(await call('/auth/v1/token?grant_type=refresh_token', { refresh_token: session.refresh_token })); } catch {} }
       return session?.access_token ?? null; },
-    signUp: async (email, password) => sess(await call('/auth/v1/signup', { email, password })),
+    signUp: async (email, password, fullName = '') => sess(await call('/auth/v1/signup', { email, password, data: { full_name: String(fullName).trim().slice(0, 80) } })),
     signIn: async (email, password) => sess(await call('/auth/v1/token?grant_type=password', { email, password })),
+    verifyOtp: async (email, token) => sess(await call('/auth/v1/verify', { email, token, type: 'signup' })),
     recover: email => call('/auth/v1/recover', { email }),
     refresh: async () => { if (!session?.refresh_token) throw new Error('no session'); return sess(await call('/auth/v1/token?grant_type=refresh_token', { refresh_token: session.refresh_token })); },
     signOut: async () => { try { if (session) await call('/auth/v1/logout', {}, true); } finally { save(null); } },

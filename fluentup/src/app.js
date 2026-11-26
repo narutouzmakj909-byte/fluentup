@@ -18,11 +18,15 @@ import { createTutor } from './core/tutor.js';
 import { createTutorScreen } from './ui/tutorScreen.js';
 import { icon, iconFill, LiquidGlassProgress, LiquidGlassToggle, LiquidGlassTab, LiquidGlassChip, confirmSheet, enter, setNav, initGlass } from './ui/glass.js';
 const app = document.getElementById('app'), esc = s => String(s).replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
-let repo; try { repo = new Repo(new IdbStore()); await repo.cards(); } catch { repo = new Repo(new MemoryStore()); } // fallback: in-memory only
 const load = async f => { try { const j = await (await fetch('src/data/' + f + '.json')).json(); return Array.isArray(j) ? j : []; } catch { return []; } };
 const { ok: entries } = importEntries([...await load('seed'), ...await load('seed2'), ...await load('seed3'), ...await load('seed4'), ...await load('seed5')]);
 let cfg = {}; try { cfg = (await import('../config.js')).default ?? {}; } catch {} // optional, gitignored; see config.example.js
 const sb = createSupabase({ url: cfg.SUPABASE_URL, anonKey: cfg.SUPABASE_ANON_KEY, storage: globalThis.localStorage });
+// Restore/refresh the persisted Supabase session before selecting the user's local database.
+if (sb) await sb.initialize();
+// Each signed-in account gets a separate local database; never reuse another account's study data.
+const dbName = sb?.user()?.id ? `nora-user-${sb.user().id}` : 'nora-guest';
+let repo; try { repo = new Repo(new IdbStore(dbName)); await repo.cards(); } catch { repo = new Repo(new MemoryStore()); }
 const CAP = capabilities();
 // AI Tutor: requests go to the Supabase Edge Function with the signed-in user's token; no AI key exists in this app.
 const askTutor = sb ? createTutor({ url: cfg.SUPABASE_URL, token: () => sb.accessToken(), refresh: async () => { try { await sb.refresh(); return true; } catch { return false; } } }) : null;
@@ -32,10 +36,12 @@ const lessons = [...new Map([...await load('grammar'), ...await load('grammar2')
   writeP = [...await load('writing'), ...await load('writing2'), ...await load('writing3')].filter(w => w.id && LEVELS.includes(w.level) && w.prompt && Number.isInteger(w.minWords)), convos = [...await load('conversations'), ...await load('conversations2'), ...await load('conversations3'), ...await load('conversations4')].filter(c => !validateConversation(c).length);
 const byId = new Map(entries.map(e => [e.id, e])), idx = buildIndex(entries);
 const S = { cards: {}, days: await repo.meta('days', []), alarms: await repo.alarms(), challenges: await repo.challenges(), goal: await repo.meta('goal', { vocab: 5 }), saved: await repo.meta('saved', []), rest: await repo.meta('rest', []), lastBackup: await repo.meta('lastBackup', 0), tsize: await repo.meta('tsize', 'md'), theme: await repo.meta('theme', 'system'), lp: await repo.meta('lessonProg', {}), cp: await repo.meta('convoProg', {}), recent: await repo.meta('recent', []), listen: await repo.meta('listenProg', {}), speak: await repo.meta('speakLog', []), write: await repo.meta('writeLog', []), mist: await repo.meta('lessonMist', []), tlog: await repo.meta('timeLog', []), prof: await repo.meta('profile', {}), notif: await repo.meta('notif', { snooze: 10 }), rh: await repo.meta('readHist', []), lsaved: await repo.meta('lessonSaved', []), nat: null };
-try { const old = JSON.parse(localStorage.getItem('fluentup.v1')); // one-time migration from v0 localStorage
-  if (old && !(await repo.meta('migrated', false))) { for (const c of Object.values(old.cards ?? {})) await repo.saveCard(c); S.days = [...new Set([...S.days, ...(old.days ?? [])])]; await repo.putMeta('days', S.days); await repo.setMeta('migrated', true); } } catch {}
+// Legacy shared-device data is intentionally not imported into account databases.
 for (const c of await repo.cards()) S.cards[c.id] = c;
 for (const e of entries) if (!S.cards[e.id]) S.cards[e.id] = await repo.saveCard(newCard(e.id));
+// Keep the signup display name in the existing local profile without overwriting a chosen profile name.
+const accountName = String(sb?.user()?.user_metadata?.full_name ?? '').trim().slice(0, 80);
+if (accountName && !S.prof.name) { S.prof = { ...S.prof, name: accountName }; await repo.putMeta('profile', S.prof); }
 const today = () => dayKey(new Date()), cards = () => Object.values(S.cards);
 let tab = 'home', showAns = false, quiz = null, pending = (await repo.pending()).length, timers = [];
 async function grade(id, g) {
@@ -150,7 +156,7 @@ function calView() { const t = today(), since = [...S.days].sort()[0] ?? null, w
   <table class="cal"><tr>${DAYS.map(d => `<th scope="col">${d[0]}</th>`).join('')}</tr>${weeks.map(w => `<tr>${w.map(c => c ? `<td class="c-${c.state}" aria-label="${c.date}: ${c.state}">${c.day}<br><small>${mark[c.state] ?? ''}</small></td>` : '<td></td>').join('')}</tr>`).join('')}</table>
   <p class="chips"><span class="pill">✓ studied</span><span class="pill">R rest day</span><span class="pill off">✕ missed</span><span class="pill ok">• today</span></p><button id="restToggle">${S.rest.includes(t) ? 'Remove today as rest day' : 'Mark today as rest day'}</button></div>`; }
 // ---- Speak tab: Talk / Listen / Speak / Write -------------------------------------------------
-let bkMsg = '', sk = 'talk', lsn = null, wr = null, sp = { i: 0, err: '', rec: false, heard: null }, recs = (await Promise.all((await repo.recordings()).map(async r => { try { return { ...r, url: URL.createObjectURL(r.blob) }; } catch { return null; } }))).filter(Boolean), mr = null, syncMsg = '', authMsg = '';
+let authMode = 'signin', authStep = 'credentials', authEmail = '', authName = '', authPasswordVisible = false, authBusy = false, bkMsg = '', sk = 'talk', lsn = null, wr = null, sp = { i: 0, err: '', rec: false, heard: null }, recs = (await Promise.all((await repo.recordings()).map(async r => { try { return { ...r, url: URL.createObjectURL(r.blob) }; } catch { return null; } }))).filter(Boolean), mr = null, syncMsg = '', authMsg = '';
 const SK = [['talk', 'Talk'], ['listen', 'Listen'], ['speak', 'Speak'], ['write', 'Write']];
 const speakView = () => `<div class="row seg" style="margin-bottom:8px">${SK.map(([k, t]) => `<button data-sk="${k}" aria-pressed="${sk === k}">${t}</button>`).join('')}</div>` + ({ talk: talkView, listen: listenView, speak: speakingView, write: writeView }[sk])();
 const say = (texts, rate = 1) => { const ss = globalThis.speechSynthesis; if (!CAP.tts) return; ss.cancel(); for (const t of [].concat(texts)) { const u = new SpeechSynthesisUtterance(t); u.lang = 'en-US'; u.rate = rate; ss.speak(u); } };
@@ -254,11 +260,51 @@ async function xclick(t, d) {
   if (t.id === 'obskip') { S.prof = { ...S.prof, onboarded: true }; await repo.putMeta('profile', S.prof); render(); return true; }
   if (d.ow !== undefined) { (lrun.sel ??= []).push(+d.ow); render(); return true; } if (d.ou) { lrun.sel?.pop(); render(); return true; }
   if (d.ok) { const q = getL(lrun.id).exercises[lrun.i]; await lanswer((lrun.sel ?? []).map(i => q.words[i])); return true; }
-  if (t.id === 'signin' || t.id === 'signup') { const em = document.getElementById('em').value.trim(), pw = document.getElementById('pw').value;
-    if (!em || pw.length < 8) { authMsg = 'Enter an email and a password of at least 8 characters.'; render(); return true; }
-    try { const j = await (t.id === 'signup' ? sb.signUp(em, pw) : sb.signIn(em, pw)); authMsg = j.access_token ? 'Signed in.' : 'Check your email to confirm your account, then sign in.'; } catch (e) { authMsg = 'Failed: ' + e.message; } render(); return true; }
-  if (t.id === 'recover') { const em = document.getElementById('em').value.trim(); try { await sb.recover(em); authMsg = 'If that email has an account, a recovery link was sent.'; } catch (e) { authMsg = 'Failed: ' + e.message; } render(); return true; }
-  if (t.id === 'signout') { await sb.signOut(); tutor.reset(); authMsg = 'Signed out.'; syncMsg = ''; render(); return true; }
+  if (t.id === 'authmode') { authMode = authMode === 'signin' ? 'signup' : 'signin'; authStep = 'credentials'; authMsg = ''; authPasswordVisible = false; render(); return true; }
+  if (t.id === 'togglepassword') {
+    authPasswordVisible = !authPasswordVisible;
+    const field = document.getElementById('pw');
+    if (field) field.type = authPasswordVisible ? 'text' : 'password';
+    t.setAttribute('aria-label', authPasswordVisible ? 'Qari password-ka' : 'Muuji password-ka');
+    t.setAttribute('aria-pressed', String(authPasswordVisible));
+    t.innerHTML = authPasswordVisible ? icon('close') : icon('eye');
+    t.classList.toggle('is-visible', authPasswordVisible);
+    return true;
+  }
+  if ((t.id === 'signin' || t.id === 'signup') && !authBusy) {
+    const em = document.getElementById('em').value.trim().toLowerCase(), pw = document.getElementById('pw').value;
+    const nm = t.id === 'signup' ? document.getElementById('authname').value.trim().replace(/\s+/g, ' ').slice(0, 80) : '';
+    authEmail = em; if (t.id === 'signup') authName = nm;
+    if (t.id === 'signup' && nm.length < 2) { authMsg = 'Fadlan geli magacaaga (ugu yaraan 2 xaraf).'; render(); return true; }
+    if (!/^[^\s@]+@gmail\.com$/i.test(em)) { authMsg = 'Fadlan isticmaal Gmail sax ah (@gmail.com).'; render(); return true; }
+    if (pw.length < 8) { authMsg = 'Password-ku waa inuu ahaadaa ugu yaraan 8 xaraf.'; render(); return true; }
+    authBusy = true; authMsg = ''; render();
+    try {
+      if (t.id === 'signup') {
+        const j = await sb.signUp(em, pw, nm); authEmail = em; authName = nm;
+        if (j.access_token) {
+          // Email confirmation must be enabled in Supabase; never accept a signup session without OTP.
+          await sb.signOut();
+          authStep = 'credentials';
+          authMsg = 'Supabase Email Confirm ma shidna. Daar Email confirmation si OTP loo khasbo, kadib mar kale is diiwaangeli.';
+        } else { authStep = 'verify'; authMsg = 'Code xaqiijin ah ayaa Gmail-kaaga loo diray.'; }
+      } else { await sb.signIn(em, pw); location.reload(); return true; }
+    } catch (e) { authMsg = 'Wuu fashilmay: ' + e.message; }
+    finally { authBusy = false; }
+    render(); return true;
+  }
+  if (t.id === 'verifycode' && !authBusy) {
+    const code = document.getElementById('vcode').value.trim();
+    if (!/^\d{6}$/.test(code)) { authMsg = 'Geli code-ka 6 lambar ah.'; render(); return true; }
+    authBusy = true; authMsg = ''; render();
+    try { await sb.verifyOtp(authEmail, code); location.reload(); return true; }
+    catch (e) { authMsg = 'Code-ku ma shaqaynayo: ' + e.message; }
+    finally { authBusy = false; }
+    render(); return true;
+  }
+  if (t.id === 'backauth') { authStep = 'credentials'; authMode = 'signup'; authMsg = ''; render(); return true; }
+  if (t.id === 'recover') { const em = document.getElementById('em').value.trim().toLowerCase(); authEmail = em; try { await sb.recover(em); authMsg = 'Haddii Gmail-ku account leeyahay, fariin soo kabasho ayaa loo diray.'; } catch (e) { authMsg = 'Wuu fashilmay: ' + e.message; } render(); return true; }
+  if (t.id === 'signout') { await sb.signOut(); tutor.reset(); location.reload(); return true; }
   if (t.id === 'syncnow') { await doSync(); render(); return true; }
   return false;
 }
@@ -293,7 +339,25 @@ function meView() { const all = cards().flatMap(c => c.history), right = all.fil
 function arm() { timers.forEach(clearTimeout); timers = []; syncNative(S.alarms).then(r => { S.nat = r; }).catch(() => {});
   for (const a of S.alarms) { const n = nextAlarm(a), ms = n && n - Date.now(); if (ms > 0 && ms < 2 ** 31 - 1) timers.push(setTimeout(() => { const m = `FluentUp: ${a.label || 'time to learn'}`; S.banner = m; if (globalThis.Notification?.permission === 'granted') new Notification(m); else if (!globalThis.document?.hidden) { /* banner shown in-app */ } else alert(m); render(); arm(); }, ms)); } }
 let lastSig = '', lastTab = ''; const NAV = ['home', 'library', 'speak', 'quiz', 'plan', 'me'];
+function authView() {
+  document.querySelector('nav')?.classList?.add?.('auth-hidden');
+  document.querySelector('.topbar')?.classList?.add?.('auth-hidden');
+  if (!sb) return `<section class="auth-wrap"><div class="auth-card"><div class="auth-mark">N</div><div class="auth-brand">NORA</div><h1>Ku soo dhowow NORA</h1><p class="auth-sub">Barashada English-ka, adiga kuu gaar ah.</p><div class="auth-alert">Si ammaan ah u gal NORA: ku dar <code>SUPABASE_URL</code> iyo <code>SUPABASE_ANON_KEY</code> gudaha <code>config.js</code>. Login demo ah lama oggola.</div></div></section>`;
+  const verify = authStep === 'verify';
+  return `<section class="auth-wrap"><div class="auth-card"><div class="auth-mark">N</div><div class="auth-brand">NORA</div>
+    <div class="auth-eyebrow">YOUR PERSONAL LEARNING SPACE</div><h1>${verify ? 'Xaqiiji Gmail-kaaga' : authMode === 'signup' ? 'Sameyso account' : 'Ku soo dhowow'}</h1>
+    <p class="auth-sub">${verify ? `Code-ka 6-da lambar ah ee loo diray ${esc(authEmail)} geli.` : authMode === 'signup' ? 'Magacaaga iyo Gmail-kaaga ku sameyso account ammaan ah.' : 'Gal account-kaaga si aad u sii wadato barashada.'}</p>
+    ${verify ? `<label class="auth-label" for="vcode">Verification code</label><input id="vcode" class="auth-input auth-code" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="000000"><button class="auth-primary" id="verifycode" ${authBusy ? 'disabled' : ''}>${authBusy ? 'Waa la xaqiijinayaa…' : 'Xaqiiji oo gal'} <span>→</span></button><button class="auth-link" id="backauth">Ku noqo</button>` : `${authMode === 'signup' ? `<label class="auth-label" for="authname">Magacaaga</label><input id="authname" class="auth-input" type="text" autocomplete="name" maxlength="80" placeholder="Magacaaga oo buuxa" value="${esc(authName)}">` : ''}
+    <label class="auth-label" for="em">Gmail</label><input id="em" class="auth-input" type="email" autocomplete="email" placeholder="magaca@gmail.com" value="${esc(authEmail)}">
+    <label class="auth-label" for="pw">Password</label><div class="auth-password"><input id="pw" class="auth-input" type="${authPasswordVisible ? 'text' : 'password'}" autocomplete="${authMode === 'signup' ? 'new-password' : 'current-password'}" placeholder="Ugu yaraan 8 xaraf"><button type="button" class="auth-eye ${authPasswordVisible ? 'is-visible' : ''}" id="togglepassword" aria-label="${authPasswordVisible ? 'Qari password-ka' : 'Muuji password-ka'}" aria-pressed="${authPasswordVisible}">${icon(authPasswordVisible ? 'eye-off' : 'eye')}</button></div>
+    ${authMode === 'signin' ? `<button class="auth-forgot" id="recover">Password ma illowday?</button>` : `<p class="auth-hint">Code xaqiijin ah ayaa Gmail-kaaga laguugu soo diri doonaa.</p>`}
+    <button class="auth-primary" id="${authMode}" ${authBusy ? 'disabled' : ''}>${authBusy ? 'Fadlan sug…' : authMode === 'signup' ? 'Samee account' : 'Login'} <span>→</span></button><div class="auth-switch">${authMode === 'signup' ? 'Hore account ma u leedahay?' : 'Account ma lihid?'} <button id="authmode">${authMode === 'signup' ? 'Login' : 'Is diiwaangeli'}</button></div>`}
+    ${authMsg ? `<p class="auth-message" role="status">${esc(authMsg)}</p>` : ''}<div class="auth-foot"><span>🔒</span> Akoonkaaga iyo horumarkaagu waa kuu gaar</div>
+  </div><p class="auth-copy">NORA · LEARN ENGLISH, NATURALLY</p></section>`;
+}
 function render() {
+  if (!sb || !sb.signedIn()) { app.innerHTML = authView(); return; }
+  document.querySelector('nav')?.classList?.remove?.('auth-hidden'); document.querySelector('.topbar')?.classList?.remove?.('auth-hidden');
   if (tab === 'tutor') tutor.beforeRender();
   app.innerHTML = (S.banner ? `<div class="card banner" role="alert">${esc(S.banner)} <button data-snz="1">Snooze ${S.notif.snooze} min</button> <button data-bd="1">Dismiss</button></div>` : '') + { home, review: reviewView, library: libraryView, me: meView, quiz: quizView, speak: speakView, plan: planView, tutor: tutor.view }[tab]();
   const net = document.getElementById('net'); if (net) { net.textContent = navigator.onLine ? 'Online' : 'Offline'; net.className = 'pill ' + (navigator.onLine ? 'ok' : 'off'); }
@@ -358,7 +422,7 @@ app.onchange = async e => { const { id, value, checked } = e.target; if (id === 
   else if (id === 'th') { S.theme = value; await repo.setMeta('theme', value); applyTheme(); render(); } };
 app.onkeydown = e => { if (tab === 'tutor') tutor.onKey(e); };
 app.onmousedown = e => { if (e.target?.closest?.('#tsend')) e.preventDefault(); }; // Send must not steal focus from the message box (keeps the keyboard open on phones)
-addEventListener('online', render); addEventListener('offline', render);
+addEventListener('online', () => { sb?.initialize?.().finally(render); }); addEventListener('offline', render);
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 initGlass();
 const tbS = document.getElementById('tbSearch'), tbG = document.getElementById('tbSettings');
