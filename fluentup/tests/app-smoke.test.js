@@ -1,3 +1,4 @@
+import { setupSignedInAuthFixture, cleanupAuthFixture } from './auth-fixture.js';
 import test from 'node:test'; import assert from 'node:assert/strict'; import { readFileSync } from 'node:fs';
 test('app.js boots against a fake DOM, renders Home, and Plan->challenge flow works', async () => {
   const el = () => ({ innerHTML: '', dataset: {}, setAttribute() {}, focus() {}, setSelectionRange() {}, value: '' });
@@ -7,7 +8,7 @@ test('app.js boots against a fake DOM, renders Home, and Plan->challenge flow wo
   globalThis.addEventListener = () => {}; globalThis.alert = () => {};
   const seed = readFileSync(new URL('../src/data/seed.json', import.meta.url), 'utf8');
   globalThis.fetch = async () => ({ json: async () => JSON.parse(seed) });
-  await import('../src/app.js'); // IndexedDB absent -> MemoryStore fallback
+  setupSignedInAuthFixture(); await import('../src/app.js'); cleanupAuthFixture(); // IndexedDB absent -> MemoryStore fallback
   assert.match(app.innerHTML, /Today's goal/); assert.match(app.innerHTML, /None yet/); assert.match(app.innerHTML, /6 new/);
   nav.onclick({ target: { dataset: { t: 'plan' } } }); assert.match(app.innerHTML, /No active challenges/);
   await app.onclick({ target: { dataset: { ch: '7' }, id: '' } }); assert.match(app.innerHTML, /7-day challenge/); assert.match(app.innerHTML, /0\/7 done/);

@@ -1,0 +1,51 @@
+name: Build NORA Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout NORA
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install dependencies
+        working-directory: fluentup
+        run: npm ci
+
+      - name: Build NORA web files
+        working-directory: fluentup
+        run: npm run build
+
+      - name: Add Android
+        working-directory: fluentup
+        run: npx cap add android
+
+      - name: Sync Android
+        working-directory: fluentup
+        run: npx cap sync android
+
+      - name: Build APK
+        working-directory: fluentup/android
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NORA-APK
+          path: fluentup/android/app/build/outputs/apk/debug/app-debug.apk

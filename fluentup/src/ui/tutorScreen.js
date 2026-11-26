@@ -42,7 +42,7 @@ export function createTutorScreen({ repo, ask, configured, user, signedIn, onlin
   function view() {
     if (!configured) return gate('NORA Tutor', 'AI Tutor needs cloud setup. Copy <code>config.example.js</code> to <code>config.js</code> with your Supabase URL and anon key, deploy the <code>tutor</code> function, then reopen the app. See docs/TUTOR.md.<br><small>Tutor-ku wuxuu u baahan yahay habaynta Supabase.</small>');
     if (!signedIn()) return gate('NORA Tutor', 'Fadlan gal akoonkaaga si aad u isticmaasho tutor-ka.<br><small>Sign in under Me → Account &amp; sync to chat with the tutor.</small>', '<button class="p" data-t="me">Go to Account · Gal</button>');
-    if (st.uid === undefined || st.uid !== curUid()) return '<p class="boot mut">Loading…</p>';
+    if (st.uid === undefined || st.uid !== curUid()) return '<div class="card tutor-wait" role="status">Preparing your tutor…</div>';
     return chat();
   }
   // ---- loading: called from render(); returns a promise only when work is needed ----

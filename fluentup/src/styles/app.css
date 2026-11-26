@@ -260,3 +260,73 @@ nav{transition:transform .35s var(--ease),opacity .25s}
 .auth-primary:active{transform:translateY(1px) scale(.985)}
 .auth-primary:disabled{opacity:.7;cursor:wait;transform:none}
 @media(prefers-reduced-motion:reduce){.auth-eye,.auth-eye .ic,.auth-primary{transition:none}}
+
+
+/* NORA 1.0 — clearer CEFR levels, profile-first header and compact static auth */
+.brand{font-size:1.35rem;font-weight:900;letter-spacing:.035em;color:var(--fg)}
+.brand i{display:none}
+.profile-trigger{width:44px;height:44px;border-radius:50%;padding:0;background:var(--glass);border:1px solid var(--bd-in);box-shadow:var(--sh)}
+.profile-trigger .ic{width:22px;height:22px}
+.level-hub{margin-top:4px}
+.level-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.level-heading h2{margin:0 0 4px;font-size:1.25rem}
+.level-heading p{font-size:.86rem;margin:0 0 12px;line-height:1.45}
+.level-reset{min-height:36px;padding:0 13px;font-size:.78rem;white-space:nowrap}
+.level-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.level-card{min-width:0;min-height:116px;padding:13px 12px;border-radius:19px;display:flex;align-items:flex-start;gap:10px;text-align:left;justify-content:flex-start;background:var(--glass);border:1px solid var(--bd);box-shadow:var(--sh)}
+.level-card.selected{border:2px solid var(--ac);background:var(--ac-soft);box-shadow:var(--glow)}
+.level-code{width:43px;height:43px;flex:none;border-radius:14px;display:grid;place-items:center;background:var(--grad);color:#fff;font-size:.9rem;font-weight:900;letter-spacing:.02em}
+.level-copy{display:flex;flex-direction:column;gap:3px;min-width:0}
+.level-copy b{font-size:.9rem;line-height:1.25}
+.level-copy small{font-size:.7rem;line-height:1.35;color:var(--mut)}
+.level-copy .level-count{margin-top:4px;font-size:.64rem;opacity:.9}
+.level-arrow{margin-left:auto;color:var(--ac);font-size:1.5rem;line-height:1}
+.level-prompt{text-align:center;padding:16px 8px;font-size:.88rem}
+.level-content-title{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:14px 2px 6px;font-weight:800}
+.level-content-title small{font-size:.68rem;color:var(--mut);font-weight:500}
+.profile-card{display:flex;align-items:center;gap:14px;margin-top:12px}
+.profile-avatar{width:62px;height:62px;flex:none;border-radius:50%;display:grid;place-items:center;color:white;background:var(--grad);font-size:1.5rem;font-weight:900}
+.profile-main{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
+.profile-main b{font-size:1.05rem;overflow-wrap:anywhere}
+.profile-main small,.small-note{font-size:.78rem;color:var(--mut)}
+.profile-main .pill{font-size:.7rem;padding:2px 10px}
+.profile-settings label{display:block;font-size:.8rem;font-weight:700;margin-bottom:7px}
+.profile-name-row{display:flex;gap:8px;align-items:center}
+.profile-name-row input{flex:1;min-width:0;min-height:46px;border:1px solid var(--field-bd);border-radius:13px;padding:0 12px;background:var(--field)}
+.profile-name-row button{min-height:46px;padding-inline:18px}
+.small-note{margin:8px 0 0}
+.account-actions{display:grid;gap:9px}
+.account-email{margin:0 0 3px;color:var(--mut);font-size:.85rem;overflow-wrap:anywhere}
+.account-action{width:100%;min-height:60px;border-radius:15px;justify-content:flex-start;text-align:left;padding:9px 13px;gap:12px}
+.account-action .ic{width:21px;height:21px;flex:none}
+.account-action span{display:flex;flex-direction:column;align-items:flex-start;gap:1px}
+.account-action small{font-size:.72rem;color:var(--mut);font-weight:500}
+.danger-text{color:var(--bad)}
+.setting-row{display:flex;flex-direction:column;gap:8px;padding:7px 0 13px;border-bottom:1px solid var(--line)}
+.setting-row:last-of-type{border-bottom:0;padding-bottom:4px}
+.setting-row>div:first-child{display:flex;flex-direction:column;gap:1px}
+.setting-row b{font-size:.88rem}.setting-row small{font-size:.72rem;color:var(--mut)}
+.settings-card .seg{width:100%}
+.auth-wrap{min-height:100dvh;padding:12px 16px 18px;justify-content:center}
+.auth-card{width:min(100%,390px);padding:21px 21px 17px;border-radius:24px;animation:none!important;box-shadow:var(--sh)}
+.auth-mark{width:44px;height:44px;margin-bottom:6px;border-radius:14px;font-size:1.35rem}
+.auth-eyebrow{margin-top:11px;font-size:.61rem}
+.auth-card h1{font-size:1.55rem;margin:7px 0 5px}
+.auth-sub{font-size:.84rem;line-height:1.4;margin:0 auto 14px}
+.auth-label{margin:10px 0 5px;font-size:.76rem}
+.auth-input{min-height:46px;border-radius:13px}
+.auth-primary{min-height:47px;margin-top:13px;border-radius:14px;transition:none!important;animation:none!important}
+.auth-primary:hover,.auth-primary:active{filter:none;box-shadow:0 5px 14px rgba(var(--ac-rgb),.2);transform:none!important}
+.auth-eye,.auth-eye .ic{transition:none!important}
+.auth-eye:active{transform:translateY(-50%)!important}
+.auth-switch{margin-top:12px;font-size:.8rem}
+.auth-foot{margin-top:14px;padding-top:11px;font-size:.7rem}
+.auth-copy{margin:9px 0 0}
+@media(max-width:370px){.level-grid{grid-template-columns:1fr}.level-card{min-height:88px}.auth-card{padding:18px 17px 15px}}
+@media(prefers-reduced-motion:reduce){.level-card,.profile-trigger{transition:none!important}}
+.skill-levels{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;margin:8px 0 12px}
+.skill-levels button{min-height:38px;padding:0 4px;border-radius:12px;font-size:.78rem}
+.skill-levels button.active{background:var(--grad);color:#fff;border-color:transparent;box-shadow:var(--glow)}
+@media(max-width:370px){.skill-levels{gap:4px}.skill-levels button{font-size:.7rem;min-height:35px}}
+
+.tutor-wait{padding:14px 16px;font-size:.86rem;color:var(--mut)}

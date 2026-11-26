@@ -1,3 +1,4 @@
+import { setupSignedInAuthFixture, cleanupAuthFixture } from './auth-fixture.js';
 import test from 'node:test'; import assert from 'node:assert/strict'; import { readFileSync } from 'node:fs';
 import { unifiedSearch, pushRecent } from '../src/core/search.js'; import { validateLesson } from '../src/core/lessons.js'; import { gradeAnswer } from '../src/core/exercises.js';
 const J = f => JSON.parse(readFileSync(new URL(`../src/data/${f}.json`, import.meta.url), 'utf8')), seed = J('seed'), grammar = J('grammar'), reading = J('reading'), prof = J('professional'), convos = J('conversations');
@@ -20,11 +21,11 @@ test('UI: reading highlights vocabulary, professional lists, unified search open
   globalThis.document = { getElementById: id => id === 'app' ? app : el(), querySelector: () => nav, querySelectorAll: () => [], documentElement: { dataset: {} } };
   Object.defineProperty(globalThis, 'navigator', { value: { onLine: true }, configurable: true }); globalThis.addEventListener = () => {};
   const route = u => /grammar/.test(u) ? 'grammar' : /conversations/.test(u) ? 'conversations' : /reading/.test(u) ? 'reading' : /professional/.test(u) ? 'professional' : 'seed';
-  globalThis.fetch = async u => ({ json: async () => J(route(u)) }); await import('../src/app.js');
+  globalThis.fetch = async u => ({ json: async () => J(route(u)) }); setupSignedInAuthFixture(); await import('../src/app.js'); cleanupAuthFixture();
   const go = t => nav.onclick({ target: { dataset: { t } } }), click = (d, id = '') => app.onclick({ target: { dataset: d, id } });
-  go('library'); await click({ lm: 'reading' }); assert.match(app.innerHTML, /A day at the market/); assert.doesNotMatch(app.innerHTML, /The verb to be/);
+  go('library'); await click({ lm: 'reading' }); await click({ level: 'A2' }); assert.match(app.innerHTML, /A day at the market/); assert.doesNotMatch(app.innerHTML, /The verb to be/);
   await click({ ls: 'r-market' }); assert.match(app.innerHTML, /<mark>stall<\/mark>/); assert.match(app.innerHTML, /<mark>bargain<\/mark>/); assert.match(app.innerHTML, /Glossary/);
-  await click({ lback: '1' }); await click({ lm: 'professional' }); assert.match(app.innerHTML, /Writing a polite email/); assert.match(app.innerHTML, /Taking part in meetings/);
+  await click({ lback: '1' }); await click({ lm: 'professional' }); await click({ level: 'B1' }); assert.match(app.innerHTML, /Writing a polite email/); assert.match(app.innerHTML, /Taking part in meetings/);
   await click({ lm: 'search' }); assert.match(app.innerHTML, /Type to search/); app.oninput({ target: { id: 'gq', value: 'meeting', selectionStart: 7 } });
   assert.match(app.innerHTML, /Taking part in meetings/); await click({ sr: 'lesson:p-meeting' }); assert.match(app.innerHTML, /Practice \(3\)/);
   await click({ lback: '1' }); await click({ lm: 'search' }); app.oninput({ target: { id: 'gq', value: '', selectionStart: 0 } }); assert.match(app.innerHTML, /data-rq="meeting"/);

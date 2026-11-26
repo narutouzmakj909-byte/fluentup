@@ -13,7 +13,7 @@ function setup(o = {}) {
 const ready = async o => { const x = setup(o); await x.scr.load(); return x; };
 test('view states: not configured, signed out, loading, then the chat with welcome + Somali quick prompts', async () => {
   assert.match(setup({ configured: false }).scr.view(), /needs cloud setup/); assert.match(setup({ uid: null }).scr.view(), /data-t="me"/);
-  const x = setup(); assert.match(x.scr.view(), /Loading/); assert.equal(x.scr.needsLoad(), true); await x.scr.load(); assert.equal(x.scr.needsLoad(), false);
+  const x = setup(); assert.match(x.scr.view(), /Preparing your tutor/); assert.equal(x.scr.needsLoad(), true); await x.scr.load(); assert.equal(x.scr.needsLoad(), false);
   const v = x.scr.view(); assert.match(v, /Ku soo dhawow NORA Tutor/); assert.match(v, /id="tin"/); assert.match(v, /id="tsend"[^>]*disabled/); assert.match(v, /data-tchip="0"/); assert.match(v, /Af-Soomaali igu sharax/); assert.match(v, /role="log"/); assert.match(v, /data-tclear="1"[^>]*disabled/);
   assert.match(v, /<option value="A2" selected>/); assert.match(v, /aria-label="Message to the tutor"/); assert.ok(!/You are offline/.test(v));
 });

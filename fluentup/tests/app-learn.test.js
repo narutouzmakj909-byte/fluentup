@@ -1,3 +1,4 @@
+import { setupSignedInAuthFixture, cleanupAuthFixture } from './auth-fixture.js';
 import test from 'node:test'; import assert from 'node:assert/strict'; import { readFileSync } from 'node:fs';
 const J = f => readFileSync(new URL(`../src/data/${f}.json`, import.meta.url), 'utf8');
 test('Speak conversations and Learn>Grammar flows work end to end with progress saved', async () => {
@@ -6,12 +7,12 @@ test('Speak conversations and Learn>Grammar flows work end to end with progress 
   globalThis.document = { getElementById: id => id === 'app' ? app : id === 'lfill' ? fill : el(), querySelector: () => nav, querySelectorAll: () => [], documentElement: { dataset: {} } };
   Object.defineProperty(globalThis, 'navigator', { value: { onLine: true }, configurable: true }); globalThis.addEventListener = () => {};
   globalThis.fetch = async u => ({ json: async () => JSON.parse(J(/grammar/.test(u) ? 'grammar' : /conversations/.test(u) ? 'conversations' : 'seed')) });
-  await import('../src/app.js'); const go = t => nav.onclick({ target: { dataset: { t } } }), click = (d, id = '') => app.onclick({ target: { dataset: d, id } });
-  go('speak'); assert.match(app.innerHTML, /Ordering at a café/); assert.match(app.innerHTML, /Job interview basics/); assert.match(app.innerHTML, /Not played/);
+  setupSignedInAuthFixture(); await import('../src/app.js'); cleanupAuthFixture(); const go = t => nav.onclick({ target: { dataset: { t } } }), click = (d, id = '') => app.onclick({ target: { dataset: d, id } });
+  go('speak'); assert.doesNotMatch(app.innerHTML, /Ordering at a café|Job interview basics/); await click({ level: 'A2' }); assert.match(app.innerHTML, /Ordering at a café/); await click({ level: 'B1' }); assert.match(app.innerHTML, /Job interview basics/); assert.match(app.innerHTML, /Not played/);
   await click({ cs: 'c-cafe' }); assert.match(app.innerHTML, /What can I get you/); await click({ cc: '0' }); assert.match(app.innerHTML, /Polite and natural/);
   await click({ cc: '0' }); assert.match(app.innerHTML, /100%/); assert.match(app.innerHTML, /Replay/);
-  await click({ cback: '1' }); assert.match(app.innerHTML, /best 100% · 1 attempt/);
-  go('library'); await click({ lm: 'grammar' }); assert.match(app.innerHTML, /The verb to be/); assert.match(app.innerHTML, /Present perfect/);
+  await click({ cback: '1' }); await click({ level: 'A2' }); assert.match(app.innerHTML, /best 100% · 1 attempt/);
+  go('library'); await click({ lm: 'grammar' }); await click({ level: 'A1' }); assert.match(app.innerHTML, /The verb to be/); assert.doesNotMatch(app.innerHTML, /Present perfect/); await click({ level: 'B1' }); assert.match(app.innerHTML, /Present perfect/); await click({ level: 'A1' }); assert.match(app.innerHTML, /The verb to be/);
   await click({ ls: 'g-be' }); assert.match(app.innerHTML, /Use &#39;am&#39;|Use 'am'/); await click({ lstart: '1' });
   fill.value = 'is'; await click({}, 'lsubmit'); assert.match(app.innerHTML, /Correct/); await click({ lnext: '1' });
   await click({ lo: '0' }); assert.match(app.innerHTML, /Not quite/); assert.match(app.innerHTML, /Answer: <b>are/); await click({ lnext: '1' });

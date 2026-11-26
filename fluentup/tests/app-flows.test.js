@@ -1,3 +1,4 @@
+import { setupSignedInAuthFixture, cleanupAuthFixture } from './auth-fixture.js';
 import test from 'node:test'; import assert from 'node:assert/strict'; import { readFileSync } from 'node:fs';
 test('library filters, bookmarks, detail, rest day calendar, theme, mistakes', async () => {
   const el = () => ({ innerHTML: '', dataset: {}, setAttribute() {}, focus() {}, setSelectionRange() {}, value: '' });
@@ -5,17 +6,17 @@ test('library filters, bookmarks, detail, rest day calendar, theme, mistakes', a
   globalThis.document = { getElementById: id => id === 'app' ? app : el(), querySelector: () => nav, querySelectorAll: () => [], documentElement: root };
   Object.defineProperty(globalThis, 'navigator', { value: { onLine: false }, configurable: true }); globalThis.addEventListener = () => {};
   const seed = readFileSync(new URL('../src/data/seed.json', import.meta.url), 'utf8'); globalThis.fetch = async () => ({ json: async () => JSON.parse(seed) });
-  await import('../src/app.js'); const go = t => nav.onclick({ target: { dataset: { t } } }), click = (d, id = '') => app.onclick({ target: { dataset: d, id } });
-  assert.match(app.innerHTML, /Offline/);
-  go('library'); assert.match(app.innerHTML, /6 entries/);
+  setupSignedInAuthFixture(); await import('../src/app.js'); cleanupAuthFixture(); const go = t => nav.onclick({ target: { dataset: { t } } }), click = (d, id = '') => app.onclick({ target: { dataset: d, id } });
+  assert.doesNotMatch(app.innerHTML, /id="net"|>Online<|>Offline</);
+  go('library'); await click({ level: 'B1' }); assert.match(app.innerHTML, /3 entries/);
   await app.onchange({ target: { id: 'ft', value: 'idiom' } }); assert.match(app.innerHTML, /2 entries/); assert.match(app.innerHTML, /break the ice/); assert.doesNotMatch(app.innerHTML, /resilient/);
-  await app.onchange({ target: { id: 'ft', value: '' } }); await app.onchange({ target: { id: 'fl', value: 'A2' } }); assert.match(app.innerHTML, /1 entry/);
-  await app.onchange({ target: { id: 'fl', value: '' } }); app.oninput({ target: { id: 'q', value: 'ice', selectionStart: 3 } }); assert.match(app.innerHTML, /1 entry/);
+  await app.onchange({ target: { id: 'ft', value: '' } }); await click({ level: 'A2' }); assert.match(app.innerHTML, /1 entry/);
+  await click({ level: 'B1' }); app.oninput({ target: { id: 'q', value: 'ice', selectionStart: 3 } }); assert.match(app.innerHTML, /1 entry/);
   await click({ open: 'i1' }); assert.match(app.innerHTML, /Inaad hadal furto/); assert.match(app.innerHTML, /☆ Save/);
   await click({ bm: 'i1' }); assert.match(app.innerHTML, /★ Saved/); await click({ back: '1' });
   app.oninput({ target: { id: 'q', value: '', selectionStart: 0 } }); await app.onchange({ target: { id: 'fs', checked: true } }); assert.match(app.innerHTML, /1 entry/); assert.match(app.innerHTML, /★ break the ice/);
   go('plan'); assert.match(app.innerHTML, /Mark today as rest day/); await click({}, 'restToggle'); assert.match(app.innerHTML, /Remove today as rest day/); assert.match(app.innerHTML, /c-rest/);
   go('review'); await click({}, 'show'); await click({ g: '0' }); go('me');
-  assert.match(app.innerHTML, /accuracy 0%/); assert.match(app.innerHTML, /missed 1×/); assert.match(app.innerHTML, /1 saved/);
+  assert.match(app.innerHTML, /0%/); assert.match(app.innerHTML, /missed 1×/); assert.match(app.innerHTML, /<b>1<\/b><small>saved<\/small>/);
   await app.onchange({ target: { id: 'th', value: 'dark' } }); assert.equal(root.dataset.theme, 'dark'); await app.onchange({ target: { id: 'th', value: 'system' } }); assert.equal(root.dataset.theme, undefined);
 });

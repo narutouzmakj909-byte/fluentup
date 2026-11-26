@@ -29,6 +29,12 @@ export function createSupabase({ url, anonKey, fetch: f = globalThis.fetch, stor
     verifyOtp: async (email, token) => sess(await call('/auth/v1/verify', { email, token, type: 'signup' })),
     recover: email => call('/auth/v1/recover', { email }),
     refresh: async () => { if (!session?.refresh_token) throw new Error('no session'); return sess(await call('/auth/v1/token?grant_type=refresh_token', { refresh_token: session.refresh_token })); },
+    updateUser: async data => { const j = await call('/auth/v1/user', { data }, true, 'PUT'); if (session) save({ ...session, user: j }); return j; },
+    deleteAccount: async () => {
+      if (!session?.access_token) throw new Error('not signed in');
+      const r = await f(url + '/functions/v1/delete-account', { method: 'POST', headers: { apikey: anonKey, Authorization: `Bearer ${session.access_token}`, 'Content-Type': 'application/json' }, body: '{}' });
+      const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.error || j.message || `delete request failed (${r.status})`); return j;
+    },
     signOut: async () => { try { if (session) await call('/auth/v1/logout', {}, true); } finally { save(null); } },
     // Pull: user_meta rows and card states for the signed-in user (RLS limits rows to the owner). Throws on failure.
     pull: async () => {

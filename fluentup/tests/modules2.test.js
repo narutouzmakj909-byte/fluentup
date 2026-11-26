@@ -45,3 +45,31 @@ test('supabase: unconfigured -> null; auth stores session; send requires session
   assert.ok(u.endsWith('/rest/v1/rpc/apply_card')); assert.equal(o.headers.Authorization, 'Bearer t'); assert.equal(JSON.parse(o.body).op_id, 'op1');
   await sb.signOut(); assert.ok(!sb.signedIn()); assert.equal(mem['fluentup.session'], undefined);
 });
+
+test('supabase: signup stores the supplied full name as Auth user metadata', async () => {
+  let body, url;
+  const sb = createSupabase({ url: 'https://x.supabase.co', anonKey: 'anon',
+    fetch: async (u, o) => { url = u; body = JSON.parse(o.body); return { ok: true, json: async () => ({ user: { id: 'u', user_metadata: body.data } }) }; },
+    storage: { getItem: () => null, setItem() {}, removeItem() {} }
+  });
+  await sb.signUp('learner@gmail.com', 'password123', 'Amina Noor');
+  assert.ok(url.endsWith('/auth/v1/signup'));
+  assert.deepEqual(body, { email: 'learner@gmail.com', password: 'password123', data: { full_name: 'Amina Noor' } });
+});
+test('supabase: initialize refreshes an expired persisted session and clears it if refresh fails', async () => {
+  const mem = { 'fluentup.session': JSON.stringify({ access_token: 'expired', refresh_token: 'refresh-old', expires_at: Date.now() - 1000, user: { id: 'u' } }) };
+  const calls = [];
+  const storage = { getItem: k => mem[k] ?? null, setItem: (k,v) => mem[k] = v, removeItem: k => delete mem[k] };
+  const sb = createSupabase({ url: 'https://x.supabase.co', anonKey: 'anon', storage,
+    fetch: async (u,o) => { calls.push([u,o]); return { ok: true, json: async () => ({ access_token: 'fresh', refresh_token: 'refresh-new', expires_in: 3600, user: { id: 'u' } }) }; }
+  });
+  await sb.initialize();
+  assert.equal(calls.length, 1); assert.ok(calls[0][0].includes('grant_type=refresh_token'));
+  assert.equal(sb.accessToken instanceof Function, true); assert.equal(sb.signedIn(), true);
+  assert.equal(JSON.parse(mem['fluentup.session']).access_token, 'fresh');
+  mem['fluentup.session'] = JSON.stringify({ access_token: 'expired', refresh_token: 'bad', expires_at: Date.now() - 1000, user: { id: 'u' } });
+  const stale = createSupabase({ url: 'https://x.supabase.co', anonKey: 'anon', storage,
+    fetch: async () => ({ ok: false, status: 401, json: async () => ({ message: 'refresh denied' }) })
+  });
+  await stale.initialize(); assert.equal(stale.signedIn(), false); assert.equal(mem['fluentup.session'], undefined);
+});
